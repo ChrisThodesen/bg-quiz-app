@@ -1,0 +1,674 @@
+[
+  {
+    "question": "What are the flammability limits for natural gas in air?",
+    "answers": [
+      "5% - 15% gas in air",
+      "1% - 5% gas in air",
+      "15% - 25% gas in air",
+      "20% - 40% gas in air"
+    ],
+    "correct": 0,
+    "explanation": "For combustion to take place the air and gas must be mixed in the correct quantities, known as the flammability limits, which for natural gas are 5% - 15% gas in air.",
+    "source": "S9-5"
+  },
+  {
+    "question": "What is the ignition temperature of natural gas?",
+    "answers": [
+      "350°C",
+      "500°C",
+      "704°C",
+      "900°C"
+    ],
+    "correct": 2,
+    "explanation": "The air/gas mixture must be raised to its ignition temperature, which for natural gas is 704°C, and kept at this temperature for combustion to start and continue.",
+    "source": "S9-5"
+  },
+  {
+    "question": "In the balanced combustion equation for natural gas, what are the products of combustion?",
+    "answers": [
+      "Carbon monoxide and water vapour",
+      "Carbon dioxide and water vapour",
+      "Carbon dioxide and nitrogen",
+      "Carbon monoxide and nitrogen"
+    ],
+    "correct": 1,
+    "explanation": "Methane (the main constituent of natural gas) reacts with oxygen to produce carbon dioxide and water vapour. The balanced equation is CH4 + 2O2 → CO2 + 2H2O.",
+    "source": "S9-6"
+  },
+  {
+    "question": "How much air is required to completely burn 1m³ of natural gas?",
+    "answers": [
+      "2m³",
+      "5m³",
+      "10m³",
+      "20m³"
+    ],
+    "correct": 2,
+    "explanation": "1 volume of natural gas requires 2 volumes of oxygen for complete combustion. As air is approximately 20% oxygen, the air requirement is 5 times the oxygen requirement (5 x 2 = 10), so 1m³ of natural gas requires 10m³ of air.",
+    "source": "S9-6"
+  },
+  {
+    "question": "What are the main products of complete (stoichiometric) combustion of natural gas?",
+    "answers": [
+      "Carbon monoxide and nitrogen",
+      "Carbon dioxide and water vapour",
+      "Soot and carbon monoxide",
+      "Aldehydes and carbon"
+    ],
+    "correct": 1,
+    "explanation": "Complete combustion is perfect or stoichiometric combustion and results in the formation of carbon dioxide and water vapour as the main constituents.",
+    "source": "S9-7"
+  },
+  {
+    "question": "What visible sign at a burner, combustion chamber, heat exchanger or flue indicates incomplete combustion?",
+    "answers": [
+      "A blue, clearly defined flame",
+      "Soot deposits",
+      "Condensation only",
+      "A quiet, stable flame"
+    ],
+    "correct": 1,
+    "explanation": "Signs of incomplete combustion at an appliance include the formation of soot deposits at the burner, combustion chamber, heat exchanger and/or the flue.",
+    "source": "S9-7"
+  },
+  {
+    "question": "What concentration of carbon monoxide in the atmosphere can result in respiratory failure and death within a few minutes?",
+    "answers": [
+      "0.04%",
+      "0.4%",
+      "4%",
+      "0.004%"
+    ],
+    "correct": 1,
+    "explanation": "Carbon monoxide is a highly toxic gas; a concentration of just 0.4% in the atmosphere can result in respiratory failure and death within a few minutes.",
+    "source": "S9-7"
+  },
+  {
+    "question": "Why is carbon monoxide particularly dangerous compared to other hazardous gases?",
+    "answers": [
+      "It has a strong, easily recognisable smell",
+      "It is odourless and colourless, and impairs mental ability, making it difficult to detect",
+      "It is always accompanied by visible smoke",
+      "It only affects people while they are asleep"
+    ],
+    "correct": 1,
+    "explanation": "Carbon monoxide is odourless and colourless, making it very difficult for a human to detect. It also impairs mental ability, so a person may be brought to the verge of collapse without realising anything is wrong.",
+    "source": "S9-7"
+  },
+  {
+    "question": "According to the progressive symptoms of carbon monoxide poisoning, what are the earliest symptoms experienced by an adult?",
+    "answers": [
+      "Loss of consciousness and coma",
+      "Tightness across the forehead and yawning",
+      "Respiratory failure",
+      "Severe headache and collapse on exertion"
+    ],
+    "correct": 1,
+    "explanation": "The first stage of progressive carbon monoxide poisoning symptoms is tightness across the forehead and yawning, followed by flushed skin, headache, nausea and dizziness in later stages.",
+    "source": "S9-7"
+  },
+  {
+    "question": "When giving first aid to a person affected by carbon monoxide poisoning, which of the following is correct?",
+    "answers": [
+      "Give the patient alcohol to help them relax",
+      "Allow the patient to walk to fresh air themselves to save time",
+      "Remove the patient to fresh air and never give an unconscious person anything to drink",
+      "Induce vomiting to clear the toxin from their system"
+    ],
+    "correct": 2,
+    "explanation": "The patient must be removed into fresh air as quickly as possible. An unconscious person must never be given anything to drink as it may choke them, alcohol must never be given, and vomiting must never be induced. The patient must not be allowed to walk or exert themselves.",
+    "source": "S9-8"
+  },
+  {
+    "question": "Why is carbon monoxide production without aldehydes considered the most dangerous combustion scenario?",
+    "answers": [
+      "Aldehydes are highly toxic and mask the danger",
+      "There is no smell to indicate poor combustion is occurring",
+      "Aldehydes prevent carbon monoxide from forming",
+      "It only occurs in pre-aerated flames"
+    ],
+    "correct": 1,
+    "explanation": "Aldehydes have a characteristic smell that gives an indication that combustion is poor. Carbon monoxide production without aldehydes is the most dangerous scenario because there is no smell to warn of the incomplete combustion taking place.",
+    "source": "S9-8, S9-9"
+  },
+  {
+    "question": "What are the four zones of a flame?",
+    "answers": [
+      "Inner cone, flame front, reaction zone, outer tip",
+      "Primary air, secondary air, mixing tube, burner port",
+      "Ignition zone, burn zone, cooling zone, exhaust zone",
+      "Pre-aeration, post-aeration, dilution, dispersal"
+    ],
+    "correct": 0,
+    "explanation": "Both post-aerated and pre-aerated flames have four zones: an inner cone of unburned gas, the flame front where combustion begins, the reaction zone where the various stages of combustion take place, and the outer tip where combustion finishes.",
+    "source": "S9-9"
+  },
+  {
+    "question": "What is the air that diffuses into a flame from the surrounding atmosphere after the gas has left the burner called?",
+    "answers": [
+      "Primary air",
+      "Secondary air",
+      "Combustion air",
+      "Vitiated air"
+    ],
+    "correct": 1,
+    "explanation": "Secondary air is the air supplied from the surrounding atmosphere that completes combustion, as opposed to primary air which is mixed with the gas before it is burned.",
+    "source": "S9-10"
+  },
+  {
+    "question": "What colour is a post-aerated flame, and why?",
+    "answers": [
+      "Blue, due to complete pre-mixing of air and gas",
+      "Yellow and luminous, due to carbon produced in the intermediate stages of combustion",
+      "Green, due to trace impurities in the gas",
+      "White, due to a very high flame temperature"
+    ],
+    "correct": 1,
+    "explanation": "A post-aerated flame produces a yellow, luminous flame. The yellow colour comes from carbon produced in the intermediate stages of combustion, as air for combustion is only supplied from the surrounding atmosphere as secondary air.",
+    "source": "S9-10"
+  },
+  {
+    "question": "In a pre-aerated flame, what proportion of the total air requirement is typically supplied as primary air?",
+    "answers": [
+      "5% - 10%",
+      "20% - 30%",
+      "40% - 50%",
+      "80% - 90%"
+    ],
+    "correct": 2,
+    "explanation": "In a pre-aerated flame, the primary air mixed with the gas before combustion is typically 40% - 50% of the total air requirement, with the remainder supplied as secondary air from the surrounding atmosphere.",
+    "source": "S9-11"
+  },
+  {
+    "question": "What happens to a pre-aerated flame as more primary air is added?",
+    "answers": [
+      "It becomes larger, cooler and quieter",
+      "It becomes smaller, more concentrated, hotter and noisier",
+      "It turns yellow and luminous",
+      "It extinguishes immediately"
+    ],
+    "correct": 1,
+    "explanation": "A pre-aerated flame is blue with a clearly defined cone shape which gets smaller, more concentrated, hotter and noisier as more primary air is added.",
+    "source": "S9-11"
+  },
+  {
+    "question": "What effect does increasing the air/gas mixture speed leaving the burner have on the flame front?",
+    "answers": [
+      "It moves the flame front closer to the burner",
+      "It moves the flame front away from the burner",
+      "It has no effect on the flame front position",
+      "It causes the flame to turn yellow"
+    ],
+    "correct": 1,
+    "explanation": "Increasing the air/gas mixture speed moves the flame front away from the burner, while decreasing the mixture speed moves the flame front closer to the burner.",
+    "source": "S9-12"
+  },
+  {
+    "question": "Why does natural gas typically require some form of flame retention at the burner?",
+    "answers": [
+      "Because it has a very high flame speed and burns too close to the burner",
+      "Because it has a low flame speed which causes it to lift off the burner",
+      "Because it is too cold to ignite without assistance",
+      "Because it contains too much primary air naturally"
+    ],
+    "correct": 1,
+    "explanation": "Natural gas has a low flame speed which causes it to lift off the burner unless some form of flame retention is used, such as a retention flame, to continuously re-light the main flame as it tries to lift off.",
+    "source": "S9-12"
+  },
+  {
+    "question": "In a typical modern box burner, what is the function of the injector?",
+    "answers": [
+      "It mixes the air and gas in the mixing tube",
+      "It distributes the air/gas mixture evenly across the burner",
+      "It injects a stream of gas into the burner, increasing its speed as it is forced through the small hole",
+      "It draws secondary air into the flame"
+    ],
+    "correct": 2,
+    "explanation": "The injector injects a stream of gas into the burner; the speed of the gas increases as it is forced through the small hole of the injector. This speed draws air in from the primary air port.",
+    "source": "S9-12, S9-13"
+  },
+  {
+    "question": "What term describes a shortage of oxygen in combustion air, often caused by lack of ventilation or a faulty flue?",
+    "answers": [
+      "Vitiation",
+      "Aeration",
+      "Dilution",
+      "Stratification"
+    ],
+    "correct": 0,
+    "explanation": "A shortage of oxygen in the air is called vitiation, meaning the air has become vitiated or impure, often due to lack of ventilation, combustion products not clearing the appliance through a faulty flue, or a blocked heat exchanger.",
+    "source": "S9-13"
+  },
+  {
+    "question": "What does a flame supplied with vitiated air typically look like?",
+    "answers": [
+      "Short, sharp and blue",
+      "Lengthened, less well defined and floppy as it searches for secondary air",
+      "Completely invisible",
+      "Bright white and noisy"
+    ],
+    "correct": 1,
+    "explanation": "A flame supplied with vitiated air will lengthen and its shape becomes less well defined and floppy as it searches for secondary air to complete combustion. It may even float off the burner and extinguish itself.",
+    "source": "S9-13"
+  },
+  {
+    "question": "What is the term used to describe airborne particles of dust, animal hair and fibres that accumulate in burner ports and primary air ports?",
+    "answers": [
+      "Vitiation",
+      "Linting",
+      "Shaling",
+      "Scaling"
+    ],
+    "correct": 1,
+    "explanation": "Lint is the term used to describe airborne particles of dust, animal hair, and fibres from carpets, mats and clothing. Lint collects in places such as burner ports, primary air ports and gauzes, preventing correct primary air reaching the flame.",
+    "source": "S9-13"
+  },
+  {
+    "question": "What can happen if a heat exchanger's fins become blocked?",
+    "answers": [
+      "The flame becomes more efficient",
+      "Hot combustion gases are restricted and re-circulate around the burner, causing incomplete combustion and soot",
+      "The appliance automatically shuts down safely",
+      "The flue gas analyser readings improve"
+    ],
+    "correct": 1,
+    "explanation": "If the fins of a heat exchanger become blocked, the passage of hot combustion gases will be restricted and the products of combustion will be re-circulated around the burner, causing incomplete combustion which leads to soot being created.",
+    "source": "S9-14"
+  },
+  {
+    "question": "Standard BS 7967 Part 4 covers what aspect of flue gas analysers (FGA)?",
+    "answers": [
+      "Options for how an FGA can be used in conjunction with appliance manufacturers' instructions",
+      "The disposal of CO detectors",
+      "The colour coding of gas pipework",
+      "The construction of heat exchangers"
+    ],
+    "correct": 0,
+    "explanation": "BS 7967 Part 4 and company Technical Operational Procedures describe the options of how an FGA can be used in conjunction with the gas appliance manufacturer's instructions. This guide does not cover the use of FGAs as part of the servicing process.",
+    "source": "S9-15"
+  },
+  {
+    "question": "What must be done if it has not been possible to carry out combustion analysis where the manufacturer specifies it is required, due to absence of equipment or expertise?",
+    "answers": [
+      "The appliance can be left in use until the next visit",
+      "The appliance must be disconnected from the gas supply and an 'Uncommissioned appliance' label attached",
+      "The appliance can be commissioned anyway, as it is not a safety issue",
+      "Only a verbal warning needs to be given to the customer"
+    ],
+    "correct": 1,
+    "explanation": "Where manufacturers specify requirements for combustion analysis and it has not been possible to carry one out, the appliance must be disconnected from the gas supply and an 'Uncommissioned appliance' label attached until it can be fully commissioned.",
+    "source": "S9-15, S9-16"
+  },
+  {
+    "question": "What standard must electronic combustion gas analysers used to determine CO and CO2 levels conform to?",
+    "answers": [
+      "BS 7967",
+      "BS EN 50379-3",
+      "BS 6798",
+      "BS EN 50291"
+    ],
+    "correct": 1,
+    "explanation": "Flue gas analysers used to carry out a combustion performance analysis to determine CO and CO2 levels in the combustion products of a gas appliance must conform to BS EN 50379-3 (which superseded BS 7927:1998).",
+    "source": "S9-16, S9-17"
+  },
+  {
+    "question": "What level of O2 should be displayed when a flue gas analyser is auto-zeroed and purged in clean, uncontaminated air?",
+    "answers": [
+      "10.5%",
+      "15.0%",
+      "20.9%",
+      "25.0%"
+    ],
+    "correct": 2,
+    "explanation": "The level of O2 is 20.9% in uncontaminated air. Noting this during the auto zero purge helps ensure the instrument is calculating the correct level of CO2, since the lower the level of oxygen, the greater the level of carbon dioxide.",
+    "source": "S9-19"
+  },
+  {
+    "question": "A central heating boiler gives a CO reading of 90ppm and a CO2 reading of 5%. What is the CO/CO2 ratio?",
+    "answers": [
+      "0.0009",
+      "0.0018",
+      "0.018",
+      "0.18"
+    ],
+    "correct": 1,
+    "explanation": "To calculate the ratio, convert CO2 percentage to ppm by multiplying by 10,000 (5% x 10,000 = 50,000ppm). Then divide CO by CO2: 90ppm ÷ 50,000ppm = 0.0018 CO/CO2 ratio.",
+    "source": "S9-19"
+  },
+  {
+    "question": "What is the approximate outside diameter of a standard open-ended flue gas sample probe?",
+    "answers": [
+      "1mm",
+      "6mm",
+      "15mm",
+      "25mm"
+    ],
+    "correct": 1,
+    "explanation": "Most flue gas analysers are supplied with a suitable open ended sample probe made from stainless steel tube approximately 300mm long, with a suitable diameter of approximately 6mm OD.",
+    "source": "S9-19"
+  },
+  {
+    "question": "What is the purpose of the water trap/filter fitted between the sample probe and the flue gas analyser?",
+    "answers": [
+      "To increase the speed of the sample",
+      "To prevent damage caused by the ingress of water and dust into the unit",
+      "To cool the combustion products before measurement",
+      "To convert CO into CO2 before analysis"
+    ],
+    "correct": 1,
+    "explanation": "The water trap/filter is designed to prevent damage caused by the ingress of water and dust into the unit, and the flue gas analyser must not be used without one fitted.",
+    "source": "S9-21"
+  },
+  {
+    "question": "Before using a flue gas analyser, which of the following pre-use checks is required?",
+    "answers": [
+      "Confirm the analyser has a current proof of calibration",
+      "Confirm the customer is present in the room",
+      "Confirm the appliance is less than 5 years old",
+      "Confirm the gas meter has been read"
+    ],
+    "correct": 0,
+    "explanation": "Pre-use checks include confirming batteries are correctly inserted and charged, the analyser has current proof of calibration, the display functions correctly, it is zeroed and purged correctly, the pump works, filters/water traps are clean and dry, and probe tubing is free from leaks, kinks or damage.",
+    "source": "S9-23"
+  },
+  {
+    "question": "When sampling, how should the position of the probe be adjusted to obtain the most accurate reading?",
+    "answers": [
+      "Until the lowest steady value of CO2 or highest steady value of O2 is obtained",
+      "Until the highest steady value of CO2 or lowest steady value of O2 is obtained",
+      "Until the CO reading reaches zero",
+      "Until the temperature reading stabilises only"
+    ],
+    "correct": 1,
+    "explanation": "Whenever sampling, the position of the probe should be adjusted until the highest steady value of CO2 or lowest steady value of O2 is obtained, to ensure a representative sample from the combustion products stream.",
+    "source": "S9-26"
+  },
+  {
+    "question": "When should the CO/CO2 ratio be recorded during a combustion performance test, in the absence of different manufacturer's instructions?",
+    "answers": [
+      "Immediately after the appliance is switched on",
+      "After the appliance has operated at maximum rated input for 30 minutes, or when the reading is steady or satisfactory and decreasing, whichever is sooner",
+      "Only after 2 hours of continuous operation",
+      "Only when the appliance is operating at its minimum rate"
+    ],
+    "correct": 1,
+    "explanation": "The CO/CO2 ratio should be recorded when the appliance or burner has been operating at maximum rated input for 30 minutes, or when the reading is steady, or satisfactory and decreasing, whichever is the soonest, unless the manufacturer's instructions state otherwise.",
+    "source": "S9-26"
+  },
+  {
+    "question": "Why can combustion product readings from appliances fitted to SE ducts or U ducts not be relied upon as an accurate indication of combustion performance?",
+    "answers": [
+      "The duct air for combustion may contain variable amounts of combustion products from other appliances",
+      "SE ducts cannot be sampled at all",
+      "The appliances are always condensing boilers",
+      "These ducts are only used for flueless appliances"
+    ],
+    "correct": 0,
+    "explanation": "For appliances fitted to SE ducts or U ducts, the air for combustion in the duct might contain variable amounts of combustion products from other appliances, so combustion readings cannot be relied upon as an accurate indication of combustion performance.",
+    "source": "S9-26, S9-36"
+  },
+  {
+    "question": "For an open flue appliance with a down draught diverter, how far into the secondary flue should the sample probe tip be positioned to obtain a well-mixed representative sample?",
+    "answers": [
+      "At least 50mm",
+      "At least 100mm",
+      "At least 200mm",
+      "At least 400mm"
+    ],
+    "correct": 2,
+    "explanation": "To obtain a well mixed representative sample from an open flued appliance, the probe tip should be positioned at least 200mm into the secondary flue, generally via the down draught diverter.",
+    "source": "S9-30"
+  },
+  {
+    "question": "When carrying out combustion sampling on an appliance fitted in a compartment, what must remain in its normal position throughout the test?",
+    "answers": [
+      "The compartment door or service access should remain closed",
+      "The compartment door should be left wide open",
+      "The appliance casing should be fully removed",
+      "All ventilation grilles should be sealed"
+    ],
+    "correct": 0,
+    "explanation": "Samples should be taken when the appliance is operating under normal conditions, so the compartment service access (e.g. the compartment door) should remain closed throughout the test, as this will not permit a greater level of ventilation than normal.",
+    "source": "S9-31"
+  },
+  {
+    "question": "For a room sealed (category type C) appliance, how far inside the combustion products outlet duct should the open-ended sampling probe be positioned?",
+    "answers": [
+      "50mm",
+      "100mm",
+      "200mm",
+      "500mm"
+    ],
+    "correct": 2,
+    "explanation": "For room sealed appliances, an open ended sampling probe should be positioned 200mm inside the combustion products outlet duct, with its position adjusted to obtain the highest steady CO2 reading or lowest steady O2 reading.",
+    "source": "S9-35"
+  },
+  {
+    "question": "For gas fires, how far up inside the flue should the sampling probe be positioned, and where in relation to the flame?",
+    "answers": [
+      "At least 200mm up inside the flue, as far away from the flame as practicable",
+      "Directly against the burner ports",
+      "At the very top of the chimney terminal only",
+      "Immediately above the pilot light"
+    ],
+    "correct": 0,
+    "explanation": "The sampling probe should be positioned at least 200mm up inside the flue in the combustion products stream and as far away as possible from the gas flame as practicable, with its position adjusted to obtain the highest steady CO2 or lowest steady O2 reading.",
+    "source": "S9-34"
+  },
+  {
+    "question": "According to the Combustion performance (CO/CO2) action levels table, what is the satisfactory CO/CO2 ratio for a standard central heating boiler (without an air/gas ratio valve)?",
+    "answers": [
+      "0.001",
+      "0.004",
+      "0.008",
+      "0.020"
+    ],
+    "correct": 2,
+    "explanation": "The Combustion performance (CO/CO2) action levels table gives a satisfactory CO/CO2 ratio of 0.008 for a central heating boiler without an air/gas ratio valve, reducing to 0.004 or 0 where an air/gas ratio valve is fitted.",
+    "source": "S9-38"
+  },
+  {
+    "question": "Where a flued appliance fails to achieve a satisfactory combustion ratio after investigation, how should it be classified under the Gas Industry Unsafe Situations Procedure?",
+    "answers": [
+      "Not to Current Standards",
+      "At Risk",
+      "Immediately Dangerous",
+      "Safe to use with monitoring"
+    ],
+    "correct": 1,
+    "explanation": "A flued appliance that fails to achieve a satisfactory combustion ratio should be regarded as 'At Risk', whereas a flueless appliance that fails should be regarded as 'Immediately Dangerous', as defined in the Gas Industry Unsafe Situations Procedure.",
+    "source": "S9-39"
+  },
+  {
+    "question": "Which of the following is a common cause of combustion analysis failure listed in the guide?",
+    "answers": [
+      "Use of a calibrated flue gas analyser",
+      "Lack of maintenance, such as a build-up of dust, dirt, lint or grease",
+      "Correctly aligned burners",
+      "Appliance operating at its rated input"
+    ],
+    "correct": 1,
+    "explanation": "High CO/CO2 ratio levels may result from appliance misuse, lack of maintenance (build-up of dust/dirt/lint/grease or misaligned coals/burners), damage, or appliance ageing.",
+    "source": "S9-39"
+  },
+  {
+    "question": "What deposit, appearing as a white dust on the fins, is close-finned copper-fabricated heat exchangers prone to, restricting combustion performance?",
+    "answers": [
+      "Soot",
+      "Copper sulphate",
+      "Limescale",
+      "Calcium carbonate"
+    ],
+    "correct": 1,
+    "explanation": "Close-finned, copper-fabricated heat exchangers are prone to restriction by the accumulation of copper sulphate, which appears as a white dust on the fins and can have a detrimental effect on combustion readings even in small quantities.",
+    "source": "S9-39"
+  },
+  {
+    "question": "After fitting new components such as ceramic coal beds, burners or combustion chamber insulation, how long should the appliance be run at full rate before a reliable combustion test is undertaken?",
+    "answers": [
+      "1 minute",
+      "10 minutes",
+      "1 hour",
+      "24 hours"
+    ],
+    "correct": 1,
+    "explanation": "Some components contain volatile compounds that need to 'burn off the newness' before a reliable flue gas analysis can be undertaken. The combustion test should be carried out after a 10 minute 'burn off' period with the appliance on at full rate.",
+    "source": "S9-40"
+  },
+  {
+    "question": "Where combustion readings remain unacceptable and continue to rise after the burn-off period, at what interval should sampling continue until the level stabilises?",
+    "answers": [
+      "Every 5 minutes",
+      "Every 20 minutes",
+      "Every 60 minutes",
+      "Every 2 hours"
+    ],
+    "correct": 1,
+    "explanation": "Where combustion readings are still unacceptable and continue to rise, sampling should continue at intervals of 20 minutes until the level stabilises at an acceptable level.",
+    "source": "S9-40"
+  },
+  {
+    "question": "Where manufacturers do not give specific readings for 'Specific Action Levels' on a condensing boiler with an air/gas ratio valve, what is the Key Action Level for CO?",
+    "answers": [
+      "90ppm",
+      "200ppm",
+      "350ppm",
+      "500ppm"
+    ],
+    "correct": 2,
+    "explanation": "Where manufacturers do not give specific readings for Specific Action Levels, the Key Action Levels to ensure the appliance can be considered safe are CO 350ppm and a CO/CO2 ratio of 0.0040.",
+    "source": "S9-41"
+  },
+  {
+    "question": "Why might CO readings in excess of 10ppm be temporarily acceptable on a gas cooker grill during combustion performance analysis?",
+    "answers": [
+      "Cookers are exempt from all CO limits",
+      "Short periods of higher CO on initial light-up may be allowed provided the cooker conforms to BS 7967-2 and the 8 hour weighted average does not exceed 10ppm",
+      "Cooker readings are never measured",
+      "The action levels table does not apply to flueless appliances"
+    ],
+    "correct": 1,
+    "explanation": "Due to their nature and design, cookers may show CO levels in excess of 10ppm for short periods, such as on initial light-up of grills. This is allowed provided the cooker conforms to BS 7967-2 guidance, ensuring an 8 hour weighted average does not exceed 10ppm.",
+    "source": "S9-41"
+  },
+  {
+    "question": "What type of CO detector incorporates a sensitive spot that changes colour from light brown to black when exposed to CO, but has no audible alarm?",
+    "answers": [
+      "Electrical CO alarm",
+      "CO indicator card",
+      "Atmospheric sensing device",
+      "Thermoelectric FSD"
+    ],
+    "correct": 1,
+    "explanation": "A CO indicator card (sometimes called a spot indicator) incorporates a sensitive spot which changes colour from light brown to black when exposed to CO at levels as low as 100ppm, but provides only a visual indication with no audible alarm.",
+    "source": "S9-42"
+  },
+  {
+    "question": "Why are CO indicator cards not considered suitable as an alarm in sleeping accommodation?",
+    "answers": [
+      "They are too expensive to install in bedrooms",
+      "They lack an audible alarm that could waken a sleeping person",
+      "They only work in well-lit rooms",
+      "They require mains electricity to function"
+    ],
+    "correct": 1,
+    "explanation": "Indicator cards are not considered suitable as an alarm in sleeping accommodation due to the absence of an audible alarm that could waken a person who is asleep.",
+    "source": "S9-42"
+  },
+  {
+    "question": "Which British Standard must electrical CO alarms be manufactured to and display a BSI kite mark for?",
+    "answers": [
+      "BS 7967",
+      "BS EN 50291",
+      "BS 6798",
+      "BS 5440"
+    ],
+    "correct": 1,
+    "explanation": "Electrical CO alarms must be manufactured to BS 7860 and BS EN 50291 and display a BSI kite mark, with BS EN 50291 having replaced BS 7860.",
+    "source": "S9-43"
+  },
+  {
+    "question": "Where a CO detector is located in the same room as a fuel-burning appliance, how far from the ceiling should a wall-mounted detector be positioned at minimum?",
+    "answers": [
+      "50mm",
+      "150mm",
+      "300mm",
+      "500mm"
+    ],
+    "correct": 1,
+    "explanation": "Detectors located on the wall should be located at a height greater than the height of any door or window but at least 150mm from the ceiling. Ceiling-mounted detectors should be at least 300mm from any wall.",
+    "source": "S9-44"
+  },
+  {
+    "question": "Which of the following locations must be avoided when installing a CO detector?",
+    "answers": [
+      "Between 1m and 3m from the potential source",
+      "On the same side of a partition as the potential source",
+      "Directly above a sink or cooker",
+      "On the high side of a room with a sloping ceiling"
+    ],
+    "correct": 2,
+    "explanation": "Locations to be avoided when installing a CO detector include directly above a sink or cooker, in a damp or humid area, next to a door or window, outside the building, in or below a cupboard, and where airflow could be obstructed.",
+    "source": "S9-44"
+  },
+  {
+    "question": "According to BS EN 50291, within what time period must a CO alarm sound when CO levels reach 300ppm?",
+    "answers": [
+      "Within 3 minutes",
+      "Within 10 to 40 minutes",
+      "Within 60 to 90 minutes",
+      "Within 24 hours"
+    ],
+    "correct": 0,
+    "explanation": "BS EN 50291 states that a CO alarm must sound within 3 minutes at 300ppm, between 10 to 40 minutes at 100ppm, and between 60 to 90 minutes at 50ppm.",
+    "source": "S9-45"
+  },
+  {
+    "question": "What action must occupants take where a CO indicator or detector alarm has activated?",
+    "answers": [
+      "Open all internal doors only and wait for the alarm to stop",
+      "Turn off the appliances, ventilate the rooms, and have appliances checked for safety by a competent person",
+      "Continue using the appliances as normal but monitor symptoms",
+      "Replace the batteries in the detector immediately and reset it"
+    ],
+    "correct": 1,
+    "explanation": "Where a CO indicator/detector alarm has activated, occupants must be advised to turn off the appliances, ventilate the rooms and ensure the appliances are checked for safety by a competent person before further use, with affected persons removed to uncontaminated fresh air.",
+    "source": "S9-46"
+  },
+  {
+    "question": "Which appliance type is more likely to cause an even build-up of CO between the floor and ceiling in the room in which it is installed when it malfunctions?",
+    "answers": [
+      "A cooker hotplate above floor level",
+      "An appliance specifically designed for space heating, such as a gas fire",
+      "A sink water heater",
+      "A flueless tumble drier only"
+    ],
+    "correct": 1,
+    "explanation": "Appliances specifically designed for space heating, where products enter the room due to fault conditions (e.g. a gas fire with faulty flueing), will generally cause an even build-up of CO between the floor and ceiling due to thermal convection currents heating the room more evenly.",
+    "source": "S9-48"
+  },
+  {
+    "question": "What is the atmospheric sensing device (vitiation device) on a flueless or open flue appliance designed to do?",
+    "answers": [
+      "Increase the gas rate automatically when oxygen levels drop",
+      "Shut down the appliance main burner should its combustion air become vitiated",
+      "Convert carbon monoxide into carbon dioxide",
+      "Sound an audible alarm only, without affecting gas flow"
+    ],
+    "correct": 1,
+    "explanation": "Many modern flueless (type A) and open flue (type B) appliances have an atmospheric sensing device designed to shut down the appliance main burner should its combustion air become vitiated, generally via a thermoelectric FSD or flame rectification system.",
+    "source": "S9-50"
+  },
+  {
+    "question": "At what concentration of CO2 in the combustion air does an atmospheric sensing device typically shut off the gas supply to the burner?",
+    "answers": [
+      "0.5% - 1%",
+      "1.5% - 2%",
+      "5% - 6%",
+      "10% - 12%"
+    ],
+    "correct": 1,
+    "explanation": "When the concentration of CO2 in combustion air reaches 1.5% - 2% (equating to a 2% drop in O2 and a corresponding increase of around 200ppm CO), the quality of combustion deteriorates and the atmospheric sensing device will shut off the gas supply to the burner.",
+    "source": "S9-50"
+  }
+]

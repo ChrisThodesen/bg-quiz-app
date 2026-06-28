@@ -1,0 +1,470 @@
+[
+  {
+    "question": "Which Regulation of the Gas Safety (Installation and Use) Regulations 1998 covers the escape of gas and the action to take?",
+    "answers": [
+      "Regulation 37",
+      "Regulation 34",
+      "Regulation 30",
+      "Regulation 26"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 37 of the Gas Safety (Installation and Use) Regulations 1998 covers the escape of gas and the action to take.",
+    "source": "S8-5"
+  },
+  {
+    "question": "The 'flammability limits' of a gas/air mixture are best described as:",
+    "answers": [
+      "The maximum pressure at which the gas can be safely stored",
+      "The temperature range over which the gas remains in a vapour state",
+      "The minimum diameter of pipe required to carry the gas safely",
+      "The air and gas mixtures at each end of the range which will just burn"
+    ],
+    "correct": 3,
+    "explanation": "Mixtures of gas and air will burn, but only within limits. The 'flammability limits' are the air and gas mixtures at each end of the range which will just burn; if there is too much gas or too much air, the mixture will not burn.",
+    "source": "S8-5"
+  },
+  {
+    "question": "For natural gas, the Lower Explosive Limit (LEL) is:",
+    "answers": [
+      "15% gas in air",
+      "5% gas in air",
+      "21% gas in air",
+      "10% gas in air"
+    ],
+    "correct": 1,
+    "explanation": "For natural gas the flammable range is from 5% up to 15% of gas in air, so the Lower Explosive Limit (LEL) is 5% gas.",
+    "source": "S8-5"
+  },
+  {
+    "question": "For natural gas, the Higher Explosive Limit (HEL) is:",
+    "answers": [
+      "21% gas in air",
+      "5% gas in air",
+      "50% gas in air",
+      "15% gas in air"
+    ],
+    "correct": 3,
+    "explanation": "The flammable range for natural gas runs from 5% (LEL) up to 15% of gas in air, so the Higher Explosive Limit (HEL) is 15% gas.",
+    "source": "S8-5"
+  },
+  {
+    "question": "A gas/air mixture containing more than the Higher Explosive Limit of gas will:",
+    "answers": [
+      "Ignite spontaneously without a source of ignition",
+      "Burn more violently than at the Lower Explosive Limit",
+      "Burn at a lower temperature than normal",
+      "Not burn, as there is too much gas and not enough air"
+    ],
+    "correct": 3,
+    "explanation": "If there is either too much gas or too much air the mixture will not burn; above the Higher Explosive Limit there is too much gas relative to the available air for combustion to occur.",
+    "source": "S8-5"
+  },
+  {
+    "question": "Specific gravity (relative density) of a gas is a comparison of its density against the density of:",
+    "answers": [
+      "Carbon dioxide",
+      "Water",
+      "Air",
+      "Hydrogen"
+    ],
+    "correct": 2,
+    "explanation": "For solids and liquids the standard for comparing density is water; for gases, the standard is air. This relationship is known as Relative Density or Specific Gravity.",
+    "source": "S8-5"
+  },
+  {
+    "question": "The specific gravity of natural gas is approximately:",
+    "answers": [
+      "1.5",
+      "1.0",
+      "0.5",
+      "2.0"
+    ],
+    "correct": 2,
+    "explanation": "The specific gravity of natural gas is in the region of 0.5, meaning it is about half the weight of the same volume of air.",
+    "source": "S8-5"
+  },
+  {
+    "question": "Because natural gas has a specific gravity of approximately 0.5, where would the highest concentration of an escape be found in a room?",
+    "answers": [
+      "Near the ceiling, at high level",
+      "Evenly distributed throughout the room",
+      "Concentrated near any open window",
+      "Near the floor, at low level"
+    ],
+    "correct": 0,
+    "explanation": "Because natural gas is about half the weight of air, it will rise to high level when released in a room, so a higher concentration will be found near the ceiling where there is a gas escape.",
+    "source": "S8-5"
+  },
+  {
+    "question": "In the event of a gas escape, the responsible person should be advised to shut off the supply of gas and:",
+    "answers": [
+      "Switch on extractor fans to clear the gas quickly",
+      "Close all doors and windows to contain the escape",
+      "Wait for the smell to clear before taking any further action",
+      "Open all doors and windows, internal and external, to ventilate the property"
+    ],
+    "correct": 3,
+    "explanation": "In the event of a gas escape, the responsible person should be advised to shut off the supply of gas and open all doors and windows (internal and external) to ventilate the property or building.",
+    "source": "S8-5"
+  },
+  {
+    "question": "If gas continues to escape after the supply has been shut off and the property ventilated, the responsible person should:",
+    "answers": [
+      "Contact their household insurance provider first",
+      "Attempt to locate and repair the leak themselves",
+      "Wait 24 hours before taking further action",
+      "Immediately notify the supplier's emergency gas service"
+    ],
+    "correct": 3,
+    "explanation": "If gas should continue to escape, the responsible person should immediately notify the supplier's emergency gas service.",
+    "source": "S8-5"
+  },
+  {
+    "question": "After a gas escape has occurred, the supply must not be re-opened until:",
+    "answers": [
+      "The customer confirms the smell has gone",
+      "Remedial action has been taken by a competent person to prevent gas escaping again",
+      "The next scheduled gas safety check",
+      "24 hours have passed since the escape was first noticed"
+    ],
+    "correct": 1,
+    "explanation": "The responsible person should prevent the supply being re-opened until remedial action has been taken by a competent person to prevent gas escaping again.",
+    "source": "S8-5"
+  },
+  {
+    "question": "Which of the following is one of the circumstances under which a registered installer is most likely to become aware of a gas escape?",
+    "answers": [
+      "An appliance reaches the end of its expected service life",
+      "The customer requests a quotation for a new appliance",
+      "A scheduled annual boiler service is carried out with no faults found",
+      "A tightness test identifies leakage of gas on the internal installation"
+    ],
+    "correct": 3,
+    "explanation": "Circumstances under which a registered installer is most likely to become aware of a gas escape include a customer reporting (or the installer detecting) a smell of gas, a tightness test identifying leakage, or a report from a person not associated with the prime job.",
+    "source": "S8-6"
+  },
+  {
+    "question": "When a gas escape or carbon monoxide situation is encountered, taking action on this must:",
+    "answers": [
+      "Be scheduled for the next available appointment",
+      "Wait until the current job is finished",
+      "Only be actioned if specifically requested by the customer",
+      "Take priority over all other work"
+    ],
+    "correct": 3,
+    "explanation": "When a gas escape (or carbon monoxide) is encountered, taking action on these must take priority over all other work.",
+    "source": "S8-6"
+  },
+  {
+    "question": "According to the guide's stated priorities for personnel dealing with gas escapes, what is the first priority?",
+    "answers": [
+      "Find and secure the escape",
+      "Safeguard property",
+      "Carry out a final check",
+      "Safeguard life"
+    ],
+    "correct": 3,
+    "explanation": "The priorities, in order, are: safeguard life, safeguard property, find and secure the escape, and carry out a final check.",
+    "source": "S8-6"
+  },
+  {
+    "question": "After safeguarding life and property and finding and securing the escape, what is the final stated priority?",
+    "answers": [
+      "Report the incident to the police",
+      "Carry out a final check",
+      "Complete a RIDDOR report immediately",
+      "Notify the appliance manufacturer"
+    ],
+    "correct": 1,
+    "explanation": "The four priorities are, in order: safeguard life, safeguard property, find and secure the escape, and carry out a final check.",
+    "source": "S8-6"
+  },
+  {
+    "question": "Evacuation of a premises during a gas escape should be considered where:",
+    "answers": [
+      "Occupants' safety is at risk, or persons are overcome by gas, vapours or products of combustion",
+      "There is no smell of gas detectable at all",
+      "The escape has been present for more than one hour",
+      "The customer simply requests it for peace of mind"
+    ],
+    "correct": 0,
+    "explanation": "Evacuation should occur where occupants' safety is at risk, or persons are overcome by gas, vapours or products of combustion. The need to evacuate adjacent and opposite properties should also be considered.",
+    "source": "S8-6"
+  },
+  {
+    "question": "When dealing with a gas escape, in addition to the affected property, what else should be considered for evacuation?",
+    "answers": [
+      "Adjacent and opposite properties",
+      "No other properties need to be considered",
+      "Properties within a 1 mile radius",
+      "Only properties on the same side of the street"
+    ],
+    "correct": 0,
+    "explanation": "Personnel dealing with a gas escape should consider the need to evacuate adjacent and opposite properties, not just the property where the escape originated.",
+    "source": "S8-6"
+  },
+  {
+    "question": "Where a tightness test shows a pressure loss within the permissible range but the smell of gas continues, the registered installer should:",
+    "answers": [
+      "Trace and repair the escape; if this is not possible, the installation must be made safe",
+      "Only report the matter at the next scheduled visit",
+      "Conclude there is no escape and take no further action",
+      "Increase the working pressure to compensate"
+    ],
+    "correct": 0,
+    "explanation": "Where the installation has a pressure loss within the permissible range and the smell of gas continues, the registered installer should trace and repair the escape; if this is not possible, the installation must be made safe.",
+    "source": "S8-6"
+  },
+  {
+    "question": "When a customer reports a smell of gas, what is the first action the registered installer should take?",
+    "answers": [
+      "Open all windows before doing anything else",
+      "Test the appliance flue immediately",
+      "Contact the Gas Emergency Service before any on-site action",
+      "Turn off the meter/emergency control valve"
+    ],
+    "correct": 3,
+    "explanation": "Where a customer reports a smell of gas, the first action listed is to turn off the meter/emergency control valve, then ventilate the premises, extinguish naked flames and remove sources of ignition.",
+    "source": "S8-6"
+  },
+  {
+    "question": "When responding to a reported smell of gas, alongside ventilating the premises and extinguishing naked flames, what else must the installer avoid doing?",
+    "answers": [
+      "Recording details on job documentation",
+      "Speaking to the customer about the situation",
+      "Operating electrical switches on or off",
+      "Using a manometer to check pressure"
+    ],
+    "correct": 2,
+    "explanation": "When responding to a smell of gas, the installer must ventilate the premises, extinguish naked flames, remove sources of ignition, and must not operate electrical switches on or off, as this could provide a source of ignition.",
+    "source": "S8-6"
+  },
+  {
+    "question": "When testing the installation for tightness after a reported smell of gas, what level of pressure loss is allowable?",
+    "answers": [
+      "Up to 4 mbar pressure loss",
+      "No pressure loss is allowable",
+      "Up to 2 mbar pressure loss",
+      "Pressure loss up to the standard tightness test tolerance"
+    ],
+    "correct": 1,
+    "explanation": "When testing the installation for tightness in response to a reported smell of gas, no pressure loss is allowable.",
+    "source": "S8-6"
+  },
+  {
+    "question": "If, after turning off the gas at the meter control valve, the smell of gas persists, the registered installer should:",
+    "answers": [
+      "Re-port the escape to the Gas Emergency Service and remain on site until they arrive",
+      "Re-open the meter control valve to check if the smell returns",
+      "Leave the property and report the matter the next working day",
+      "Advise the customer to call their own gas appliance installer"
+    ],
+    "correct": 0,
+    "explanation": "If after turning off the gas at the meter control valve the smell of gas persists, the installer should re-port the escape to the Gas Emergency Service, take appropriate action to safeguard life and property, and remain on site until the Gas Emergency Service arrives and takes over responsibility.",
+    "source": "S8-6"
+  },
+  {
+    "question": "If a repair identified during a tightness test is minor in nature, e.g. tightening a leaking union, the registered installer should:",
+    "answers": [
+      "Complete the repair",
+      "Always refer this to the Gas Emergency Service regardless of severity",
+      "Wait for written authorisation from the gas supplier before proceeding",
+      "Leave the installation isolated without attempting any repair"
+    ],
+    "correct": 0,
+    "explanation": "If the action required to facilitate a repair is of a minor nature, e.g. tightening up a leaking union, the installer should complete the repair (then retest for tightness).",
+    "source": "S8-7"
+  },
+  {
+    "question": "If a repair found during a tightness test is not minor, the registered installer should leave the affected section isolated, or:",
+    "answers": [
+      "Report the matter only if the customer specifically asks",
+      "Disconnect the entire property's gas supply regardless of the extent of the fault",
+      "Leave the installation as found and make no further comment",
+      "With the customer's authorisation, trace and repair the escape on a chargeable basis"
+    ],
+    "correct": 3,
+    "explanation": "If the repair is not of a minor nature, the installer should leave the affected section isolated or, with the customer's authorisation, trace and repair the escape on a chargeable basis, then retest for tightness.",
+    "source": "S8-7"
+  },
+  {
+    "question": "To report a gas escape to the Emergency Service Provider, the registered installer should ring the Gas Escape number:",
+    "answers": [
+      "999",
+      "0808 2000847",
+      "0800 999111",
+      "0800 111999"
+    ],
+    "correct": 3,
+    "explanation": "Where it is necessary to report a gas escape, the installer must ring the Gas Escape number 0800 111999.",
+    "source": "S8-7"
+  },
+  {
+    "question": "When reporting a gas escape, which of the following details should be given to the Emergency Service Provider?",
+    "answers": [
+      "The make and model of the customer's boiler only",
+      "The customer's gas tariff and billing information",
+      "The customer's preferred appointment time for a future visit",
+      "Where the smell is most noticeable and when it was first noticed"
+    ],
+    "correct": 3,
+    "explanation": "Details to be given when reporting an escape include where the smell is most noticeable, when it was first noticed, whether the meter/emergency control is turned off, and whether a smell persists, among other details.",
+    "source": "S8-7"
+  },
+  {
+    "question": "When reporting a gas escape, the installer should also confirm whether:",
+    "answers": [
+      "The appliance is still under warranty",
+      "The customer has paid their most recent gas bill",
+      "The property has off-street parking available",
+      "Adjoining buildings are affected and whether there is a smell of gas outside the property"
+    ],
+    "correct": 3,
+    "explanation": "Among the details to provide when reporting a gas escape are whether there is a smell of gas outside the property and whether adjoining buildings are affected.",
+    "source": "S8-7"
+  },
+  {
+    "question": "When reporting a gas escape, what information should be obtained from the Emergency Service Control and recorded on Job Documentation?",
+    "answers": [
+      "Job Number and time of report",
+      "The serial number of the gas meter",
+      "The name of the on-call engineer only",
+      "The customer's National Insurance number"
+    ],
+    "correct": 0,
+    "explanation": "When reporting a gas escape, the Job Number and time of report should be obtained from the Emergency Service Control and recorded on Job Documentation.",
+    "source": "S8-7"
+  },
+  {
+    "question": "Compared with air, Liquefied Petroleum Gas (LPG) and LPG/air mixtures are:",
+    "answers": [
+      "Approximately the same weight as air",
+      "Lighter than air",
+      "Heavier than air",
+      "Variable in weight depending on ambient temperature only"
+    ],
+    "correct": 2,
+    "explanation": "LPG and LPG/air mixtures are heavier than air, which is the most important characteristic as far as gas escapes are concerned.",
+    "source": "S8-8"
+  },
+  {
+    "question": "Because LPG is heavier than air, an escape of LPG will tend to:",
+    "answers": [
+      "Disperse evenly throughout the room at all heights",
+      "Flow along the ground and into drains, sinking to the lowest level it can find",
+      "Remain stationary at the point of the leak",
+      "Rise rapidly to ceiling height, similar to natural gas"
+    ],
+    "correct": 1,
+    "explanation": "Because LPG is heavier than air, any escape of gas will flow along the ground and into drains etc., sinking to the lowest level it can find.",
+    "source": "S8-8"
+  },
+  {
+    "question": "Where an LPG gas escape cannot be repaired, contact must immediately be made with:",
+    "answers": [
+      "The National Gas Emergency Service for natural gas",
+      "The local fire brigade only",
+      "The LPG Gas Supplier",
+      "The original appliance manufacturer"
+    ],
+    "correct": 2,
+    "explanation": "Where an LPG gas escape cannot be repaired, contact must immediately be made with the LPG Gas Supplier; the telephone number will be found on the bulk storage tank or adjacent to the emergency control valve.",
+    "source": "S8-8"
+  },
+  {
+    "question": "A gas incident is defined in the guide as a situation which results in:",
+    "answers": [
+      "Loss of life or hospital treatment of a person, or substantial damage to the property structure requiring rebuilding of walls or ceilings",
+      "A minor gas escape that is repaired on the same visit",
+      "Any complaint made by a customer about a gas appliance",
+      "Any appliance failing a routine service check"
+    ],
+    "correct": 0,
+    "explanation": "A gas incident is defined as a situation which results in loss of life or hospital treatment of a person, or substantial damage to the property structure requiring re-building of walls or ceilings.",
+    "source": "S8-8"
+  },
+  {
+    "question": "If a registered installer is on-site when a gas-related incident occurs, the first site action should be to:",
+    "answers": [
+      "Make safe by turning off at the meter/emergency control",
+      "Contact the appliance manufacturer for guidance",
+      "Take photographs of the scene before doing anything else",
+      "Wait for the Police to arrive before taking any action"
+    ],
+    "correct": 0,
+    "explanation": "For a gas related incident, the first site action is to make safe by turning off at the meter/emergency control.",
+    "source": "S8-8"
+  },
+  {
+    "question": "For all gas related incidents, the registered installer should request assistance from the Gas Emergency Service and:",
+    "answers": [
+      "Contact the customer's insurance company directly",
+      "Leave the scene once the area has been made safe",
+      "Wait at least 24 hours before reporting the incident",
+      "Obtain a Job Number and time of report, recording this on Job Documentation"
+    ],
+    "correct": 3,
+    "explanation": "For all gas related incidents, the installer should request assistance from the Gas Emergency Service, report all relevant details, and obtain a Job Number and time of report, recording this on Job Documentation.",
+    "source": "S8-8"
+  },
+  {
+    "question": "Who will report the circumstances of a gas incident to the Health and Safety Executive?",
+    "answers": [
+      "The registered installer personally, in every case",
+      "The appliance manufacturer",
+      "The Gas Emergency Service",
+      "The local authority environmental health department"
+    ],
+    "correct": 2,
+    "explanation": "The Gas Emergency Service will report the circumstances of the incident to the Health and Safety Executive.",
+    "source": "S8-8"
+  },
+  {
+    "question": "Following a gas-related incident, the registered installer should:",
+    "answers": [
+      "NOT disturb any appliance or part of the installation involved in the incident",
+      "Remove the appliance from the property for safekeeping",
+      "Immediately repair or replace the faulty appliance",
+      "Reconnect the gas supply once the immediate danger has passed"
+    ],
+    "correct": 0,
+    "explanation": "Following an incident, the installer should NOT disturb any appliance or any part of an installation involved, to preserve evidence for any subsequent investigation.",
+    "source": "S8-8"
+  },
+  {
+    "question": "If the Police or Fire Brigade request that equipment involved in a gas incident be moved, the registered installer should:",
+    "answers": [
+      "Explain that vital evidence could be destroyed and that an expert examination should be carried out first",
+      "Comply immediately without comment",
+      "Move the equipment themselves to a safe storage location",
+      "Refuse outright and take no further action"
+    ],
+    "correct": 0,
+    "explanation": "If the Police or Fire Brigade request that equipment be moved, the installer should explain that vital evidence could be destroyed and that an expert examination should be carried out first.",
+    "source": "S8-8"
+  },
+  {
+    "question": "When liaising with a senior Police or Fire Officer at the scene of a gas incident, which of the following should the installer check?",
+    "answers": [
+      "The property's council tax band",
+      "What assistance is required, whether gas was involved, the extent of damage, and details of casualties",
+      "The make and model number of the appliance only",
+      "Whether the customer's gas account is up to date"
+    ],
+    "correct": 1,
+    "explanation": "When liaising with a senior Police or Fire Officer who may be on site, the installer should check what assistance is required (e.g. make safe), whether gas was involved, the extent of damage, and details of casualties.",
+    "source": "S8-8"
+  },
+  {
+    "question": "After a gas-related incident, the registered installer should remain on site until:",
+    "answers": [
+      "The appliance manufacturer has been contacted directly",
+      "The customer confirms they are satisfied with the outcome",
+      "A period of exactly one hour has elapsed",
+      "The Gas Emergency Service arrives and takes over responsibility"
+    ],
+    "correct": 3,
+    "explanation": "The installer should remain on site until the Gas Emergency Service arrives and takes over responsibility for the incident.",
+    "source": "S8-8"
+  }
+]

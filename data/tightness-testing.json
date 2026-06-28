@@ -1,0 +1,306 @@
+[
+  {
+    "question": "Which standard sets out the procedure for tightness testing and direct purging of small NG, LPG and LPG/Air installations?",
+    "answers": [
+        "BS 6400-2", 
+        "IGEM/UP/1B", 
+        "IGE/UP/10 Edition 3", 
+        "BS 5440 Part 1"
+    ],
+    "correct": 1,
+    "explanation": "IGEM/UP/1B (Edition 3, communication 1759, published 2012) is the procedure for tightness testing and direct purging of small NG, LPG and LPG/Air installations. Larger installations are tested to IGE/UP/1 or IGE/UP/1A.",
+    "source": "S2-5"
+  },
+  {
+    "question": "Testing a gas installation for 'tightness' is carried out by which means?",
+    "answers": [
+        "A bubble test on every joint", 
+        "A pressure test", 
+        "A flow rate comparison at the meter", 
+        "A visual inspection of all pipework"
+    ],
+    "correct": 1,
+    "explanation": "Tightness is tested by means of a pressure test. Any loss of pressure over a given time period indicates that gas is escaping somewhere on the installation.",
+    "source": "S2-5"
+  },
+  {
+    "question": "What is the maximum installation volume (IV) for an installation to fall within the scope of IGEM/UP/1B?",
+    "answers": [
+        "0.035 m³", 
+        "0.35 m³", 
+        "0.0035 m³", 
+        "3.5 m³"
+    ],
+    "correct": 0,
+    "explanation": "The Standard limits IV to a maximum of 0.035 m³ supplying an individual dwelling or non-domestic premises. Installations of larger volume are rare in domestic premises but must be tested to IGE/UP/1 or /1A if outside scope.",
+    "source": "S2-5"
+  },
+  {
+    "question": "For an installation to be within the scope of IGEM/UP/1B, the nominal bore of the pipework must not be greater than:",
+    "answers": [
+        "22 mm", 
+        "28 mm", 
+        "35 mm", 
+        "42 mm"
+    ],
+    "correct": 2,
+    "explanation": "The scope covers pipework of nominal bore not greater than 35 mm (DN32, R1¼), with a maximum badged primary meter capacity not exceeding 16 m³/h and IV not exceeding 0.035 m³.",
+    "source": "S2-5"
+  },
+  {
+    "question": "A water gauge (manometer) used for tightness testing should be capable of being read to what resolution?",
+    "answers": [
+        "0.1 mbar", 
+        "0.25 mbar", 
+        "0.5 mbar", 
+        "1.0 mbar"
+    ],
+    "correct": 2,
+    "explanation": "Water gauges should be capable of being read to 0.5 mbar, while electronic gauges should be capable of being read to 0.1 mbar.",
+    "source": "S2-6"
+  },
+  {
+    "question": "How often must an electronic pressure gauge used for tightness testing be tested, overhauled, calibrated and certified?",
+    "answers": [
+        "Before every use", 
+        "Monthly", 
+        "Every six months", 
+        "Annually, unless manufacturer's instructions recommend otherwise"
+    ],
+    "correct": 3,
+    "explanation": "Electronic gauges must be tested, overhauled, calibrated and certified annually unless the manufacturer's instructions specifically recommend otherwise. They must also be intrinsically safe for use in a gas emergency situation.",
+    "source": "S2-6"
+  },
+  {
+    "question": "Before and after using an electronic pressure gauge, the operative should check the:",
+    "answers": [
+        "Pipe diameter", 
+        "Gauge zero", 
+        "Meter index reading", 
+        "Ambient air pressure"
+    ],
+    "correct": 1,
+    "explanation": "The batteries should be checked before use, and the gauge zero checked both before and after use. The manufacturer's operating instructions must be followed.",
+    "source": "S2-6"
+  },
+  {
+    "question": "Which of the following is NOT one of the circumstances requiring a tightness test?",
+    "answers": [
+        "Prior to any work on an existing installation", 
+        "Immediately before purging an installation", 
+        "After every appliance service where no pipework was disturbed and no leak is suspected", 
+        "Where there has been a complete loss of supply pressure"
+    ],
+    "correct": 2,
+    "explanation": "Tightness testing is required for new installations, alterations/replacements/re-use, new extensions, prior to any work, known or suspected leaks, complete loss of supply pressure, routine testing, and immediately before purging. A routine service with no pipework disturbed and no suspected leak is not itself a trigger.",
+    "source": "S2-6"
+  },
+  {
+    "question": "Gas pipework downstream of appliance control taps or FSDs that cannot be pressure tested (e.g. a boiler burner supply) should be checked using:",
+    "answers": [
+        "A second pressure test at higher pressure", 
+        "Leak detection fluid (LDF) or a portable electronic gas detector", 
+        "A flame failure test only", 
+        "No further check is required"
+    ],
+    "correct": 1,
+    "explanation": "Pipework that cannot be subjected to a pressure test should be checked using a suitable non-corrosive leak detection fluid (LDF) after the tightness test is completed and the supply restored. A suitable portable electronic gas detector may also be used.",
+    "source": "S2-6"
+  },
+  {
+    "question": "On a water gauge, a movement of how much is considered to be 'not perceptible'?",
+    "answers": [
+        "0.1 mbar or less", 
+        "0.25 mbar or less", 
+        "0.5 mbar or less", 
+        "1.0 mbar or less"
+    ],
+    "correct": 1,
+    "explanation": "A movement of 0.25 mbar or less on a water gauge is considered not perceptible. If the gauge is seen to move, it can be inferred the pressure has moved by more than 0.25 mbar.",
+    "source": "S2-6"
+  },
+  {
+    "question": "For an electronic gauge that reads to one decimal place, the 'no perceptible movement' pass criterion is a maximum of:",
+    "answers": [
+        "0.1 mbar", 
+        "0.2 mbar", 
+        "0.25 mbar", 
+        "0.5 mbar"
+    ],
+    "correct": 1,
+    "explanation": "Where a gauge can register less than 0.25 mbar, no perceptible movement must be considered a maximum of 0.25 mbar; for electronic gauges that read to one decimal place, no perceptible movement is considered a maximum of 0.2 mbar.",
+    "source": "S2-7"
+  },
+  {
+    "question": "For new installations and for all let-by tests, what is the pass criterion?",
+    "answers": [
+        "A drop within Table 1 values", 
+        "No perceptible movement", 
+        "A drop of no more than 4 mbar", 
+        "No smell of gas only"
+    ],
+    "correct": 1,
+    "explanation": "For new installations and for all let-by tests the test criterion is 'no perceptible movement'. A permissible (measurable) pressure drop is only allowed on existing installations with at least one appliance connected and no smell of gas.",
+    "source": "S2-6"
+  },
+  {
+    "question": "A permissible pressure drop is only allowed provided there is no smell of gas AND:",
+    "answers": [
+        "The meter is less than five years old", 
+        "At least one appliance is connected to the installation pipework", 
+        "The test is carried out by two operatives", 
+        "The pipework is all 22 mm or smaller"
+    ],
+    "correct": 1,
+    "explanation": "A permissible pressure drop is allowed only where there is no smell of gas and at least one appliance is connected to the installation pipework. It also depends on the type of installation and the meter installed.",
+    "source": "S2-7"
+  },
+  {
+    "question": "Why does a smaller meter result in a greater permissible pressure drop?",
+    "answers": [
+        "Smaller meters are less accurate", 
+        "The smaller internal volume means the same leak causes a larger pressure drop", 
+        "Smaller meters have weaker regulators", 
+        "Smaller meters are only fitted to older installations"
+    ],
+    "correct": 1,
+    "explanation": "The same sized leak causes a larger pressure drop on a small-volume installation than on a larger one. The meter is the biggest single influence on a domestic installation's volume, so the smaller the meter's volume, the greater the permissible drop.",
+    "source": "S2-7"
+  },
+  {
+    "question": "What is the maximum permissible pressure drop over a 2-minute test for an existing dwelling (appliances connected) with a U6/G4 diaphragm meter and pipework ≤ 28 mm?",
+    "answers": [
+        "1 mbar", 
+        "2.5 mbar", 
+        "4 mbar", 
+        "8 mbar"
+    ],
+    "correct": 2,
+    "explanation": "For a U6/G4 diaphragm meter (≤ 6 m³/h) with pipework ≤ 28 mm, the maximum permissible drop over the 2-minute test period is 4 mbar.",
+    "source": "S2-7"
+  },
+  {
+    "question": "For an existing dwelling with an E6 ultrasonic meter (or no meter) and pipework ≤ 28 mm, what is the maximum permissible 2-minute pressure drop?",
+    "answers": [
+        "1 mbar", 
+        "2.5 mbar", 
+        "4 mbar", 
+        "8 mbar"
+    ],
+    "correct": 3,
+    "explanation": "For an E6 ultrasonic meter (≤ 6 m³/h) or no meter, with pipework ≤ 28 mm, the maximum permissible drop is 8 mbar — the largest in Table 1, reflecting the smaller internal volume of an ultrasonic meter compared with a diaphragm meter.",
+    "source": "S2-7"
+  },
+  {
+    "question": "For an existing dwelling with a U16/G10 diaphragm meter (> 6 m³/h ≤ 16 m³/h), the maximum permissible 2-minute pressure drop is:",
+    "answers": ["1 mbar regardless of pipe diameter (≤ 35 mm)", "4 mbar", "8 mbar", "2.5 mbar"],
+    "correct": 0,
+    "explanation": "For a U16/G10 diaphragm meter, the maximum permissible drop is 1 mbar for both the ≤ 28 mm and > 28 ≤ 35 mm pipe diameter ranges, reflecting the larger internal volume of this meter type.",
+    "source": "S2-7"
+  },
+  {
+    "question": "With a U6/G4 diaphragm meter and pipework greater than 28 mm but not exceeding 35 mm, the maximum permissible 2-minute drop is:",
+    "answers": ["1 mbar", "2.5 mbar", "4 mbar", "8 mbar"],
+    "correct": 1,
+    "explanation": "For a U6/G4 meter with pipework > 28 mm ≤ 35 mm, the maximum permissible drop reduces to 2.5 mbar (compared with 4 mbar for ≤ 28 mm), because the larger pipe adds internal volume.",
+    "source": "S2-7"
+  },
+  {
+    "question": "Where an installation includes an ECV but has no meter (e.g. a flat not individually metered), which permissible drop column is applied?",
+    "answers": ["The U6/G4 diaphragm column", "The U16/G10 column", "The 'ultrasonic ≤ 6 m³/h or no meter' column", "No permissible drop is allowed"],
+    "correct": 2,
+    "explanation": "Where there is an ECV (or AECV) but no meter, the pressure drop given in the first column ('ultrasonic E6 or no meter') is applied, as this value is appropriate to the small volume of installation pipework. Where possible it is advisable to test the entire installation.",
+    "source": "S2-7"
+  },
+  {
+    "question": "What is 'lock-up' in relation to a meter regulator/governor?",
+    "answers": ["When the meter index stops turning", "When the regulator valve is forced onto its seating, closing completely", "When the ECV is turned to the off position", "When two appliances draw gas simultaneously"],
+    "correct": 1,
+    "explanation": "Lock-up is the term used when the regulator (governor) valve is forced onto its seating. Under no-flow conditions, inlet pressure creeps past the valve, outlet pressure exceeds the spring force, and the valve is forced shut against its seating.",
+    "source": "S2-8"
+  },
+  {
+    "question": "Why is a leak on the meter inlet (upstream of the governor) not detected if the governor has locked up?",
+    "answers": ["The gauge is not sensitive enough", "The valve is closed completely, so the outlet pressure is maintained independently of the inlet", "The leak repairs itself under pressure", "Upstream leaks never affect the outlet"],
+    "correct": 1,
+    "explanation": "The gauge is attached to the outlet side of the governor. If lock-up has occurred the valve is fully closed, so an inlet-side pressure fall is isolated from the outlet — the maintained outlet pressure masks the upstream leak.",
+    "source": "S2-8"
+  },
+  {
+    "question": "For modern governors, lock-up generally occurs at around what pressure?",
+    "answers": ["19 mbar", "21 mbar", "23 mbar", "30 mbar"],
+    "correct": 2,
+    "explanation": "For modern governors lock-up is generally around 23 mbar (some older governors lock up higher). The regulator locks up at a pressure not exceeding 30 mbar with no flow through the installation.",
+    "source": "S2-8"
+  },
+  {
+    "question": "When raising the test pressure, why should you avoid going above the stated test pressure band?",
+    "answers": ["To save gas", "To prevent the regulator from locking up", "To protect the appliance burners", "To avoid damaging the gauge"],
+    "correct": 1,
+    "explanation": "Higher pressures should be avoided to prevent regulator lock-up. If lock-up occurs during the test, the meter inlet (upstream) section will not be tested.",
+    "source": "S2-10"
+  },
+  {
+    "question": "During the standard procedure, if the pressure exceeds 23 mbar while being raised to the test pressure, what must be done?",
+    "answers": ["Continue the test, noting the higher pressure", "Re-adjust down to 20–21 mbar directly", "Drop the pressure back to between 7 and 10 mbar before raising again to the test pressure", "Abandon the test and contact the ESP"],
+    "correct": 2,
+    "explanation": "If the pressure exceeds 23 mbar it must be dropped back to between 7 and 10 mbar before being raised again to the test pressure. This helps ensure the regulator is not locked up during the tightness test. (If it only exceeds 21 but not 23 mbar, simply re-adjust to 20–21 mbar.)",
+    "source": "S2-10"
+  },
+  {
+    "question": "What is the term for an MCV or ECV allowing gas to pass when it is in the off position?",
+    "answers": ["Lock-up", "Let-by", "Pressure absorption", "Perceptible movement"],
+    "correct": 1,
+    "explanation": "Let-by is when the Meter Control Valve (MCV) or Emergency Control Valve (ECV) allows gas to pass while in the off position. It invalidates a tightness test, because a leak will not show if the let-by rate equals or exceeds the rate of escape.",
+    "source": "S2-9"
+  },
+  {
+    "question": "Why is a let-by test essential when using the mains gas supply as the pressure source for a tightness test?",
+    "answers": ["To warm the gas to a stable temperature", "Because let-by past the closed valve can mask or understate a real leak", "To check the meter index is accurate", "To purge air from the pipework"],
+    "correct": 1,
+    "explanation": "When the mains supply is the pressure source it is essential to test for let-by, because if the valve lets by, gas continually replenishes the installation. A leak will not show if let-by equals or exceeds the escape rate; if let-by is less, the escape appears smaller than it really is.",
+    "source": "S2-9"
+  },
+  {
+    "question": "At what pressure is a let-by test typically carried out, and for how long is the gauge observed?",
+    "answers": ["20–21 mbar for 2 minutes", "7–10 mbar for 1 minute", "18–19 mbar for 5 minutes", "23 mbar for 1 minute"],
+    "correct": 1,
+    "explanation": "The supply valve is closed with the pressure adjusted to between 7 and 10 mbar, and the gauge is observed over the next 1-minute period. A perceptible rise indicates the valve may be letting by.",
+    "source": "S2-10"
+  },
+  {
+    "question": "After the stabilisation period, over what period is the gauge checked for a fall during the tightness test itself?",
+    "answers": ["30 seconds", "1 minute", "2 minutes", "5 minutes"],
+    "correct": 2,
+    "explanation": "Following a 1-minute temperature stabilisation period (re-adjusting pressure if necessary), the gauge is checked for any perceptible movement (fall) over the next 2-minute test period.",
+    "source": "S2-10"
+  },
+  {
+    "question": "If let-by is confirmed on an ECV connected to an NG service pipe, who must be notified?",
+    "answers": ["The customer's landlord", "The National Gas Emergency Service Call Centre", "Gas Safe Register within 24 hours", "The appliance manufacturer"],
+    "correct": 1,
+    "explanation": "If let-by is confirmed on an ECV, the National Gas Emergency Service Call Centre must be notified and the installation made safe, with the test suspended until repair. No one other than an authorised operative on behalf of the Emergency Service Provider may remove, repair or dismantle the valve.",
+    "source": "S2-10"
+  },
+  {
+    "question": "Where must a Meter Inlet Valve (MIV) be fitted?",
+    "answers": ["On the outlet of the meter", "Between the pressure control and protection system and the inlet of the meter", "Downstream of the first appliance", "Inside the meter box only on LPG installations"],
+    "correct": 1,
+    "explanation": "Every installation shall incorporate an MIV fitted between the pressure control and protection system and the inlet of the meter. It enables correct commissioning and testing and assists in tightness testing of the downstream system.",
+    "source": "S2-13"
+  },
+  {
+    "question": "Why is an MIV specified without a handle?",
+    "answers": ["To reduce manufacturing cost", "So it cannot be readily operated by the consumer", "To make it weatherproof", "So it can only be opened with the meter key"],
+    "correct": 1,
+    "explanation": "The MIV is not fitted with a handle so that it cannot be readily operated by the consumer. Current NG meter designs (specified in BS 6400-2) require an MIV to be fitted.",
+    "source": "S2-13"
+  },
+  {
+    "question": "Once a tightness test is satisfactorily completed and the supply restored, which connections must be tested with LDF?",
+    "answers": ["Only the appliance burners", "The pressure test point, ECV/AECV outlet, regulator connections and (where appropriate) the MIV connections", "Only the meter index", "None — the pressure test confirms tightness everywhere"],
+    "correct": 1,
+    "explanation": "On completion, the gauge is removed and the test point re-sealed; with the supply restored, the pressure test point, ECV/AECV outlet connection, regulator connections and (where appropriate) the MIV connections must all be tested with LDF. The installation is then purged and the results recorded.",
+    "source": "S2-11"
+  }
+]

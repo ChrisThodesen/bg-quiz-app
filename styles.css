@@ -1,0 +1,527 @@
+/* ── styles.css ───────────────────────────────────────────────────── */
+
+:root {
+  --radius-card:    16px;
+  --radius-btn:     10px;
+
+  --bg-cyan:      #86c3ff;
+  --bg-blue:      #2563eb;
+  --bg-navy:      #0f2067;
+
+  --colour-bg:         #232429;
+  --colour-card:       #003F5C;
+  --colour-h1:         #001F52;
+  --colour-text:       #f1f5f9;
+  --colour-text-muted: #94a3b8;
+  --colour-answer-btn: #0a1448;
+  --colour-accent:     #86c3ff;
+  --colour-border:     #1e3285;
+  --colour-correct:    #22c55e;
+  --colour-wrong:      #ef4444;
+
+  --colour-answer-btn-hover: #1a2a72;
+  --colour-border-hover:     #86c3ff;
+}
+
+/* ── Reset & base ──────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'BritishGasBody', 'Helvetica', 'Arial', sans-serif;
+  min-height: 100dvh;
+  text-align: center;
+}
+
+.hidden { display: none; }
+
+/* ── Shared form controls ─────────────────────────────────────────── */
+select, input {
+  font-size: 18px;
+  padding: 10px;
+  margin: 6px;
+  border-radius: var(--radius-btn);
+  border: 2px solid var(--colour-border);
+  background: var(--colour-answer-btn);
+  color: var(--colour-text);
+  font-family: inherit;
+}
+
+input::placeholder {
+  color: var(--colour-text-muted);
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: var(--radius-btn);
+  border: none;
+  cursor: pointer;
+  margin: 6px;
+  font-family: inherit;
+  font-weight: 600;
+  transition: background 0.15s, transform 0.1s;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: var(--bg-blue);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: var(--bg-navy);
+}
+
+.btn-danger {
+  background: var(--colour-wrong);
+  color: #fff;
+}
+
+.btn-secondary {
+  background: var(--colour-answer-btn);
+  color: var(--colour-text);
+  border: 2px solid var(--colour-border);
+}
+.btn-secondary:hover {
+  background: var(--colour-answer-btn-hover);
+}
+
+/* ── Landing page (index.html) ────────────────────────────────────── */
+.landing-body {
+  background: var(--bg-navy);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.landing-card {
+  max-width: 420px;
+}
+
+.landing-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.landing-subtitle {
+  font-size: 16px;
+  color: var(--bg-cyan);
+  margin-bottom: 32px;
+}
+
+.landing-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.landing-choice {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  background: var(--colour-answer-btn);
+  border: 2px solid var(--colour-border);
+  border-radius: var(--radius-card);
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s, transform 0.15s;
+}
+
+.landing-choice:hover {
+  background: var(--colour-answer-btn-hover);
+  border-color: var(--bg-cyan);
+  transform: translateY(-2px);
+}
+
+.landing-choice-icon {
+  font-size: 32px;
+}
+
+.landing-choice-title {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.landing-choice-desc {
+  font-size: 14px;
+  color: var(--colour-text-muted);
+  margin-top: 2px;
+}
+
+/* ── Host page ─────────────────────────────────────────────────────── */
+.host-body {
+  background: var(--bg-navy);
+  color: #fff;
+  padding: 24px;
+  position: relative;
+}
+
+/* ── Auto-skip toggle ──────────────────────────────────────────────
+   Same structural pattern as the main app's light/dark theme toggle:
+   a hidden checkbox driving a pill-shaped label, with a sliding circle
+   via label:after. Persistently visible in the top corner across every
+   host screen, since it's outside the show()-toggled screen divs. */
+.auto-skip-toggle-wrap {
+  position: fixed;
+  top: 14px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 10;
+}
+
+.auto-skip-toggle-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--colour-text-muted);
+}
+
+.auto-skip-toggle-input {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.auto-skip-toggle-wrap label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 52px;
+  height: 28px;
+  background: var(--colour-answer-btn);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 2px solid var(--colour-border);
+  transition: background 0.3s;
+}
+
+.auto-skip-toggle-wrap label:after {
+  content: '';
+  background: #fff;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 320ms;
+}
+
+.auto-skip-toggle-input:checked + label {
+  background: var(--bg-cyan);
+}
+
+.auto-skip-toggle-input:checked + label:after {
+  left: calc(100% - 3px);
+  transform: translateX(-100%);
+}
+
+.auto-skip-toggle-input:checked ~ .auto-skip-toggle-text {
+  color: var(--bg-cyan);
+}
+
+#startBtn, #nextBtn, #skipBtn, #createRoomBtn, #showLeaderboardBtn {
+  background: var(--bg-blue);
+  color: #fff;
+}
+#startBtn:hover, #nextBtn:hover, #skipBtn:hover, #createRoomBtn:hover, #showLeaderboardBtn:hover {
+  background: var(--bg-navy);
+  outline: 2px solid var(--bg-cyan);
+}
+#endBtn {
+  background: var(--colour-wrong);
+  color: #fff;
+}
+
+#roomCode {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin: 10px 0;
+  color: var(--bg-cyan);
+}
+
+#questionText {
+  font-size: 44px;
+  font-weight: 700;
+  margin: 24px 0;
+  min-height: 100px;
+  line-height: 1.25;
+}
+
+.answer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.answer-tile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 28px;
+  border-radius: var(--radius-card);
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  text-align: left;
+  opacity: 0;
+  transform: translateY(16px);
+  animation: tileIn 0.35s ease forwards;
+
+  /* Same hard, unblurred offset shadow as the player page's tiles, so
+     both screens share one consistent "raised tile" visual language. */
+  box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.35);
+}
+.answer-tile:nth-child(1) { animation-delay: 0s; }
+.answer-tile:nth-child(2) { animation-delay: 0.08s; }
+.answer-tile:nth-child(3) { animation-delay: 0.16s; }
+.answer-tile:nth-child(4) { animation-delay: 0.24s; }
+@keyframes tileIn { to { opacity: 1; transform: translateY(0); } }
+
+.answer-tile .tile-shape {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.25));
+}
+
+.answer-tile-text { flex: 1; }
+
+/* Kahoot-style colour-coding -- deliberately separate from the BG brand
+   palette above. This convention is already familiar to the class. */
+.tile-red    { background: #ef4444; }
+.tile-yellow { background: #f59e0b; }
+.tile-blue   { background: #2563eb; }
+.tile-green  { background: #22c55e; }
+.tile-correct {
+  outline: 6px solid #fff;
+  /* The correct tile at reveal time loses its raised shadow and sits
+     flush, matching the same "pressed/settled" visual cue used for a
+     selected answer elsewhere in the app. */
+  box-shadow: none;
+}
+
+#timer {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 6px 0 18px;
+  transition: color 0.4s ease, font-size 0.4s ease;
+}
+#timer.timer-warn {
+  color: #f59e0b;
+  font-size: 42px;
+}
+#timer.timer-critical {
+  color: var(--colour-wrong);
+  font-size: 50px;
+  font-weight: 800;
+}
+
+#answerCount { margin-top: 16px; font-size: 18px; }
+#answerCount .count-number,
+#answerCount .total-number {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 22px;
+}
+#answerCount .count-number.count-pop {
+  animation: countPop 0.35s ease;
+}
+@keyframes countPop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.4); color: var(--colour-correct); }
+  100% { transform: scale(1); }
+}
+
+#playerList {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+#playerList li {
+  background: var(--colour-answer-btn);
+  border: 1px solid var(--colour-border);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+#leaderboard, #finalLeaderboard {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: left;
+}
+#leaderboard li, #finalLeaderboard li {
+  background: var(--colour-answer-btn);
+  border: 1px solid var(--colour-border);
+  padding: 10px 16px;
+  border-radius: var(--radius-btn);
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-chart-wrap { max-width: 800px; margin: 40px auto 24px; }
+.bar-row {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  justify-content: center;
+  gap: 20px;
+  height: 200px;
+  align-items: end;
+}
+.bar-fill-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 200px;
+  width: 100%;
+}
+.bar-count { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+.bar-fill { width: 100%; border-radius: 8px 8px 0 0; transition: height 0.6s ease; }
+.bar-fill.bar-correct { outline: 4px solid #fff; }
+.label-row {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.bar-label { font-size: 14px; line-height: 1.3; text-align: center; }
+.bar-label-correct { font-weight: 700; color: var(--colour-correct); }
+.answer-source { font-size: 14px; opacity: 0.8; margin-top: 16px; }
+
+.accolades {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 800px;
+}
+.accolade-card {
+  background: var(--colour-answer-btn);
+  border: 1px solid var(--colour-border);
+  padding: 14px 20px;
+  border-radius: var(--radius-btn);
+  font-size: 16px;
+  min-width: 160px;
+}
+.accolade-card .accolade-label {
+  font-size: 13px;
+  opacity: 0.75;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.accolade-card .accolade-value { font-size: 18px; font-weight: 700; margin-top: 4px; }
+
+/* ── Player page ───────────────────────────────────────────────────── */
+.player-body {
+  background: var(--bg-navy);
+  color: #fff;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.player-body input {
+  background: var(--colour-answer-btn);
+  color: #fff;
+  border: 2px solid var(--colour-border);
+  width: 180px;
+}
+
+#joinBtn {
+  background: var(--bg-blue);
+  color: #fff;
+}
+#joinBtn:hover {
+  background: var(--bg-navy);
+  outline: 2px solid var(--bg-cyan);
+}
+
+#status { font-size: 18px; margin-top: 16px; }
+
+.player-answer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 60vh;
+  margin-top: 24px;
+  /* Room for the hard-offset shadow on every tile, so it doesn't get
+     clipped at the grid's edges. */
+  padding: 0 8px 8px 0;
+}
+
+.player-answer-tile {
+  border: none;
+  border-radius: var(--radius-card);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  /* Hard, unblurred offset shadow -- gives the illusion of a thick,
+     raised button sitting above the page, rather than a soft drop
+     shadow. No blur radius at all is what makes this read as solid
+     depth rather than a glow. */
+  box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 0.35);
+  transition: box-shadow 0.1s ease, transform 0.1s ease;
+}
+
+.player-answer-tile:active:not(:disabled) {
+  /* Quick tactile feedback the instant it's pressed, before the
+     "chosen" class takes over for the locked-in state. */
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.35);
+  transform: translate(6px, 6px);
+}
+
+.player-answer-tile:disabled { opacity: 0.45; cursor: default; }
+
+.player-answer-tile.chosen {
+  /* The selected tile looks "pressed down flush" -- shadow fully
+     removed and the button shifted into the space the shadow used to
+     occupy, rather than just an outline on top of the raised state. */
+  box-shadow: none;
+  transform: translate(8px, 8px);
+  opacity: 1; /* Explicitly override :disabled's dimming for THIS tile --
+                 the other three (unselected) tiles still dim normally,
+                 but the chosen one should stay fully visible so the
+                 player can clearly see what they picked. */
+}
+
+.tile-shape {
+  width: 40%;
+  height: 40%;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+#feedback { font-size: 24px; font-weight: 700; margin-top: 24px; }
+.feedback-correct { color: var(--colour-correct); }
+.feedback-wrong { color: var(--colour-wrong); }
+#scoreDisplay, #scoreDisplayPlay { font-size: 18px; margin-top: 10px; }
+#waitingMsg { font-size: 20px; margin-top: 40px; color: var(--bg-cyan); }

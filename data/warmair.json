@@ -1,0 +1,1178 @@
+[
+  {
+    "question": "Which type of warm air heater is described as not generally suitable for a ducted warm air system?",
+    "answers": [
+      "Upflow heater",
+      "Fan Assisted Warm Air Heater",
+      "Natural Convection Warm Air Heater",
+      "Downflow heater"
+    ],
+    "correct": 2,
+    "explanation": "The Natural Convection Warm Air Heater is not generally suitable for a ducted warm air system; other categories listed are Fan Assisted, Upflow, Downflow, and Horizontal flow heaters.",
+    "source": "S13-5"
+  },
+  {
+    "question": "On a warm air system, what do the room thermostat and timer control?",
+    "answers": [
+      "The gas solenoid valve, not the fan",
+      "Only the overheat thermostat",
+      "The fan, not the gas solenoid valve",
+      "Both the fan and the gas solenoid valve directly at mains voltage"
+    ],
+    "correct": 0,
+    "explanation": "On a warm air system, the room thermostat and the timer control the gas solenoid valve and not the fan; therefore there is no need for the controls to carry mains voltage current.",
+    "source": "S13-5"
+  },
+  {
+    "question": "What voltage is typically used for the low voltage controls on a warm air system?",
+    "answers": [
+      "12V d.c.",
+      "240V a.c.",
+      "24V a.c.",
+      "110V a.c."
+    ],
+    "correct": 2,
+    "explanation": "Because the controls do not need to carry mains voltage current, use is made of low voltage controls, usually 24V a.c., with a mains voltage clock switching the low voltage supply to the solenoid through the thermostats.",
+    "source": "S13-5"
+  },
+  {
+    "question": "What material is explicitly prohibited from use in warm air heater components?",
+    "answers": [
+      "Stainless steel",
+      "Mild steel",
+      "Asbestos",
+      "Copper"
+    ],
+    "correct": 2,
+    "explanation": "All materials and components used shall comply with the appropriate British Standards, and components containing asbestos shall not be used.",
+    "source": "S13-5"
+  },
+  {
+    "question": "Which British Standards should a warm air heater comply with?",
+    "answers": [
+      "BS 5258: Part 4 or BS 5258: Part 9",
+      "BS 715 only",
+      "BS 5440: Part 1 or Part 2",
+      "BS 6891 only"
+    ],
+    "correct": 0,
+    "explanation": "The heater selected shall comply with BS 5258: Part 4 or BS 5258: Part 9, and shall be suitable for the type of gas available in the premises.",
+    "source": "S13-5"
+  },
+  {
+    "question": "What must the heater's rated output take into account when being selected for a building?",
+    "answers": [
+      "The heat requirements of the building, including any heat loss from the warm air ducting",
+      "Only the number of bedrooms in the property",
+      "Only the floor area of the largest room",
+      "Only the appliance manufacturer's standard output rating, regardless of the building"
+    ],
+    "correct": 0,
+    "explanation": "The heater shall have a rated output sufficient to satisfy the heat requirements of the building, taking into account any heat loss from the warm air ducting.",
+    "source": "S13-5"
+  },
+  {
+    "question": "Which of the following is listed as an essential control on a Warm Air Unit?",
+    "answers": [
+      "Winter/Summer switch",
+      "Flame supervision device, to shut off all gas in the event of flame failure",
+      "Timer or Programmer",
+      "Fan speed control"
+    ],
+    "correct": 1,
+    "explanation": "Essential controls on a Warm Air Unit include the main control cock or valve, pressure control (constant pressure governor), flame supervision device, ignition device, gas solenoid valve, and overheat control. Winter/Summer switch, timer/programmer and fan speed control are listed as non-essential controls.",
+    "source": "S13-6"
+  },
+  {
+    "question": "What is the maximum mean air temperature, set by BS specification, at the inlet and outlet of a warm air heater before the overheat cut-off device operates?",
+    "answers": [
+      "95°C",
+      "130°C",
+      "80°C",
+      "110°C"
+    ],
+    "correct": 3,
+    "explanation": "The maximum temperature is set by BS specification at 110°C for the mean air temperature at the inlet and outlet of the warm air heater (BS 5258, Part 4).",
+    "source": "S13-6"
+  },
+  {
+    "question": "Why is an overheat thermostat usually added as an extra control on downflow heaters in particular?",
+    "answers": [
+      "Because the filter unit at the top of the heater can quickly rise to a high temperature if the fan is slow in switching on",
+      "Because downflow heaters operate at a higher gas rate than upflow heaters",
+      "Because downflow heaters lack a flame supervision device",
+      "Because downflow heaters do not have a limit thermostat fitted as standard"
+    ],
+    "correct": 0,
+    "explanation": "The overheat thermostat is added as an extra control, usually to downflow heaters, because in these models the filter unit at the top of the heater can quickly rise to a high temperature if the fan is slow in switching on.",
+    "source": "S13-6"
+  },
+  {
+    "question": "What is the limiting temperature, set by BS specification, for the mean temperature of the air at the outlet, controlled by the limit thermostat?",
+    "answers": [
+      "80°C",
+      "95°C",
+      "110°C",
+      "65°C"
+    ],
+    "correct": 1,
+    "explanation": "The limiting temperature for the limit thermostat is set by BS specification at 95°C for the mean temperature of the air at the outlet; the device is usually located in the outlet of the heat exchanger and wired in series with the gas valve.",
+    "source": "S13-6"
+  },
+  {
+    "question": "At approximately what temperature does the limit thermostat reset (cut back in), and what differential does it typically have?",
+    "answers": [
+      "Resets to cut out at about 110°C, with a differential of about 30°C",
+      "It does not reset automatically and must be manually reset each time",
+      "Resets to cut out at about 60°C, with a differential of about 5°C",
+      "Resets to cut out at about 93°C, with a differential of about 14°C (cutting back in around 80°C)"
+    ],
+    "correct": 3,
+    "explanation": "The limit thermostat switch is reset to cut out at about 93°C and usually has a differential of about 14°C, so the heater will be turned on again when the temperature falls to about 80°C.",
+    "source": "S13-6"
+  },
+  {
+    "question": "Why will a heater cycle on and off every few minutes when an overheat condition occurs at the limit thermostat?",
+    "answers": [
+      "Because the gas solenoid valve sticks intermittently",
+      "Because the fan switch has failed",
+      "Because the limit thermostat is automatically reset",
+      "Because the overheat thermostat has been bypassed"
+    ],
+    "correct": 2,
+    "explanation": "Because the limit thermostat is automatically reset, it will cause the heater to cycle on and off every few minutes when an overheat condition occurs.",
+    "source": "S13-6"
+  },
+  {
+    "question": "What is the purpose of the fan switch on a warm air heater?",
+    "answers": [
+      "To increase fan speed automatically as room temperature rises",
+      "To delay the fan from running until the heat exchanger has reached an acceptable temperature, preventing cold air being blown into rooms",
+      "To shut off the gas supply in the event of fan failure",
+      "To switch the heater between summer and winter operating modes"
+    ],
+    "correct": 1,
+    "explanation": "If the fan and gas solenoid valve were both switched on at the same time, the fan would blow air into rooms before the heat exchanger had time to heat up; to avoid this, most units are fitted with a thermally operated switch which delays the fan from running until the heat exchanger has reached an acceptable temperature.",
+    "source": "S13-6"
+  },
+  {
+    "question": "What are the typical fan 'off' and fan 'on' temperature settings, and the resulting differential?",
+    "answers": [
+      "Fan 'off' at about 80°C and fan 'on' at about 95°C, a differential of about 15°C",
+      "Fan 'off' at about 38°C and fan 'on' at about 58°C, a differential of about 20°C",
+      "Fan 'off' at about 60°C and fan 'on' at about 90°C, a differential of about 30°C",
+      "Fan 'off' at about 20°C and fan 'on' at about 40°C, a differential of about 20°C"
+    ],
+    "correct": 1,
+    "explanation": "Most fan switches have two adjustments: fan 'off' at about 38°C and fan 'on' at about 58°C, giving a 'differential' of about 20°C.",
+    "source": "S13-6"
+  },
+  {
+    "question": "Which component, if the heating unit has an integral gas circulator, may also be required?",
+    "answers": [
+      "A circulator flame supervision and ignition device, cylinder thermostat, and circulator solenoid valve",
+      "A debris catchment void",
+      "A toroidal fan and silencer",
+      "A spigot restrictor"
+    ],
+    "correct": 0,
+    "explanation": "If the heating unit has an integral gas circulator there may also be a circulator flame supervision and ignition device, a cylinder thermostat, and a circulator solenoid valve.",
+    "source": "S13-7"
+  },
+  {
+    "question": "Where clearances to combustible material are not specified in the manufacturer's instructions, what minimum clearance from the appliance casing must be maintained?",
+    "answers": [
+      "150mm",
+      "25mm",
+      "300mm",
+      "75mm"
+    ],
+    "correct": 3,
+    "explanation": "Where clearances are not specified in the manufacturer's instructions, there shall be a minimum of 75mm clearance from the appliance casing to any combustible material.",
+    "source": "S13-7"
+  },
+  {
+    "question": "What must be done if appliance clearance to combustible materials inside a compartment cannot be maintained?",
+    "answers": [
+      "The area must be lined with non-combustible materials",
+      "The compartment door must be removed entirely",
+      "The appliance must be replaced with a smaller model",
+      "No action is required if access for servicing is still possible"
+    ],
+    "correct": 0,
+    "explanation": "Appliance clearance to combustible materials inside a compartment should be maintained; if this is not practicable, the area must be lined with non-combustible materials.",
+    "source": "S13-7"
+  },
+  {
+    "question": "Which British Standards govern the open chimney for a warm air heater?",
+    "answers": [
+      "BS 5440 pt1 and BS 5864 2004 section 9.1",
+      "BS 5871-2 only",
+      "BS 5258 Part 4 only",
+      "BS 6891 and BS 715"
+    ],
+    "correct": 0,
+    "explanation": "The open chimney conforms to the current edition of BS 5440 pt1 and BS 5864 2004 section 9.1.",
+    "source": "S13-7"
+  },
+  {
+    "question": "What rise to the first bend is specified by BS 5440 pt1 for a warm air heater chimney?",
+    "answers": [
+      "450mm",
+      "1000mm",
+      "300mm",
+      "600mm"
+    ],
+    "correct": 3,
+    "explanation": "Where the 600mm rise to the first bend as specified by BS 5440 pt1 is not practical to install, reference should be made to the manufacturer's instructions.",
+    "source": "S13-7"
+  },
+  {
+    "question": "What does BS 5440 annex A provide a procedure for, in relation to chimney design?",
+    "answers": [
+      "Sizing the return-air grille for the installation",
+      "Estimating whether a chimney design is likely to clear products of combustion",
+      "Calculating the correct gas rate for the appliance",
+      "Determining the minimum room volume for a flueless appliance"
+    ],
+    "correct": 1,
+    "explanation": "BS 5440 annex A gives a procedure for estimating whether a chimney design is likely to clear products of combustion.",
+    "source": "S13-7"
+  },
+  {
+    "question": "Which standard governs ventilation requirements for a warm air heater, alongside the manufacturer's instructions?",
+    "answers": [
+      "BS 6891",
+      "BS 5258 - 9",
+      "BS 5440 - 2",
+      "BS 5440 - 1"
+    ],
+    "correct": 2,
+    "explanation": "The installation of ventilation for a heater shall be in accordance with the heater manufacturer's instructions and BS 5440 - 2.",
+    "source": "S13-7"
+  },
+  {
+    "question": "Where outside air is introduced by the heater's circulating fan, what minimum flow shall be drawn into the return duct or plenum for every 1kW of net input rating?",
+    "answers": [
+      "2.2m³/h",
+      "5.0m³/h",
+      "1.0m³/h",
+      "0.5m³/h"
+    ],
+    "correct": 0,
+    "explanation": "Where the supply of outside air is to be introduced by the heater's circulating fan, a minimum flow of 2.2m³/h shall be drawn into the return duct or plenum for every 1kW of net input rating.",
+    "source": "S13-8"
+  },
+  {
+    "question": "What provision must be made for adjusting the flow of induced outside air in a fanned ducted air supply arrangement?",
+    "answers": [
+      "No adjustment provision is required",
+      "A lockable damper or similar control",
+      "A motorised valve linked to the room thermostat",
+      "A manually adjustable louvre with no locking mechanism"
+    ],
+    "correct": 1,
+    "explanation": "Provision shall be made for the adjustment of the flow of induced air by means of a lockable damper or a similar control.",
+    "source": "S13-8"
+  },
+  {
+    "question": "What must the air inlet be fitted with, in a fanned ducted air supply arrangement?",
+    "answers": [
+      "A debris deflector",
+      "A spigot restrictor",
+      "A bird guard",
+      "A flame protection device"
+    ],
+    "correct": 2,
+    "explanation": "The air inlet shall be fitted with a bird guard.",
+    "source": "S13-8"
+  },
+  {
+    "question": "If a heater with fanned ducted air supply is installed in a compartment, where should the non-closeable heat outlet grille be located?",
+    "answers": [
+      "Outside the compartment entirely",
+      "On the opposite wall to the air inlet",
+      "In the same space as the air inlet to the compartment",
+      "Directly above the appliance only"
+    ],
+    "correct": 2,
+    "explanation": "If the heater is installed in a compartment, the non-closeable heat outlet grille shall be located in the same space as the air inlet to the compartment.",
+    "source": "S13-8"
+  },
+  {
+    "question": "How shall plenums be fixed, according to the general installation requirements?",
+    "answers": [
+      "Securely by mechanical methods (e.g. screwed or riveted) and sealed with self-adhesive tape proved against the range of operating temperatures",
+      "Using adhesive tape alone, with no mechanical fixing required",
+      "Using only friction-fit joints with no sealing",
+      "Welded directly to the appliance casing"
+    ],
+    "correct": 0,
+    "explanation": "Plenums shall be fixed securely by mechanical methods (e.g. screwed or riveted and sealed with self adhesive tape which is proved against the range of operating temperatures expected during operation of the appliance), and be constructed of non-combustible materials of adequate strength.",
+    "source": "S13-8"
+  },
+  {
+    "question": "What can result from an incorrectly adapted or sealed plenum base?",
+    "answers": [
+      "An improvement in overall system efficiency",
+      "No effect, provided the chimney is correctly sized",
+      "A reduction in noise from the circulating fan",
+      "Combustion problems due to leakage of warm air affecting the burner"
+    ],
+    "correct": 3,
+    "explanation": "An incorrectly adapted or sealed plenum base may cause combustion problems due to leakage of warm air affecting the burner.",
+    "source": "S13-8"
+  },
+  {
+    "question": "What minimum fire resistance should a compartment housing a warm air heater have?",
+    "answers": [
+      "No specific fire resistance is required, provided the door is fire resistant",
+      "Half-hour resistance to an internal fire, with the inner lining non-combustible to BS 476 Class 1 finish",
+      "15 minutes fire resistance, matching the door requirement",
+      "Full one-hour fire resistance throughout"
+    ],
+    "correct": 1,
+    "explanation": "The compartment should have a half-hour resistance to an internal fire, with the inner lining non-combustible to BS 476 Class 1 finish.",
+    "source": "S13-9"
+  },
+  {
+    "question": "How should the compartment door's fire resistance compare to the compartment itself?",
+    "answers": [
+      "The door must be as fire resistant as the compartment",
+      "The door does not need any fire resistance rating",
+      "Fire resistance for the door is only required in buildings of more than two storeys",
+      "The door must exceed the compartment's fire resistance by at least 15 minutes"
+    ],
+    "correct": 0,
+    "explanation": "The door must be as fire resistant as the compartment.",
+    "source": "S13-9"
+  },
+  {
+    "question": "What size guidance is given for a warm air heater compartment, beyond being large enough for access?",
+    "answers": [
+      "There is no upper size limit specified",
+      "It must be the same size as the airing cupboard in the property",
+      "It must be at least 2 cubic metres in volume",
+      "It must not be so large as to be used as a storage cupboard"
+    ],
+    "correct": 3,
+    "explanation": "The compartment must be large enough for access to servicing and operation, but not so large as to be used as a storage cupboard.",
+    "source": "S13-9"
+  },
+  {
+    "question": "What must separate an airing cupboard adapted to house a warm air heater from the airing space?",
+    "answers": [
+      "A glass screen at least 6mm thick",
+      "A combustible timber partition, provided it is varnished",
+      "No partition is required if the heater is room-sealed",
+      "A non-combustible partition"
+    ],
+    "correct": 3,
+    "explanation": "An airing cupboard adapted to house a Warm Air Heater shall be separated from the airing space by a non-combustible partition.",
+    "source": "S13-9"
+  },
+  {
+    "question": "For an open flued heater in an airing cupboard installation, where must the draught diverter be located?",
+    "answers": [
+      "In the airing space",
+      "Outside the cupboard entirely, at roof level",
+      "It can be located in either space, provided it is accessible",
+      "In the appliance space"
+    ],
+    "correct": 3,
+    "explanation": "When the appliance is open flued in an airing cupboard installation, the draught diverter shall be in the appliance space.",
+    "source": "S13-9"
+  },
+  {
+    "question": "Where the airing cupboard partition is formed from perforated material, what is the minimum major dimension of the apertures?",
+    "answers": [
+      "Not less than 25mm",
+      "Not less than 5mm",
+      "Not less than 50mm",
+      "Not less than 13mm"
+    ],
+    "correct": 3,
+    "explanation": "Where the partition is formed from perforated material, the major dimension of the apertures shall not be less than 13mm; if the partition is solid, the appliance space shall be ventilated at high and low levels as a conventional compartment.",
+    "source": "S13-9"
+  },
+  {
+    "question": "Where a secondary flue passes through the airing space, what minimum clearance is required between a single wall chimney pipe and its protective guard?",
+    "answers": [
+      "25mm",
+      "13mm",
+      "100mm",
+      "50mm"
+    ],
+    "correct": 0,
+    "explanation": "Where the secondary flue passes through the airing space, it must be protected by a non-combustible guard around the chimney pipe having a minimum clearance of 25mm between the single wall chimney pipe and guard.",
+    "source": "S13-9"
+  },
+  {
+    "question": "What is the minimum clearance gap required between the chimney pipe (or its guard) and the airing cupboard partition?",
+    "answers": [
+      "Not less than 13mm",
+      "Not less than 25mm",
+      "There is no specified minimum gap",
+      "Not less than 50mm"
+    ],
+    "correct": 0,
+    "explanation": "The clearance gap between the chimney pipe or its guard and the partition shall not be less than 13mm.",
+    "source": "S13-9"
+  },
+  {
+    "question": "Why are no extra precautions necessary for the insulation around a double wall chimney pipe passing through an airing space?",
+    "answers": [
+      "Building regulations exempt airing cupboards from chimney clearance rules",
+      "The insulation provided by a double wall chimney pipe is such that no extra precautions are necessary",
+      "Double wall chimney pipes are always routed externally, avoiding the airing space",
+      "Double wall chimney pipes are never used in airing cupboard installations"
+    ],
+    "correct": 1,
+    "explanation": "The insulation provided by a double wall chimney pipe is such that no extra precautions are necessary.",
+    "source": "S13-9"
+  },
+  {
+    "question": "For an under-stairs warm air heater installation in a two-storey building, what standard must the installation comply with?",
+    "answers": [
+      "Airing cupboard installation requirements only",
+      "Garage installation requirements",
+      "Roof space installation requirements",
+      "'Compartments for Warm Air Heaters' requirements"
+    ],
+    "correct": 3,
+    "explanation": "If the under-stairs installation is in a two storey building, the installation shall comply with 'Compartments for Warm Air Heaters'.",
+    "source": "S13-9"
+  },
+  {
+    "question": "For an under-stairs installation in a building of three or more storeys, what fire resistance must the compartment internal surfaces have, and where must air vents be ducted?",
+    "answers": [
+      "No specific fire resistance requirement, but air vents must be ducted to outside air",
+      "Fire resistance of not less than 60 minutes, with air vents ducted to the protected stairway",
+      "Non-combustible or lined surfaces with a fire resistance of not less than 30 minutes, and air vents must be direct to outside air",
+      "Fire resistance of not less than 15 minutes, with air vents ducted into the hallway"
+    ],
+    "correct": 2,
+    "explanation": "If the installation is in a three or more storey building, the compartment internal surfaces shall be non-combustible, or lined with non-combustible material, having a fire resistance of not less than 30 minutes, and the air vents must be direct to outside air.",
+    "source": "S13-9"
+  },
+  {
+    "question": "What appliances may be installed using the slot-fit method?",
+    "answers": [
+      "Any appliance, provided a compartment is also constructed",
+      "Only appliances specifically designed for slot-fit applications",
+      "Only appliances rated below 14kW",
+      "Any room-sealed appliance, regardless of manufacturer design"
+    ],
+    "correct": 1,
+    "explanation": "Only appliances specifically designed for slot-fit applications shall be installed in this way.",
+    "source": "S13-10"
+  },
+  {
+    "question": "What must be prevented from being obstructed in a slot-fit installation, per the manufacturer's installation instructions?",
+    "answers": [
+      "Only the warm air outlet ducts",
+      "Only the gas isolation valve",
+      "The draught diverter and/or the combustion air inlets and/or the return air inlets",
+      "Only the electrical supply terminals"
+    ],
+    "correct": 2,
+    "explanation": "The manufacturer's installation instructions shall be complied with, including the enclosure of the area directly above the appliance to prevent the draught diverter, combustion air inlets, and/or return air inlets from being obstructed.",
+    "source": "S13-10"
+  },
+  {
+    "question": "What type of warm air appliance shall be installed in bathrooms or shower rooms?",
+    "answers": [
+      "Only flueless appliances",
+      "Any open flued appliance, provided ventilation is adequate",
+      "Any appliance, provided it incorporates a vitiation device",
+      "Only appliances of the room-sealed type"
+    ],
+    "correct": 3,
+    "explanation": "Only appliances of the room-sealed type shall be installed in bathrooms or shower rooms, and installations shall comply with BS 7671.",
+    "source": "S13-10"
+  },
+  {
+    "question": "What input rating threshold determines whether a warm air heater must be room sealed if installed in sleeping accommodation?",
+    "answers": [
+      "More than 28kW",
+      "More than 14kW",
+      "More than 20kW",
+      "More than 7kW"
+    ],
+    "correct": 1,
+    "explanation": "An appliance with an input rating of more than 14kW must not be fitted in a room used, or intended to be used, as sleeping accommodation, unless it is room sealed.",
+    "source": "S13-10"
+  },
+  {
+    "question": "What alternative to being room sealed is permitted for a warm air heater with an input rating of less than 14kW installed in sleeping accommodation?",
+    "answers": [
+      "It is connected to a chimney exceeding 4m in height",
+      "It is fitted with a spigot restrictor of the correct size",
+      "It is fitted with a debris catchment void below the spigot",
+      "It incorporates a safety control to shut down the appliance before there is a build-up of a dangerous quantity of products of combustion in the room"
+    ],
+    "correct": 3,
+    "explanation": "An appliance with an input rating of less than 14kW must not be fitted in sleeping accommodation unless it is room sealed or incorporates a safety control to shut down the appliance before there is a build-up of a dangerous quantity of products of combustion in the room.",
+    "source": "S13-10"
+  },
+  {
+    "question": "What is the preferred option when a warm air heater is to be installed in a garage?",
+    "answers": [
+      "Selecting a room-sealed model",
+      "Selecting a flueless model only",
+      "Selecting an open flued model exclusively",
+      "Installing the heater in an external compartment instead"
+    ],
+    "correct": 0,
+    "explanation": "Where a Warm Air Heater is to be installed in a garage, the preferred option is to select a room-sealed model.",
+    "source": "S13-10"
+  },
+  {
+    "question": "Following the 1994 amendments to the Gas Safety (Installation and Use) Regulations, what became permitted for garage installations?",
+    "answers": [
+      "Room-sealed appliances became prohibited in garages",
+      "It is now prohibited to install any gas appliance in a garage",
+      "Open flued appliances may only be installed in detached garages",
+      "It is now permitted to install open flued appliances in a garage"
+    ],
+    "correct": 3,
+    "explanation": "With the amendments of the Gas Safety (Installation and Use) Regulations 1994, it is now permitted to install open flued appliances in a garage; the manufacturer's instructions should always be checked first to confirm suitability.",
+    "source": "S13-10"
+  },
+  {
+    "question": "What protection must be considered for any integral circulator and its associated pipework in a garage installation?",
+    "answers": [
+      "Protection against excessive heat only",
+      "Protection against freezing and damage",
+      "No specific protection is required in a garage",
+      "Protection against electrical interference only"
+    ],
+    "correct": 1,
+    "explanation": "Any integral circulator and its associated pipework should be protected against freezing and damage.",
+    "source": "S13-10"
+  },
+  {
+    "question": "Where the flooring under and around a roof space warm air heater is of combustible material, what minimum thickness of non-combustible insulating base must be provided?",
+    "answers": [
+      "At least 6mm thickness",
+      "At least 12mm thickness",
+      "At least 50mm thickness",
+      "At least 25mm thickness"
+    ],
+    "correct": 1,
+    "explanation": "Where the flooring is of a combustible material, a non-combustible insulating base of at least 12mm thickness shall be provided under the heater.",
+    "source": "S13-10"
+  },
+  {
+    "question": "Which of the following is the customer's responsibility to provide for a roof space warm air heater installation?",
+    "answers": [
+      "A secondary chimney terminal at ground level",
+      "An annual service contract with the original installer",
+      "Appropriate access to the roof space, guarding of the access opening, and fixed lighting for the appliance installation",
+      "The gas safety certificate for the installation"
+    ],
+    "correct": 2,
+    "explanation": "The customer shall be advised that appropriate access to the roof space and guarding of the access opening must be provided, and fixed lighting for the appliance installation shall be provided, among other responsibilities.",
+    "source": "S13-10"
+  },
+  {
+    "question": "What additional shutdown provision 'should be considered' for a roof space warm air heater installation?",
+    "answers": [
+      "A simple, readily accessible means of shutting down the gas and electrical supplies without entering the roof space",
+      "A remote CCTV camera monitoring the appliance",
+      "An automatic sprinkler system above the appliance",
+      "A secondary fire alarm system wired into the roof space"
+    ],
+    "correct": 0,
+    "explanation": "A simple, readily accessible means of shutting down the gas and electrical supplies to the appliance, without entering the roof space, should be considered, in addition to the normal isolation devices adjacent to the appliance.",
+    "source": "S13-11"
+  },
+  {
+    "question": "Which type of warm air heater is best suited to basement installations?",
+    "answers": [
+      "Only flueless natural convection types",
+      "A Downflow type, as it is the most common in this country",
+      "An Upflow type, although less frequently installed in this country than the downflow heater",
+      "A Horizontal flow type exclusively"
+    ],
+    "correct": 2,
+    "explanation": "An Upflow type of Warm Air Heater is best suited to basement installations, although it is less frequently installed in this country than the downflow heater.",
+    "source": "S13-11"
+  },
+  {
+    "question": "What type of gas must not be used for a warm air heater installed in a basement?",
+    "answers": [
+      "Town gas (1st family gas)",
+      "Gases heavier than air, e.g. LPG",
+      "Natural gas (2nd family gas)",
+      "Any gas, regardless of density"
+    ],
+    "correct": 1,
+    "explanation": "A Warm Air Heater in a basement shall not use gases which are heavier than air, e.g. LPG.",
+    "source": "S13-11"
+  },
+  {
+    "question": "What must be carefully sealed in the return-air system to prevent contamination of the supply air?",
+    "answers": [
+      "The flue terminal, to prevent rainwater ingress",
+      "The return-air system, to prevent vapours or car exhaust products being drawn into the heater",
+      "The plenum box, to prevent dust accumulation only",
+      "The gas connection, to prevent corrosion"
+    ],
+    "correct": 1,
+    "explanation": "Particular care must be taken to seal the return-air system to prevent vapours or car exhaust products being drawn into the heater; products of combustion must never be permitted to escape into a room.",
+    "source": "S13-11"
+  },
+  {
+    "question": "Why should warm air heaters generally not be located in living rooms or bedrooms?",
+    "answers": [
+      "Because these rooms typically lack a suitable return-air path",
+      "Because building regulations specifically prohibit it",
+      "Because of the lower noise level expected in these rooms",
+      "Because these rooms always lack sufficient ventilation"
+    ],
+    "correct": 2,
+    "explanation": "Care must be taken to ensure that the sound level from the heater does not cause annoyance; heaters should not generally be located in living rooms or bedrooms because of the lower noise level expected in these rooms.",
+    "source": "S13-11"
+  },
+  {
+    "question": "From which rooms is an unobstructed return-air path to the heater essential, with which exceptions?",
+    "answers": [
+      "Only from bedrooms and the lounge",
+      "Only from the room containing the collection area",
+      "From all heated rooms, with the exception of kitchens, bathrooms, shower rooms and toilets",
+      "From all rooms in the property, with no exceptions"
+    ],
+    "correct": 2,
+    "explanation": "It is essential to provide a full and unobstructed return-air path to the heater from all heated rooms, with the exception of kitchens, bathrooms, shower rooms and toilets etc.",
+    "source": "S13-11"
+  },
+  {
+    "question": "If a gas fire is present in the collection area used for return-air, what must be checked to ensure the air heater does not affect its performance?",
+    "answers": [
+      "The gas fire must be converted to a room-sealed type",
+      "The gas fire should be fully checked for spillage",
+      "The gas fire must be relocated to a different room entirely",
+      "The gas fire's gas rate must be reduced by 20%"
+    ],
+    "correct": 1,
+    "explanation": "The collection area should not include any other open flued or flueless gas appliance except in the case of a gas fire; in this instance, the gas fire should be fully checked for spillage to ensure that the air heater does not affect performance.",
+    "source": "S13-11"
+  },
+  {
+    "question": "What happens to heater efficiency and fuel bills if return-air filters become clogged with dust or lint?",
+    "answers": [
+      "Efficiency decreases, increasing fuel bills, while the building will not be heated to the required temperature",
+      "The fan switch immediately fails, requiring full replacement",
+      "Efficiency increases temporarily before the limit thermostat shuts the unit down permanently",
+      "There is no measurable effect on efficiency, only on noise levels"
+    ],
+    "correct": 0,
+    "explanation": "Air filters must be kept clean; if they become clogged with dust or lint the heater cannot pass the required volume of air, decreasing efficiency and increasing fuel bills while the building will not be heated to the required temperature.",
+    "source": "S13-12"
+  },
+  {
+    "question": "What can a blocked return air filter cause, in terms of burner operation?",
+    "answers": [
+      "No effect on burner operation, only on warm air output temperature",
+      "Immediate and permanent appliance lockout with no recovery",
+      "Overheating and shutting down by the limit control, creating intermittent operation of the burner",
+      "A permanent increase in burner gas rate"
+    ],
+    "correct": 2,
+    "explanation": "In some cases a blocked return air filter can cause overheating and shutting down by the limit control, creating intermittent operation of the burner.",
+    "source": "S13-12"
+  },
+  {
+    "question": "When working on warm air heaters, what should the warm air system be examined for, regarding return-air?",
+    "answers": [
+      "Whether a sufficient POSITIVE RETURN-AIR PATH exists from heated rooms back to the heater collection area",
+      "Only whether the appliance casing is free from external damage",
+      "Only whether the gas rate matches the data badge",
+      "Only whether the chimney terminal is correctly painted"
+    ],
+    "correct": 0,
+    "explanation": "When working on Warm Air Heaters, the warm air system should be examined to determine whether a sufficient POSITIVE RETURN-AIR PATH exists from heated rooms back to the heater collection area, which will often be the hall or landing.",
+    "source": "S13-12"
+  },
+  {
+    "question": "Is undercutting doors an acceptable method of providing a transfer opening for return-air?",
+    "answers": [
+      "Yes, provided a grille is also fitted at high level",
+      "No, undercutting doors is not acceptable as a suitable transfer opening",
+      "Yes, provided the gap is at least 13mm",
+      "Yes, but only in single storey properties"
+    ],
+    "correct": 1,
+    "explanation": "Undercutting doors is not acceptable as a suitable transfer opening; transfer openings in doors or walls may be fitted with grilles, louvres, or some other form of purpose designed non-closeable opening.",
+    "source": "S13-12"
+  },
+  {
+    "question": "What minimum free area must return-air grilles have, per kW of designated heat input to the room?",
+    "answers": [
+      "50cm² per kW",
+      "88cm² per kW",
+      "132cm² per kW",
+      "100cm² per kW"
+    ],
+    "correct": 1,
+    "explanation": "Return-air grilles shall have a minimum free area of 88cm² per kW of the designated heat input to the room, and be so designed and positioned that accidental blockage is unlikely.",
+    "source": "S13-12"
+  },
+  {
+    "question": "On open flued appliances, how must the return-air grille or grilles be connected to the appliance, to avoid interference with chimney operation?",
+    "answers": [
+      "Connected via a flexible hose to the gas meter",
+      "Left unconnected, provided the room is well ventilated",
+      "Connected only to the plenum box, with no link to the appliance itself",
+      "Connected by ducting directly to the return-air inlet on the appliance"
+    ],
+    "correct": 3,
+    "explanation": "It is essential to ensure that the return-air arrangements avoid interference with the operation of the chimney by the air circulation fan on open flued appliances; the return-air grille, or grilles, shall therefore be connected by ducting directly to the return-air inlet on the appliance.",
+    "source": "S13-12"
+  },
+  {
+    "question": "Under what condition may a room-sealed appliance be installed without a direct air connection between the return-air grille and the appliance?",
+    "answers": [
+      "Room-sealed appliances always require a direct air connection regardless of circumstances",
+      "Providing the path between the return-air grille and the appliance return-air inlet remains unobstructed at all times",
+      "Only if the appliance is installed in a roof space",
+      "Only if the appliance is rated below 7kW"
+    ],
+    "correct": 1,
+    "explanation": "Room sealed appliances may be installed without a direct air connection between the return-air grille and the appliance, providing that the path between the return-air grille and the appliance return-air inlet remains unobstructed at all times.",
+    "source": "S13-12"
+  },
+  {
+    "question": "In buildings of more than two storeys, what is prohibited in any door, wall, floor or ceiling bounding the protected stairway?",
+    "answers": [
+      "Warm air ducts of any kind",
+      "Return-air grilles serving the ground floor only",
+      "Fire-rated access panels",
+      "Transfer openings"
+    ],
+    "correct": 3,
+    "explanation": "In buildings of more than two storeys, transfer openings shall not be provided in any door, wall, floor or ceiling bounding the protected stairway.",
+    "source": "S13-12"
+  },
+  {
+    "question": "In buildings of more than two storeys, at what maximum height above floor level must warm air and return air grilles or registers be positioned?",
+    "answers": [
+      "Not exceeding 600mm",
+      "Not exceeding 300mm",
+      "Not exceeding 450mm",
+      "Not exceeding 900mm"
+    ],
+    "correct": 2,
+    "explanation": "In buildings of more than two storeys, warm air and return air grilles or registers shall be positioned at a height not exceeding 450mm above floor level.",
+    "source": "S13-12"
+  },
+  {
+    "question": "In buildings of more than two storeys, where warm air is ducted into the protected stairway, what must happen to the return-air from that stairway?",
+    "answers": [
+      "It does not require any specific return-air provision",
+      "It may be vented directly to atmosphere at roof level",
+      "It must be discharged into an adjacent habitable room",
+      "It shall be ducted back to the heater"
+    ],
+    "correct": 3,
+    "explanation": "Where a duct is used to convey warm air into the protected stairway through any wall, floor or ceiling bounding the protected stairway, the return-air from the protected stairway shall be ducted back to the heater.",
+    "source": "S13-12"
+  },
+  {
+    "question": "All ducts passing through a wall, floor or ceiling bounding the protected stairway in a building of more than two storeys must have what done at the joints?",
+    "answers": [
+      "All joints between the duct and the protected stairway shall be sealed",
+      "All joints must be fitted with intumescent collars only, with no sealing",
+      "No specific joint treatment is required if the duct is metal",
+      "All joints must be left unsealed to allow for thermal movement"
+    ],
+    "correct": 0,
+    "explanation": "All ducts passing through any wall, floor or ceiling bounding the protected stairway shall be so fitted that all the joints between the duct and the protected stairway are sealed.",
+    "source": "S13-12"
+  },
+  {
+    "question": "What can result from a split or incorrectly sealed return air duct?",
+    "answers": [
+      "An increase in heater efficiency due to additional air bypass",
+      "No measurable effect, provided the chimney is correctly sized",
+      "A reduction in fan noise",
+      "Spillage and circulation of products of combustion"
+    ],
+    "correct": 3,
+    "explanation": "A split or incorrectly sealed return air duct may cause spillage and circulation of products of combustion.",
+    "source": "S13-13"
+  },
+  {
+    "question": "Where flexible return air ducting is used, what installation requirement applies?",
+    "answers": [
+      "It must be at least 3m long to allow for thermal expansion",
+      "It requires no specific support, provided it is flexible",
+      "It must be routed through the protected stairway wherever possible",
+      "It shall be as short as practically possible and supported as per the manufacturer's instructions"
+    ],
+    "correct": 3,
+    "explanation": "Where flexible return air ducting is used, it shall be as short as practically possible and be supported as per the manufacturer's instructions.",
+    "source": "S13-13"
+  },
+  {
+    "question": "Where an existing installation makes it impractical to install return-air ducting in the heater compartment (e.g. older Sugg Halcyon systems), what minimum total free area of return-air grilles per kW of appliance input must be available?",
+    "answers": [
+      "At least 88cm²/kW of appliance input",
+      "At least 132cm²/kW of appliance input",
+      "At least 200cm²/kW of appliance input",
+      "At least 50cm²/kW of appliance input"
+    ],
+    "correct": 1,
+    "explanation": "Where it is impractical to install return-air ducting in the heater compartment, a total free area of return-air grilles from the heated rooms into the compartment of at least 132cm²/kW of appliance input must be available.",
+    "source": "S13-14"
+  },
+  {
+    "question": "If the return-air grille area shortfall to the compartment cannot be made up and other requirements (flueing, ventilation) are not satisfied, what must be invoked?",
+    "answers": [
+      "A full system replacement at the customer's expense",
+      "A 'not to current standards' label only, with no further action",
+      "A temporary warning notice with no other action required",
+      "The Unsafe Situation Procedure"
+    ],
+    "correct": 3,
+    "explanation": "If the installation satisfies the return-air shortfall (made up from outside) and other requirements, it can be considered 'not to current standards' and the customer informed; if not, the Unsafe Situation Procedure must be invoked.",
+    "source": "S13-15"
+  },
+  {
+    "question": "What must tests ensure regarding suction from the circulating air fan, in relation to chimney performance?",
+    "answers": [
+      "That suction from the circulating air fan does not cause spillage of combustion products from the chimney or from any other open flued appliance",
+      "That suction from the fan increases chimney draught beyond normal operating limits",
+      "That the fan motor does not overheat during continuous operation",
+      "That the fan noise level remains below 40dB at 1 metre"
+    ],
+    "correct": 0,
+    "explanation": "Tests must be carried out to ensure that suction from the circulating air fan does not cause spillage of combustion products from the chimney or from any other open flued appliance.",
+    "source": "S13-15"
+  },
+  {
+    "question": "Where the common collection area for return-air is not the hall but, for example, the lounge, what minimum return-air grille area is required from the heated rooms into the collection area?",
+    "answers": [
+      "At least 50cm²/kW of appliance heat input",
+      "At least 132cm²/kW of appliance heat input",
+      "At least 88cm²/kW of appliance heat input",
+      "At least 250cm²/kW of appliance heat input"
+    ],
+    "correct": 1,
+    "explanation": "Where the heater is installed so that the common collection area is not the hall but, for example, the lounge, the total free area of the return air grilles from the heated rooms into the collection area shall be at least 132cm²/kW of appliance heat input.",
+    "source": "S13-15"
+  },
+  {
+    "question": "Where other open flued appliances are installed within the collection area or an adjacent room, what care must be taken regarding the warm air heater's fan?",
+    "answers": [
+      "No special care is needed, provided both appliances are serviced annually",
+      "Care must be taken to ensure the fan does not interfere with the operation of their chimneys, possibly requiring additional ventilation or a larger return-air grille",
+      "The warm air heater fan must be permanently disabled in this scenario",
+      "The other open flued appliances must always be removed before installation"
+    ],
+    "correct": 1,
+    "explanation": "Where other open flued appliances are installed within the collection area or an adjacent room, care must be taken to ensure that the fan does not interfere with the operation of their chimneys; additional permanent ventilation, or an increase in return-air grille size, may be necessary.",
+    "source": "S13-15"
+  },
+  {
+    "question": "What danger is most likely to arise from a cracked heat exchanger?",
+    "answers": [
+      "Air leaks into the combustion chamber, adversely affecting combustion, which combined with spillage could circulate toxic products through the premises",
+      "An immediate explosion of the heat exchanger casing",
+      "A sudden and total loss of warm air output with no other symptoms",
+      "Permanent damage to the return-air filter only"
+    ],
+    "correct": 0,
+    "explanation": "Under certain circumstances a cracked heat exchanger may be dangerous; it is most likely that air leaks into the combustion chamber may adversely affect combustion, which combined with spillage from an open chimney could result in toxic products being circulated through the premises.",
+    "source": "S13-16"
+  },
+  {
+    "question": "If products of combustion leak into the air system through a cracked heat exchanger, at what percentage leakage by volume (with incomplete combustion) might the result be similarly hazardous?",
+    "answers": [
+      "Exceeding 15% by volume",
+      "Exceeding 5% by volume",
+      "Exceeding 1% by volume",
+      "Exceeding 25% by volume"
+    ],
+    "correct": 1,
+    "explanation": "In the less likely case of products of combustion leaking into the air system, the final result may be the same if the leakage exceeds 5% by volume and combustion is incomplete.",
+    "source": "S13-16"
+  },
+  {
+    "question": "What should all heat exchangers be examined for when the appliance is being serviced, and what aid is recommended?",
+    "answers": [
+      "Examined only after the appliance has been running continuously for 24 hours",
+      "Examined only from the outside, using a thermal imaging camera",
+      "Examined only if the customer reports a specific fault",
+      "Examined inside and outside for corrosion or damage when cleaning flueways, with a battery torch recommended as an aid"
+    ],
+    "correct": 3,
+    "explanation": "Because of the possibility of leakage occurring, all heat exchangers should be examined when the appliance is being serviced; examine the heat exchanger inside and outside for corrosion or damage when cleaning flueways, with the use of a battery torch recommended as an aid.",
+    "source": "S13-16"
+  },
+  {
+    "question": "What should be checked about the flame picture before the fan switches on, and what does an erratic flame picture when the fan switches on indicate?",
+    "answers": [
+      "Flame picture checks are not part of the heat exchanger testing procedure",
+      "Flames should be even and burn correctly before the fan switches on; an erratic flame picture once the fan starts indicates a leakage",
+      "An erratic flame picture when the fan switches on indicates a faulty fan switch only",
+      "Flames should be checked only after the fan has run for 10 minutes"
+    ],
+    "correct": 1,
+    "explanation": "Turn on and light the main burner, checking the flames before the fan switches on to ensure they are even and burn correctly; observe the flame picture when the fan switches on, as an erratic flame picture indicates a leakage.",
+    "source": "S13-16"
+  },
+  {
+    "question": "Which of the following is listed as a possible cause of a cracked heat exchanger?",
+    "answers": [
+      "Faulty overheat thermostat, overheating of the heat exchanger, or metal fatigue",
+      "Excessive chimney height beyond 4m",
+      "An undersized closure plate",
+      "A blocked return-air filter only"
+    ],
+    "correct": 0,
+    "explanation": "Possible causes of a cracked heat exchanger are: faulty overheat thermostat, overheating of the heat exchanger, and metal fatigue.",
+    "source": "S13-17"
+  },
+  {
+    "question": "What is the maximum input rating permitted for a replacement Warm Air Heater?",
+    "answers": [
+      "50kW net",
+      "35kW net",
+      "70kW net",
+      "100kW net"
+    ],
+    "correct": 2,
+    "explanation": "The replacement Warm Air Heater shall have an input rating not exceeding 70kW net.",
+    "source": "S13-17"
+  },
+  {
+    "question": "Under what conditions can a replacement Warm Air Heater be sited in the same position as the existing one?",
+    "answers": [
+      "Only if the replacement is from the same manufacturer as the original",
+      "A replacement heater must never be sited in the same position as the existing unit",
+      "Only if the existing heater is less than 10 years old",
+      "Provided the existing gas and electricity supplies and air ducts are in the appropriate position"
+    ],
+    "correct": 3,
+    "explanation": "Any replacement Warm Air Heater shall be sited and installed in accordance with the manufacturer's instructions, in the same position as the existing, provided that the existing gas and electricity supplies and air ducts are in the appropriate position.",
+    "source": "S13-17"
+  },
+  {
+    "question": "When replacing a Warm Air Heater served by an existing SE-duct or U-duct, what should be sought?",
+    "answers": [
+      "Expert advice, with provisions relating to duct loading and adaptation complied with",
+      "Approval from the local fire authority only",
+      "No special action is required beyond a standard appliance swap",
+      "A complete redesign of the duct system regardless of condition"
+    ],
+    "correct": 0,
+    "explanation": "When replacing a Warm Air Heater served by an existing SE-duct or U-duct, provisions laid down relating to duct loading and adaptation of the new unit to the duct shall be complied with, and expert advice should be sought.",
+    "source": "S13-17"
+  },
+  {
+    "question": "When updating a warm air system, how must any blanking plates and joints to existing ducting be fixed?",
+    "answers": [
+      "Using cable ties at minimum 300mm intervals",
+      "Using adhesive tape alone, provided it is heat resistant",
+      "Mechanically; taping alone is not adequate",
+      "Using only a non-setting sealant, with no mechanical fixing"
+    ],
+    "correct": 2,
+    "explanation": "Any blanking plates and joints to existing ducting shall be fixed mechanically; taping alone is not adequate.",
+    "source": "S13-17"
+  },
+  {
+    "question": "What provision must be made for existing open flued appliance installations in compartments that lack a positive return-air ducting arrangement, when updating the system?",
+    "answers": [
+      "Provision for positive return-air by means of ducting shall be made",
+      "A flueless replacement appliance must be used instead",
+      "The compartment must be entirely rebuilt to current standards",
+      "No provision is required if the compartment is well ventilated"
+    ],
+    "correct": 0,
+    "explanation": "Existing open flued appliance installations in compartments which do not incorporate a provision for positive return-air by means of ducting shall have a provision made.",
+    "source": "S13-17"
+  },
+  {
+    "question": "In a building of more than two storeys, when installing a replacement Warm Air Heater into an existing system, is there a requirement to reposition existing warm air registers or return-air grilles to the 450mm maximum height?",
+    "answers": [
+      "Yes, all registers and grilles must be repositioned to 450mm regardless of the existing layout",
+      "Yes, but only the return-air grilles require repositioning, not the warm air registers",
+      "Yes, but only if the replacement appliance has a different input rating than the original",
+      "No, there is no requirement to reposition existing registers or grilles to the maximum height of 450mm, as would be required for a new system"
+    ],
+    "correct": 3,
+    "explanation": "For a building with more than two storeys, when installing a replacement Warm Air Heater into an existing system, there is no requirement to reposition any existing warm air registers or return-air grilles to a maximum height of 450mm above floor level as would be required for the installation of a new system.",
+    "source": "S13-17"
+  },
+  {
+    "question": "Where a water-to-air heat exchanger unit is situated in the same compartment as an open flued central heating boiler, what must be installed?",
+    "answers": [
+      "A secondary chimney terminal dedicated to the heat exchanger unit",
+      "A flueless conversion of the central heating boiler",
+      "A positive return-air duct connecting the return-air grilles with the air inlet to the heat exchanger unit",
+      "A separate gas meter for the heat exchanger unit"
+    ],
+    "correct": 2,
+    "explanation": "Where a water-to-air heat exchanger unit is situated in the same compartment as an open flued central heating boiler, a positive return-air duct shall be installed to connect the return-air grilles with the air inlet to the heat exchanger unit.",
+    "source": "S13-17"
+  },
+  {
+    "question": "Which standard must all new electrical wiring comply with when updating a warm air system?",
+    "answers": [
+      "BS 5258: Part 4",
+      "BS 6891",
+      "BS 5440: Part 1",
+      "BS 7671: 1992 (as amended)"
+    ],
+    "correct": 3,
+    "explanation": "All new electrical wiring shall be in accordance with BS 7671: 1992 (as amended).",
+    "source": "S13-17"
+  },
+  {
+    "question": "As part of preliminary checks for a warm air heater service, what should be checked regarding return-air, from every room with a warm air outlet?",
+    "answers": [
+      "That the return-air path is at least 5 metres long",
+      "That the return-air path includes a sealed damper at every junction",
+      "Return-air paths only need to be checked in properties of more than two storeys",
+      "That there is a RETURN-AIR PATH to the main collection area, from every room with a warm air outlet except the kitchen and bathroom"
+    ],
+    "correct": 3,
+    "explanation": "Preliminary checks include checking that there is a RETURN-AIR PATH, to the main collection area, from every room with Warm Air outlet except the kitchen and bathroom.",
+    "source": "S13-19"
+  },
+  {
+    "question": "As part of preliminary checks for an open flued warm air heater, what connection should be checked between the return-air grille and the appliance?",
+    "answers": [
+      "That the connection passes through the protected stairway",
+      "That there is a POSITIVE connection between the RETURN-AIR GRILLE AND THE APPLIANCE",
+      "That the connection uses flexible ducting exclusively",
+      "That the connection has been disconnected for safety during servicing"
+    ],
+    "correct": 1,
+    "explanation": "Where the appliance is open flued, preliminary checks include checking that there is a POSITIVE connection between the RETURN-AIR GRILLE AND THE APPLIANCE.",
+    "source": "S13-19"
+  },
+  {
+    "question": "On open flued appliances, what check should be carried out using a smoke pellet during servicing?",
+    "answers": [
+      "A tightness test of the gas installation",
+      "A combustion performance test only",
+      "A spillage test only",
+      "A flue flow and continuity check"
+    ],
+    "correct": 3,
+    "explanation": "On open flued appliances, carry out a flue flow and continuity check using a smoke pellet as part of the servicing procedure.",
+    "source": "S13-19"
+  },
+  {
+    "question": "Which component should be washed, cleaned or replaced as part of servicing a warm air heater?",
+    "answers": [
+      "The Return-air filter",
+      "The compensated governor",
+      "The toroidal fan",
+      "The closure plate"
+    ],
+    "correct": 0,
+    "explanation": "As part of the servicing procedure, the Return-air filter should be washed, cleaned or replaced.",
+    "source": "S13-19"
+  },
+  {
+    "question": "What should be checked regarding other appliances as part of the final checks after servicing a warm air heater?",
+    "answers": [
+      "Check the gas meter has been re-calibrated",
+      "Check the fan does not interfere with other open flued appliances",
+      "Check that other appliances in the property have also been serviced",
+      "Check that all radiators in the property are balanced"
+    ],
+    "correct": 1,
+    "explanation": "Final checks include checking that the fan does not interfere with other open flued appliances, alongside checking burner operating pressure, testing the chimney for spillage, and re-checking the flame supervision device.",
+    "source": "S13-20"
+  },
+  {
+    "question": "When is a combustion performance test specifically required during testing of a warm air unit, according to the guide's note?",
+    "answers": [
+      "Where there is no gas meter accessible to measure the heat input of a warm air unit that incorporates an air/gas ratio control and pre-mix burner",
+      "Only on units with an integral hot water circulator",
+      "On every warm air unit, regardless of meter accessibility",
+      "Only on units installed in roof spaces"
+    ],
+    "correct": 0,
+    "explanation": "Where there is no gas meter accessible to measure the heat input of a warm air unit that incorporates an air/gas ratio control and pre-mix burner, then a combustion performance test must be carried out.",
+    "source": "S13-20"
+  },
+  {
+    "question": "What must testing of the warm air unit check, regarding the chimney, in addition to a spillage test if open flued?",
+    "answers": [
+      "Check only the chimney terminal for external damage",
+      "Check only that the chimney has been swept within 12 months",
+      "Check the chimney throughout its entirety is to standards (flue continuity check)",
+      "Check only that the chimney is the correct colour"
+    ],
+    "correct": 2,
+    "explanation": "Testing of the warm air unit must include checking the chimney throughout its entirety is to standards (flue continuity check), and a spillage test if open flued.",
+    "source": "S13-20"
+  },
+  {
+    "question": "When commissioning a warm air heater, what should the delivered air temperature be checked against, and under what register/damper condition?",
+    "answers": [
+      "Against the limit thermostat setting only, with dampers closed",
+      "In accordance with the appliance manufacturer's instructions, checked while all registers and dampers are fully open",
+      "There is no specific check required for delivered air temperature",
+      "Against a fixed value of 95°C, checked with registers half open"
+    ],
+    "correct": 1,
+    "explanation": "After testing the system, the warm air heater should run normally with the delivered air temperature in accordance with the appliance manufacturer's instructions; this shall be checked while all the registers and the dampers are fully open.",
+    "source": "S13-20"
+  },
+  {
+    "question": "Which standard governs spillage testing for a warm air heater where no manufacturer's instructions exist?",
+    "answers": [
+      "BS 5440: Part 1",
+      "BS 6891",
+      "BS 5258: Part 4",
+      "BS 7671"
+    ],
+    "correct": 0,
+    "explanation": "The appliance shall be checked for spillage in accordance with the appliance manufacturer's instructions; where no such instructions exist, the appliance shall be checked for spillage in accordance with BS 5440: Part 1.",
+    "source": "S13-21"
+  },
+  {
+    "question": "What should be done if spillage is detected during commissioning of a warm air heater?",
+    "answers": [
+      "The appliance can be left in operation provided the customer is informed of the spillage",
+      "The appliance should be removed and the appliance, chimney and any ventilation examined, and any faults rectified",
+      "A larger return-air grille should automatically be fitted as the default remedy",
+      "The gas rate should simply be reduced until spillage stops"
+    ],
+    "correct": 1,
+    "explanation": "Where spillage is detected, the appliance should be removed and the appliance, the chimney and any ventilation examined, and any faults rectified.",
+    "source": "S13-21"
+  },
+  {
+    "question": "Following installation of a warm air heater, how must maintenance requirements be communicated to the user?",
+    "answers": [
+      "Only if the user specifically requests written information",
+      "Maintenance requirements are to be given in writing (manufacturer's instructions), alongside a demonstration of correct and safe operation",
+      "Only via a sticker fixed to the appliance casing",
+      "Verbally only, with no written documentation required"
+    ],
+    "correct": 1,
+    "explanation": "Following installation, the user should be provided with a demonstration of correct and safe appliance operation, and requirements about maintenance are to be given in writing (manufacturer's instructions).",
+    "source": "S13-21"
+  },
+  {
+    "question": "What is the purpose of balancing a warm air system?",
+    "answers": [
+      "So that the chimney draught is reduced to a fixed value at every appliance",
+      "So that the return-air filter pressure drop is equalised across all rooms",
+      "So that the gas rate is identical at every register in the property",
+      "So that the quantity of air distributed to the various rooms and spaces complies with the design requirements"
+    ],
+    "correct": 3,
+    "explanation": "Balancing shall be carried out on the system so that the quantity of air distributed to the various rooms and spaces complies with the design requirements.",
+    "source": "S13-21"
+  }
+]

@@ -1,0 +1,974 @@
+[
+  {
+    "question": "Which set of Regulations does Section 11 of the guide deal with?",
+    "answers": [
+      "The Health and Safety at Work Act 1974",
+      "The Building Regulations 2010",
+      "The Gas Safety (Installation and Use) Regulations 1998",
+      "The Gas Safety (Management) Regulations 1996"
+    ],
+    "correct": 2,
+    "explanation": "Section 11 - Legislation deals with the Gas Safety (Installation and Use) Regulations 1998.",
+    "source": "S11-5"
+  },
+  {
+    "question": "On what date did the Gas Safety (Installation and Use) Regulations 1998 come into force?",
+    "answers": [
+      "3rd October 1998",
+      "31st December 1998",
+      "3rd October 1996",
+      "1st January 1999"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 1 states these Regulations may be cited as the Gas Safety (Installation and Use) Regulations 1998 and shall come into force on 3rd October 1998.",
+    "source": "S11-7"
+  },
+  {
+    "question": "According to Regulation 2, what is the definition of an 'emergency control'?",
+    "answers": [
+      "A valve fitted by the transporter at the distribution main only",
+      "A device that automatically shuts off gas when a leak is detected",
+      "Any valve fitted within installation pipework",
+      "A valve for shutting off the supply of gas in an emergency, intended for use by a consumer of gas"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 2 defines 'emergency control' as a valve for shutting off the supply of gas in an emergency, being a valve intended for use by a consumer of gas.",
+    "source": "S11-7"
+  },
+  {
+    "question": "According to Regulation 2, what does 'flue' mean?",
+    "answers": [
+      "A ventilation opening providing combustion air to an appliance",
+      "Any pipe used to convey unburnt gas to a burner",
+      "The combustion chamber of a gas appliance",
+      "A passage for conveying the products of combustion from a gas appliance to the external air, including any part of the passage in a gas appliance duct serving that purpose"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 2 defines 'flue' as a passage for conveying the products of combustion from a gas appliance to the external air, and includes any part of the passage in a gas appliance duct which serves the purpose of a flue.",
+    "source": "S11-7"
+  },
+  {
+    "question": "According to Regulation 2, what is a 'room-sealed appliance'?",
+    "answers": [
+      "An appliance that draws combustion air from the room it is installed in",
+      "An appliance with no flue connection at all",
+      "Any appliance fitted with a balanced flue regardless of air source",
+      "An appliance whose combustion system is sealed from the room it is in, drawing combustion air from a ventilated uninhabited space or directly from outside, and venting products of combustion directly to outside air"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 2 defines a 'room-sealed appliance' as an appliance whose combustion system is sealed from the room in which it is located, which obtains combustion air from a ventilated uninhabited space within the premises or directly from open air outside, and vents the products of combustion directly to open air outside.",
+    "source": "S11-8"
+  },
+  {
+    "question": "According to Regulation 2, who is 'the responsible person' in relation to any premises?",
+    "answers": [
+      "Always the Gas Safe registered engineer who last worked on the installation",
+      "The occupier of the premises, or where there is no occupier or the occupier is away, the owner or any person with authority to take appropriate action regarding any gas fitting",
+      "The local authority's environmental health officer",
+      "Always the landlord, regardless of occupancy"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 2 defines 'the responsible person', in relation to any premises, as the occupier of the premises or, where there is no occupier or the occupier is away, the owner of the premises or any person with authority for the time being to take appropriate action in relation to any gas fitting therein.",
+    "source": "S11-8"
+  },
+  {
+    "question": "According to Regulation 2, what does 'service pipe' mean?",
+    "answers": [
+      "Any pipe between the distribution main and the outlet of the first emergency control downstream from the distribution main",
+      "Any pipe used solely to supply LPG from a storage vessel",
+      "Any pipe between the emergency control and the gas meter",
+      "Any pipe between the meter and the first appliance isolation valve"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 2 defines 'service pipe' as a pipe for distributing gas to premises from a distribution main, being any pipe between the distribution main and the outlet of the first emergency control downstream from the distribution main.",
+    "source": "S11-8"
+  },
+  {
+    "question": "Under Regulation 2, what activities are included in the definition of 'work' in relation to a gas fitting?",
+    "answers": [
+      "Only activities carried out by an employee, not a self-employed person",
+      "Installing, maintaining, servicing, adjusting, disconnecting, repairing, altering, renewing, purging, changing position of, or removing the fitting",
+      "Only the initial installation of a new gas fitting",
+      "Only activities that involve breaking into a gasway"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 2 defines 'work' in relation to a gas fitting as including installing or re-connecting the fitting, maintaining, servicing, permanently adjusting, disconnecting, repairing, altering or renewing the fitting or purging it of air or gas, changing its position if not readily movable, and removing the fitting.",
+    "source": "S11-8"
+  },
+  {
+    "question": "According to Regulation 2, which type of connector is specifically excluded from the definition of 'work'?",
+    "answers": [
+      "The connection or disconnection of a bayonet fitting or other self-sealing connector",
+      "A push-fit connector on flexible appliance hoses",
+      "A soldered joint on a meter boss",
+      "A compression fitting on copper pipework"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 2 notes that the definition of 'work' does not include the connection or disconnection of a bayonet fitting or other self-sealing connector.",
+    "source": "S11-9"
+  },
+  {
+    "question": "Under Regulation 2(4), which of the following premises types is generally exempt from the Regulations (other than for domestic/residential parts)?",
+    "answers": [
+      "Houses of multiple occupancy",
+      "Agricultural premises, factories, mines and quarries",
+      "Domestic dwellings of any kind",
+      "Rented residential flats"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 2(4) excludes certain premises from the Regulations (save for specific regulations), including mines and quarries, factories, agricultural premises, temporary construction installations, premises used for testing gas fittings, and premises used for sewage treatment — except where such premises are used for domestic or residential purposes.",
+    "source": "S11-9"
+  },
+  {
+    "question": "Under Regulation 2(6), in what circumstance does an exemption apply to work on a control device intended primarily for use by a consumer of gas?",
+    "answers": [
+      "Where the work is carried out by the appliance manufacturer only",
+      "Where the work does not involve breaking into a gasway",
+      "Where the appliance is more than 10 years old",
+      "Where the control device has no electrical connection"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 2(6)(c) states the Regulations do not apply to work in relation to a control device on a gas appliance if the device is intended primarily for use by a consumer of gas and the work does not involve breaking into a gasway.",
+    "source": "S11-10"
+  },
+  {
+    "question": "According to Regulation 3(1), who may carry out work in relation to a gas fitting or gas storage vessel?",
+    "answers": [
+      "Any self-employed person without restriction",
+      "Only a person holding a current driving licence",
+      "Any employee of a registered gas business, regardless of training",
+      "Only a person who is competent to do so"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 3(1) states that no person shall carry out any work in relation to a gas fitting or gas storage vessel unless he is competent to do so.",
+    "source": "S11-11"
+  },
+  {
+    "question": "Under Regulation 3(3), an employer must not allow employees to work on gas fittings unless the employer is a member of a class of persons approved by which body?",
+    "answers": [
+      "OFGEM",
+      "The appliance manufacturer",
+      "The Health and Safety Executive (HSE)",
+      "The local authority building control department"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 3(3) requires that no employer shall allow employees to carry out work on a gas fitting or service pipework, and no self-employed person shall carry out such work, unless they are a member of a class of persons approved by the Health and Safety Executive.",
+    "source": "S11-11"
+  },
+  {
+    "question": "Under Regulation 3(4), which two activities are exempt from the requirement to be a member of an HSE-approved class of persons?",
+    "answers": [
+      "Carrying out a tightness test and a combustion analysis",
+      "Replacing a hose or regulator on a portable space heater, and replacing a hose connecting a refillable cylinder to installation pipework",
+      "Servicing a boiler and replacing a flue terminal",
+      "Replacing a thermocouple and replacing a thermostat"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 3(4) exempts the replacement of a hose or regulator on a portable or mobile space heater, and the replacement of a hose connecting a refillable cylinder to installation pipework, from the requirement of paragraph (3).",
+    "source": "S11-11"
+  },
+  {
+    "question": "What does Regulation 3(7) prohibit?",
+    "answers": [
+      "Working on a gas fitting without a permit to work",
+      "Working alone on a gas installation",
+      "Disconnecting a gas fitting without informing the supplier",
+      "Falsely pretending to be a member of a class of persons required to be approved under paragraph (3)"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 3(7) states that no person shall falsely pretend to be a member of a class of persons required to be approved under paragraph (3) above.",
+    "source": "S11-11"
+  },
+  {
+    "question": "What must an employer or self-employed person do under Regulation 4 before requiring gas work to be carried out at a place of work under their control?",
+    "answers": [
+      "Provide the worker with a company-issued gas safety certificate",
+      "Take reasonable steps to ensure the person undertaking the work is, or is employed by, a member of a class approved by the Health and Safety Executive",
+      "Obtain written consent from the local gas transporter",
+      "Notify the Health and Safety Executive in advance of every job"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 4 requires that where an employer or self-employed person requires gas work to be carried out at a place of work under their control, they shall take reasonable steps to ensure the person undertaking that work is, or is employed by, a member of a class of persons approved by the Health and Safety Executive under regulation 3(3).",
+    "source": "S11-11"
+  },
+  {
+    "question": "Under Regulation 5(2), what type of pipe material is prohibited from being installed for the supply of gas in a building (subject to limited exceptions)?",
+    "answers": [
+      "Pipe made of copper",
+      "Pipe made of lead or lead alloy, or non-metallic pipe (with limited exceptions)",
+      "Pipe made of carbon steel",
+      "Pipe made of stainless steel"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 5(2) states no person shall install in a building any pipe or pipe fitting for gas supply which is made of lead or lead alloy, or made of a non-metallic substance, unless specific exceptions apply (such as a pipe to a readily movable flueless appliance, or one protected by a metallic sheath).",
+    "source": "S11-12"
+  },
+  {
+    "question": "Under Regulation 5(1), what general standard must every part of an installed gas fitting meet?",
+    "answers": [
+      "It must be of good construction and sound material, of adequate strength and size to secure safety, and of a type appropriate for the gas used",
+      "It must carry a 10-year manufacturer's warranty",
+      "It must be approved by the Health and Safety Executive individually",
+      "It must be manufactured in the United Kingdom"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 5(1) states that no person shall install a gas fitting unless every part of it is of good construction and sound material, of adequate strength and size to secure safety, and of a type appropriate for the gas with which it is to be used.",
+    "source": "S11-12"
+  },
+  {
+    "question": "Under Regulation 6(2), what must a person do if they need to leave a gas fitting unattended during work?",
+    "answers": [
+      "Ensure every incomplete gasway has been sealed with the appropriate fitting, or that the gas fitting is otherwise safe",
+      "Display a warning notice at the property entrance",
+      "Isolate the electricity supply to the property",
+      "Inform the gas supplier before leaving site"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 6(2) states that no person carrying out work in relation to a gas fitting shall leave the fitting unattended unless every incomplete gasway has been sealed with the appropriate fitting or the gas fitting is otherwise safe.",
+    "source": "S11-12"
+  },
+  {
+    "question": "Under Regulation 6(6), what must a person do immediately after carrying out work that might affect the gas tightness of an installation?",
+    "answers": [
+      "Test the installation for gas tightness at least as far as the nearest valves upstream and downstream",
+      "Notify the local gas transporter within 24 hours",
+      "Carry out a full combustion analysis on every appliance connected",
+      "Replace all disturbed joints with new fittings regardless of condition"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 6(6) requires that where a person carries out work which might affect the gas tightness of the gas installation, he shall immediately thereafter test the installation for gas tightness at least as far as the nearest valves upstream and downstream in the installation.",
+    "source": "S11-12"
+  },
+  {
+    "question": "Under Regulation 6(8), what type of appliance is prohibited from being installed in a cellar or basement?",
+    "answers": [
+      "Any appliance with a flue diameter under 100mm",
+      "A gas storage vessel, or an LPG-fuelled appliance with an automatic ignition device or pilot light",
+      "Any room-sealed appliance",
+      "Any natural gas appliance regardless of type"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 6(8) states no person shall install in a cellar or basement a gas storage vessel, or an appliance fuelled by liquefied petroleum gas which has an automatic ignition device or a pilot light.",
+    "source": "S11-12"
+  },
+  {
+    "question": "Under Regulation 6(10), what is generally prohibited regarding gas consisting wholly or mainly of methane on domestic premises?",
+    "answers": [
+      "Using it for cooking appliances only",
+      "Storing or keeping it on domestic premises",
+      "Connecting it to a flueless space heater",
+      "Supplying it via a primary meter"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 6(10) states no person shall store or keep gas consisting wholly or mainly of methane on domestic premises, though gas present in pipes or in a vehicle's fuel tank is not deemed to be 'stored or kept' for this purpose.",
+    "source": "S11-13"
+  },
+  {
+    "question": "Under Regulation 7(2), what must a person do before installing a gas fitting if foreign matter might block or interfere with its safe operation?",
+    "answers": [
+      "Notify the manufacturer before proceeding",
+      "Install a secondary isolation valve immediately downstream",
+      "Fit a suitable filter or other suitable protection to the gas inlet and any airway in the fitting",
+      "Refuse to install the fitting under any circumstances"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 7(2) states no person shall install a gas fitting if he has reason to suspect foreign matter may block or interfere with its safe operation, unless a suitable filter or other suitable protection has been fitted to the gas inlet and any airway in the fitting.",
+    "source": "S11-13"
+  },
+  {
+    "question": "What does Regulation 8(1) prohibit regarding alterations to premises containing a gas fitting or gas storage vessel?",
+    "answers": [
+      "Any structural alteration to the premises, regardless of effect on the gas fitting",
+      "Making any alteration that would adversely affect the safety of the fitting or vessel in a way that would contravene the Regulations if installed after the alteration",
+      "Changing the colour of any visible gas pipework",
+      "Removing wallpaper or decoration near a gas fitting"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 8(1) states no person shall make any alteration to premises in which a gas fitting or gas storage vessel is fitted, if that alteration would adversely affect the safety of the fitting or vessel in such a manner that it would contravene the Regulations had the fitting been installed after the alteration.",
+    "source": "S11-13"
+  },
+  {
+    "question": "Under Regulation 9(1), what must be provided before gas can be supplied to premises for the first time?",
+    "answers": [
+      "A written risk assessment from the installer",
+      "A carbon monoxide alarm in every habitable room",
+      "An appropriately sited emergency control to which there is adequate access",
+      "A secondary meter for billing purposes"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 9(1) states no person shall for the first time enable gas to be supplied for use in any premises unless there is provided an appropriately sited emergency control to which there is adequate access.",
+    "source": "S11-13"
+  },
+  {
+    "question": "Under Regulation 9(2), how should the key or lever of an emergency control be positioned when the control is open?",
+    "answers": [
+      "Locked in position with a padlock",
+      "Perpendicular to the axis of the pipe",
+      "Pointing vertically upwards at all times",
+      "Parallel to the axis of the pipe in which the control is installed"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 9(2)(b) requires that any key or lever of an emergency control is attached so that it is parallel to the axis of the pipe in which the control is installed when the control is in the open position.",
+    "source": "S11-13"
+  },
+  {
+    "question": "Under Regulation 9(3), when must a suitably worded notice be displayed near an emergency control's operating means?",
+    "answers": [
+      "In every case, regardless of the control's location",
+      "Where the emergency control is not adjacent to a primary meter",
+      "Only where there is more than one primary meter",
+      "Only where the premises are commercial rather than domestic"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 9(3) requires that where a person installs an emergency control which is not adjacent to a primary meter, he shall immediately display on or near the means of operating the control a suitably worded notice indicating the procedure to follow in the event of an escape of gas.",
+    "source": "S11-14"
+  },
+  {
+    "question": "What does Regulation 10 require when it is necessary to prevent danger while carrying out work on a gas fitting?",
+    "answers": [
+      "The use of insulated tools exclusively",
+      "The use of a suitable bond to maintain electrical continuity until the work is completed and permanent continuity has been restored",
+      "The complete isolation of all electrical supplies to the property",
+      "Notification to the local electricity distributor before starting work"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 10 states that in any case where it is necessary to prevent danger, no person shall carry out work in relation to a gas fitting without using a suitable bond to maintain electrical continuity until the work is completed and permanent electrical continuity has been restored.",
+    "source": "S11-14"
+  },
+  {
+    "question": "What is the purpose of a temporary continuity bond when disconnecting and reconnecting pipework?",
+    "answers": [
+      "To maintain electrical continuity between the pipework and reduce the risk of a spark causing ignition",
+      "To improve the gas flow rate through the disturbed section",
+      "To act as a backup mechanical support for the pipework",
+      "To provide a route for excess gas pressure to vent safely"
+    ],
+    "correct": 0,
+    "explanation": "The purpose of the temporary bond is to maintain electrical continuity between the pipework to reduce the risk of a spark causing ignition; work is not considered complete until permanent electrical continuity is restored where necessary.",
+    "source": "S11-14"
+  },
+  {
+    "question": "How should a temporary continuity bond be fitted to pipework, according to the guide?",
+    "answers": [
+      "Using insulating tape wrapped around each pipe end",
+      "Soldered directly to the pipework at both ends",
+      "Using a single crocodile clip at one end only",
+      "With a robust clip or clamp at each end which provides effective electrical contact"
+    ],
+    "correct": 3,
+    "explanation": "The bond should be fitted with a robust clip or clamp at each end which provides effective electrical contact.",
+    "source": "S11-14"
+  },
+  {
+    "question": "Under Regulation 12(1), what factor must be considered when siting a meter in premises?",
+    "answers": [
+      "The distance from the nearest public highway",
+      "The means of escape from those premises in the event of fire must not be adversely affected, so far as reasonably practicable",
+      "The proximity to the customer's electricity meter",
+      "The aesthetic appearance of the meter box"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 12(1) states no person shall install a meter in any premises unless the site is such as to ensure, so far as is reasonably practicable, that the means of escape from those premises in the event of fire is not adversely affected.",
+    "source": "S11-15"
+  },
+  {
+    "question": "Under Regulation 12(4), in what type of position must a meter be installed?",
+    "answers": [
+      "A position adjacent to the property's main electrical consumer unit",
+      "A position at least 2 metres above ground level",
+      "A readily accessible position for inspection and maintenance",
+      "A position fully enclosed and inaccessible to the consumer"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 12(4) states no person shall install a meter except in a readily accessible position for inspection and maintenance.",
+    "source": "S11-15"
+  },
+  {
+    "question": "Under Regulation 13(1), where a meter is housed in a meter box attached to an external wall, where must any gas escaping within the box disperse to?",
+    "answers": [
+      "The external air, and must not be able to enter the premises or any cavity in the wall",
+      "An internal cupboard fitted with a carbon monoxide alarm",
+      "The nearest drain or soil pipe",
+      "A dedicated vent pipe routed to roof level"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 13(1) requires that a meter box or compound attached to or built into an external wall be so constructed and installed that any gas escaping within it cannot enter the premises or any cavity in the wall, and must disperse to the external air.",
+    "source": "S11-15"
+  },
+  {
+    "question": "Under Regulation 13(2), what is prohibited from being knowingly stored in a meter box or meter compound?",
+    "answers": [
+      "Tools belonging to the gas supplier",
+      "Spare gas appliance parts",
+      "Empty LPG cylinders",
+      "Readily combustible materials"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 13(2) states no person shall knowingly store readily combustible materials in any meter box or meter compound.",
+    "source": "S11-15"
+  },
+  {
+    "question": "Under Regulation 14(1)(b), at what inlet pressure to the regulator does an additional automatic means of overpressure protection become required, in case the regulator fails?",
+    "answers": [
+      "75mbar or more",
+      "21mbar or more",
+      "100mbar or more",
+      "37mbar or more"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 14(1)(b) states that where the normal pressure of gas is 75mbar or more at the inlet to the regulator, there must also be adequate automatic means for preventing, should the regulator fail, the downstream gas fittings being subjected to a greater pressure than designed for.",
+    "source": "S11-15"
+  },
+  {
+    "question": "Under Regulation 14(5), what must be done immediately after installing a regulator for controlling gas pressure through a primary meter?",
+    "answers": [
+      "The regulator must be registered with the Health and Safety Executive",
+      "The regulator must be painted yellow for identification",
+      "The regulator must be adequately sealed to prevent its setting from being interfered with without breaking the seal",
+      "The regulator must be tested annually by the manufacturer"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 14(5) requires that where a person installs a regulator for controlling the pressure of gas through a primary meter (or similar), he shall immediately ensure the regulator is adequately sealed so as to prevent its setting from being interfered with without breaking the seal.",
+    "source": "S11-16"
+  },
+  {
+    "question": "Under Regulation 15(2), at what distance from the nearest upstream emergency control does a notice indicating the control's position become required near a relocated meter?",
+    "answers": [
+      "Any distance, regardless of sightline",
+      "More than 1 metre from the nearest upstream emergency control",
+      "More than 2 metres from, or out of sight of, the nearest upstream emergency control",
+      "More than 5 metres from the nearest upstream emergency control"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 15(2) requires that where a meter is installed or relocated more than 2 metres from, or out of sight of, the nearest upstream emergency control, a suitably worded notice indicating the control's position must be prominently displayed on or near the meter.",
+    "source": "S11-16"
+  },
+  {
+    "question": "Under Regulation 16(1), what type of meter is prohibited from being installed as a primary meter through which gas passes to a secondary meter?",
+    "answers": [
+      "A prepayment meter",
+      "A rotary meter",
+      "An ultrasonic meter",
+      "A diaphragm meter"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 16(1) states no person shall install a prepayment meter as a primary meter through which gas passes to a secondary meter.",
+    "source": "S11-16"
+  },
+  {
+    "question": "Under Regulation 17(1), what must be prominently displayed near a primary meter where gas is supplied through it to a secondary meter?",
+    "answers": [
+      "The supplier's customer service contact details",
+      "A copy of the original installation certificate",
+      "A line diagram in permanent form showing the configuration of all meters, installation pipework and emergency controls",
+      "A list of all tenants supplied via that meter"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 17(1) requires that any person supplying gas through a primary meter to a secondary meter shall ensure a line diagram in permanent form is prominently displayed on or near the primary meter and on or near all connected emergency controls, showing the configuration of meters, pipework and emergency controls.",
+    "source": "S11-17"
+  },
+  {
+    "question": "Under Regulation 18(1), what must be considered when installing installation pipework in any position?",
+    "answers": [
+      "Only the distance from the nearest emergency control",
+      "Whether it can be used with safety, having regard to other pipes, supports, drains, sewers, cables, conduits, electrical apparatus and the building structure",
+      "Only whether it complies with the minimum pipe diameter for the appliance served",
+      "Only the material the pipework is constructed from"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 18(1) states no person shall install installation pipework in any position in which it cannot be used with safety, having regard to the position of other pipes, pipe supports, drains, sewers, cables, conduits and electrical apparatus, and to any parts of the building structure which might affect its safe use.",
+    "source": "S11-18"
+  },
+  {
+    "question": "Under Regulation 19(3) and (4), in what specific case is installation pipework permitted within the cavity of a cavity wall (other than passing straight through)?",
+    "answers": [
+      "Pipework connected to a living flame effect gas fire, provided it is as short as reasonably practicable, enclosed in a gas tight sleeve, and sealed at the joint entering the fire",
+      "Pipework supplying any appliance installed within 1 metre of an external wall",
+      "Pipework forming part of a temporary installation during construction work",
+      "Pipework supplying a flueless space heater of any kind"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 19(4) provides an exception to the general cavity wall prohibition for pipework connected to a living flame effect gas fire, provided the pipework in the cavity is as short as reasonably practicable, enclosed in a gas tight sleeve, and sealed at the joint where it enters the fire.",
+    "source": "S11-18"
+  },
+  {
+    "question": "What does Regulation 20 prohibit regarding the installation of installation pipework within a building's structure?",
+    "answers": [
+      "Installing pipework using compression fittings",
+      "Installing any pipework on an external wall",
+      "Installing pipework in a way which would impair the structure of the building or impair the fire resistance of any part of its structure",
+      "Installing pipework that is visible from outside the property"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 20 states no person shall install any installation pipework in a way which would impair the structure of a building or impair the fire resistance of any of its structure.",
+    "source": "S11-19"
+  },
+  {
+    "question": "Under Regulation 21, what must be provided where deposition of liquid or solid matter is likely to occur in installation pipework?",
+    "answers": [
+      "A suitable vessel for the reception of any deposit, fixed in a conspicuous and readily accessible position, with safe means for removal of the deposit",
+      "A warning label fixed to the affected section of pipe",
+      "A secondary filter fitted at the meter outlet only",
+      "An automatic drain valve at every low point"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 21 states no person shall install installation pipework in which deposition of liquid or solid matter is likely to occur unless a suitable vessel for the reception of any deposit is fixed to the pipe in a conspicuous and readily accessible position, with safe means provided for removal of the deposit.",
+    "source": "S11-19"
+  },
+  {
+    "question": "Under Regulation 22(1), what must be done immediately after carrying out work that might affect the gas tightness of installation pipework?",
+    "answers": [
+      "The supplier must be notified within 48 hours",
+      "That part must be adequately tested for gas tightness, examined for compliance, and any necessary protective coating applied to the joints",
+      "A certificate must be issued to the Health and Safety Executive",
+      "The whole installation must be replaced with new pipework"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 22(1) requires that where work might affect the gas tightness of installation pipework, the affected part must immediately be adequately tested to verify gas tightness, examined to verify correct installation, and any necessary protective coating applied to the joints.",
+    "source": "S11-19"
+  },
+  {
+    "question": "Under Regulation 23(1), what must be done with installation pipework that is accessible to inspection, installed outside a dwelling or living accommodation?",
+    "answers": [
+      "It must be fitted with an isolation valve every 5 metres",
+      "It must be painted matt black for fire protection",
+      "It must be boxed in with fire-rated casing",
+      "It must be permanently marked so that it is readily recognised as pipe for conveying gas"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 23(1) requires any person installing, elsewhere than in a dwelling or living accommodation, a part of installation pipework which is accessible to inspection, to permanently mark that part so that it is readily recognised as pipe for conveying gas.",
+    "source": "S11-19"
+  },
+  {
+    "question": "According to Regulation 25, what is the definition of 'operating pressure' in relation to a gas appliance?",
+    "answers": [
+      "The pressure of gas at which the appliance is designed to operate",
+      "The pressure of gas measured at the meter outlet",
+      "The pressure at which the appliance's safety device activates",
+      "The maximum pressure the appliance can withstand without damage"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 25 defines 'operating pressure', in relation to a gas appliance, as the pressure of gas at which it is designed to operate.",
+    "source": "S11-20"
+  },
+  {
+    "question": "Under Regulation 26(2), how must a flued domestic gas appliance be connected to the gas supply system?",
+    "answers": [
+      "By a bayonet fitting for ease of disconnection",
+      "By a push-fit plastic connector",
+      "By any flexible hose approved for LPG use",
+      "Only by a permanently fixed rigid pipe"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 26(2) states no person shall connect a flued domestic gas appliance to the gas supply system except by a permanently fixed rigid pipe.",
+    "source": "S11-20"
+  },
+  {
+    "question": "Under Regulation 26(9), which four matters must an operative examine immediately after performing work on a gas appliance?",
+    "answers": [
+      "The customer's billing tariff, meter reading, and supply pressure only",
+      "The effectiveness of any flue, the supply of combustion air, the operating pressure or heat input (or combustion performance if not practicable), and the appliance's operation for safe functioning",
+      "The appliance's warranty status, serial number, manufacture date and gas rate",
+      "The flue terminal location, the appliance colour, and the room dimensions"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 26(9) requires that after performing work on a gas appliance, the person must immediately examine the effectiveness of any flue, the supply of combustion air, its operating pressure or heat input (or, where not reasonably practicable, its combustion performance), and its operation to ensure safe functioning.",
+    "source": "S11-20"
+  },
+  {
+    "question": "Under Regulation 26(9), what must an operative do if a defect is found after examining a gas appliance following work?",
+    "answers": [
+      "Notify only the Health and Safety Executive",
+      "Take all reasonably practicable steps to forthwith notify the responsible person, and where different, the owner of the premises (or, where neither is practicable, the supplier or transporter)",
+      "Continue with the job and report the defect at the next scheduled visit",
+      "Repair the defect without informing anyone, provided it is minor"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 26(9) requires that on finding a defect, the operative must forthwith take all reasonably practicable steps to notify it to the responsible person and, where different, the owner of the premises, or where neither is reasonably practicable, the supplier of gas (LPG) or the transporter.",
+    "source": "S11-21"
+  },
+  {
+    "question": "Under Regulation 26(10), which two activities are exempt from the post-work examination requirement of Regulation 26(9)?",
+    "answers": [
+      "Any work carried out under a permit to work, and emergency call-outs",
+      "Servicing and breakdown repairs",
+      "Tightness testing and combustion analysis",
+      "The direct disconnection of the gas supply, and purging that does not adversely affect the safety of the appliance, pipe or fitting"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 26(10) states paragraph (9) shall not apply to the direct disconnection of the gas supply of a gas appliance, or to purging that does not adversely affect the safety of that appliance, pipe or fitting.",
+    "source": "S11-21"
+  },
+  {
+    "question": "Under Regulation 27(2), in what manner must a flue pipe not be installed when entering a brick or masonry chimney?",
+    "answers": [
+      "At an angle greater than 45 degrees from vertical",
+      "Using a flexible flue liner of any material",
+      "Within 1 metre of a habitable room window",
+      "In a way that the seal between the flue pipe and chimney cannot be inspected"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 27(2) states no person shall install a flue pipe so that it enters a brick or masonry chimney in such a way that the seal between the flue pipe and the chimney cannot be inspected.",
+    "source": "S11-21"
+  },
+  {
+    "question": "Under Regulation 27(4), what must a power operated flue system safely do if the draught fails?",
+    "answers": [
+      "Prevent the operation of the appliance",
+      "Trigger an audible alarm only, without affecting appliance operation",
+      "Automatically increase fan speed to compensate",
+      "Vent flue gases directly into the room as a fail-safe"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 27(4) states no person shall install a power operated flue system for a gas appliance unless it safely prevents the operation of the appliance if the draught fails.",
+    "source": "S11-21"
+  },
+  {
+    "question": "What does Regulation 28 require regarding the installation position of a gas appliance?",
+    "answers": [
+      "It must be installed at a minimum height of 1 metre above floor level",
+      "It must be installed within 2 metres of an external wall",
+      "It must be installed so that it is readily accessible for operation, inspection and maintenance",
+      "It must be installed with a dedicated electrical isolation switch nearby"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 28 states no person shall install a gas appliance except in such a manner that it is readily accessible for operation, inspection and maintenance.",
+    "source": "S11-21"
+  },
+  {
+    "question": "Under Regulation 29, what must a person who installs a gas appliance leave for the owner or occupier?",
+    "answers": [
+      "A signed declaration of conformity with British Standards",
+      "A copy of the installer's Gas Safe registration certificate",
+      "All instructions provided by the manufacturer accompanying the appliance",
+      "A spare parts catalogue for the appliance"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 29 requires that any person who installs a gas appliance shall leave for the use of the owner or occupier all instructions provided by the manufacturer accompanying the appliance.",
+    "source": "S11-21"
+  },
+  {
+    "question": "Under Regulation 30(1), what type of appliance must be installed in a room used or intended to be used as a bathroom or shower room?",
+    "answers": [
+      "A room-sealed appliance",
+      "Any flueless appliance, provided ventilation is adequate",
+      "No gas appliance may be installed in a bathroom under any circumstances",
+      "Any appliance fitted with an atmosphere sensing device"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 30(1) states no person shall install a gas appliance in a room used or intended to be used as a bathroom or shower room unless it is a room-sealed appliance.",
+    "source": "S11-21"
+  },
+  {
+    "question": "Under Regulation 30(2), above what gross heat input must a gas fire, space heater or water heater be room-sealed if installed in a room used as sleeping accommodation?",
+    "answers": [
+      "More than 14 kilowatt gross heat input",
+      "More than 20 kilowatt gross heat input",
+      "More than 30 kilowatt gross heat input",
+      "More than 7 kilowatt gross heat input"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 30(2) states no person shall install a gas fire, other gas space heater or gas water heater of more than 14 kilowatt gross heat input in a room used or intended for sleeping accommodation, unless it is a room-sealed appliance.",
+    "source": "S11-21"
+  },
+  {
+    "question": "Under Regulation 30(3), what alternative to being room-sealed is permitted for a gas fire, space heater or water heater of 14kW gross or less, or an instantaneous water heater, installed in sleeping accommodation?",
+    "answers": [
+      "It must be supplied via a dedicated, separately metered gas line",
+      "It must be serviced annually with a signed certificate displayed",
+      "It incorporates a safety control designed to shut down the appliance before a dangerous build-up of combustion products in the room",
+      "It must include a carbon monoxide alarm fitted within 1 metre"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 30(3) states that for a gas fire, space heater or water heater of 14kW gross heat input or less, or an instantaneous water heater, installed in sleeping accommodation, it must either be room-sealed or incorporate a safety control designed to shut down the appliance before there is a build-up of a dangerous quantity of combustion products in the room.",
+    "source": "S11-21"
+  },
+  {
+    "question": "Under Regulation 30(4), what additional spaces are treated as part of a room for the purposes of the room-sealed appliance requirements?",
+    "answers": [
+      "A cupboard or compartment within the room, or a cupboard, compartment or space adjacent to it with an air vent into the room",
+      "Only spaces directly above the room in question",
+      "Garages attached to the property",
+      "Only spaces with a floor area greater than 2 square metres"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 30(4) states that references to a room used for sleeping accommodation, bathrooms etc. include a cupboard or compartment within such a room, or a cupboard, compartment or space adjacent to it if there is an air vent from that space into the room.",
+    "source": "S11-22"
+  },
+  {
+    "question": "Under Regulation 31, what is required of installation pipework supporting a suspended gas appliance?",
+    "answers": [
+      "It must be installed at a minimum height of 2.5 metres",
+      "It must use only welded joints with no mechanical fittings",
+      "It must be constructed and installed so as to be capable of safely supporting the weight imposed on it, and the appliance must be designed to be so supported",
+      "It must be fitted with a secondary safety chain regardless of appliance design"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 31 states no person shall install a suspended gas appliance unless the installation pipework to which it is connected is so constructed and installed as to be capable of safely supporting the weight imposed on it, and the appliance is designed to be so supported.",
+    "source": "S11-22"
+  },
+  {
+    "question": "Under Regulation 32(2), what type of flue damper is prohibited from being installed to serve a domestic gas appliance?",
+    "answers": [
+      "A damper fitted with a position indicator",
+      "A manually operated damper",
+      "Any damper fitted to a balanced flue appliance",
+      "An automatic damper interlocked with the gas supply"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 32(2) states no person shall install a manually operated damper to serve a domestic gas appliance.",
+    "source": "S11-22"
+  },
+  {
+    "question": "Under Regulation 32(1), what must an automatic flue damper be interlocked with, and what must happen if it fails when not open?",
+    "answers": [
+      "It must be interlocked with the room thermostat so heating stops if the damper fails",
+      "It must be interlocked with a smoke detector in the same room",
+      "It must be interlocked with the main electrical supply to the property",
+      "It must be interlocked with the gas supply to the burner so that burner operation is prevented if the damper fails when not in the open position"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 32(1)(a) requires that a person installing an automatic damper ensures it is interlocked with the gas supply to the burner so that burner operation is prevented in the event of failure of the damper when not in the open position.",
+    "source": "S11-22"
+  },
+  {
+    "question": "Under Regulation 33(1), what must be verified after installing a gas appliance while gas is being supplied to the premises?",
+    "answers": [
+      "Only that the connection is gas tight",
+      "Only that the appliance has the correct gas rate",
+      "Only that the manufacturer's warranty has been registered",
+      "That the connection is gas tight, the appliance is installed per the Regulations, the operating pressure matches manufacturer recommendations, the manufacturer's instructions have been followed, and all gas safety controls are in proper working order"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 33(1) requires that on installing a gas appliance while gas is supplied to the premises, the installer must immediately test the connection for gas tightness and examine the appliance and associated fittings, flue and ventilation to ascertain that the appliance has been installed per the Regulations, the operating pressure is as the manufacturer recommends, the manufacturer's instructions have been followed, and all gas safety controls are in proper working order.",
+    "source": "S11-22"
+  },
+  {
+    "question": "Under Regulation 33(2), what must be done if adjustments are necessary following appliance testing to ensure compliance?",
+    "answers": [
+      "Notify the Health and Safety Executive before taking any action",
+      "Replace the entire appliance regardless of the nature of the fault",
+      "Leave the appliance connected and report the issue at the next visit",
+      "Either carry out the adjustments, or disconnect the appliance from the gas supply, or seal it off with an appropriate fitting"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 33(2) states that where testing and examination shows adjustments are necessary to ensure compliance, the person must either carry out those adjustments, disconnect the appliance from the gas supply, or seal off the appliance from the gas supply with an appropriate fitting.",
+    "source": "S11-23"
+  },
+  {
+    "question": "Under Regulation 34(1), what must the responsible person not do if they know or suspect a gas appliance cannot be used without constituting a danger?",
+    "answers": [
+      "Continue using the appliance until a scheduled service visit",
+      "Use the appliance, or permit it to be used",
+      "Report the appliance to the manufacturer within 7 days",
+      "Disconnect the appliance themselves without a Gas Safe registered engineer"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 34(1) states the responsible person for any premises shall not use a gas appliance, or permit it to be used, if at any time he knows or has reason to suspect that it cannot be used without constituting a danger to any person.",
+    "source": "S11-22"
+  },
+  {
+    "question": "Under Regulation 34(3), what must a person carrying out work on a gas main or fitting do if they suspect an appliance is dangerous?",
+    "answers": [
+      "Forthwith take all reasonably practicable steps to inform the responsible person and, where different, the owner of the appliance (or, where neither is practicable, the supplier or transporter)",
+      "Report it only to their own employer",
+      "Wait until the next scheduled visit to raise the concern",
+      "Disconnect the appliance immediately without informing anyone"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 34(3) requires that any person carrying out work in relation to a gas main, service pipe, service pipework, gas storage vessel or gas fitting who knows or suspects an appliance is dangerous shall forthwith take all reasonably practicable steps to inform the responsible person and, where different, the owner of the appliance, or where neither is reasonably practicable, the supplier or transporter.",
+    "source": "S11-23"
+  },
+  {
+    "question": "What is the duty placed on every employer or self-employed person under the opening provision of Regulation 35?",
+    "answers": [
+      "To ensure any gas appliance, installation pipework or flue installed at a place of work under their control is maintained in a safe condition to prevent risk of injury",
+      "To maintain a register of all gas appliances owned by the company",
+      "To provide all employees with personal protective equipment for gas work",
+      "To carry out an annual gas safety inspection on all domestic premises they supply"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 35 places a duty on every employer or self-employed person to ensure that any gas appliance, installation pipework or flue installed at any place of work under their control is maintained in a safe condition so as to prevent risk of injury to any person.",
+    "source": "S11-23"
+  },
+  {
+    "question": "Under Regulation 36, within what timeframe of installation must a landlord ensure each relevant appliance and flue is first checked for safety?",
+    "answers": [
+      "Within 6 months of being installed, and annually thereafter",
+      "Within 3 months of being installed, with no further checks required",
+      "Within 28 days of being installed, and every 2 years thereafter",
+      "Within 12 months of being installed, and at intervals of not more than 12 months thereafter"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 36(3)(a) requires a landlord to ensure that each appliance and flue to which the duty extends is checked for safety within 12 months of being installed, and at intervals of not more than 12 months since it was last checked for safety.",
+    "source": "S11-28"
+  },
+  {
+    "question": "Under Regulation 36(3)(c), for how long must a landlord retain the safety check record for a relevant gas fitting or flue?",
+    "answers": [
+      "2 years from the date of the check",
+      "Indefinitely, for the life of the tenancy",
+      "1 year from the date of the check",
+      "5 years from the date of the check"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 36(3)(c) requires a landlord to ensure that a record in respect of any appliance or flue checked is made and retained for a period of 2 years from the date of that check.",
+    "source": "S11-28"
+  },
+  {
+    "question": "Under Regulation 36(6)(a), within how many days of the safety check must a landlord give a copy of the record to each existing tenant?",
+    "answers": [
+      "60 days",
+      "14 days",
+      "28 days",
+      "7 days"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 36(6)(a) requires every landlord to ensure a copy of the record is given to each existing tenant of the premises within 28 days of the date of the check.",
+    "source": "S11-28"
+  },
+  {
+    "question": "Under Regulation 36(6)(b), when must a copy of the last safety check record be given to a new tenant?",
+    "answers": [
+      "Only if the tenant specifically requests it",
+      "Within 12 months of the tenancy starting",
+      "Before that tenant occupies the premises",
+      "Within 28 days of the tenant moving in"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 36(6)(b) requires a copy of the last record made in respect of each appliance or flue to be given to any new tenant before that tenant occupies the premises (with a display exception for very short lets of 28 days or less).",
+    "source": "S11-28"
+  },
+  {
+    "question": "Under Regulation 36(3)(c), which of the following must be included in the landlord's gas safety check record?",
+    "answers": [
+      "Only confirmation that a Gas Safe registered engineer attended",
+      "Only the appliance serial numbers",
+      "The date of the check, the premises address, a description and location of each appliance/flue checked, any defect identified, and the engineer's registration number",
+      "Only the date of the check and the tenant's name"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 36(3)(c) sets out the required contents of the safety check record, including the date checked, premises address, landlord's name and address, description and location of each appliance/flue, any defect identified, remedial action taken, confirmation of compliance with paragraph (9), and the name, signature and registration number of the individual carrying out the check.",
+    "source": "S11-28"
+  },
+  {
+    "question": "Under Regulation 36(9), what must a landlord's safety check examine, at a minimum?",
+    "answers": [
+      "Only the visual condition of the appliance casing",
+      "Only whether the appliance is connected to a room-sealed flue",
+      "The matters referred to in Regulation 26(9) — flue effectiveness, combustion air supply, operating pressure/heat input, and safe operation",
+      "Only the appliance's gas rate"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 36(9) states a safety check carried out under paragraph (3) shall include, but is not limited to, an examination of the matters referred to in sub-paragraphs (a) to (d) of Regulation 26(9) — namely flue effectiveness, combustion air supply, operating pressure/heat input, and safe operation.",
+    "source": "S11-29"
+  },
+  {
+    "question": "Under Regulation 36(11), what restriction applies to a relevant gas fitting in a room used or to be used as sleeping accommodation by a tenant?",
+    "answers": [
+      "A landlord must not fit a relevant gas fitting of a type whose installation would contravene Regulation 30(2) or (3)",
+      "Only appliances rated below 5kW may be installed in a bedroom",
+      "No gas fitting of any kind may be installed in a bedroom",
+      "Only flueless appliances may be installed in a bedroom"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 36(11) requires every landlord to ensure that in any room occupied or to be occupied as sleeping accommodation by a tenant, there is not fitted a relevant gas fitting of a type whose installation would contravene Regulation 30(2) or (3) — i.e. the room-sealed appliance requirements.",
+    "source": "S11-29"
+  },
+  {
+    "question": "Under Regulation 37(1), within how many hours of being informed of a gas escape must the gas supplier act to prevent the gas escaping?",
+    "answers": [
+      "48 hours",
+      "12 hours",
+      "24 hours",
+      "6 hours"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 37(1) states that where gas escapes from a supplier's pipe or from pipework used by a consumer, the supplier shall, within 12 hours of being informed of the escape, prevent the gas escaping, whether by cutting off the supply or otherwise.",
+    "source": "S11-30"
+  },
+  {
+    "question": "Under Regulation 37(2), what must the responsible person do if they know or suspect gas is escaping into their premises?",
+    "answers": [
+      "Contact their landlord only, without taking any direct action",
+      "Open all windows and wait for the smell to clear before taking further action",
+      "Wait for the supplier to attend before doing anything",
+      "Immediately take all reasonable steps to cause the gas supply to be shut off at such place as necessary to prevent further escape"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 37(2) states that if the responsible person knows or suspects gas is escaping into their premises, he shall immediately take all reasonable steps to cause the supply of gas to be shut off at such place as may be necessary to prevent further escape of gas.",
+    "source": "S11-30"
+  },
+  {
+    "question": "Under Regulation 37(4), once an escape of gas has been stopped by shutting off the supply, when may the supply be re-opened?",
+    "answers": [
+      "Not until all necessary steps have been taken to prevent recurrence of the escape (other than in the course of repair)",
+      "After a mandatory 24-hour waiting period",
+      "Only with written authorisation from the Health and Safety Executive",
+      "As soon as the smell of gas has dissipated, regardless of repairs"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 37(4) states that where an escape of gas has been stopped by shutting off the supply, no person shall cause or permit the supply to be re-opened (other than in the course of repair) until all necessary steps have been taken to prevent recurrence of such escape.",
+    "source": "S11-30"
+  },
+  {
+    "question": "Under Regulation 37(8), what is included within the meaning of 'escape of gas' for the purposes of this regulation?",
+    "answers": [
+      "Only the physical leakage of unburnt gas from pipework",
+      "Only escapes that result in an explosion or fire",
+      "Only escapes detected by a gas detection instrument",
+      "An escape or emission of carbon monoxide gas resulting from incomplete combustion of gas in a gas fitting"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 37(8) states that any reference to an escape of gas from a gas fitting includes a reference to an escape or emission of carbon monoxide gas resulting from incomplete combustion of gas in a gas fitting.",
+    "source": "S11-30"
+  },
+  {
+    "question": "Under Regulation 37(5), what defence is available to a gas supplier accused of failing to prevent an escape within 12 hours?",
+    "answers": [
+      "Proving the property was unoccupied at the time",
+      "Proving the escape was caused by a third party contractor",
+      "Proving it was not reasonably practicable to effectually prevent the escape within 12 hours, and that he did so as soon as reasonably practicable",
+      "Proving the consumer had not paid their gas bill"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 37(5) provides that in proceedings for an offence under paragraph (1), it is a defence for the supplier to prove that it was not reasonably practicable for him to effectually prevent the gas from escaping within the 12-hour period, and that he did effectually prevent the escape as soon as reasonably practicable.",
+    "source": "S11-30"
+  },
+  {
+    "question": "In a multi-occupancy installation with an external riser, what role do the valves in individual dwellings serve?",
+    "answers": [
+      "They act as a backup primary meter for the building",
+      "They act as test points for tightness testing only",
+      "They act as emergency controls and meter controls for that dwelling",
+      "They act solely as appliance isolation valves with no emergency function"
+    ],
+    "correct": 2,
+    "explanation": "In the multi-occupancy external riser arrangement shown in Appendix A, valves in individual dwellings act as emergency controls and meter controls for that dwelling.",
+    "source": "S11-31"
+  },
+  {
+    "question": "In a multi-occupancy installation with an internal riser, what additional control is provided for the building, accessible to gas consumers, alongside the meter controls in individual dwellings?",
+    "answers": [
+      "A 'common' emergency control for the building, accessible to gas consumers",
+      "A master shut-off valve accessible only to the gas supplier",
+      "A secondary meter for the whole building",
+      "A communal pressure relief valve"
+    ],
+    "correct": 0,
+    "explanation": "In the multi-occupancy internal riser arrangement in Appendix A, meter controls in individual dwellings also act as additional emergency controls, alongside a 'common' emergency control for the building which is accessible to gas consumers.",
+    "source": "S11-31"
+  },
+  {
+    "question": "In a multi-occupancy installation with remote meters in a multi-storey high rise building, what additional controls are provided in individual dwellings, alongside the meter controls?",
+    "answers": [
+      "A secondary meter in each dwelling",
+      "A dedicated regulator for each individual appliance",
+      "Additional emergency controls in individual dwellings",
+      "A separate primary meter for each floor of the building"
+    ],
+    "correct": 2,
+    "explanation": "In the multi-occupancy remote meters arrangement shown in Appendix A, meter controls accessible to gas consumers also act as emergency controls, with additional emergency controls provided in individual dwellings.",
+    "source": "S11-32"
+  }
+]

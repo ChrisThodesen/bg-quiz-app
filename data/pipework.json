@@ -1,0 +1,830 @@
+[
+  {
+    "question": "Section 6 of the guide covers low pressure gas pipework installation in domestic dwellings, in accordance with which British Standard?",
+    "answers": [
+      "BS 6891:2005",
+      "BS 6400-2",
+      "BS 7671",
+      "BS 5440 Part 2"
+    ],
+    "correct": 0,
+    "explanation": "Section 6 covers installation of low pressure gas pipework for the supply of 2nd family gas from the meter to appliances in domestic dwellings, in accordance with BS 6891:2005.",
+    "source": "S6-5"
+  },
+  {
+    "question": "The design pressure loss between the outlet of the primary meter installation and any appliance inlet shall not exceed:",
+    "answers": [
+      "21 mbar at the design installation flow rate",
+      "2 mbar at the design installation flow rate",
+      "5 mbar at the design installation flow rate",
+      "1 mbar at the design installation flow rate"
+    ],
+    "correct": 3,
+    "explanation": "The design pressure loss between the outlet of the primary meter installation and the point connected on any appliance inlet shall not exceed 1 mbar at the design installation flow rate.",
+    "source": "S6-5"
+  },
+  {
+    "question": "When calculating the effective pipe length for sizing 15-28 mm pipework, the length added for each elbow is:",
+    "answers": [
+      "1.0 m",
+      "0.5 m",
+      "0.7 m",
+      "0.3 m"
+    ],
+    "correct": 1,
+    "explanation": "For sizing purposes, 0.5 m is added to the design pipe length for each elbow and tee, and 0.3 m for every 90° bend, for pipework in the 15-28 mm range.",
+    "source": "S6-5"
+  },
+  {
+    "question": "When calculating effective pipe length for 35 mm pipework, the allowance for each elbow is:",
+    "answers": [
+      "1.5 m",
+      "0.3 m",
+      "1.0 m",
+      "0.5 m"
+    ],
+    "correct": 2,
+    "explanation": "For 35 mm pipework, the allowance is 1.0 m for each elbow and 0.5 m for each 90° bend, larger than the allowance used for 15-28 mm pipe.",
+    "source": "S6-8"
+  },
+  {
+    "question": "Using Discharge Table 1 (copper, 1.0 mbar differential), what is the maximum discharge of 22 mm pipe over a 9 m length?",
+    "answers": [
+      "3.9 m³/h",
+      "8.7 m³/h",
+      "5.8 m³/h",
+      "4.6 m³/h"
+    ],
+    "correct": 3,
+    "explanation": "Table 1 gives a discharge of 4.6 m³/h for 22 mm copper pipe over a 9 m length at a 1.0 mbar pressure differential.",
+    "source": "S6-6"
+  },
+  {
+    "question": "A pipe section is 1.5 m long and must carry 1.5 m³/h with a maximum pressure loss of 1/4 mbar. To use Discharge Table 1 (rated at 1.0 mbar), what equivalent length should be looked up?",
+    "answers": [
+      "1.5 m",
+      "12 m",
+      "6 m",
+      "3 m"
+    ],
+    "correct": 2,
+    "explanation": "Since the table is based on 1.0 mbar, a 1/4 mbar loss over 1.5 m is equivalent to a 1.0 mbar loss over 4 × 1.5 m = 6 m, so the 6 m column is used to size the pipe.",
+    "source": "S6-10"
+  },
+  {
+    "question": "In the worked sizing example, looking up a discharge of 1.5 m³/h over an equivalent 6 m length gives 12 mm = 1.0 m³/h and 15 mm = 1.9 m³/h. Which size should be selected?",
+    "answers": [
+      "12 mm, as it is the smallest size that fits within the duct",
+      "15 mm, as it carries the rate with little pressure loss and allows for future appliances",
+      "22 mm, to give the maximum possible safety margin",
+      "Either size is equally acceptable"
+    ],
+    "correct": 1,
+    "explanation": "12 mm gives slightly less than required (1.0 m³/h vs the 1.5 m³/h needed), so 15 mm is selected as it comfortably carries the rate with little pressure loss and allows for appliances to be added later.",
+    "source": "S6-10"
+  },
+  {
+    "question": "Which materials are explicitly NOT permitted for internal gas installation pipework under Regulation 5?",
+    "answers": [
+      "Plastic and lead pipework",
+      "Rigid stainless steel pipework",
+      "Corrugated stainless steel pipework",
+      "Copper and steel pipework"
+    ],
+    "correct": 0,
+    "explanation": "Plastic and lead pipework should not be used for internal installations within a property; this is covered by the Gas Safety (Installation & Use) Regulations - Regulation 5. Installations are now copper or steel (or corrugated/rigid stainless steel).",
+    "source": "S6-11"
+  },
+  {
+    "question": "Micropoint (leisure point) pipework is unsuitable for supplying which type of appliance, due to its small diameter?",
+    "answers": [
+      "A gas fire",
+      "A leisure appliance such as a barbecue",
+      "A cooker",
+      "A central heating boiler, warm air unit or multipoint water heater"
+    ],
+    "correct": 3,
+    "explanation": "Due to the small diameter pipework used, a micropoint system is not suitable for providing a gas supply to a central heating boiler, warm air unit or multipoint water heater.",
+    "source": "S6-11"
+  },
+  {
+    "question": "On steel tube, medium weight pipe (used for internal gas installations and low pressure water) is identified by a colour band of:",
+    "answers": [
+      "Blue",
+      "Red",
+      "Green",
+      "Yellow"
+    ],
+    "correct": 0,
+    "explanation": "Medium weight steel tube, used for internal gas installations and low pressure water supplies, is identified by a blue colour band. Heavy weight (red) is used for gas service pipes and buried or external gas supplies.",
+    "source": "S6-11"
+  },
+  {
+    "question": "Corrugated stainless steel pipe (trac pipe) is suitable for installation pipework with a maximum working pressure of:",
+    "answers": [
+      "100 mbar",
+      "37 mbar",
+      "21 mbar",
+      "75 mbar"
+    ],
+    "correct": 3,
+    "explanation": "Corrugated stainless steel pipes conform to BS 7838 and are suitable for installation pipework with a maximum working pressure of 75 mbar.",
+    "source": "S6-11"
+  },
+  {
+    "question": "Polyethylene (PE) installation pipework and fittings shall only be used for:",
+    "answers": [
+      "Exterior installation pipework",
+      "Pipework buried beneath foundations",
+      "Pipework run within a cavity wall",
+      "Internal pipework in any domestic dwelling"
+    ],
+    "correct": 0,
+    "explanation": "PE installation pipework and fittings shall only be used for exterior installation pipework, and only above ground to extend underground PE pipe above ground level for entry into a building.",
+    "source": "S6-11"
+  },
+  {
+    "question": "Which of the following is one of the four essential properties a gas pipework joint must have?",
+    "answers": [
+      "Adjustable without tools",
+      "Coloured to match the pipe material",
+      "Completely gas or water tight",
+      "Fitted with an inspection window"
+    ],
+    "correct": 2,
+    "explanation": "Joints between sections of pipe and pipe fittings or appliances must be mechanically strong, completely gas or water tight, free from internal obstruction to flow, and neat and unobtrusive.",
+    "source": "S6-12"
+  },
+  {
+    "question": "Which type of joint is in the category that 'cannot be disconnected and remade', and is seldom used on internal domestic gas installation pipes?",
+    "answers": [
+      "Screwed and flanged joints",
+      "Welded, brazed and chemical solvent joints",
+      "Compression joints and unions",
+      "Capillary soldered joints"
+    ],
+    "correct": 1,
+    "explanation": "Welded joints, brazed joints and chemical solvent joints fall in the category that cannot be disconnected and remade; these are seldom used on internal domestic gas installation pipes.",
+    "source": "S6-13"
+  },
+  {
+    "question": "The British Standard pipe thread used for gas pipework is a 'Whitworth' thread form with an included angle of:",
+    "answers": [
+      "45°",
+      "90°",
+      "55°",
+      "60°"
+    ],
+    "correct": 2,
+    "explanation": "The pipe thread in use for tubes and fittings is the British Standard pipe thread (based on ISO 7/1 1982), a Whitworth thread form with an included angle of 55°.",
+    "source": "S6-13"
+  },
+  {
+    "question": "A taper pipe thread has a taper of 1 in 16, meaning the diameter decreases by:",
+    "answers": [
+      "16 mm in 1 mm length",
+      "1 mm in 16 mm length",
+      "10 mm in 16 mm length",
+      "1 mm in 160 mm length"
+    ],
+    "correct": 1,
+    "explanation": "A taper thread has a taper of 1 in 16, that is, the diameter decreases by 1 mm in 16 mm length.",
+    "source": "S6-13"
+  },
+  {
+    "question": "Which thread designation indicates an external taper thread (letter without subscript)?",
+    "answers": [
+      "Rc",
+      "R",
+      "Rp",
+      "RL"
+    ],
+    "correct": 1,
+    "explanation": "The letter 'R' without a subscript indicates an external taper thread. Rc = internal taper, Rp = internal parallel, RL = external parallel, longscrew.",
+    "source": "S6-13"
+  },
+  {
+    "question": "An R (external taper) pipe thread screwed into an RL (external parallel, longscrew) fitting:",
+    "answers": [
+      "Requires no jointing compound to seal correctly",
+      "Cannot make a satisfactory joint, as a correctly sized male thread may not even enter the fitting",
+      "Makes a perfect joint with all threads fully engaged",
+      "Is the standard combination used on all domestic steel installations"
+    ],
+    "correct": 1,
+    "explanation": "An RL (external longscrew parallel) thread and an Rc fitting (internal taper) cannot make a satisfactory joint - a correctly sized male thread may not even enter the fitting, and manufacturing tolerances mean at most one thread would engage.",
+    "source": "S6-13"
+  },
+  {
+    "question": "After threads have been screwed up hand tight, the wrenching/tightening allowance provided for is approximately:",
+    "answers": [
+      "Half a turn",
+      "No further tightening is required",
+      "1½ turns",
+      "3 turns"
+    ],
+    "correct": 2,
+    "explanation": "After the threads have been screwed up hand tight, a wrenching or tightening allowance of about 1½ turns is provided for, and damage to the fittings will occur if this is exceeded.",
+    "source": "S6-13"
+  },
+  {
+    "question": "Demountable press-fit (push-fit) fittings on copper pipework:",
+    "answers": [
+      "Shall not be used",
+      "Are only suitable for soft copper tubing",
+      "May be reused indefinitely",
+      "Are required on all gas installations"
+    ],
+    "correct": 0,
+    "explanation": "Demountable fittings shall not be used, and pressed joints shall not be used on soft copper tubing. Jointing must follow the manufacturer's instructions using the approved jointing tool.",
+    "source": "S6-14"
+  },
+  {
+    "question": "When applying PTFE tape to a pipe thread on second family gas pipework, the correct method is:",
+    "answers": [
+      "A single wrap with a 50% overlap",
+      "A double wrap with no overlap",
+      "PTFE tape combined with jointing compound for extra security",
+      "Three full wraps around the thread"
+    ],
+    "correct": 0,
+    "explanation": "PTFE tape can be used for sealing pipe threads on second family gas pipework; the pipe thread should have a single wrap with a 50% overlap. Jointing compound should not be used in conjunction with PTFE tape.",
+    "source": "S6-14"
+  },
+  {
+    "question": "Flexible couplings, where the joint is formed by rubber rings, should be fitted with:",
+    "answers": [
+      "A flanged joint at each end",
+      "PTFE tape around the rubber ring",
+      "Metal continuity rings, to ensure no part of the installation is electrically isolated",
+      "An additional union joint for extra security"
+    ],
+    "correct": 2,
+    "explanation": "Flexible couplings allow the pipes partial freedom of movement and should be fitted with metal continuity rings to ensure that no part of the installation is electrically isolated.",
+    "source": "S6-15"
+  },
+  {
+    "question": "Flexible tubes carrying low pressure LPG mixtures, for use with plug-in connectors, are manufactured from neoprene and carry which identifying feature?",
+    "answers": [
+      "A red indicator stripe or band",
+      "A blue indicator stripe or band",
+      "A yellow indicator stripe or band",
+      "No distinguishing marking"
+    ],
+    "correct": 0,
+    "explanation": "Flexible tubes for use with natural gas are manufactured from butyl, while those carrying low pressure LPG mixtures are manufactured from neoprene and carry a red indicator stripe or band.",
+    "source": "S6-15"
+  },
+  {
+    "question": "Before soft soldering a joint on pipework that contains or has contained gas, what must happen to the gas supply to that part of the pipework?",
+    "answers": [
+      "It can remain connected provided a fire extinguisher is on hand",
+      "It must be purged with nitrogen before soldering",
+      "It must be isolated and disconnected, with open ends sealed",
+      "It only needs to be turned off at the appliance"
+    ],
+    "correct": 2,
+    "explanation": "Before any work with a naked flame on pipework that contains or has contained gas, the gas supply to that part of the pipework shall be isolated and disconnected, and the open ends sealed with an appropriate fitting.",
+    "source": "S6-15"
+  },
+  {
+    "question": "When making a soft soldered joint, why must active (self-cleaning) flux not be applied to the inside of capillary fittings?",
+    "answers": [
+      "It reacts dangerously with copper",
+      "It will prevent the solder from melting",
+      "It must only remain active during the heating process",
+      "It is not compatible with a blow lamp"
+    ],
+    "correct": 2,
+    "explanation": "Active (self-cleaning) fluxes used with capillary fittings must only remain active during the heating process, and must therefore not be applied to the inside of fittings.",
+    "source": "S6-15"
+  },
+  {
+    "question": "When jointing trac pipe (corrugated stainless steel), exposed sections of the pipe should be re-wrapped with:",
+    "answers": [
+      "Bituminous paint",
+      "A continuous metal sleeve",
+      "Self-bonding silicone tape, to reduce the possibility of corrosive attack",
+      "PTFE tape"
+    ],
+    "correct": 2,
+    "explanation": "Any exposed stainless steel trac pipe shall be re-wrapped with self-bonding silicone tape to reduce the possibility of later corrosive attack.",
+    "source": "S6-17"
+  },
+  {
+    "question": "The first 600 mm of installation pipework connected to the meter outlet shall be:",
+    "answers": [
+      "Flexible corrugated stainless steel pipe in all cases",
+      "Protected by a sleeve regardless of pipe material",
+      "Securely fixed rigid pipe, unless the meter is securely restrained by a bracket",
+      "No more than 15 mm in diameter"
+    ],
+    "correct": 2,
+    "explanation": "The first 600mm of installation pipework connected to the meter outlet shall be in securely fixed rigid pipe unless the meter is securely restrained, such as by a meter bracket.",
+    "source": "S6-18"
+  },
+  {
+    "question": "An Additional Emergency Control Valve (AECV) shall be fitted to an installation pipe where it enters the building if the meter is sited:",
+    "answers": [
+      "10 m or more away from the building",
+      "6 m or more away from the building",
+      "1 m or more away from the building",
+      "3 m or more away from the building"
+    ],
+    "correct": 1,
+    "explanation": "An AECV shall be fitted to an installation pipe where it enters the building if the meter is sited 6 m or more away from the building. An AECV is also required inside flats served by a remote/communal meter installation.",
+    "source": "S6-18"
+  },
+  {
+    "question": "Pipework under floors or in shafts, channels, ducts or voids without a removable cover is considered to be:",
+    "answers": [
+      "Outside the scope of the regulations",
+      "Inaccessible, so compression/mechanical fittings should not be used",
+      "Accessible, provided a torch is available",
+      "Suitable only for screwed joints"
+    ],
+    "correct": 1,
+    "explanation": "Pipework under floors or in shafts, channels, ducts or voids where there is no removable cover is considered to be inaccessible, and when pipework is not readily accessible, compression / mechanical fittings should not be used.",
+    "source": "S6-18"
+  },
+  {
+    "question": "Protection applied to pipework against corrosion (e.g. embedded in a solid floor or wall) should extend how far beyond the surface of the material likely to cause corrosion?",
+    "answers": [
+      "At least 25 mm",
+      "At least 100 mm",
+      "At least 10 mm",
+      "At least 50 mm"
+    ],
+    "correct": 0,
+    "explanation": "Any protection applied should extend at least 25mm beyond the surface of the material likely to cause corrosion.",
+    "source": "S6-19"
+  },
+  {
+    "question": "When wrapping bends and joints with plastic tape for additional corrosion protection, what overlap is required?",
+    "answers": [
+      "75%",
+      "No overlap is necessary",
+      "50%, to provide a layer of double thickness",
+      "10%"
+    ],
+    "correct": 2,
+    "explanation": "Bends and joints shall be further protected by wrapping with a suitable plastic tape, with an overlap of 50% required to provide a layer of double thickness.",
+    "source": "S6-19"
+  },
+  {
+    "question": "Where pipes are laid across solid timber joists fitted with flooring, notches shall not be made in joists of less than:",
+    "answers": [
+      "200 mm depth",
+      "100 mm depth",
+      "150 mm depth",
+      "50 mm depth"
+    ],
+    "correct": 1,
+    "explanation": "Notches shall not be made in joists of less than 100mm depth.",
+    "source": "S6-20"
+  },
+  {
+    "question": "The depth of a notch cut for pipework in a timber joist shall not exceed what proportion of the joist depth?",
+    "answers": [
+      "0.5 (1/2)",
+      "0.125 (approximately 1/8)",
+      "0.07",
+      "0.25 (1/4)"
+    ],
+    "correct": 1,
+    "explanation": "The depth of any notch shall be sufficient to accommodate the pipe or fittings, but shall not exceed 0.125 (approximately 1/8) of the joist depth.",
+    "source": "S6-20"
+  },
+  {
+    "question": "A notch for pipework in a timber joist shall be located no further than 0.25 of the span from an end support, and no nearer than:",
+    "answers": [
+      "0.15 of the length of the span",
+      "0.01 of the length of the span",
+      "0.07 of the length of the span",
+      "0.5 of the length of the span"
+    ],
+    "correct": 2,
+    "explanation": "The notch shall be located not further than 0.25 Length (1/4) and no nearer than 0.07 Length of the span from an end support.",
+    "source": "S6-20"
+  },
+  {
+    "question": "Installation pipework buried in ground floor concrete screeds shall have a minimum cover of:",
+    "answers": [
+      "10 mm",
+      "25 mm",
+      "50 mm",
+      "100 mm"
+    ],
+    "correct": 1,
+    "explanation": "Installation pipework buried in ground floor concrete screeds shall have a minimum of 25mm cover.",
+    "source": "S6-21"
+  },
+  {
+    "question": "Installation pipework shall not be buried in:",
+    "answers": [
+      "Concrete slabs",
+      "Solid floors, under any circumstances",
+      "Suspended timber floors",
+      "Concrete screeds, provided it is protected"
+    ],
+    "correct": 0,
+    "explanation": "Installation pipework shall not be buried in concrete slabs. It may be buried in ground floor concrete screeds provided it has a minimum of 25mm cover and is properly protected.",
+    "source": "S6-21"
+  },
+  {
+    "question": "Where pipework is buried in a solid floor and protected with a soft, non-permeable covering material, the covering should be at least:",
+    "answers": [
+      "5 mm thick and resistant to concrete ingress",
+      "25 mm thick",
+      "1 mm thick",
+      "50 mm thick"
+    ],
+    "correct": 0,
+    "explanation": "The coverings should be soft and thick enough to provide movement yet resilient enough to support the concrete cover while setting; it should be at least 5mm thick and resistant to concrete ingress.",
+    "source": "S6-21"
+  },
+  {
+    "question": "Installation pipework shall not be placed within the cavity of a cavity wall, EXCEPT for the exception permitted under Gas Safety Regulation 19 for:",
+    "answers": [
+      "The final connection of fan flue inset gas fires, contained in a gas tight sleeve",
+      "Pipework supplying a central heating boiler",
+      "Any pipe shorter than 1 m in length",
+      "Pipework supplying an external barbecue point"
+    ],
+    "correct": 0,
+    "explanation": "Installation pipework shall not be placed within a cavity wall, except that Regulation 19 allows gas pipes to be run in cavity walls to allow the final connection of fan flue inset gas fires, as long as the pipe is contained in a gas tight sleeve and sealed where it enters the fire.",
+    "source": "S6-22"
+  },
+  {
+    "question": "When pipework is installed within a wall of timber frame construction, fixings such as plasterboard screws or shot-fired nails must not penetrate the pipe. This can be achieved by installing the pipe more than how far from the front face of the plasterboard?",
+    "answers": [
+      "25 mm",
+      "100 mm",
+      "10 mm",
+      "50 mm"
+    ],
+    "correct": 3,
+    "explanation": "Any fixings shall not penetrate the pipework; this can be achieved by ensuring the pipe is installed more than 50mm from the front face of the plasterboard, or by using a protective plate in front of the gas pipe.",
+    "source": "S6-22"
+  },
+  {
+    "question": "In a five storey timber frame building, the downward movement (shrinkage) of the internal timber frame relative to the outer brick wall could be as much as:",
+    "answers": [
+      "150 mm",
+      "50 mm",
+      "10 mm",
+      "100 mm"
+    ],
+    "correct": 1,
+    "explanation": "Most timber frame buildings dry out and shrink, mainly in the vertical plane; the downward movement could be as much as 50mm in a five storey timber frame building, and provision must be made for this when pipework crosses the cavity.",
+    "source": "S6-22"
+  },
+  {
+    "question": "Where a pipe passes through a hole in a steel stud, joist, head or base rail in a light steel frame building, what should be used to avoid contact between the pipe and the steel surface?",
+    "answers": [
+      "A flexible coupling",
+      "Bituminous paint only",
+      "A union joint",
+      "A proprietary grommet"
+    ],
+    "correct": 3,
+    "explanation": "When a pipe passes through a hole in a steel stud, joist, head or base rail, a proprietary grommet should be used to avoid contact between the pipe and the steel surface.",
+    "source": "S6-24"
+  },
+  {
+    "question": "According to Table 1, what is the maximum vertical support interval for copper pipe up to 15 mm?",
+    "answers": [
+      "1.5 m",
+      "2.0 m",
+      "2.5 m",
+      "3.0 m"
+    ],
+    "correct": 1,
+    "explanation": "Table 1 gives a maximum vertical run support interval of 2.0 m for copper (and corrugated stainless steel) pipe up to 15 mm; the horizontal interval for the same size is 1.5 m.",
+    "source": "S6-25"
+  },
+  {
+    "question": "According to Table 1, what is the maximum vertical support interval for steel pipe DN 20 (R¾)?",
+    "answers": [
+      "3.0 m",
+      "2.5 m",
+      "2.0 m",
+      "3.5 m"
+    ],
+    "correct": 0,
+    "explanation": "Table 1 gives a maximum vertical run support interval of 3.0 m for DN 20 (R¾) steel pipe; the horizontal interval for the same size is 2.5 m.",
+    "source": "S6-25"
+  },
+  {
+    "question": "What is a recognised cause of corrosion ('pin holes') on a pliable corrugated stainless steel meter connection?",
+    "answers": [
+      "Operating at a working pressure above 21 mbar",
+      "Normal thermal expansion of the pipe",
+      "Solder flux residue dripping onto the connection and solidifying in the corrugations",
+      "Exposure to natural daylight"
+    ],
+    "correct": 2,
+    "explanation": "Flux residue allowed to drip onto a pliable meter connection solidifies in the corrugations and reacts with the stainless steel, causing corrosion in the form of 'pin holes', which can occur within a very short period of time.",
+    "source": "S6-25"
+  },
+  {
+    "question": "Leak detection fluids (LDFs) containing more than 30 parts per million of halogens shall not be used on:",
+    "answers": [
+      "Any component, without exception",
+      "Brass components only",
+      "Stainless steel components",
+      "Copper components"
+    ],
+    "correct": 2,
+    "explanation": "LDFs containing more than 30 parts per million of halogens shall not be used on stainless steel components; LDFs containing ammonia shall not be used on copper or brass components.",
+    "source": "S6-27"
+  },
+  {
+    "question": "Washing-up liquid or similar detergent-based products should not be used for leak detection because:",
+    "answers": [
+      "They can have corrosive effects on corrugated stainless steel",
+      "They evaporate too quickly to show a leak",
+      "They are too expensive compared with proprietary LDF",
+      "They react with copper pipework only"
+    ],
+    "correct": 0,
+    "explanation": "Many commercially available washing-up liquids contain substances that are potentially corrosive to corrugated stainless steel; only proprietary leak detection fluids should be used.",
+    "source": "S6-25"
+  },
+  {
+    "question": "Where a pipe sleeve passes through an outside exterior wall, the seal between the pipe and the sleeve shall be located:",
+    "answers": [
+      "At the mid-point of the wall thickness",
+      "On the outside of the wall",
+      "On the inside of the wall",
+      "At both the inside and outside simultaneously"
+    ],
+    "correct": 2,
+    "explanation": "The annular space between the pipe and the sleeve shall be sealed at one end to the pipe with flexible fire resistant compound; where the pipe passes through an outside exterior wall, the seal shall be on the inside of the wall.",
+    "source": "S6-27"
+  },
+  {
+    "question": "A duct (purpose designed enclosure for gas pipes) is normally defined as having a cross-sectional area greater than 0.01 m² and a volume greater than:",
+    "answers": [
+      "0.5 m³",
+      "0.01 m³",
+      "1.0 m³",
+      "0.1 m³"
+    ],
+    "correct": 3,
+    "explanation": "A duct is a purpose designed enclosure normally having a cross-sectional area greater than 0.01 m² and a volume greater than 0.1 m³. Ducts under this size are considered adequately ventilated by adventitious means.",
+    "source": "S6-28"
+  },
+  {
+    "question": "According to Table 2 (free area of ventilation openings), what minimum free area is required for a duct with a cross-sectional area between 0.05 m² and 7.5 m²?",
+    "answers": [
+      "No ventilation is required",
+      "0.05 m²",
+      "1/150 of the cross-sectional area",
+      "Equal to the cross-sectional area of the duct"
+    ],
+    "correct": 1,
+    "explanation": "Table 2 specifies a minimum free area of 0.05 m² for each opening where the duct cross-sectional area is between 0.05 m² and 7.5 m².",
+    "source": "S6-28"
+  },
+  {
+    "question": "For buildings of up to 3 storeys, the minimum period of fire resistance required for a duct containing gas pipework is:",
+    "answers": [
+      "120 minutes",
+      "30 minutes",
+      "15 minutes",
+      "60 minutes"
+    ],
+    "correct": 1,
+    "explanation": "For buildings of up to 3 storeys, the minimum period of fire resistance for the duct shall be 30 minutes.",
+    "source": "S6-29"
+  },
+  {
+    "question": "Gas installation pipes in buildings containing maisonettes or flats shall be fire-stopped as they pass from one floor to another, UNLESS:",
+    "answers": [
+      "They are fitted in their own continuous duct, ventilated to outside air at high and low level",
+      "An AECV has been fitted on each floor",
+      "The building has fewer than 3 storeys",
+      "They are made of copper rather than steel"
+    ],
+    "correct": 0,
+    "explanation": "Gas installation pipes shall be fire-stopped as they pass from floor to floor unless fitted in their own continuous duct, ventilated to outside air at high and low level - in which case they need only be fire-stopped at the point of entry into the dwelling.",
+    "source": "S6-31"
+  },
+  {
+    "question": "Where installation pipework passes through a protected shaft, mechanical ventilation:",
+    "answers": [
+      "Shall not be used to achieve the required ventilation levels",
+      "May replace fire-stopping requirements",
+      "Is required at high level only",
+      "Is the preferred method of ventilating the shaft"
+    ],
+    "correct": 0,
+    "explanation": "Where installation pipework is installed in a protected shaft, mechanical ventilation shall not be used to achieve the required ventilation levels; the shaft must be ventilated at high and low level directly to outside air.",
+    "source": "S6-31"
+  },
+  {
+    "question": "Pipework installed in a protected shaft must use which of the following materials/methods?",
+    "answers": [
+      "Flanged joints exclusively",
+      "Push-fit fittings throughout",
+      "Plastic pipework with welded joints",
+      "Screwed or welded steel pipe, or a continuous length of copper with no joints"
+    ],
+    "correct": 3,
+    "explanation": "Pipework in a protected shaft shall use screwed or welded steel pipe and joints, or a continuous length of copper (no joints), or a continuous length of pliable corrugated stainless steel tubing meeting BS EN 1775:2007 fire test A.",
+    "source": "S6-31"
+  },
+  {
+    "question": "Buried gas pipework in open soil, lawns or gravel paths (no vehicular traffic) shall have a minimum cover of:",
+    "answers": [
+      "1100 mm",
+      "600 mm",
+      "375 mm",
+      "450 mm"
+    ],
+    "correct": 2,
+    "explanation": "Buried pipework in open soil, lawns or gravel paths, or below vehicle or traffic areas, shall have at least 375mm cover.",
+    "source": "S6-34"
+  },
+  {
+    "question": "Buried gas pipework in fields or agricultural land requires a minimum cover of:",
+    "answers": [
+      "1100 mm",
+      "375 mm",
+      "600 mm",
+      "450 mm"
+    ],
+    "correct": 0,
+    "explanation": "Pipework buried in fields or agricultural land requires a minimum cover of 1100 mm.",
+    "source": "S6-34"
+  },
+  {
+    "question": "Where there is only pedestrian traffic over slabs or concrete, the minimum cover for buried pipework is at least:",
+    "answers": [
+      "40 mm",
+      "10 mm",
+      "375 mm",
+      "100 mm"
+    ],
+    "correct": 0,
+    "explanation": "Where there is only pedestrian traffic, on slabs, concrete etc., then at least 40mm cover is required.",
+    "source": "S6-34"
+  },
+  {
+    "question": "Marker tape for buried gas pipework should be laid in the backfill material at what height above the pipe?",
+    "answers": [
+      "Between 100 mm and 300 mm above the pipe",
+      "At ground level only",
+      "Directly on top of the pipe",
+      "Between 500 mm and 600 mm above the pipe"
+    ],
+    "correct": 0,
+    "explanation": "Marker tape shall be laid in the backfill material between 100mm and 300mm above the pipe to minimise the risk of future mechanical damage.",
+    "source": "S6-35"
+  },
+  {
+    "question": "Corrugated stainless steel semi-rigid pipe and compression fittings:",
+    "answers": [
+      "Are only suitable for buried use, not above ground",
+      "Shall not be buried outside",
+      "Are the preferred choice for all buried exterior pipework",
+      "May be buried provided marker tape is used"
+    ],
+    "correct": 1,
+    "explanation": "Corrugated stainless steel semi-rigid pipe and compression fittings shall not be buried outside.",
+    "source": "S6-34"
+  },
+  {
+    "question": "The Meter Inlet Valve (MIV) shall not be fitted with a handle, so that it:",
+    "answers": [
+      "Cannot be readily operated by the consumer",
+      "Is tamper-proof against the gas transporter",
+      "Cannot be operated by the emergency services",
+      "Cannot be opened during commissioning"
+    ],
+    "correct": 0,
+    "explanation": "The MIV shall not be fitted with a handle so that it cannot be readily operated by the consumer.",
+    "source": "S6-35"
+  },
+  {
+    "question": "Installation pipework should be installed at least how far away from electricity meters and associated fuse boxes?",
+    "answers": [
+      "25 mm",
+      "50 mm",
+      "150 mm",
+      "300 mm"
+    ],
+    "correct": 2,
+    "explanation": "Installation pipework should be installed at least 150mm away from electricity meters and associated excess current control boxes or fuse boxes, and at least 25mm away from electrical supply and distribution cables and other metal piped services.",
+    "source": "S6-36"
+  },
+  {
+    "question": "Main equipotential bonding (MEB) of the gas installation pipework should be fitted on the outlet side of the primary meter:",
+    "answers": [
+      "As close as practicable to the meter, before any branch in the pipework",
+      "On the inlet side of the meter",
+      "At the furthest point from the meter, near the last appliance",
+      "Only at the point where the pipe enters the property"
+    ],
+    "correct": 0,
+    "explanation": "MEB shall be fitted to the pipe on the outlet side of the primary gas meter, as close as practicable to the meter before any branch in the pipework.",
+    "source": "S6-36"
+  },
+  {
+    "question": "The main equipotential bonding cable should have a minimum cross-sectional area of:",
+    "answers": [
+      "6 mm²",
+      "25 mm²",
+      "1.5 mm²",
+      "10 mm²"
+    ],
+    "correct": 3,
+    "explanation": "The bond should have a conductor of at least 10mm², with green and yellow insulation conforming to BS 6004.",
+    "source": "S6-36"
+  },
+  {
+    "question": "For an internal meter, the main equipotential bonding connection should be located within:",
+    "answers": [
+      "600 mm of the meter outlet",
+      "300 mm of the meter outlet",
+      "150 mm of the meter outlet",
+      "1 m of the meter outlet"
+    ],
+    "correct": 0,
+    "explanation": "For internal meters, the bonding connection should be within 600mm of the meter outlet.",
+    "source": "S6-36"
+  },
+  {
+    "question": "When breaking a joint or cutting pipework, a temporary continuity bond is fitted to prevent a spark or electric shock. This bond should be at least how long?",
+    "answers": [
+      "2.0 m",
+      "0.3 m",
+      "1.2 m",
+      "0.6 m"
+    ],
+    "correct": 2,
+    "explanation": "Under Regulation 18, a temporary continuity bond shall be made between the pipework on each side of the break. This bond should be at least 1.2m in length of single core insulated flexible cable or equivalent of at least 250V rating.",
+    "source": "S6-37"
+  },
+  {
+    "question": "A temporary continuity bond should have a cross-sectional area of not less than:",
+    "answers": [
+      "6 mm²",
+      "25 mm²",
+      "10 mm²",
+      "1.5 mm²"
+    ],
+    "correct": 2,
+    "explanation": "The temporary continuity bond cable should have a cross sectional area of not less than 10mm² and multi-strand flexible construction, with a robust clip or clamp securely attached at each end.",
+    "source": "S6-37"
+  },
+  {
+    "question": "When using a non-contact voltage detector before breaking a pipework joint, its purpose is to:",
+    "answers": [
+      "Ensure there is no stray electrical current on the pipework",
+      "Prove the pipework is electrically dead or isolated",
+      "Confirm the gas supply has been disconnected",
+      "Test the integrity of the tightness test"
+    ],
+    "correct": 0,
+    "explanation": "A non-contact voltage detector is used to ensure there is no stray electrical current on the pipework; this is not for proving that equipment is electrically 'dead' or isolated.",
+    "source": "S6-37"
+  },
+  {
+    "question": "In premises other than a domestic dwelling (e.g. offices and shops), a person installing pipework shall permanently mark the pipe with tape marked:",
+    "answers": [
+      "\"DO NOT REMOVE\"",
+      "\"GAS\"",
+      "\"DANGER\"",
+      "\"FLAMMABLE\""
+    ],
+    "correct": 1,
+    "explanation": "Any person installing installation pipework in premises other than a domestic dwelling shall permanently mark the pipe to show it is part of a pipe conveying gas, using tape marked \"GAS\".",
+    "source": "S6-38"
+  },
+  {
+    "question": "According to Table 3 (pipe content identification colours), gas pipework is identified by which basic colour?",
+    "answers": [
+      "Green",
+      "Silver-Grey",
+      "Yellow-Ochre",
+      "Light Blue"
+    ],
+    "correct": 2,
+    "explanation": "Table 3 identifies gas as Yellow-Ochre (BS ID No. 08C35). Water is Green, Steam is Silver-Grey, and Air is Light Blue.",
+    "source": "S6-38"
+  },
+  {
+    "question": "In a large premises with two or more floors supplied with gas, a line diagram showing pipes, meters and emergency controls must be attached to the building:",
+    "answers": [
+      "In a permanent form, as near as practicable to the primary meter",
+      "Inside each individual flat only",
+      "At the building's main entrance only",
+      "There is no requirement for a diagram"
+    ],
+    "correct": 0,
+    "explanation": "A line diagram, in permanent form, shall be attached to the building in a readily accessible position, as near as practicable to the primary meter, indicating pipes of 25mm or more, meters, emergency controls, valves, test points and bonding.",
+    "source": "S6-38"
+  }
+]

@@ -1,0 +1,1130 @@
+[
+  {
+    "question": "What is the defining characteristic of an 'instantaneous' water heater?",
+    "answers": [
+      "It uses electrical immersion elements to heat stored water",
+      "It heats the water to the required temperature as it passes through the appliance, with cold water in and hot water out",
+      "It only operates when connected to a central heating boiler",
+      "It stores a fixed volume of pre-heated water for later use"
+    ],
+    "correct": 1,
+    "explanation": "An instantaneous water heater produces instant hot water by heating it to the required temperature as the water passes through the appliance; cold water goes in and hot water comes out.",
+    "source": "S15-5"
+  },
+  {
+    "question": "To avoid the danger of water boiling and producing steam, modern instantaneous heaters are designed to raise the temperature of the water by no more than what amount?",
+    "answers": [
+      "55.5°C",
+      "30°C",
+      "75°C",
+      "100°C"
+    ],
+    "correct": 0,
+    "explanation": "Modern heaters are designed to raise the temperature of the water through not more than 55.5°C to provide water at the required temperature while avoiding the danger of boiling.",
+    "source": "S15-5"
+  },
+  {
+    "question": "If the average incoming cold water temperature is 10°C, what would the average hot water temperature be from a heater raising the temperature by the maximum permitted amount?",
+    "answers": [
+      "65.5°C",
+      "45.5°C",
+      "55.5°C",
+      "75.5°C"
+    ],
+    "correct": 0,
+    "explanation": "If the average temperature of the incoming cold water is 10°C, then with a maximum rise of 55.5°C, the average temperature of the hot water will be 65.5°C.",
+    "source": "S15-5"
+  },
+  {
+    "question": "Since the gas rate on most instantaneous heaters does not vary, how is the temperature of the delivered water typically altered?",
+    "answers": [
+      "By adjusting the rate of water flow through the appliance",
+      "By switching between summer and winter modes",
+      "By adjusting the burner injector size each time",
+      "By varying the gas supply pressure at the meter"
+    ],
+    "correct": 0,
+    "explanation": "Since the gas rate does not vary in most heaters, the temperature of the water may be altered by adjusting the rate of flow; the faster the water flow, the lower the temperature rise, and vice versa.",
+    "source": "S15-5"
+  },
+  {
+    "question": "What are the three main sizes or types of instantaneous water heater described in the Guide?",
+    "answers": [
+      "Floor-standing, wall-mounted, and back boiler",
+      "Combi, system, and regular",
+      "Multipoint, bathroom heater, and sink water heater",
+      "Open flued, room sealed, and flueless only"
+    ],
+    "correct": 2,
+    "explanation": "There are now three main sizes or types of heater: multipoint full service water heater, bathroom heater, and sink water heater.",
+    "source": "S15-5"
+  },
+  {
+    "question": "All instantaneous water heaters are manufactured to which British Standard?",
+    "answers": [
+      "BS 6798",
+      "BS 5440: Part 1",
+      "BS 6891",
+      "BS 5386: Part 1"
+    ],
+    "correct": 3,
+    "explanation": "All instantaneous water heaters are manufactured to BS 5386: Part 1 1976 (with amendments 1979 and 1987), covering gas burning appliances for instantaneous production of hot water for domestic use.",
+    "source": "S15-5"
+  },
+  {
+    "question": "Approximately what heat input and output does a multipoint water heater have?",
+    "answers": [
+      "Heat input approximately 45kW, output approximately 35kW",
+      "Heat input approximately 29.3kW, output approximately 22.6kW",
+      "Heat input approximately 11kW, output approximately 8kW",
+      "Heat input approximately 20.5kW, output approximately 16kW"
+    ],
+    "correct": 1,
+    "explanation": "A multipoint water heater has a heat input of approximately 29.3kW and an output of approximately 22.6kW.",
+    "source": "S15-5"
+  },
+  {
+    "question": "What water flow rate and temperature rise figures are quoted for a multipoint water heater?",
+    "answers": [
+      "10 litres/min raised 65°C",
+      "5.8 litres/min raised 55.5°C, or about 9 litres/min raised 36°C",
+      "4.2 litres/min raised 55°C",
+      "2.2 litres/min raised 55°C"
+    ],
+    "correct": 1,
+    "explanation": "The water flow rate of a multipoint water heater is 5.8 litres/min raised 55.5°C, or about 9 litres/min raised 36°C.",
+    "source": "S15-5"
+  },
+  {
+    "question": "What type of chimney arrangement do modern multipoint water heaters use?",
+    "answers": [
+      "Open flued only, with a draught diverter",
+      "Shared flue, connected to a communal system",
+      "Flueless, with a warning label fitted",
+      "Room sealed, either natural draught balanced flued or fanned draught balanced flued"
+    ],
+    "correct": 3,
+    "explanation": "Multipoint water heaters are now room sealed appliances, either natural draught balanced flued or fanned draught balanced flued.",
+    "source": "S15-5"
+  },
+  {
+    "question": "Approximately what heat input and output does a bathroom water heater have?",
+    "answers": [
+      "Heat input approximately 11kW, output approximately 8kW",
+      "Heat input approximately 29.3kW, output approximately 22.6kW",
+      "Heat input approximately 14kW, output approximately 10kW",
+      "Heat input approximately 20.5kW, output approximately 16kW"
+    ],
+    "correct": 3,
+    "explanation": "The heat input of a bathroom water heater is in the region of 20.5kW and the output is approximately 16kW, or 4.2 litres/min raised 55°C.",
+    "source": "S15-6"
+  },
+  {
+    "question": "What size are the gas and water connections usually found on bathroom water heaters?",
+    "answers": [
+      "8mm",
+      "28mm",
+      "15mm",
+      "22mm"
+    ],
+    "correct": 2,
+    "explanation": "All bathroom water heaters are now room sealed, and the gas and water connections are usually 15mm.",
+    "source": "S15-6"
+  },
+  {
+    "question": "Approximately what heat input and output does a sink water heater have?",
+    "answers": [
+      "Heat input approximately 20.5kW, output approximately 16kW",
+      "Heat input approximately 29.3kW, output approximately 22.6kW",
+      "Heat input approximately 11kW, output approximately 8kW",
+      "Heat input approximately 16kW, output approximately 12kW"
+    ],
+    "correct": 2,
+    "explanation": "A sink water heater has a heat input of approximately 11kW and an output of about 8kW, with a water flow rate of 2.2 litres/min raised 55°C.",
+    "source": "S15-6"
+  },
+  {
+    "question": "Why may a sink water heater be fitted in an adequately ventilated kitchen without a chimney?",
+    "answers": [
+      "Because it is always room sealed",
+      "Because it has no flame supervision device",
+      "Because it operates only on LPG",
+      "Because it has an input of less than 12kW"
+    ],
+    "correct": 3,
+    "explanation": "Because sink water heaters have an input of less than 12kW, they may be fitted in an adequately ventilated kitchen without a chimney.",
+    "source": "S15-6"
+  },
+  {
+    "question": "What warning must be attached to an un-flued (flueless) water heater?",
+    "answers": [
+      "A label warning against use with hard water",
+      "A label restricting use to summer months only",
+      "A label advising the customer not to use the heater continuously for more than 5 minutes",
+      "A label stating the appliance must never be serviced"
+    ],
+    "correct": 2,
+    "explanation": "An un-flued appliance must have a warning label attached advising the customer not to use the heater continuously for more than 5 minutes.",
+    "source": "S15-6"
+  },
+  {
+    "question": "Is a flueless water heater permitted to be installed in a compartment?",
+    "answers": [
+      "Yes, but only if input is below 8kW",
+      "Yes, provided it is serviced every 6 months",
+      "Yes, provided ventilation is doubled",
+      "No, no flueless water heater is permitted to be installed in a compartment"
+    ],
+    "correct": 3,
+    "explanation": "No flueless water heater is permitted to be installed in a compartment.",
+    "source": "S15-6"
+  },
+  {
+    "question": "If a flueless water heater's periods of operation exceed 10 minutes, or it is to be installed in a compartment, what is required?",
+    "answers": [
+      "A chimney is required and additional ventilation must be provided, though not all models can be fitted with a chimney",
+      "No additional measures are needed",
+      "The appliance must be downrated to under 5kW",
+      "Only a warning label needs to be updated"
+    ],
+    "correct": 0,
+    "explanation": "If the periods of operation exceed 10 minutes or the appliance is to be installed in a compartment, then a chimney is required and additional ventilation must be provided; however, not all models can be fitted with a chimney.",
+    "source": "S15-6"
+  },
+  {
+    "question": "What happens when a water draw-off tap is opened on the outlet side of an instantaneous water heater?",
+    "answers": [
+      "Cold water enters the heating body and simultaneously opens a gas valve",
+      "The chimney damper closes automatically",
+      "The thermostat resets to its lowest setting",
+      "The pilot light is automatically extinguished"
+    ],
+    "correct": 0,
+    "explanation": "When a water draw-off tap is opened, cold water enters the heating body and simultaneously opens a gas valve; as the water passes around the heat exchanger it is rapidly heated and delivered to the draw-off.",
+    "source": "S15-6"
+  },
+  {
+    "question": "What should be done with redundant pipework on a water heater installation to avoid problems?",
+    "answers": [
+      "It should be cut off as short as possible to remove any dead legs",
+      "It should be insulated but otherwise left as is",
+      "It should be left in place but capped with tape",
+      "It should be left connected for future flexibility"
+    ],
+    "correct": 0,
+    "explanation": "Redundant pipework should be cut off as short as possible to remove any dead legs.",
+    "source": "S15-6"
+  },
+  {
+    "question": "What is a 'dead leg' in relation to water heater pipework?",
+    "answers": [
+      "A pipe that has been correctly capped and sealed",
+      "A length of water pipe that has been cut off but has not had all the air evacuated from it",
+      "A pipe section with no insulation",
+      "A pipe used solely for the pilot supply"
+    ],
+    "correct": 1,
+    "explanation": "Dead legs are lengths of water pipe that have been cut off but have not had all the air evacuated from them.",
+    "source": "S15-6"
+  },
+  {
+    "question": "What problem can result from trapped air in a dead leg when a hot tap is closed?",
+    "answers": [
+      "Water can continue to flow through the system until the air is fully compressed, in some cases keeping the gas valve open even though the hot tap is closed",
+      "The thermostat will reset to factory default",
+      "The appliance will immediately shut off the gas supply at the meter",
+      "The pilot light will extinguish permanently"
+    ],
+    "correct": 0,
+    "explanation": "With air entrapped through a dead leg, when the appliance is turned off by closing the hot tap, water will continue to flow through the system and appliance until the air is fully compressed; in certain cases this flow keeps the gas valve open even though the hot tap is closed.",
+    "source": "S15-6"
+  },
+  {
+    "question": "Which of the following is listed as one of the main components of an instantaneous water heater?",
+    "answers": [
+      "A domestic hot water storage cylinder",
+      "Heating Body, comprising the combustion chamber and heat exchanger",
+      "A sealed expansion vessel",
+      "An air/gas ratio valve"
+    ],
+    "correct": 1,
+    "explanation": "The main components of an instantaneous water heater include the Heating Body (combustion chamber and heat exchanger), Water Section, Gas Section, Burner, Ignition Source, Flame Supervision Device, and Outer case.",
+    "source": "S15-6"
+  },
+  {
+    "question": "What material are heating bodies normally made of, and what coating do they typically have?",
+    "answers": [
+      "Aluminium, covered by an anodised coating",
+      "Cast iron, covered by a galvanised coating",
+      "Copper, covered by a lead and tin coating",
+      "Stainless steel, with no additional coating"
+    ],
+    "correct": 2,
+    "explanation": "Heating bodies are normally made of copper, covered by a lead and tin coating.",
+    "source": "S15-7"
+  },
+  {
+    "question": "In hard water areas, what problem are heat exchangers in instantaneous water heaters prone to?",
+    "answers": [
+      "Electrolytic pitting from earth bonding faults",
+      "Corrosion from chlorinated water only",
+      "Algae growth inside the combustion chamber",
+      "The waterways becoming clogged with scale, leading to noisy operation and reduced flow causing overheating"
+    ],
+    "correct": 3,
+    "explanation": "Heat exchangers are prone, in hard water areas, to the waterways becoming clogged with scale, which can lead to noisy operation, reduced water flow rate, and overheating of the water.",
+    "source": "S15-7"
+  },
+  {
+    "question": "What is the dual purpose of the automatic valve fitted to an instantaneous water heater?",
+    "answers": [
+      "It only regulates the pilot gas supply",
+      "It only protects against excess water pressure",
+      "It turns on the gas when a tap is opened and turns the gas off when the water is turned off",
+      "It switches between summer and winter operating modes"
+    ],
+    "correct": 2,
+    "explanation": "The automatic valve has a dual purpose: it turns on the gas when a tap is turned on and turns the gas off when the water is turned off, so the heater operates automatically by turning any hot water tap on and off.",
+    "source": "S15-8"
+  },
+  {
+    "question": "Approximately what temperature rise does the automatic valve limit the water to, in order to prevent steam formation and excessive scale deposits?",
+    "answers": [
+      "Approximately 100°C",
+      "Approximately 55°C",
+      "Approximately 35°C",
+      "Approximately 75°C"
+    ],
+    "correct": 1,
+    "explanation": "The automatic valve protects the heater by limiting the temperature rise to approximately 55°C, preventing steam formation and excessive scale deposits.",
+    "source": "S15-8"
+  },
+  {
+    "question": "How does the automatic valve prevent gas reaching the burner until sufficient water is flowing?",
+    "answers": [
+      "By preventing gas from passing to the burner until the quantity of water flowing has reached a predetermined 'minimum flow'",
+      "By delaying ignition with a fixed 30 second timer",
+      "By measuring water temperature with a vapour pressure phial",
+      "By using a separate solenoid linked to the room thermostat"
+    ],
+    "correct": 0,
+    "explanation": "The automatic valve prevents gas from passing to the burner until the quantity of water flowing through the heater has reached a predetermined minimum flow.",
+    "source": "S15-8"
+  },
+  {
+    "question": "What creates the differential pressure that operates most contemporary automatic valves?",
+    "answers": [
+      "A vacuum pump driven by the combustion fan",
+      "A differential pressure created by the water flow through a venturi",
+      "A spring-loaded float in a sealed reservoir",
+      "An electronic pressure transducer linked to the boiler control board"
+    ],
+    "correct": 1,
+    "explanation": "Most contemporary heaters use automatic valves which are operated by a differential pressure created by the water flow through a venturi.",
+    "source": "S15-8"
+  },
+  {
+    "question": "In the differential pressure valve, what component does the water passing through the housing lift, which is connected to the valve spindle and gas valve?",
+    "answers": [
+      "A diaphragm",
+      "A wax capsule",
+      "A bimetallic strip",
+      "A mercury switch"
+    ],
+    "correct": 0,
+    "explanation": "On all heaters currently available, the water passing through the water housing lifts a diaphragm onto which is connected a valve spindle and gas valve; this device is normally referred to as a differential pressure valve.",
+    "source": "S15-8"
+  },
+  {
+    "question": "In the differential pressure valve, what happens when no water is flowing?",
+    "answers": [
+      "The valve seals shut permanently until manually reset",
+      "The diaphragm rises fully and gas flows continuously to the pilot only",
+      "The pressures above and below the diaphragm are equal and the gas valve is held onto its seating by a spring",
+      "The venturi closes automatically to prevent airlock"
+    ],
+    "correct": 2,
+    "explanation": "When no water is flowing, the pressures above and below the diaphragm are equal and the gas valve is held onto its seating by the spring.",
+    "source": "S15-8"
+  },
+  {
+    "question": "What happens at the venturi throat as water flow velocity increases through the differential pressure valve?",
+    "answers": [
+      "The pilot flame is automatically extinguished",
+      "The venturi closes to restrict further flow",
+      "The pressure at the throat increases equally on both sides of the diaphragm",
+      "The pressure at the throat is reduced, causing a reduction in pressure above the diaphragm while the underside remains at full water pressure"
+    ],
+    "correct": 3,
+    "explanation": "When water is turned on it flows through the venturi and the pressure at the throat is reduced as the velocity increases, causing a reduction in pressure above the diaphragm, while the underside is subject to full water pressure.",
+    "source": "S15-8"
+  },
+  {
+    "question": "What happens to the gas valve once the rate of water flow falls below the minimum required to produce the differential pressure?",
+    "answers": [
+      "The pilot light will automatically relight",
+      "The bi-metal cut-off will open fully",
+      "The gas valve will remain open indefinitely",
+      "The spring will close the gas valve and prevent gas passing to the burner"
+    ],
+    "correct": 3,
+    "explanation": "As soon as the rate of water flow falls below the minimum required to produce the differential, the spring will close the gas valve and prevent gas passing to the burner.",
+    "source": "S15-9"
+  },
+  {
+    "question": "What must be available for a differential pressure automatic valve to function correctly?",
+    "answers": [
+      "An adequate head of water to give the flow rate necessary to produce the required pressure differential",
+      "A constant electrical supply to power the diaphragm motor",
+      "A continuously running pilot at maximum rate",
+      "A minimum gas supply pressure of 100mbar"
+    ],
+    "correct": 0,
+    "explanation": "An adequate head of water must be available to give the flow rate necessary to produce the pressure differential required.",
+    "source": "S15-9"
+  },
+  {
+    "question": "What type of thermostat do some multipoint water heaters use to modulate water flow rate and control outlet temperature?",
+    "answers": [
+      "A bimetallic snap-action thermostat",
+      "An electronic resistance thermostat",
+      "A vapour-pressure thermostat",
+      "A liquid expansion thermostat only"
+    ],
+    "correct": 2,
+    "explanation": "Some multipoint water heaters use a vapour-pressure thermostat to modulate the water flow rate through the heater and so control the outlet water temperature.",
+    "source": "S15-9"
+  },
+  {
+    "question": "What is the temperature usually set to on a multipoint heater fitted with a thermostatic valve?",
+    "answers": [
+      "75°C",
+      "60°C",
+      "45°C",
+      "90°C"
+    ],
+    "correct": 1,
+    "explanation": "On a thermostatic valve, the temperature is usually set at 60°C.",
+    "source": "S15-9"
+  },
+  {
+    "question": "In the thermostatic valve arrangement, what component acts in a similar way to a venturi to create the differential pressure?",
+    "answers": [
+      "A small, cylindrical throttle situated in the inlet waterways",
+      "The pilot injector",
+      "The slow ignition device",
+      "The flame supervision thermocouple"
+    ],
+    "correct": 0,
+    "explanation": "A small, cylindrical throttle, situated in the inlet waterways, forms a restriction; when water flows around the throttle a pressure loss is produced on the outlet side, so the throttle acts in a similar way to a venturi.",
+    "source": "S15-9"
+  },
+  {
+    "question": "How is the temperature-sensing element of the thermostatic valve connected to the bellows that control the throttle?",
+    "answers": [
+      "By an electrical signal wire",
+      "By a rigid copper rod",
+      "By a flexible rubber hose",
+      "By a capillary tube"
+    ],
+    "correct": 3,
+    "explanation": "The temperature-sensing element of the thermostat is located in the heat exchanger waterways and is connected by a capillary tube with the bellows which controls the throttle.",
+    "source": "S15-9"
+  },
+  {
+    "question": "What happens to the throttle on a thermostatic valve as the water heats up?",
+    "answers": [
+      "The bellows contracts and closes the throttle completely, stopping water flow",
+      "The throttle remains fixed regardless of temperature",
+      "The bellows expands and opens the throttle against spring tension, increasing flow and reducing temperature",
+      "The pilot flame increases to compensate"
+    ],
+    "correct": 2,
+    "explanation": "When water is turned on and becomes heated, the bellows expands and opens the throttle against the tension of a spring; water can then flow above the throttle as well as around the annulus, increasing flow rate and reducing temperature.",
+    "source": "S15-9"
+  },
+  {
+    "question": "On heaters without a thermostat, what problem can occur if the hot water tap is turned too far to increase temperature?",
+    "answers": [
+      "The diaphragm becomes permanently stuck open",
+      "The pilot light is automatically extinguished",
+      "The heat exchanger overheats and cracks immediately",
+      "Less than the minimum flow required to operate the automatic valve passes, causing the gas to shut off and the water to suddenly run cold"
+    ],
+    "correct": 3,
+    "explanation": "If the tap is turned too far so that less than the minimum flow required to operate the valve can pass, the gas will be shut off and the water will suddenly run cold; a temperature selector prevents this problem.",
+    "source": "S15-10"
+  },
+  {
+    "question": "How does a temperature selector allow control of water temperature while avoiding the gas valve shutting off?",
+    "answers": [
+      "It bypasses the flame supervision device entirely",
+      "It uses an electronic solenoid to vary gas pressure",
+      "It directly adjusts the gas injector size",
+      "A manually operated, screw-in throttle in a bypass around the venturi allows a small quantity of water to bypass the venturi, reducing temperature without losing minimum flow"
+    ],
+    "correct": 3,
+    "explanation": "The temperature selector consists of a manually operated, screw-in throttle situated in a bypass around the venturi; as the throttle is screwed out it allows a small quantity of water to bypass the venturi, reducing the hot water temperature.",
+    "source": "S15-10"
+  },
+  {
+    "question": "With the temperature selector throttle fully screwed in, what happens?",
+    "answers": [
+      "All the water passes through the venturi, operating the automatic valve and giving the highest temperature rise",
+      "The gas valve is forced shut",
+      "The pilot light is extinguished",
+      "All water bypasses the venturi entirely"
+    ],
+    "correct": 0,
+    "explanation": "With the throttle screwed in, all the water passes through the venturi; this operates the automatic valve and gives the highest temperature rise.",
+    "source": "S15-10"
+  },
+  {
+    "question": "What is the purpose of a 'slow ignition device' fitted to most automatic valves?",
+    "answers": [
+      "To increase gas pressure gradually to the pilot only",
+      "To prevent the automatic valve from ever closing",
+      "To make the gas valve open slowly and close quickly, ensuring quiet ignition and preventing overheating of remaining water",
+      "To delay the pilot ignition by a fixed five-minute period"
+    ],
+    "correct": 2,
+    "explanation": "Most automatic valves incorporate a slow ignition device, designed to make the gas valve open slowly and close quickly; slow opening ensures quiet, non-explosive ignition, and quick closing prevents overheating the remaining water.",
+    "source": "S15-10"
+  },
+  {
+    "question": "Where are slow ignition devices typically located within the automatic valve assembly?",
+    "answers": [
+      "In either the high-pressure or low-pressure ducts to the diaphragm",
+      "Within the flame supervision thermocouple housing",
+      "Inside the outer case only",
+      "Inside the pilot injector itself"
+    ],
+    "correct": 0,
+    "explanation": "There are several designs of slow ignition device, some fixed and others adjustable; they are located in either the high-pressure or low-pressure ducts to the diaphragm.",
+    "source": "S15-10"
+  },
+  {
+    "question": "In a fixed-type slow ignition device using a disc, what happens when a hot tap is turned on?",
+    "answers": [
+      "The disc melts to allow full flow",
+      "The disc rotates to seal the diaphragm housing completely",
+      "The disc drops immediately to the bottom, allowing maximum flow instantly",
+      "The disc is forced against the top of its seating so water can only pass through a small centre hole, causing the valve to lift slowly"
+    ],
+    "correct": 3,
+    "explanation": "In the fixed disc-type device, when a hot tap is turned on, after an immediate partial lift the disc is forced against the top of the seating and water can only pass through the small centre hole, so the valve continues to lift slowly.",
+    "source": "S15-10"
+  },
+  {
+    "question": "In the disc-type slow ignition device, what happens to enable the gas valve to close quickly when the diaphragm moves downwards?",
+    "answers": [
+      "Water flow is completely blocked instantly",
+      "The disc falls to rest on the stops, allowing water to pass through the centre hole and around the edges of the disc",
+      "The disc is ejected from the housing",
+      "The disc becomes wedged, preventing any closure"
+    ],
+    "correct": 1,
+    "explanation": "When the diaphragm moves downwards, the disc falls to rest on the stops; water can then pass through the centre hole and around the edges of the disc, so the gas valve closes quickly.",
+    "source": "S15-10"
+  },
+  {
+    "question": "How does an adjustable slow-ignition device differ from the fixed disc type, and how is it adjusted?",
+    "answers": [
+      "It uses a loose ball instead of a disc, usually in the low-pressure duct, adjusted by screwing the device in or out",
+      "It is adjusted using the temperature selector knob",
+      "It uses an electronic timer circuit instead of a mechanical component",
+      "It is adjusted by changing the pilot injector size"
+    ],
+    "correct": 0,
+    "explanation": "An adjustable slow-ignition device has a loose ball instead of a disc and is usually situated in the low-pressure duct; screwing the device in or out regulates the amount of water that can bypass the ball, adjusting the rate of lift of the diaphragm.",
+    "source": "S15-11"
+  },
+  {
+    "question": "What is the cylindrical section immediately below the gas valve, which contributes to slow ignition, often called?",
+    "answers": [
+      "A 'sleeve'",
+      "A 'collar'",
+      "A 'hood'",
+      "A 'skirt'"
+    ],
+    "correct": 3,
+    "explanation": "In association with a slow-ignition device, the gas valve may have a cylindrical section, often called a 'skirt', immediately below the valve, which restricts gas flow when partially open to allow quiet, effective ignition.",
+    "source": "S15-12"
+  },
+  {
+    "question": "What component allows some heaters to control gas rate without relying solely on the meter regulator and fixed injectors?",
+    "answers": [
+      "A volume governor",
+      "A modulating thermostat",
+      "A pressure relief valve",
+      "An overheat cut-out"
+    ],
+    "correct": 0,
+    "explanation": "A number of heaters rely on the meter regulator and fixed injectors to provide correct gas rate control, while other heaters have a volume governor as an integral part of the appliance.",
+    "source": "S15-13"
+  },
+  {
+    "question": "In the gas volume governor, what component slides freely over a vertical tube to control the gas ports as inlet pressure varies?",
+    "answers": [
+      "A mercury-filled bellows",
+      "A lightweight, aluminium disc float",
+      "A spring-loaded piston",
+      "A bimetallic strip"
+    ],
+    "correct": 1,
+    "explanation": "The governor consists of a lightweight, aluminium disc float which can slide freely over a vertical tube, whilst maintaining a piston fit; the tube has gas ports which close as the float rises and open as it falls.",
+    "source": "S15-13"
+  },
+  {
+    "question": "What happens in the gas volume governor if the inlet gas pressure increases?",
+    "answers": [
+      "The float rises and partially closes the holes in the tube until the correct volume of gas is passing",
+      "The float sinks fully and gas flow stops completely",
+      "The fixed orifice automatically widens",
+      "The pilot light is extinguished as a safety measure"
+    ],
+    "correct": 0,
+    "explanation": "If the inlet pressure increases, the rate of flow through the fixed orifice rises and the pressure difference across the float increases, causing the float to rise and partially close the holes in the tube until the correct volume of gas is passing.",
+    "source": "S15-13"
+  },
+  {
+    "question": "What is the most common way the permanent pilot light is ignited on instantaneous water heaters?",
+    "answers": [
+      "By a standing pilot lit only at installation and never relit",
+      "By an electronic spark generator linked to the room thermostat",
+      "Manually, or more commonly by a piezo electric spark operated by a separate push button",
+      "By a fan-assisted hot surface igniter"
+    ],
+    "correct": 2,
+    "explanation": "The majority of instantaneous water heaters rely on a permanent pilot light to ignite the main gas, lit manually or more commonly by a piezo electric spark operated by a separate push button.",
+    "source": "S15-13"
+  },
+  {
+    "question": "What do current British Standards require for vitiation sensing devices on water heaters?",
+    "answers": [
+      "All sink water heaters must be manufactured with vitiation sensing devices",
+      "They are only required on appliances installed after 2010",
+      "They are only required on appliances over 20kW",
+      "All multipoint heaters must omit them entirely"
+    ],
+    "correct": 0,
+    "explanation": "Current British Standards require all sink water heaters to be manufactured with vitiation sensing devices, which can detect if the oxygen level is depleted in the air surrounding the pilot light and interrupt the main gas flow.",
+    "source": "S15-14"
+  },
+  {
+    "question": "What does a vitiation sensing device do if it detects depleted oxygen levels around the pilot light?",
+    "answers": [
+      "It sounds an audible alarm only, with no gas interruption",
+      "It interrupts the main gas flow",
+      "It increases the gas rate to compensate",
+      "It switches the appliance to flueless mode"
+    ],
+    "correct": 1,
+    "explanation": "A vitiation sensing device can detect if the oxygen level is depleted in the air surrounding the pilot light and subsequently interrupt the main gas flow.",
+    "source": "S15-14"
+  },
+  {
+    "question": "What does a spillage detection device on an open flued water heater typically consist of, and what does it detect?",
+    "answers": [
+      "A carbon monoxide sensor wired to a remote alarm panel",
+      "A temperature sensor which detects the hot products of combustion and shuts off the gas to the burner",
+      "A pressure switch in the cold water inlet",
+      "A smoke detector mounted in the flue terminal"
+    ],
+    "correct": 1,
+    "explanation": "Some open flued water heaters have a spillage detection device fitted, which normally consists of a temperature sensor that will detect the hot products of combustion and shut off the gas to the burner.",
+    "source": "S15-14"
+  },
+  {
+    "question": "How can a spillage detection device fitted in the heating body be tested?",
+    "answers": [
+      "By increasing the water flow rate to maximum",
+      "By removing the pilot light entirely",
+      "By covering the heat exchanger with a flame proof mat to simulate a blockage",
+      "By disconnecting the gas supply at the meter"
+    ],
+    "correct": 2,
+    "explanation": "If fitted in the heating body, the spillage detection device can be tested by covering the heat exchanger with a flame proof mat to simulate a blockage of the heat exchanger, following manufacturer's instructions for correct testing.",
+    "source": "S15-14"
+  },
+  {
+    "question": "What type of burner construction is normally used on instantaneous water heaters?",
+    "answers": [
+      "Single cast iron burner with no aeration",
+      "Pre-mix burner with no individual injectors",
+      "Stainless steel, multiple-bar aerated burners, each supplied by an injector mounted in the burner bar",
+      "Ceramic plaque burners with electric ignition only"
+    ],
+    "correct": 2,
+    "explanation": "Burners on instantaneous water heaters are normally stainless steel, multiple-bar aerated burners with each being supplied by an injector mounted in the burner bar.",
+    "source": "S15-14"
+  },
+  {
+    "question": "Which British Standard covers the installation of low pressure gas pipework up to 28mm in domestic premises, relevant to water heater installation?",
+    "answers": [
+      "BS 7671",
+      "BS 6891",
+      "BS 6798",
+      "BS 5386"
+    ],
+    "correct": 1,
+    "explanation": "Detailed recommendations for installation include BS 6891: Installation of low pressure gas pipework of up to 28mm in domestic premises (2nd family gas).",
+    "source": "S15-14"
+  },
+  {
+    "question": "What is required of a water heater installed in a room containing a fixed bath or shower?",
+    "answers": [
+      "It must be flueless with a 5-minute warning label",
+      "It may be open flued provided it has a spillage device",
+      "It shall be room sealed",
+      "It must be located at least 3 metres from the bath"
+    ],
+    "correct": 2,
+    "explanation": "Water heaters installed in a room containing a fixed bath or shower shall be room sealed.",
+    "source": "S15-14"
+  },
+  {
+    "question": "For a water heater installed in a room intended for sleeping accommodation, what is required of any appliance with a heat input greater than 14kW gross?",
+    "answers": [
+      "It shall be room sealed",
+      "It must be limited to 12kW or below",
+      "It may be open flued without restriction",
+      "It must be flueless only"
+    ],
+    "correct": 0,
+    "explanation": "For an appliance installed in a room intended for sleeping accommodation, any appliance of heat input greater than 14kW gross shall be room sealed.",
+    "source": "S15-14"
+  },
+  {
+    "question": "For a water heater of 14kW gross heat input or less installed in a room used for sleeping accommodation, which of the following is an acceptable option?",
+    "answers": [
+      "Open flued, incorporating a safety control which shuts down the appliance before a dangerous quantity of products of combustion accumulates",
+      "Flueless at any heat input up to 14kW",
+      "Connected directly to a communal flue without restriction",
+      "Open flued with no safety control required at any input"
+    ],
+    "correct": 0,
+    "explanation": "An appliance of 14kW gross heat input or less in sleeping accommodation may be room sealed, or open flued and incorporate a safety control which shuts down the appliance before a dangerous quantity of products of combustion accumulates, or flueless (12kW or less) with an equivalent safety control.",
+    "source": "S15-14"
+  },
+  {
+    "question": "What is the maximum heat input for a flueless water heater to be installed in a room used for sleeping accommodation, incorporating the required safety control?",
+    "answers": [
+      "14kW gross heat input or less",
+      "There is no flueless option permitted in sleeping accommodation",
+      "12kW gross heat input or less",
+      "20kW gross heat input or less"
+    ],
+    "correct": 2,
+    "explanation": "A flueless appliance installed in sleeping accommodation must be 12kW gross heat input or less and incorporate a safety control which shuts down the appliance before a dangerous quantity of products of combustion accumulates.",
+    "source": "S15-14"
+  },
+  {
+    "question": "What is required of an appliance installed in a bedroom or bed-sitting room with a volume of less than 20m³?",
+    "answers": [
+      "It must be removed and relocated outside the room",
+      "It may be open flued regardless of input",
+      "It must run continuously to avoid condensation",
+      "It shall be room-sealed"
+    ],
+    "correct": 3,
+    "explanation": "An appliance installed in a bedroom or bed-sitting room of volume less than 20m³ shall be room-sealed.",
+    "source": "S15-14"
+  },
+  {
+    "question": "Why does manufacturer's liability for an installed water heater depend on following the manufacturer's instructions?",
+    "answers": [
+      "Because the manufacturer's liability only applies if their instructions have been followed",
+      "Because British Standards do not apply to water heaters",
+      "Because liability is automatically transferred to the installer regardless",
+      "Because manufacturer's instructions override the Gas Safety Regulations"
+    ],
+    "correct": 0,
+    "explanation": "It is important to follow manufacturer's instructions when installing an appliance since the manufacturer's liability only applies if their instructions have been followed.",
+    "source": "S15-15"
+  },
+  {
+    "question": "Because most water heaters are balanced flued, where must the heater generally be located?",
+    "answers": [
+      "On an internal stud wall only",
+      "On an outside wall",
+      "In a sealed compartment with no ventilation",
+      "In a roof void"
+    ],
+    "correct": 1,
+    "explanation": "Because most heaters are balanced flued, the heater must generally be located on an outside wall, although some models may be fitted under draining boards in kitchen units.",
+    "source": "S15-15"
+  },
+  {
+    "question": "What must the gas meter be capable of when sizing supply pipework for a water heater installation?",
+    "answers": [
+      "Supplying gas only during daylight hours",
+      "Passing only the gas rate of the water heater in isolation",
+      "Operating at half the rated pressure of the heater",
+      "Passing the gas rate of the heater in addition to the demands of all other appliances"
+    ],
+    "correct": 3,
+    "explanation": "The gas meter must be capable of passing the gas rate of the heater in addition to the demands of all other appliances.",
+    "source": "S15-16"
+  },
+  {
+    "question": "What range of wall thicknesses can balanced flued multipoint water heater chimney duct sets typically accommodate?",
+    "answers": [
+      "A fixed thickness only, with no adjustment possible",
+      "From 10mm up to 100mm thick",
+      "From 75mm up to 530mm thick",
+      "From 200mm up to 1000mm thick"
+    ],
+    "correct": 2,
+    "explanation": "Most manufacturers provide sets of chimney ducts which are adjustable to fit different thicknesses of wall, allowing heaters to be fitted on walls from 75mm up to 530mm thick.",
+    "source": "S15-16"
+  },
+  {
+    "question": "Where should control (service) cocks be fitted on a water heater installation?",
+    "answers": [
+      "Only on the cold water mains stopcock",
+      "Only at the gas meter location",
+      "On the gas and water inlet supplies, immediately adjacent to the heater",
+      "At least 5 metres from the appliance"
+    ],
+    "correct": 2,
+    "explanation": "Control cocks should be fitted on the gas and water inlet supplies, immediately adjacent to the heater, for isolating gas and water during servicing operations.",
+    "source": "S15-16"
+  },
+  {
+    "question": "Are separate service cocks usually required on a water heater installation?",
+    "answers": [
+      "Not usually, as service cocks are often integral with the appliance",
+      "Only required for appliances over 20kW",
+      "Yes, always, regardless of appliance design",
+      "Only on multipoint heaters, never on sink heaters"
+    ],
+    "correct": 0,
+    "explanation": "Service cocks are often integral with the appliance, so separate cocks are not usually required.",
+    "source": "S15-16"
+  },
+  {
+    "question": "What should be checked and purged before following the commissioning procedure for a water heater?",
+    "answers": [
+      "Only the gas supply needs testing; water testing is not required",
+      "The inlet gas and water supplies should be tested for soundness and the installation purged",
+      "The boiler flow temperature should be set to maximum first",
+      "Only the water supply needs testing; gas testing is not required"
+    ],
+    "correct": 1,
+    "explanation": "When the installation has been completed, test the inlet gas and water supplies for soundness and purge the installation before following the commissioning procedure.",
+    "source": "S15-17"
+  },
+  {
+    "question": "In the commissioning procedure, what should be checked once all hot taps are turned on and the water service cock is opened?",
+    "answers": [
+      "Switch off the water service cock immediately",
+      "Turn the gas control to full on straight away",
+      "Light the pilot immediately, before checking for leaks",
+      "Wait until water flows freely, then turn the hot taps off and check the heater and draw-off pipes for water leaks"
+    ],
+    "correct": 3,
+    "explanation": "As part of commissioning, turn on all hot taps, turn on the water service cock, and when water flows freely turn the hot taps off, then check the heater and draw-off pipes for water leaks.",
+    "source": "S15-17"
+  },
+  {
+    "question": "During commissioning, after turning on the gas and lighting the pilot, what should be checked next?",
+    "answers": [
+      "The condensate pump operation",
+      "The water hardness level using a test kit",
+      "The operation of the ignition device, and the length and position of the pilot flame in relation to the burner and flame supervision device",
+      "The boiler's electrical earth bonding only"
+    ],
+    "correct": 2,
+    "explanation": "After turning on the gas and pilot light, check the operation of the ignition device, and check the length and position of the pilot flame in relation to the burner and flame supervision device.",
+    "source": "S15-17"
+  },
+  {
+    "question": "On a sink heater with an open chimney, what should be checked during commissioning, and what is checked instead on room sealed appliances?",
+    "answers": [
+      "The draught diverter for spillage on open flued sink heaters; on room sealed appliances, the joints and seals are checked instead",
+      "The pilot injector size on open flued only; nothing is checked on room sealed appliances",
+      "The thermostat calibration on open flued only",
+      "The water filter on room sealed appliances only"
+    ],
+    "correct": 0,
+    "explanation": "On a sink heater with an open chimney, check the draught diverter for spillage; on room sealed appliances, check the joints and seals instead.",
+    "source": "S15-17"
+  },
+  {
+    "question": "What should be checked by turning the hot tap on and off during commissioning, adjusting if necessary?",
+    "answers": [
+      "The room thermostat calibration",
+      "The water hardness level",
+      "The flue gas CO2 reading",
+      "The slow ignition"
+    ],
+    "correct": 3,
+    "explanation": "As part of commissioning, turn the hot tap on and off to check the slow ignition, adjusting if necessary.",
+    "source": "S15-17"
+  },
+  {
+    "question": "What is the final step listed in the water heater commissioning procedure?",
+    "answers": [
+      "Disconnect the gas supply for inspection",
+      "Record only the gas rate on the benchmark certificate",
+      "Remove the outer case for final cleaning",
+      "Instruct the customer on the operation of the heater and on the need for regular servicing"
+    ],
+    "correct": 3,
+    "explanation": "The final step of the commissioning procedure is to instruct the customer on the operation of the heater and on the need for regular servicing.",
+    "source": "S15-17"
+  },
+  {
+    "question": "How frequently should water heaters be serviced according to the Guide?",
+    "answers": [
+      "Every 5 years",
+      "Annually",
+      "Only when a fault is reported",
+      "Every 6 months"
+    ],
+    "correct": 1,
+    "explanation": "Heaters should be regularly serviced to maintain efficiency and ensure safe operation, with servicing carried out annually.",
+    "source": "S15-18"
+  },
+  {
+    "question": "When servicing a water heater, in what order should the gas and water service cocks and electricity supply be dealt with before removing the outer case?",
+    "answers": [
+      "Remove the outer case first, then isolate electricity",
+      "Isolate electricity if applicable, then turn off the gas and water service cocks",
+      "Disconnect the flue before isolating gas or water",
+      "Drain the water section before isolating any supply"
+    ],
+    "correct": 1,
+    "explanation": "Servicing should begin by isolating electricity if applicable, and turning off the gas and water service cocks, before removing the outer case.",
+    "source": "S15-18"
+  },
+  {
+    "question": "If removing the water section on a multipoint heater during servicing, what precaution should be taken?",
+    "answers": [
+      "Drain the gas supply pipework fully",
+      "Fit a temporary continuity bond across the water supplies",
+      "Remove the flame supervision device permanently",
+      "Disconnect the electrical earth bonding entirely"
+    ],
+    "correct": 1,
+    "explanation": "If removing the water section on a multipoint heater, fit a temporary continuity bond across the water supplies.",
+    "source": "S15-18"
+  },
+  {
+    "question": "What should be done with jointing washers when reassembling a water heater after servicing?",
+    "answers": [
+      "Renew all jointing washers when reassembling",
+      "Apply jointing compound instead of replacing washers",
+      "Reuse the original washers if they appear undamaged",
+      "Only replace washers on the gas side, not the water side"
+    ],
+    "correct": 0,
+    "explanation": "Renew all jointing washers when reassembling the heater after servicing.",
+    "source": "S15-18"
+  },
+  {
+    "question": "Which control devices should be tested for correct operation alongside checking burner pressure during a service?",
+    "answers": [
+      "Condensate trap and siphon",
+      "Governor and thermostat",
+      "Pressure relief valve and expansion vessel",
+      "Room thermostat and zone valve only"
+    ],
+    "correct": 1,
+    "explanation": "As part of servicing, check burner pressure and test control devices, i.e. governor and thermostat.",
+    "source": "S15-18"
+  },
+  {
+    "question": "What should be checked on room-sealed heaters versus open flued appliances during servicing, regarding the chimney?",
+    "answers": [
+      "Only the terminal guard on room-sealed heaters",
+      "The condensate pH level on both types",
+      "Chimney seals on room-sealed heaters, or the draught diverter for spillage on open flued appliances",
+      "Only the flue liner thickness on open flued appliances"
+    ],
+    "correct": 2,
+    "explanation": "During servicing, check chimney seals on room-sealed heaters or check the draught diverter for spillage on open flued appliances.",
+    "source": "S15-18"
+  },
+  {
+    "question": "What should be checked regarding ventilation grilles as part of the annual service?",
+    "answers": [
+      "That ventilation grilles are relocated to an external wall",
+      "That ventilation grilles are correctly sized and unobstructed",
+      "That ventilation grilles are sealed shut for energy efficiency",
+      "That ventilation grilles have been painted to match the décor"
+    ],
+    "correct": 1,
+    "explanation": "As part of servicing, check that ventilation grilles are correctly sized and unobstructed.",
+    "source": "S15-18"
+  },
+  {
+    "question": "What component should be checked specifically on a heater fitted with a scale reducer, during servicing?",
+    "answers": [
+      "The pilot injector",
+      "The condensate removal pump",
+      "The cartridge in the scale reducer",
+      "The room thermostat batteries"
+    ],
+    "correct": 2,
+    "explanation": "As part of servicing, check the cartridge in the scale reducer if fitted.",
+    "source": "S15-18"
+  },
+  {
+    "question": "What must be confirmed about the appliance's labelling as one of the final servicing checks?",
+    "answers": [
+      "That the gas rate has been re-stamped on the data plate",
+      "That the manufacturer's serial number plate has been removed",
+      "That the appropriate warning label is attached",
+      "That a new commissioning date sticker has been applied"
+    ],
+    "correct": 2,
+    "explanation": "As one of the final servicing checks, confirm that the appropriate warning label is attached to the appliance.",
+    "source": "S15-18"
+  },
+  {
+    "question": "Why is it important that the case seal remains intact on room sealed water heaters?",
+    "answers": [
+      "Because the seal prevents scale build-up in the heat exchanger",
+      "Because a damaged seal will cause the pilot to extinguish immediately",
+      "Because the seal also retains the water pressure inside the appliance",
+      "Because products of combustion could leak into the premises if the seal is damaged"
+    ],
+    "correct": 3,
+    "explanation": "On room sealed water heaters it is important that the case seal is intact, as products of combustion could leak into the premises if the seal is damaged.",
+    "source": "S15-19"
+  },
+  {
+    "question": "Faults on instantaneous water heaters may generally be associated with which two areas?",
+    "answers": [
+      "Only the outer case and warning labels",
+      "Only the electrical wiring of the appliance",
+      "Only the flue terminal and case seals",
+      "The gas supply or gas section, and the water supply or water section"
+    ],
+    "correct": 3,
+    "explanation": "Faults on instantaneous heaters may be associated with the gas supply or gas section, or the water supply or water section.",
+    "source": "S15-19"
+  },
+  {
+    "question": "If a water heater has 'no pilot light', what should be checked according to the fault diagnosis table?",
+    "answers": [
+      "Only the room thermostat calibration",
+      "Only the main burner injector size",
+      "That gas is on and present at the appliance tap, and that the pilot supply, filter and burner ports are clear, plus pilot adjustment",
+      "Only the water flow rate through the appliance"
+    ],
+    "correct": 2,
+    "explanation": "For the symptom 'No pilot light', the action is to check that gas is on and present at the appliance tap, check that pilot supply, filter and burner ports are clear, and check pilot adjustment.",
+    "source": "S15-19"
+  },
+  {
+    "question": "If the pilot ignites but does not stay lit, which checks does the fault table recommend?",
+    "answers": [
+      "Check flame size and position on the flame supervision device, thermocouple connections and output voltage, and for draughts or faulty seals on balanced flued ducts",
+      "Check only the gas meter regulator setting",
+      "Check only the outer case fixing screws",
+      "Check only the water filter for blockages"
+    ],
+    "correct": 0,
+    "explanation": "For 'Pilot ignites but does not stay lit', actions include checking the size and position of the flame on the flame supervision device, checking thermocouple connections and output voltage, and checking for excessive draughts or faulty seals on balanced flued ducts.",
+    "source": "S15-19"
+  },
+  {
+    "question": "If the pilot is correct but there is no gas to the main burner, which automatic valve checks are listed in the fault diagnosis table?",
+    "answers": [
+      "Only the pilot injector size",
+      "Only the outer case door alignment",
+      "Filter clear; venturi and low pressure duct clear; slow-ignition device clear and correctly adjusted; bearing plate and push rod free and undamaged; diaphragm not perished, distorted or punctured",
+      "Only the room thermostat setting"
+    ],
+    "correct": 2,
+    "explanation": "For 'Pilot correct but no gas to main burner', checking the automatic valve includes: filter clear; venturi and low pressure duct clear; slow-ignition device clear and correctly adjusted; bearing plate and push rod free and undamaged; diaphragm not perished, distorted or punctured.",
+    "source": "S15-19"
+  },
+  {
+    "question": "When diagnosing 'pilot correct but no gas to main burner', what water-related checks are also recommended alongside the gas valve checks?",
+    "answers": [
+      "Checking only the gas meter index reading",
+      "Checking that water is present and flowing adequately, including satisfactory head of water, clear pipes, no air locks, and the heating body clear of scale",
+      "Checking only the flue terminal position",
+      "Checking only the room thermostat batteries"
+    ],
+    "correct": 1,
+    "explanation": "As part of this fault diagnosis, checks include whether water is on and present at the appliance, and adequate flow: satisfactory head of water, pipes adequate and clear, no air locks, and heating body clear of scale.",
+    "source": "S15-19"
+  },
+  {
+    "question": "If a water heater exhibits 'noisy or rapid ignition', what two checks does the fault table recommend?",
+    "answers": [
+      "Check only the cold water mains pressure",
+      "Check only the warning label wording",
+      "Check only the gas meter regulator",
+      "Check the length and position of the pilot flame, and check the operation and adjustment of the slow-ignition device"
+    ],
+    "correct": 3,
+    "explanation": "For 'Noisy or rapid ignition', the recommended checks are the length and position of the pilot flame (short/blocked) and the operation and adjustment of the slow-ignition device (adjust).",
+    "source": "S15-19"
+  },
+  {
+    "question": "If the water from a heater is 'not hot enough', which checks does the fault diagnosis table recommend?",
+    "answers": [
+      "Only the chimney terminal guard height",
+      "Only the outer case ventilation slots",
+      "Gas valve fully open, flame supervision device, gas rate to burner, thermostat setting, and rate of water flow/position of temperature selector",
+      "Only the pilot injector colour of flame"
+    ],
+    "correct": 2,
+    "explanation": "For 'Water not hot enough', checks include the gas valve being fully open, the flame supervision device, gas rate to the burner, thermostat setting, and the rate of water flow along with the position and operation of the temperature selector.",
+    "source": "S15-19"
+  },
+  {
+    "question": "What is given as a likely cause of 'overheating of the water' in the fault diagnosis table?",
+    "answers": [
+      "A pilot flame that is too small",
+      "Reduced water flow rate, possibly due to scale-clogged waterways, or a faulty thermostat",
+      "Excessive water pressure from the mains supply only",
+      "A blocked flue terminal guard"
+    ],
+    "correct": 1,
+    "explanation": "For 'Over heating of the Water', the listed cause is reduced water flow rate, possibly due to waterways becoming clogged with scale, or a faulty thermostat.",
+    "source": "S15-20"
+  },
+  {
+    "question": "If the gas valve 'closes slowly or incompletely', which checks does the fault table recommend?",
+    "answers": [
+      "Only the outer case insulation",
+      "Gas valve seating, stem, and spring condition; slow ignition device adjustment; diaphragm condition; and venturi/low-pressure duct clearance",
+      "Only the warning label adhesive",
+      "Only the meter test dial reading"
+    ],
+    "correct": 1,
+    "explanation": "For 'Gas valve closes slowly or incompletely', checks include the gas valve seating (clean and undamaged), stem (clean, lubricated, push rod undamaged), spring condition, slow ignition device adjustment, diaphragm distortion, and venturi/low-pressure duct clearance.",
+    "source": "S15-20"
+  },
+  {
+    "question": "What does the fault diagnosis table identify as the cause of a 'kettling' noise during water heater operation, and what is the remedy?",
+    "answers": [
+      "Excess air in the gas supply; the remedy is to purge the meter",
+      "A faulty pilot injector; the remedy is to replace the injector only",
+      "A loose outer case panel; the remedy is to re-fix the screws",
+      "Scale in the heat exchanger; the remedy is to de-scale or replace the heat exchanger"
+    ],
+    "correct": 3,
+    "explanation": "For 'Kettleing noise during operation', the table identifies checking the heat exchanger for scale, with the remedy being to de-scale or replace the heat exchanger.",
+    "source": "S15-20"
+  },
+  {
+    "question": "What two causes are listed for a burner remaining lit at a low rate when water demand has been satisfied?",
+    "answers": [
+      "Worn pilot electrodes or a discharged battery",
+      "A faulty room thermostat or low gas pressure at the meter",
+      "A blocked flue terminal or damaged case seal",
+      "Debris on the gas valve seating, or a bent valve spindle"
+    ],
+    "correct": 3,
+    "explanation": "For 'Burner remains lit at a low rate when water demand is satisfied', the listed causes are debris on the gas valve seating, or a bent valve spindle.",
+    "source": "S15-20"
+  }
+]

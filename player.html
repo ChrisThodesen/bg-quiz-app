@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Quiz - Play</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body class="player-body">
+
+  <div id="joinScreen">
+    <h1>Join Quiz</h1>
+    <div><input id="codeInput" type="text" inputmode="numeric" maxlength="4" placeholder="Room code"></div>
+    <div><input id="nameInput" type="text" maxlength="20" placeholder="Your name"></div>
+    <button id="joinBtn">Join</button>
+    <p id="status"></p>
+  </div>
+
+  <div id="waitingScreen" class="hidden">
+    <p id="waitingMsg">Joined! Waiting for the host to start...</p>
+    <p id="scoreDisplay"></p>
+  </div>
+
+  <div id="playScreen" class="hidden">
+    <div class="player-answer-grid" id="answerGrid">
+      <button class="player-answer-tile tile-red" data-index="0">
+        <svg class="tile-shape" viewBox="0 0 100 100" aria-hidden="true">
+          <polygon points="50,15 90,85 10,85" fill="#fff"/>
+        </svg>
+      </button>
+      <button class="player-answer-tile tile-yellow" data-index="1">
+        <svg class="tile-shape" viewBox="0 0 100 100" aria-hidden="true">
+          <polygon points="50,10 90,50 50,90 10,50" fill="#fff"/>
+        </svg>
+      </button>
+      <button class="player-answer-tile tile-blue" data-index="2">
+        <svg class="tile-shape" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="38" fill="#fff"/>
+        </svg>
+      </button>
+      <button class="player-answer-tile tile-green" data-index="3">
+        <svg class="tile-shape" viewBox="0 0 100 100" aria-hidden="true">
+          <rect x="15" y="15" width="70" height="70" fill="#fff"/>
+        </svg>
+      </button>
+    </div>
+    <div id="feedback"></div>
+    <div id="scoreDisplayPlay"></div>
+  </div>
+
+  <script type="module">
+    import { checkRoom } from "./room.js";
+    import { db, ref, onValue, update, get } from "./firebase-config.js";
+    import { applyScoring } from "./scoring.js";
+    import { joinRoom, rejoinRoom, getLocalIdentity, clearLocalIdentity, stopHeartbeat } from "./player.js";
+
+    let roomCode = null;
+    let playerId = null;
+    let hasAnsweredThisQuestion = false;
+    let questionStartTime = null;
+    let lastSeenStatus = null;
+    let scoredQuestionIndices = new Set();
+
+    async function tryAutoRejoin() {
+      const stored = getLocalIdentity();
+      if (!stored) return false;
+
+      const { exists } = await checkRoom(stored.code);
+      if (!exists) {
+        clearLocalIdentity();
+        return false;
+      }
+
+      const rejoined = await rejoinRoom(stored.code, stored.playerId);
+      if (!rejoined) return false;
+
+      roomCode = stored.code;
+      playerId = stored.playerId;
+
+      document.getElementById("joinScreen").classList.add("hidden");
+      document.getElementById("waitingScreen").classList.remove("hidden");
+      document.getElementById("waitingMsg").textContent = `Welcome back, ${stored.name}!`;
+
+      watchRoom();
+      return true;
+    }
+
+    document.getElementById("joinBtn").addEventListener("click", async () => {
+      const code = document.getElementById("codeInput").value.trim();
+      const name = document.getElementById("nameInput").value.trim();
+      const status = document.getElementById("status");
+
+      if (code.length !== 4 || !/^\d{4}$/.test(code)) {
+        status.textContent = "Please enter a 4-digit room code.";
+        return;
+      }
+      if (!name) {
+        status.textContent = "Please enter your name.";
+        return;
+      }
+
+      status.textContent = "Checking room...";
+      const { exists, joinable } = await checkRoom(code);
+
+      if (!exists) {
+        status.textContent = "That room code wasn't found. Check with your host.";
+        return;
+      }
+      if (!joinable) {
+        status.textContent = "That session has already started. Ask your host for a fresh room code, or if you were already playing, try reopening this page.";
+        return;
+      }
+
+      roomCode = code;
+      playerId = await joinRoom(code, name);
+
+      document.getElementById("joinScreen").classList.add("hidden");
+      document.getElementById("waitingScreen").classList.remove("hidden");
+      document.getElementById("waitingMsg").textContent = "Joined! Waiting for the host to start...";
+
+      watchRoom();
+    });
+
+    tryAutoRejoin();
+
+    function watchRoom() {
+      const roomRef = ref(db, `rooms/${roomCode}`);
+      onValue(roomRef, (snapshot) => {
+        const roomData = snapshot.val();
+        if (!roomData) return;
+
+        if (roomData.status === "question" && lastSeenStatus !== "question") {
+          showQuestion(roomData);
+        } else if (roomData.status === "reveal" && lastSeenStatus !== "reveal") {
+          showReveal(roomData);
+        } else if (roomData.status === "leaderboard" && lastSeenStatus !== "leaderboard") {
+          showWaitingForHost();
+        } else if (roomData.status === "finished" && lastSeenStatus !== "finished") {
+          showFinished(roomData);
+        }
+        lastSeenStatus = roomData.status;
+
+        const me = roomData.players && roomData.players[playerId];
+        if (me) {
+          document.getElementById("scoreDisplay").textContent = `Score: ${me.score} | Streak: ${me.streak}`;
+          document.getElementById("scoreDisplayPlay").textContent = `Score: ${me.score} | Streak: ${me.streak}`;
+        }
+      });
+    }
+
+    function showQuestion(roomData) {
+      hasAnsweredThisQuestion = false;
+      questionStartTime = roomData.questionStartedAt;
+
+      document.getElementById("waitingScreen").classList.add("hidden");
+      document.getElementById("playScreen").classList.remove("hidden");
+      document.getElementById("feedback").textContent = "";
+      document.getElementById("feedback").className = "";
+
+      const tiles = document.querySelectorAll(".player-answer-tile");
+      tiles.forEach(t => {
+        t.disabled = false;
+        t.classList.remove("chosen");
+        t.style.outline = "";
+      });
+    }
+
+    async function submitAnswer(index) {
+      if (hasAnsweredThisQuestion) return;
+      hasAnsweredThisQuestion = true;
+
+      document.querySelectorAll(".player-answer-tile").forEach((t, i) => {
+        t.disabled = true;
+        if (i === index) t.classList.add("chosen");
+      });
+
+      const roomSnapshot = await get(ref(db, `rooms/${roomCode}`));
+      const roomData = roomSnapshot.val();
+      const questionIndex = roomData.currentQuestionIndex;
+
+      await update(ref(db, `rooms/${roomCode}/players/${playerId}/answers/${questionIndex}`), {
+        selectedIndex: index,
+        answeredAt: Date.now()
+      });
+
+      document.getElementById("feedback").textContent = "Answer locked in!";
+    }
+
+    document.querySelectorAll(".player-answer-tile").forEach(tile => {
+      tile.addEventListener("click", () => {
+        submitAnswer(parseInt(tile.dataset.index, 10));
+      });
+    });
+
+    async function showReveal(roomData) {
+      const q = roomData.currentQuestion;
+      const questionIndex = roomData.currentQuestionIndex;
+
+      const playerSnapshot = await get(ref(db, `rooms/${roomCode}/players/${playerId}`));
+      const me = playerSnapshot.val();
+      const myAnswer = me.answers && me.answers[questionIndex];
+
+      const feedback = document.getElementById("feedback");
+      const wasCorrect = !!myAnswer && myAnswer.selectedIndex === q.correct;
+
+      if (!myAnswer) {
+        feedback.textContent = "Time's up - you didn't answer in time.";
+        feedback.className = "feedback-wrong";
+      } else if (wasCorrect) {
+        feedback.textContent = "Correct! 🎉";
+        feedback.className = "feedback-correct";
+      } else {
+        feedback.textContent = "Not quite.";
+        feedback.className = "feedback-wrong";
+      }
+
+      document.querySelectorAll(".player-answer-tile").forEach((t, i) => {
+        if (i === q.correct) t.style.outline = "6px solid #fff";
+      });
+
+      if (!scoredQuestionIndices.has(questionIndex)) {
+        scoredQuestionIndices.add(questionIndex);
+        const timing = myAnswer
+          ? {
+              answeredAtMs: myAnswer.answeredAt,
+              questionStartedAtMs: roomData.questionStartedAt,
+              durationSeconds: roomData.questionDurationSeconds
+            }
+          : null;
+        await applyScoring(roomCode, playerId, wasCorrect, timing);
+      }
+    }
+
+    function showWaitingForHost() {
+      document.getElementById("playScreen").classList.add("hidden");
+      document.getElementById("waitingScreen").classList.remove("hidden");
+      document.getElementById("waitingMsg").textContent = "Round over! Check the big screen for the leaderboard.";
+    }
+
+    function showFinished(roomData) {
+      document.getElementById("playScreen").classList.add("hidden");
+      document.getElementById("waitingScreen").classList.remove("hidden");
+      document.getElementById("waitingMsg").textContent = "Quiz finished! Check the big screen for final results.";
+      stopHeartbeat();
+      clearLocalIdentity();
+    }
+  </script>
+</body>
+</html>

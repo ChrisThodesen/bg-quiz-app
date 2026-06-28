@@ -1,0 +1,578 @@
+[
+  {
+    "question": "Ventilation requirements for gas appliances are based on Building Regulation Part F, the Gas Safety (Installation & Use) Regulations and:",
+    "answers": [
+      "BS 5440 Part 2",
+      "BS 6644",
+      "BS EN 50291",
+      "BS 5440 Part 1"
+    ],
+    "correct": 0,
+    "explanation": "Ventilation requirements are based on BS 5440 Part 2 (Installation of Flues and Ventilation for Gas Appliances not exceeding 70 kW net), Building Regulation Part F, and the Gas Safety (Installation & Use) Regulations.",
+    "source": "S5-5"
+  },
+  {
+    "question": "If a gas appliance uses air from a room to maintain proper combustion, it is necessary to:",
+    "answers": [
+      "Replace that air with an equal amount of ventilation air",
+      "Reduce the appliance gas rate",
+      "Seal the room to prevent draughts",
+      "Install a flue damper"
+    ],
+    "correct": 0,
+    "explanation": "If an appliance uses air from a room or space to maintain proper combustion, it is necessary to replace that air with an equal amount of ventilation air.",
+    "source": "S5-5"
+  },
+  {
+    "question": "Besides providing combustion air, ventilation is also provided in a dwelling to provide a comfortable living environment and to:",
+    "answers": [
+      "Provide relief air for extract fans",
+      "Cool the gas meter regulator",
+      "Reduce the flue gas temperature",
+      "Increase the appliance burner pressure"
+    ],
+    "correct": 0,
+    "explanation": "Air for combustion is not the only purpose of ventilation; ventilation is also required to provide a comfortable living environment and to provide relief air for extract fans.",
+    "source": "S5-5"
+  },
+  {
+    "question": "Which regulation requires that, after carrying out work during a service visit, the supply of combustion air is examined and any defects notified to the responsible person?",
+    "answers": [
+      "Regulation 27(4)",
+      "Regulation 32(1)",
+      "Regulation 26(9)(b)",
+      "Regulation 34(1)"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 26(9)(b) requires that, after carrying out any work during a service visit, the supply of combustion air shall be examined and any defects notified to the responsible person.",
+    "source": "S5-5"
+  },
+  {
+    "question": "When a room sealed appliance is installed in a room or internal space, the room or space:",
+    "answers": [
+      "Requires high and low level vents",
+      "Requires a permanent opening direct to outside plus an openable window",
+      "Requires 5 cm² per kW of permanent ventilation",
+      "Does not require any permanent openings for combustion air"
+    ],
+    "correct": 3,
+    "explanation": "When a room sealed appliance is installed in a room or internal space, the room or space does not require any permanent openings for combustion air. Ventilation is only required where it is installed in a compartment, to dissipate heat.",
+    "source": "S5-6"
+  },
+  {
+    "question": "An open flued appliance installed in a room requires openings with a free area of:",
+    "answers": [
+      "100 cm² regardless of heat input",
+      "10 cm² for every kW of net heat input",
+      "5 cm² for every kW of gross heat input",
+      "5 cm² for every kW of appliance maximum rated net heat input"
+    ],
+    "correct": 3,
+    "explanation": "When an open flued appliance is installed in a room or internal space, the room shall have openings with a free area of 5 cm² for every kW of appliance maximum rated net heat input, made up of adventitious and purpose-provided openings as necessary.",
+    "source": "S5-6"
+  },
+  {
+    "question": "Which type of appliance is the exception that, in some installations, requires an air vent of 100 cm² free area irrespective of its net heat input?",
+    "answers": [
+      "A decorative fuel effect gas fire",
+      "An instantaneous water heater",
+      "A room sealed combination boiler",
+      "A balanced flue convector heater"
+    ],
+    "correct": 0,
+    "explanation": "The only exception to the 5 cm²/kW rule is the decorative fuel effect gas fire, which in some installations requires an air vent of 100 cm² free area irrespective of the net heat input (refer to manufacturer's instructions where available).",
+    "source": "S5-6"
+  },
+  {
+    "question": "Adventitious ventilation is best described as:",
+    "answers": [
+      "Air drawn from an adjacent compartment",
+      "Air provided by a mechanical extract fan",
+      "Air that enters a room through cracks around doors, openable windows and the structure generally",
+      "Air supplied through a purpose-made grille direct to outside"
+    ],
+    "correct": 2,
+    "explanation": "Adventitious ventilation is air that can enter a room through cracks around doors and openable windows, and through the structure generally.",
+    "source": "S5-6"
+  },
+  {
+    "question": "For open flued appliances, a fixed allowance for adventitious openings may be safely made of:",
+    "answers": [
+      "20 cm² (equivalent to 4 kW net heat input)",
+      "35 cm² (equivalent to 7 kW net heat input)",
+      "50 cm² (equivalent to 10 kW net heat input)",
+      "100 cm² (equivalent to 20 kW net heat input)"
+    ],
+    "correct": 1,
+    "explanation": "A fixed allowance for adventitious openings of 35 cm² (equivalent to 7 kW net heat input) can be safely made for open flued appliances, because the flow in the flue draws air into the room through these openings.",
+    "source": "S5-6"
+  },
+  {
+    "question": "The adventitious opening allowance:",
+    "answers": [
+      "Applies to all appliance types in all situations",
+      "Does not apply to flueless appliances nor to compartment installations",
+      "Applies only to flueless appliances",
+      "Applies only to compartment installations"
+    ],
+    "correct": 1,
+    "explanation": "The adventitious opening allowance does not apply to flueless appliances, nor to compartment installations.",
+    "source": "S5-6"
+  },
+  {
+    "question": "The room air vent requirement for an open flued appliance with a net heat input of less than 7 kW is:",
+    "answers": [
+      "100 cm² fixed",
+      "None required",
+      "5 cm² per kW",
+      "35 cm² fixed"
+    ],
+    "correct": 1,
+    "explanation": "For an open flued appliance, no room air vent is required where the net heat input is less than 7 kW. Above 7 kW, 5 cm² per kW of net heat input over 7 kW is required.",
+    "source": "S5-7"
+  },
+  {
+    "question": "What is the room ventilation requirement for an open flued boiler with a maximum net heat input of 23 kW?",
+    "answers": [
+      "46 cm²",
+      "80 cm²",
+      "160 cm²",
+      "115 cm²"
+    ],
+    "correct": 1,
+    "explanation": "The requirement is 5 cm² per kW over 7 kW: (23 - 7) x 5 = 80 cm².",
+    "source": "S5-7"
+  },
+  {
+    "question": "If an appliance heat input is given as a gross figure, how is it converted to a net input?",
+    "answers": [
+      "Multiply the gross input by 1.5",
+      "Divide the gross input by 1.11",
+      "Divide the gross input by 3.6",
+      "Multiply the gross input by 1.11"
+    ],
+    "correct": 1,
+    "explanation": "If the input is given in gross (as with some old appliances), dividing the gross heat input by 1.11 will convert it to net input.",
+    "source": "S5-7"
+  },
+  {
+    "question": "Flueless appliances:",
+    "answers": [
+      "May be installed in any compartment with high and low vents",
+      "Require no openable window if a flue is fitted",
+      "Must not be installed in compartments",
+      "Are exempt from all ventilation requirements"
+    ],
+    "correct": 2,
+    "explanation": "Flueless appliances must not be installed in compartments. They generally require a permanent opening direct to outside plus an openable window or equivalent, depending on room volume, appliance type, net heat input and room type.",
+    "source": "S5-7"
+  },
+  {
+    "question": "Where an air vent is necessary for a flueless appliance, it must be:",
+    "answers": [
+      "Direct to outside air",
+      "Drawn from an under floor void",
+      "Connected to the appliance compartment",
+      "Taken from an adjoining hallway"
+    ],
+    "correct": 0,
+    "explanation": "If an air vent is necessary for a flueless appliance, it must be direct to outside air. Air vents for flueless appliances must communicate directly with the outside air.",
+    "source": "S5-7"
+  },
+  {
+    "question": "In a room or space containing two or more appliances, the air vent requirement is taken as:",
+    "answers": [
+      "The smallest of the individual requirements",
+      "The largest of the individual calculated requirements",
+      "The average of the individual requirements",
+      "The sum of all the individual requirements"
+    ],
+    "correct": 1,
+    "explanation": "In a multi-appliance installation the air vent requirement is the largest of: the maximum total flueless space heater requirement, the maximum total open flued space heater requirement, or the greatest individual rated input of any other type of appliance.",
+    "source": "S5-9"
+  },
+  {
+    "question": "In a multi-appliance installation, the term 'space heater' is taken to mean:",
+    "answers": [
+      "A cooker or hob",
+      "A central heating boiler, warm air unit, gas fire or convector",
+      "Only an instantaneous water heater",
+      "Only a flueless gas fire"
+    ],
+    "correct": 1,
+    "explanation": "In multi-appliance installations, a space heater is taken to mean a central heating boiler, warm air unit, gas fire or convector.",
+    "source": "S5-9"
+  },
+  {
+    "question": "Where an interconnecting wall is removed and the resulting room contains two similar gas fires (each below 7 kW) on similar chimneys, no air vent is normally required provided the total rated input of both fires does not exceed:",
+    "answers": [
+      "7 kW",
+      "14 kW",
+      "10 kW",
+      "21 kW"
+    ],
+    "correct": 1,
+    "explanation": "No air vent is normally required if the total rated input of both gas fires does not exceed 14 kW. This exception does not apply to decorative fuel effect gas fires.",
+    "source": "S5-9"
+  },
+  {
+    "question": "To ensure good air transfer in an internal kitchen, internal doors should have an undercut equivalent to a minimum area of:",
+    "answers": [
+      "7600 mm²",
+      "12000 mm²",
+      "8000 mm²",
+      "10000 mm²"
+    ],
+    "correct": 0,
+    "explanation": "There should be an undercut equivalent to a minimum area of 7600 mm² in internal doors, e.g. a 10 mm undercut from a standard 760 mm wide door above the floor finish.",
+    "source": "S5-12"
+  },
+  {
+    "question": "For an internal kitchen with no external walls, the minimum intermittent mechanical extract rate when the fan is located above the hob is:",
+    "answers": [
+      "30 l/s",
+      "13 l/s",
+      "60 l/s",
+      "20 l/s"
+    ],
+    "correct": 0,
+    "explanation": "The extract fan rate should be a minimum of 30 l/s where the fan is located above the hob, and 60 l/s if the fan is located elsewhere in the kitchen.",
+    "source": "S5-12"
+  },
+  {
+    "question": "The minimum intermittent mechanical extract rate for a fan located elsewhere in the kitchen (not above the hob) is:",
+    "answers": [
+      "45 l/s",
+      "13 l/s",
+      "30 l/s",
+      "60 l/s"
+    ],
+    "correct": 3,
+    "explanation": "The extract fan rate should be a minimum of 60 l/s if the fan is located elsewhere in the kitchen, or 30 l/s where it is located above the hob.",
+    "source": "S5-12"
+  },
+  {
+    "question": "An intermittent kitchen extract fan controlled automatically should provide a manual over-ride and have an over-run facility of:",
+    "answers": [
+      "30 minutes",
+      "5 minutes",
+      "15 minutes",
+      "10 minutes"
+    ],
+    "correct": 2,
+    "explanation": "Any automatic control should provide a manual over-ride to allow the occupant to turn the extract system on, and the fan should have a 15 minute over-run facility.",
+    "source": "S5-12"
+  },
+  {
+    "question": "Mechanical extract terminals and extract fans should be placed as high as practicable but preferably within:",
+    "answers": [
+      "600 mm of the ceiling",
+      "400 mm of the ceiling",
+      "150 mm of the ceiling",
+      "1000 mm of the ceiling"
+    ],
+    "correct": 1,
+    "explanation": "Mechanical extract terminals and extract fans should be placed as high as practicable but preferably within 400 mm of the ceiling.",
+    "source": "S5-12"
+  },
+  {
+    "question": "Where a building extension or conservatory is added, background (trickle) ventilation should be at least 8000 mm², closable and located at least:",
+    "answers": [
+      "0.45 m above the floor",
+      "1.0 m above the floor",
+      "2.0 m above the floor",
+      "1.7 m above the floor"
+    ],
+    "correct": 3,
+    "explanation": "Background ventilation (trickle vents) of at least 8000 mm² should be provided, which are closable and located at least 1.7 m above the floor level.",
+    "source": "S5-13"
+  },
+  {
+    "question": "For ventilation through a building extension/conservatory, purge ventilation via openable doors, windows or similar to outside should have a total opening area equivalent to:",
+    "answers": [
+      "1/20th of the total combined floor area of the kitchen and extension/conservatory",
+      "1/5th of the combined floor area",
+      "1/15th of the kitchen floor area",
+      "1/30th of the floor area of the conservatory only"
+    ],
+    "correct": 0,
+    "explanation": "Purge ventilation via openable doors, windows or similar to outside air should have a total opening area equivalent to 1/20th the total combined floor area of the kitchen and building extension/conservatory.",
+    "source": "S5-13"
+  },
+  {
+    "question": "For PSV provision, an open-flued gas or oil appliance may provide sufficient extract ventilation where its chimney/flue system has a free area equivalent to a diameter of:",
+    "answers": [
+      "125 mm",
+      "150 mm",
+      "175 mm",
+      "100 mm"
+    ],
+    "correct": 0,
+    "explanation": "The provision may be adequate where there is an open-flued appliance with a chimney/flue system with a free area equivalent to 125 mm diameter and the combustion air inlet and dilution inlet are permanently open with no control dampers.",
+    "source": "S5-13"
+  },
+  {
+    "question": "Air vents supplying air to an appliance shall NOT communicate directly with:",
+    "answers": [
+      "A builder's opening",
+      "An adjacent room at low level",
+      "An outside wall",
+      "A purpose-made grille"
+    ],
+    "correct": 0,
+    "explanation": "Air vents shall not communicate directly with a builder's opening, and the air path must not be installed in fire-resisting or smoke-stop doors.",
+    "source": "S5-33"
+  },
+  {
+    "question": "A vent supplying air to an open flued appliance shall not communicate with a room or internal space containing:",
+    "answers": [
+      "A central heating boiler",
+      "A window to outside",
+      "Another air vent",
+      "A bath or shower"
+    ],
+    "correct": 3,
+    "explanation": "A vent supplying air to an open flued appliance shall not communicate with a room or internal space containing a bath or shower.",
+    "source": "S5-33"
+  },
+  {
+    "question": "Where an appliance room vent communicates with a second space such as a hall, the air vent in the internal wall should be located no more than 450 mm above floor level in order to:",
+    "answers": [
+      "Reduce the spread of smoke in the event of a fire",
+      "Allow the vent to be closed easily",
+      "Maximise the air flow rate",
+      "Prevent draughts at head height"
+    ],
+    "correct": 0,
+    "explanation": "If the appliance room vent communicates with a second space such as a hall, the air vent in the internal wall should be located no more than 450 mm above floor level in order to reduce the spread of smoke in the event of a fire.",
+    "source": "S5-33"
+  },
+  {
+    "question": "Air vents supplying air to an appliance from an unoccupied roof space should be sited not less than:",
+    "answers": [
+      "450 mm above the joists",
+      "150 mm above the joists",
+      "300 mm above the joists",
+      "600 mm above the joists"
+    ],
+    "correct": 2,
+    "explanation": "Air vents supplying air from an unoccupied roof space should be sited not less than 300 mm above the joists, to avoid blockage by roof insulation, and preferably fitted with a terminal device or bird guard.",
+    "source": "S5-34"
+  },
+  {
+    "question": "Where three or more air vents are installed in series, the area of the intermediate vents should be increased by at least:",
+    "answers": [
+      "50% above that required for a single vent direct to outside",
+      "10% above that required for a single vent",
+      "25% above that required for a single vent",
+      "100% above that required for a single vent"
+    ],
+    "correct": 0,
+    "explanation": "Where three or more air vents are installed in series, the area of the intermediate vents should be increased by at least 50% above that required for a single vent direct to outside, and the intermediate vents must be fitted at low level.",
+    "source": "S5-34"
+  },
+  {
+    "question": "Ventilation grilles designed for use in gas installations should have openings that:",
+    "answers": [
+      "Prevent entry of a 5 mm ball but allow a 3 mm ball",
+      "Prevent entry of a 10 mm diameter ball but allow entry of a 5 mm ball",
+      "Prevent entry of a 20 mm ball but allow a 10 mm ball",
+      "Allow entry of a 16 mm ball"
+    ],
+    "correct": 1,
+    "explanation": "The openings in ventilation grilles should be non-adjustable and should prevent entry of a 10 mm diameter ball but allow entry of a 5 mm ball.",
+    "source": "S5-34"
+  },
+  {
+    "question": "Openings in ventilation grilles used in gas installations should be:",
+    "answers": [
+      "Non-adjustable, to allow the passage of air at all times",
+      "Fitted with a fine insect mesh",
+      "Closable in summer to prevent draughts",
+      "Adjustable, so air flow can be controlled by the occupant"
+    ],
+    "correct": 0,
+    "explanation": "The openings in ventilation grilles should be non-adjustable to allow the passage of air at all times.",
+    "source": "S5-34"
+  },
+  {
+    "question": "A flueless space heater shall be sited at least how far from any air vent for combustion and any other ventilator?",
+    "answers": [
+      "600 mm",
+      "1000 mm",
+      "300 mm",
+      "450 mm"
+    ],
+    "correct": 1,
+    "explanation": "The appliance shall be sited at least 1000 mm from any air vent for combustion and any other ventilator. Air vents sited too close to an appliance can cause draught disturbance leading to poor combustion, sooting and the formation of carbon monoxide.",
+    "source": "S5-34"
+  },
+  {
+    "question": "A compartment is best defined as:",
+    "answers": [
+      "An enclosure specially designed or adapted to house a gas appliance",
+      "A space in which people regularly spend time",
+      "Any room with a volume less than 10 m³",
+      "A room containing a bath or shower"
+    ],
+    "correct": 0,
+    "explanation": "A compartment is an enclosure specially designed or adapted to house a gas appliance. As a rule of thumb, a space should be treated as a room if people are likely to spend time in it; a room will generally not be less than 5 m³ volume.",
+    "source": "S5-35"
+  },
+  {
+    "question": "A compartment housing an appliance requires an air vent at:",
+    "answers": [
+      "Both high and low level, to dissipate the heat generated",
+      "Neither level if the appliance is room sealed in all cases",
+      "High level only",
+      "Low level only"
+    ],
+    "correct": 0,
+    "explanation": "A compartment requires an air vent at both high and low level to dissipate the heat generated by the appliance. An open flued appliance also requires an additional allowance for combustion air and flue operation. The adventitious allowance does not apply to compartment ventilation.",
+    "source": "S5-35"
+  },
+  {
+    "question": "For an open flued appliance in a compartment taking air FROM THE ROOM, the effective air vent areas required are:",
+    "answers": [
+      "5 cm²/kW at both high and low level",
+      "5 cm²/kW at high level and 10 cm²/kW at low level",
+      "10 cm²/kW at high level and 20 cm²/kW at low level",
+      "10 cm²/kW at both high and low level"
+    ],
+    "correct": 2,
+    "explanation": "For an open flued appliance in a compartment with air from the room, the effective areas are 10 cm²/kW at high level and 20 cm²/kW at low level. Where air is direct from outside the figures halve to 5 cm²/kW high and 10 cm²/kW low.",
+    "source": "S5-36"
+  },
+  {
+    "question": "For an open flued appliance in a compartment taking air DIRECT FROM OUTSIDE, the effective air vent areas required are:",
+    "answers": [
+      "10 cm²/kW at high level and 20 cm²/kW at low level",
+      "5 cm²/kW at both high and low level",
+      "10 cm²/kW at both high and low level",
+      "5 cm²/kW at high level and 10 cm²/kW at low level"
+    ],
+    "correct": 3,
+    "explanation": "For an open flued appliance with air direct from outside, the effective areas are 5 cm²/kW at high level and 10 cm²/kW at low level.",
+    "source": "S5-36"
+  },
+  {
+    "question": "For a room sealed appliance in a compartment taking air FROM THE ROOM, the effective air vent areas required are:",
+    "answers": [
+      "5 cm²/kW high and 10 cm²/kW low",
+      "5 cm²/kW at both high and low level",
+      "10 cm²/kW at both high and low level",
+      "10 cm²/kW high and 20 cm²/kW low"
+    ],
+    "correct": 2,
+    "explanation": "For a room sealed appliance in a compartment with air from the room, the effective areas are 10 cm²/kW at both high and low level. Where air is direct from outside, both figures are 5 cm²/kW.",
+    "source": "S5-36"
+  },
+  {
+    "question": "When sizing compartment ventilation for a range rated appliance, the effective air vent area must be based on:",
+    "answers": [
+      "The minimum input",
+      "The output rather than the input",
+      "The maximum input",
+      "The average of the range"
+    ],
+    "correct": 2,
+    "explanation": "The air vent effective area for range rated appliances must be based on the maximum input.",
+    "source": "S5-36"
+  },
+  {
+    "question": "On new installations, the high and low compartment air vents should communicate with the same room or space, or:",
+    "answers": [
+      "Both be on the same wall to outside",
+      "Take air from a bathroom",
+      "Be supplied from a common attic duct",
+      "Be on opposite walls to outside"
+    ],
+    "correct": 0,
+    "explanation": "On new installations both air vents should communicate with the same room or space, or they should both be on the same wall to outside.",
+    "source": "S5-36"
+  },
+  {
+    "question": "Regarding supplying compartment ventilation from an attic space, it is NOT acceptable to:",
+    "answers": [
+      "Provide bird guards on the terminals",
+      "Supply both high and low compartment ventilation using only one common duct",
+      "Use separate ducts for high and low level",
+      "Treat a properly ventilated roof space as outside air"
+    ],
+    "correct": 1,
+    "explanation": "It is not acceptable to supply both high and low compartment ventilation from an attic space using only one common duct; separate ducts must be used. The high level vent must not be ducted from a lower level.",
+    "source": "S5-36"
+  },
+  {
+    "question": "Where a compartment houses an open flued appliance, neither the door nor the air vents shall communicate with:",
+    "answers": [
+      "A bathroom or shower room",
+      "A kitchen",
+      "An outside wall",
+      "A hallway"
+    ],
+    "correct": 0,
+    "explanation": "If the compartment contains an open flued appliance, neither the door nor the air vents shall communicate with a bathroom or shower room.",
+    "source": "S5-36"
+  },
+  {
+    "question": "After 1st January 1996, a new open flued appliance installation may only communicate with a bedroom if it is rated less than 14 kW heat input and is fitted with:",
+    "answers": [
+      "An automatic flue damper",
+      "A carbon monoxide alarm only",
+      "A high level air vent only",
+      "A vitiation sensing device or thermal spillage detector"
+    ],
+    "correct": 3,
+    "explanation": "After 1st January 1996, new open flue appliance installations must not communicate with a bedroom unless they are rated less than 14 kW heat input and are fitted with a vitiation sensing device or thermal spillage detector.",
+    "source": "S5-36"
+  },
+  {
+    "question": "A compartment housing an appliance should be labelled with the 'Warning Notice for Appliances in Compartments' advising the customer:",
+    "answers": [
+      "To close the vents during cold weather",
+      "To service the appliance themselves annually",
+      "To open the compartment door when the appliance is in use",
+      "Not to block any purpose-provided ventilators and not to use the compartment for storage"
+    ],
+    "correct": 3,
+    "explanation": "The compartment should be labelled with the 'Warning Notice for Appliances in Compartments' advising the customer not to block any purpose-provided ventilators and not to use the compartment for storage.",
+    "source": "S5-37"
+  },
+  {
+    "question": "Where the flue performance of an open flued appliance is adversely affected by an extract fan, the additional air vent free area required is determined by:",
+    "answers": [
+      "Progressively opening a window until the flue performance is satisfactory, then measuring that opening",
+      "Removing the extract fan permanently",
+      "Adding a fixed 100 cm² in all cases",
+      "Doubling the original calculated vent area"
+    ],
+    "correct": 0,
+    "explanation": "Where flue performance is adversely affected, the additional air vent free area is determined by progressively opening a window until the flue performance is satisfactory, then measuring the area of the window opening. As a general guide, an additional 50 cm² of air vent free area will be sufficient for most situations.",
+    "source": "S5-31"
+  },
+  {
+    "question": "Where a room already contains solid fuel or oil burning appliances, for ventilation purposes they should be:",
+    "answers": [
+      "Treated as gas appliances of a similar rating",
+      "Removed before the gas appliance is commissioned",
+      "Ignored as they have their own air supply",
+      "Allowed double the gas ventilation allowance"
+    ],
+    "correct": 0,
+    "explanation": "Where the room already contains solid fuel or oil burning appliances, they should be treated as gas appliances of a similar rating. Their badge often shows output rather than input.",
+    "source": "S5-31"
+  },
+  {
+    "question": "Air vents across cavity walls shall include:",
+    "answers": [
+      "An open gap to allow cavity ventilation",
+      "A non-return valve",
+      "Insulation packed around the vent",
+      "A continuous duct across the cavity that does not affect its water resistance"
+    ],
+    "correct": 3,
+    "explanation": "Air vents across cavity walls shall include a continuous duct across the cavity, and the duct shall not affect the water resistance of the cavity.",
+    "source": "S5-34"
+  }
+]

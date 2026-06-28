@@ -1,0 +1,146 @@
+[
+  {
+    "question": "When an operative has worked on a gas appliance, the Gas Safety Regulations require them to immediately afterwards examine all of the following EXCEPT:",
+    "answers": [
+      "The effectiveness of the flue",
+      "The supply of combustion air",
+      "The customer's energy tariff",
+      "Its operating pressure or heat input"
+    ],
+    "correct": 2,
+    "explanation": "After working on an appliance the operative must examine the effectiveness of the flue, the supply of combustion air, the operating pressure or heat input (where necessary both), and its operation to ensure safe functioning. The customer's tariff is not a safety matter.",
+    "source": "S1-5"
+  },
+  {
+    "question": "Examining 'the effectiveness of the flue' after working on an appliance is carried out by which test(s)?",
+    "answers": [
+      "A tightness test only",
+      "A let-by test",
+      "A flue flow (continuity) and spillage test",
+      "A lock-up test"
+    ],
+    "correct": 2,
+    "explanation": "The effectiveness of the flue is confirmed by a flue flow (continuity) test and a spillage test, ensuring products of combustion are safely cleared.",
+    "source": "S1-5"
+  },
+  {
+    "question": "When simply purging through an existing domestic gas appliance, is the operative required to carry out the four appliance examinations (flue, ventilation, pressure/heat input, operation)?",
+    "answers": [
+      "Yes — all four, every time",
+      "No — there is no requirement to examine these when purging through an existing domestic appliance",
+      "Only the flue flow test is required",
+      "Only if the appliance is over ten years old"
+    ],
+    "correct": 1,
+    "explanation": "There is no requirement to carry out the four examinations when purging through an existing domestic appliance. However, a duty of care still applies if an obvious defect is noticed.",
+    "source": "S1-5"
+  },
+  {
+    "question": "Even when the four examinations aren't required, the operative still has a 'Duty of Care' to act under which procedure if an obvious defect is spotted?",
+    "answers": [
+      "RIDDOR 2013",
+      "The Gas Industry Unsafe Situations Procedure",
+      "BS 6400-2",
+      "The Pressure Systems Safety Regulations"
+    ],
+    "correct": 1,
+    "explanation": "A gas operative has a duty of care to take action under the Gas Industry Unsafe Situations Procedure whenever an obvious defect is spotted while purging.",
+    "source": "S1-5"
+  },
+  {
+    "question": "While lighting an oven you notice the burner comes on immediately at full rate. What does this most likely indicate?",
+    "answers": [
+      "Correct, normal operation",
+      "A blocked flue",
+      "The FSD (flame supervision device) is not operating at low rate",
+      "Excessive ventilation"
+    ],
+    "correct": 2,
+    "explanation": "An oven burner igniting straight at full rate suggests the flame supervision device is not operating at low rate — a defect the operative should act on under the Unsafe Situations Procedure.",
+    "source": "S1-5"
+  },
+  {
+    "question": "Poor combustion observed at a burner when re-establishing a supply could indicate:",
+    "answers": [
+      "A faulty meter",
+      "Inadequate ventilation or a service requirement",
+      "That the gas rate is too low only",
+      "Nothing of concern"
+    ],
+    "correct": 1,
+    "explanation": "Poor combustion at a burner can indicate inadequate ventilation or that the appliance is due a service — both defects to be acted upon.",
+    "source": "S1-5"
+  },
+  {
+    "question": "Staining or signs of spillage around an appliance is an indication that:",
+    "answers": [
+      "The appliance needs more gas",
+      "The installation has passed its tightness test",
+      "Ventilation is excessive",
+      "The flue is not operating correctly"
+    ],
+    "correct": 3,
+    "explanation": "Staining or spillage is a sign that a flue is not operating correctly and products of combustion are not being cleared properly.",
+    "source": "S1-5"
+  },
+  {
+    "question": "Which two procedures must be carried out, in order, as part of re-establishing an existing domestic gas installation before the visual checks?",
+    "answers": [
+      "Tightness test, then purge",
+      "Purge, then tightness test",
+      "Lock-up test, then let-by test",
+      "Flue flow test, then spillage test"
+    ],
+    "correct": 0,
+    "explanation": "The installation must first be tested for tightness, then purged. A tightness test must always be completed immediately before any purge admitting fuel gas.",
+    "source": "S1-5"
+  },
+  {
+    "question": "An installation is only considered to be fully purged when:",
+    "answers": [
+      "The meter stops turning",
+      "A stable flame has been established on each and every burner",
+      "The smell of gas has disappeared",
+      "Two minutes have elapsed"
+    ],
+    "correct": 1,
+    "explanation": "Full purging is only achieved once a stable flame has been established on each and every appliance burner.",
+    "source": "S1-5"
+  },
+  {
+    "question": "When re-establishing supply, checking the flame picture at every appliance burner is done to confirm:",
+    "answers": [
+      "Complete combustion",
+      "Correct gas pressure",
+      "Flue integrity",
+      "Meter accuracy"
+    ],
+    "correct": 0,
+    "explanation": "A correct flame picture at every burner is visually confirmed to ensure complete combustion across the installation.",
+    "source": "S1-5"
+  },
+  {
+    "question": "Which of the following is a recognised reason for a gas supply being interrupted?",
+    "answers": [
+      "The consumer unit tripping",
+      "A blocked condensate pipe",
+      "Gas leakage from the supply mains",
+      "Low mains water pressure"
+    ],
+    "correct": 2,
+    "explanation": "Supplies can be interrupted by faulty equipment on the mains, gas leakage from the supply mains, or simply for maintenance purposes.",
+    "source": "S1-5"
+  },
+  {
+    "question": "The final visual checks when re-establishing supply include a correct flame picture, a stable flame on every burner, and confirming that:",
+    "answers": [
+      "There are no obvious defects on the installation or appliances",
+      "The customer signs a disclaimer",
+      "The meter has been replaced",
+      "The ECV has been removed"
+    ],
+    "correct": 0,
+    "explanation": "The operative must visually confirm there are no obvious defects on the installation or appliances as part of safely re-establishing the supply.",
+    "source": "S1-5"
+  }
+]

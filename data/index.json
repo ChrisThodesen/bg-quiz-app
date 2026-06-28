@@ -1,0 +1,188 @@
+[
+  {
+    "id": "mocopa",
+    "title": "MOCOPA Exam",
+    "subtitle": "MOCOPA Assessment Practice",
+    "icon": "⚡",
+    "file": "./data/mocopa.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 60,
+    "requireSourceAndExplanation": false
+  },
+  {
+    "id": "reestablish-supply",
+    "title": "Re-establish a Gas Supply",
+    "subtitle": "Section 1 · Re-establish a Gas Supply",
+    "icon": "🔁",
+    "file": "./data/reestablish-supply.json",
+    "passmark": 80,
+    "practiceCount": 12,
+    "testCount": 12
+  },
+  {
+    "id": "tightness-testing",
+    "title": "Tightness Testing",
+    "subtitle": "Section 2 · Tightness Testing",
+    "icon": "🧪",
+    "file": "./data/tightness-testing.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 30
+  },
+  {
+    "id": "installation-purge-volumes",
+    "title": "Installation & Purge Volumes",
+    "subtitle": "Section 2 · Calculating IV & PV",
+    "icon": "🧮",
+    "generator": {
+      "script": "./generators/generateIVPV.js",
+      "global": "PurgeVolumeGenerator"
+    },
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 20
+  },
+  {
+    "id": "pressures-gas-rates",
+    "title": "Pressures & Gas Rates",
+    "subtitle": "Section 3 · Pressures & Gas Rates",
+    "icon": "🎚️",
+    "file": "./data/pressures-gas-rates.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 20
+  },
+  {
+    "id": "chimneys",
+    "title": "Chimneys",
+    "subtitle": "Section 4 · Chimneys",
+    "icon": "💨",
+    "file": "./data/chimneys.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 20
+  },
+  {
+    "id": "ventilation",
+    "title": "Ventilation",
+    "subtitle": "Section 5 · Ventilation",
+    "icon": "🌬️",
+    "file": "./data/ventilation.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 20
+  },
+  {
+    "id": "pipework",
+    "title": "Pipework",
+    "subtitle": "Section 6 · Pipework",
+    "icon": "🔧",
+    "file": "./data/pipework.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 20
+  },
+  {
+  "id": "unsafe-situations",
+  "title": "Unsafe Situations & Risk Classification",
+  "subtitle": "Section 7 · Unsafe Situations/Labels",
+  "icon": "⚠️",
+  "file": "./data/unsafe-situations.json",
+  "passmark": 80,
+  "practiceCount": 30,
+  "testCount": 60
+  },
+  {
+    "id": "emergency-actions",
+    "title": "Emergency Actions",
+    "subtitle": "Section 8 · Emergency Actions",
+    "icon": "🚨",
+    "file": "./data/emergency-actions.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 20
+  },
+  {
+    "id": "combustion",
+    "title": "Combustion",
+    "subtitle": "Section 9 · Combustion",
+    "icon": "🔥",
+    "file": "./data/combustion.json",
+    "passmark": 80,
+    "practiceCount": 8,
+    "testCount": 15
+  },
+  {
+    "id": "gas-controls",
+    "title": "Gas Controls",
+    "subtitle": "Section 10 · Gas Controls",
+    "icon": "🎛️",
+    "file": "./data/gas-controls.json",
+    "passmark": 80,
+    "practiceCount": 15,
+    "testCount": 20
+  },
+  {
+    "id": "legislation",
+    "title": "Legislation",
+    "subtitle": "Section 11 · Legislation",
+    "icon": "⚖️",
+    "file": "./data/legislation.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 25
+  },
+  {
+    "id": "heaters",
+    "title": "Heaters",
+    "subtitle": "Section 12 · Heaters",
+    "icon": "🔥",
+    "file": "./data/heaters.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 30
+  },
+  {
+    "id": "warm-air-heaters",
+    "title": "Warm Air Heaters",
+    "subtitle": "Section 13 · Warm Air Heaters",
+    "icon": "🌬️",
+    "file": "./data/warmair.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 25
+  },
+  {
+    "id": "wet-central-heating",
+    "title": "Wet Central Heating",
+    "subtitle": "Section 14 · Wet Central Heating",
+    "icon": "🔥",
+    "file": "./data/wet-central-heating.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 20
+  },
+  {
+    "id": "water-heaters",
+    "title": "Water Heaters",
+    "subtitle": "Section 15 · Water Heaters",
+    "icon": "🚿",
+    "file": "./data/water-heaters.json",
+    "passmark": 80,
+    "practiceCount": 15,
+    "testCount": 20
+  },
+  {
+    "id": "reacs-mock-exam",
+    "title": "Re-ACS Mock Exam",
+    "subtitle": "Re-ACS Mock Exam",
+    "icon": "🎯",
+    "file": "./data/bgsm-re-acs.json",
+    "passmark": 80,
+    "practiceCount": 20,
+    "testCount": 206
+  }
+
+
+]

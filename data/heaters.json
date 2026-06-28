@@ -1,0 +1,1574 @@
+[
+  {
+    "question": "Under Regulation 30(3)(b) referenced in the guide, what must an open flued appliance of 14kW gross heat input or less incorporate if installed in sleeping accommodation?",
+    "answers": [
+      "A safety device which will shut down the appliance before there is a dangerous build up of products of combustion in the room (a vitiation device)",
+      "A manual damper that the occupier can close before sleeping",
+      "A secondary flue terminal fitted at high level",
+      "A carbon monoxide alarm wired directly into the appliance controls"
+    ],
+    "correct": 0,
+    "explanation": "The guide states that an open flued appliance of 14kW gross heat input or less may be fitted in sleeping accommodation provided it incorporates a safety device which will shut down the appliance before there is a dangerous build up of products of combustion in the room, i.e. a vitiation device.",
+    "source": "S12-5"
+  },
+  {
+    "question": "Above what gross heat input must an open flued appliance not be fitted in a room used as sleeping accommodation?",
+    "answers": [
+      "More than 30kW gross heat input",
+      "More than 14kW gross heat input",
+      "More than 20kW gross heat input",
+      "More than 7kW gross heat input"
+    ],
+    "correct": 1,
+    "explanation": "The guide states that an open flued appliance of more than 14kW gross heat input must not be fitted in a room to be used as sleeping accommodation.",
+    "source": "S12-5"
+  },
+  {
+    "question": "According to the guide, what should be done with an existing under floor air supply that serves a builder's opening or fireplace recess?",
+    "answers": [
+      "The air vent should be sealed to avoid draughts interfering with correct operation of the appliance and chimney",
+      "It should be relocated to the opposite wall of the room",
+      "It should be left fully open at all times to maximise ventilation",
+      "It should be enlarged to at least double its original size"
+    ],
+    "correct": 0,
+    "explanation": "Air vents shall not communicate directly with a builder's opening. Where a builder's opening, fireplace recess or inglenook installation is served by an existing under floor air supply, the air vent should be sealed to avoid draughts interfering with correct operation of the appliance and chimney.",
+    "source": "S12-5"
+  },
+  {
+    "question": "What were old chimneys (pre-1966) typically constructed from, according to the guide?",
+    "answers": [
+      "Twin wall metal pipe sections",
+      "Pre-cast concrete sections lined with clay",
+      "Glazed clay liner pipes throughout",
+      "Brick built, often 9 x 9 sq. ins, and skimmed on the inner surface with mortar"
+    ],
+    "correct": 3,
+    "explanation": "Pre-1966 chimneys were often 9 x 9 sq. ins, brick built and skimmed on the inner surface with mortar; soot accumulation and mortar deterioration could cause blockage, restriction or leaking joints.",
+    "source": "S12-5"
+  },
+  {
+    "question": "What problem can result from falling soot and deteriorating mortar skim in an old brick chimney?",
+    "answers": [
+      "No effect, as mortar skim does not affect flue performance",
+      "Blockage or restriction, and leaking joints resulting in poor flue pull and/or wall staining",
+      "An increase in flue draught beyond the safe operating range",
+      "A permanent improvement in combustion efficiency"
+    ],
+    "correct": 1,
+    "explanation": "During use with solid fuel, soot can accumulate and the mortar skim can deteriorate; falling soot and mortar debris can cause blockage or restriction, and fallen mortar can leave leaking joints resulting in poor flue pull and/or wall staining.",
+    "source": "S12-5"
+  },
+  {
+    "question": "What were modern chimneys (post-1966) typically lined with?",
+    "answers": [
+      "Asbestos cement board",
+      "Galvanised steel sheet only",
+      "Concrete or round, square or rectangular clay pipes, which may be glazed or unglazed",
+      "Vermiculite insulation panels"
+    ],
+    "correct": 2,
+    "explanation": "Post-1966 chimneys were lined with concrete or round, square or rectangular clay pipes which may be glazed or unglazed; surface deterioration should not occur, but soot can accumulate.",
+    "source": "S12-5"
+  },
+  {
+    "question": "What issue can occur in a modern lined chimney if the space between the liner and surrounding brickwork is not sealed at the bottom end?",
+    "answers": [
+      "An automatic increase in chimney height requirement",
+      "Excessive flue draught requiring a spigot restrictor",
+      "Poor flue-pull, which must therefore be sealed",
+      "Condensation only, with no effect on flue performance"
+    ],
+    "correct": 2,
+    "explanation": "The space between the liner and surrounding brickwork may not be sealed at the bottom end; this can result in poor flue-pull and therefore must be sealed.",
+    "source": "S12-5"
+  },
+  {
+    "question": "Which of the following locations should be avoided when siting a flueless gas fire or stove?",
+    "answers": [
+      "Within 3 metres of a kitchen door",
+      "Into an opening under an existing chimney, in front of a fireplace opening, close to an existing chimney, or in close proximity to an air vent",
+      "On a hearth raised more than 100mm above floor level",
+      "Against any internal partition wall"
+    ],
+    "correct": 1,
+    "explanation": "Locations to be avoided for flueless heaters include: into an opening under an existing chimney, in front of a fireplace opening, close to an existing chimney, or in close proximity to an air vent and any other ventilator, e.g. one serving a redundant chimney.",
+    "source": "S12-5"
+  },
+  {
+    "question": "What problems can flueless gas fires or stoves experience due to excessive air movement?",
+    "answers": [
+      "Only a reduction in burner noise",
+      "Only condensation on the glass door",
+      "An increase in catalyst lifespan",
+      "Flame disturbance/reversal, overheating, incomplete combustion and sooting"
+    ],
+    "correct": 3,
+    "explanation": "Flueless gas fires or stoves can experience one or more of the following due to excessive air movement: flame disturbance/reversal, overheating, incomplete combustion and sooting.",
+    "source": "S12-5"
+  },
+  {
+    "question": "What must be done to a chimney previously used for an appliance burning a fuel other than gas, before a gas fire is installed?",
+    "answers": [
+      "It must be swept",
+      "It must be relined regardless of condition",
+      "It must be tested with a smoke pellet only, with no sweeping required",
+      "It must be left for 12 months to allow residue to settle"
+    ],
+    "correct": 0,
+    "explanation": "Any chimney which has previously been used for an appliance burning a fuel other than gas must be swept before a gas fire is installed.",
+    "source": "S12-6"
+  },
+  {
+    "question": "What does a chimney termination that appears significantly out of line with the fireplace suggest?",
+    "answers": [
+      "The chimney is too short and requires extension",
+      "There could be a section of almost horizontal chimney in which soot and debris can accumulate",
+      "The fireplace opening has been bricked up at some point",
+      "The chimney has definitely been re-lined in modern materials"
+    ],
+    "correct": 1,
+    "explanation": "If the chimney termination appears to be significantly out of line with the fireplace, there could be a section of almost horizontal chimney in which soot and debris can accumulate, making the installation vulnerable to a more serious total blockage.",
+    "source": "S12-6"
+  },
+  {
+    "question": "What must be done with any damper or restrictor plate found in a chimney before installing a gas fire?",
+    "answers": [
+      "It must be welded shut in the open position only if made of cast iron",
+      "It must be left in place but clearly labelled",
+      "It must be replaced with a new damper of the same type",
+      "It must be removed, except that where it is not reasonably practicable to remove a sliding damper, it shall be permanently fixed in the permanently open position"
+    ],
+    "correct": 3,
+    "explanation": "Any damper or restrictor plate must be removed except that, where it is not reasonably practicable to remove a sliding damper, it shall be permanently fixed in the permanently open position.",
+    "source": "S12-6"
+  },
+  {
+    "question": "What is the minimum size of a debris catchment space at the base of a chimney, in terms of width and depth from the closure plate?",
+    "answers": [
+      "250mm wide and 100mm from the closure plate to the rear of the catchment space",
+      "300mm wide and 165mm from the closure plate to the rear of the catchment space",
+      "400mm wide and 200mm from the closure plate to the rear of the catchment space",
+      "150mm wide and 75mm from the closure plate to the rear of the catchment space"
+    ],
+    "correct": 1,
+    "explanation": "The minimum catchment space size shall be 300mm wide and 165mm from the closure plate to the rear of the catchment space.",
+    "source": "S12-6"
+  },
+  {
+    "question": "What throat dimension at the top of the catchment space should be allowed for falling debris?",
+    "answers": [
+      "110mm plus or minus 10mm",
+      "200mm plus or minus 20mm",
+      "150mm plus or minus 15mm",
+      "75mm plus or minus 5mm"
+    ],
+    "correct": 0,
+    "explanation": "A debris catchment space shall be provided at the base of the chimney, and the throat dimension at the top should be 110 plus or minus 10mm to allow for falling debris.",
+    "source": "S12-6"
+  },
+  {
+    "question": "What minimum depth is required from the bottom of the flue spigot to the catchment space for an unlined masonry chimney?",
+    "answers": [
+      "300mm",
+      "75mm",
+      "165mm",
+      "250mm"
+    ],
+    "correct": 3,
+    "explanation": "A masonry chimney requires a minimum depth of 250mm from the bottom of the flue spigot to the catchment space. If the masonry chimney is lined, a minimum depth of 75mm is required.",
+    "source": "S12-6"
+  },
+  {
+    "question": "What problem can a catchment space that is too large, such as a large masonry builder's opening, cause?",
+    "answers": [
+      "It has no effect on appliance performance",
+      "It always improves the appliance's heat output",
+      "It can adversely affect performance by creating abnormal flow patterns behind the fire",
+      "It eliminates the need for a closure plate entirely"
+    ],
+    "correct": 2,
+    "explanation": "As well as the requirement for a minimum catchment space, a catchment space that is too large can also adversely affect performance by creating abnormal flow patterns behind the fire; where encountered, the opening should be reduced by lining with blocks or bricks.",
+    "source": "S12-6"
+  },
+  {
+    "question": "Which of the following is listed as a point of leakage inside the fire opening that could adversely affect chimney operation?",
+    "answers": [
+      "The hearth surface",
+      "The closure plate relief openings",
+      "The flue spigot itself",
+      "Cavities behind or below the opening, voids under suspended floors, pipe boxes, and under grate air supply"
+    ],
+    "correct": 3,
+    "explanation": "Points of leakage inside the fire opening include cavities behind or below the opening, voids under suspended floors, pipe boxes, and under grate air supply.",
+    "source": "S12-6"
+  },
+  {
+    "question": "What is the normal minimum chimney length for a gas fire?",
+    "answers": [
+      "1.5 metres",
+      "5 metres",
+      "2 metres",
+      "3 metres"
+    ],
+    "correct": 3,
+    "explanation": "The minimum chimney length for a gas fire is normally 3m, but the manufacturer's instructions should always also be checked.",
+    "source": "S12-7"
+  },
+  {
+    "question": "Where a chimney breast has been removed and replaced with a pre-cast block chimney or twin wall metal chimney, when is this acceptable for a gas fire installation?",
+    "answers": [
+      "In all cases, regardless of which section is replaced",
+      "Providing the chimney is replaced throughout its length, or the top section is replaced",
+      "Providing only the lower section is replaced with blocks or twin wall",
+      "Only if the original chimney was already lined with clay pipes"
+    ],
+    "correct": 1,
+    "explanation": "Replacing a chimney breast with a pre-cast block chimney or twin wall metal chimney is acceptable providing the chimney is replaced throughout its length, or if the top section is replaced; replacing only the lower section creates a danger of debris from the old upper section blocking the smaller new section, and is not acceptable.",
+    "source": "S12-7"
+  },
+  {
+    "question": "How many appliances shall be fitted into any one chimney?",
+    "answers": [
+      "Up to three appliances in larger properties",
+      "Up to two appliances, provided they are both gas fired",
+      "Only one appliance",
+      "Any number, provided each has its own flue liner"
+    ],
+    "correct": 2,
+    "explanation": "Only one appliance shall be fitted into any chimney; an installation where a flexible flue liner is fitted into a brick chimney stack connected to one appliance, with another appliance also connected directly into the same chimney stack, is unacceptable and should be treated as an unsafe situation.",
+    "source": "S12-8"
+  },
+  {
+    "question": "How should twin wall metal chimney pipes be orientated when fitted?",
+    "answers": [
+      "With the socket facing up",
+      "At a 45 degree angle to the appliance outlet",
+      "Horizontally, regardless of socket orientation",
+      "With the socket facing down"
+    ],
+    "correct": 3,
+    "explanation": "Twin wall metal chimney pipe systems and boxes of the appropriate size should be fitted in accordance with the manufacturer's instructions, and pipes must be fitted with the socket facing down.",
+    "source": "S12-9"
+  },
+  {
+    "question": "When a gas fire is installed into a twin-wall metal chimney, what must be used to house the appliance?",
+    "answers": [
+      "A chimney box assessed to BS 715",
+      "A standard masonry closure plate only",
+      "A flexible flue liner with no box required",
+      "A pre-cast cooler plate fitted directly to the chimney"
+    ],
+    "correct": 0,
+    "explanation": "When installing a gas fire into a twin-wall metal chimney, a chimney box must be used to house the appliance; chimney boxes assessed to BS 715, and also suitable for use with BS 5258: Part 12 appliances, should be used.",
+    "source": "S12-9"
+  },
+  {
+    "question": "In a through room containing gas fires and/or Inset Live Fuel Effect Gas Fires, when is an air vent not normally required?",
+    "answers": [
+      "If only one appliance is fitted, regardless of heat input",
+      "Air vents are always required in a through room installation",
+      "If the total rated heat input of the appliances does not exceed 20kW",
+      "If the total rated heat input of the appliances does not exceed 14kW"
+    ],
+    "correct": 3,
+    "explanation": "Where the through room contains gas fires and/or Inset Live Fuel Effect Gas Fires, an air vent is not normally required if the total rated heat input of the appliances does not exceed 14kW.",
+    "source": "S12-9"
+  },
+  {
+    "question": "In a through room with two decorative fuel effect fires, each requiring 100cm² ventilation, what total air vent area is required (including the standard additional allowance)?",
+    "answers": [
+      "300cm² (100cm² x 3)",
+      "235cm² (100cm² x 2 + 35cm²)",
+      "135cm² (100cm² + 35cm²)",
+      "200cm² (100cm² x 2)"
+    ],
+    "correct": 1,
+    "explanation": "Where both fires in a through room are decorative fuel effect fires, the air vent required is the total of the requirement of the two decorative fuel effect fires plus 35cm², e.g. (100cm² x 2 + 35cm² = 235cm²).",
+    "source": "S12-9"
+  },
+  {
+    "question": "How must the gas supply pass through the wall of a chimney box?",
+    "answers": [
+      "It must pass through an unsealed grommet to allow for movement",
+      "It must be routed externally and never pass through the box wall",
+      "It must always enter from the top of the box only",
+      "It must be adequately sealed at the point of entry using a suitable non-setting sealant"
+    ],
+    "correct": 3,
+    "explanation": "The gas supply shall only pass through the wall of a chimney box if it is adequately sealed at the point of entry using a suitable non-setting sealant.",
+    "source": "S12-10"
+  },
+  {
+    "question": "What standard should a metal chimney box used to house a gas fire conform to?",
+    "answers": [
+      "BS 5440",
+      "BS 715",
+      "BS EN 1856",
+      "BS 5871"
+    ],
+    "correct": 1,
+    "explanation": "A metal chimney box shall only be used to house a gas fire where identified as suitable by both the appliance manufacturer and the chimney box manufacturer; the chimney box should conform to BS 715.",
+    "source": "S12-10"
+  },
+  {
+    "question": "When a flue liner is mechanically secured and sealed with a clamp plate to a debris or register plate above a builder's opening, by how much should the liner project below the plate at most?",
+    "answers": [
+      "A nominal 25mm",
+      "The liner must not project below the plate at all",
+      "A nominal 50mm",
+      "A nominal 100mm"
+    ],
+    "correct": 0,
+    "explanation": "Where a flue liner is mechanically secured and sealed with a clamp plate to a debris or register plate above a builder's opening, the liner should not project below the plate by more than a nominal 25mm.",
+    "source": "S12-11"
+  },
+  {
+    "question": "When is a terminal required to protect the end of a flue liner used other than for a back boiler?",
+    "answers": [
+      "Terminals are never required on flue liners",
+      "Where the diameter is 170mm or less",
+      "Where the diameter exceeds 170mm",
+      "Only when the chimney is less than 3m long"
+    ],
+    "correct": 1,
+    "explanation": "A terminal should be used to protect the end of the flue where the diameter is 170mm or less.",
+    "source": "S12-11"
+  },
+  {
+    "question": "How should a flexible flue liner rise from the appliance, chimney box or fireplace recess?",
+    "answers": [
+      "Horizontally before turning vertically at roof level",
+      "At a maximum incline of 30 degrees from vertical",
+      "In short sections joined with compression couplings every metre",
+      "In one continuous length, as near vertical as possible, securely supported and sealed at the top and bottom"
+    ],
+    "correct": 3,
+    "explanation": "The flue liner should rise in one continuous length as near vertical as possible from the appliance, chimney box or fireplace recess, and must be securely supported and sealed at the top and bottom.",
+    "source": "S12-11"
+  },
+  {
+    "question": "What is generally the minimum chimney size, across the axis of the chimney, for a Live Fuel Effect gas fire?",
+    "answers": [
+      "175mm",
+      "150mm",
+      "100mm",
+      "125mm"
+    ],
+    "correct": 3,
+    "explanation": "Generally the minimum chimney size for a Live Fuel Effect gas fire is 125mm across the axis of the chimney.",
+    "source": "S12-12"
+  },
+  {
+    "question": "Up to what heat input is purpose-provided ventilation not normally required for a Live Fuel Effect gas fire?",
+    "answers": [
+      "7kW",
+      "10kW",
+      "20kW",
+      "14kW"
+    ],
+    "correct": 0,
+    "explanation": "Purpose provided ventilation is not normally required for a Live Fuel Effect gas fire up to 7kW input.",
+    "source": "S12-12"
+  },
+  {
+    "question": "What are Decorative Fuel Effect gas fires sometimes referred to as, and what do they typically lack?",
+    "answers": [
+      "'Inset fires', and they always include a heat exchanger",
+      "'Cassette fires', and they always require a chimney kit",
+      "'Open log effect' or 'pub fires', and they do not normally have a heat exchanger",
+      "'Living flame fires', and they always include a vitiation device"
+    ],
+    "correct": 2,
+    "explanation": "Decorative fuel effect gas fires are sometimes referred to as 'open log effect' or 'pub fires' and do not normally have a heat exchanger.",
+    "source": "S12-12"
+  },
+  {
+    "question": "What is the minimum chimney size, across the axis of the chimney, for a Decorative Fuel Effect Gas Fire, and what ventilation is normally required up to 20kW input?",
+    "answers": [
+      "125mm minimum chimney size, with at least 50cm² purpose-provided ventilation",
+      "150mm minimum chimney size, with no purpose-provided ventilation required",
+      "175mm minimum chimney size, with at least 100cm² purpose-provided ventilation",
+      "200mm minimum chimney size, with at least 150cm² purpose-provided ventilation"
+    ],
+    "correct": 2,
+    "explanation": "The minimum chimney size for a Decorative Fuel Effect Gas Fire is 175mm across the axis of the chimney, with purpose provided ventilation of at least 100cm² normally required up to 20kW input.",
+    "source": "S12-12"
+  },
+  {
+    "question": "When is a direct chimney connection to a gas fire or convector heater permitted?",
+    "answers": [
+      "Only on appliances rated below 5kW",
+      "Only where the appliance has been designed for such use and this method is permitted in the manufacturer's installation instructions",
+      "Only where no closure plate is fitted",
+      "On any appliance, provided the chimney is lined"
+    ],
+    "correct": 1,
+    "explanation": "A direct chimney connection to a gas fire or convector heater shall only be made where the appliance has been designed for such use and this method is permitted in the manufacturer's installation instructions.",
+    "source": "S12-12"
+  },
+  {
+    "question": "Which of the following is an acceptable chimney type for a direct chimney connection appliance, unless otherwise specified by the manufacturer?",
+    "answers": [
+      "A single-wall uninsulated metal flue pipe",
+      "Any unlined masonry chimney regardless of condition",
+      "Any chimney, provided a debris deflector is fitted",
+      "A metal twin walled chimney system conforming to BS 715, a metallic flexible chimney liner conforming to BS 715, a lined masonry chimney, or a factory made insulated chimney conforming to BS 4543"
+    ],
+    "correct": 3,
+    "explanation": "Unless otherwise specified in the manufacturer's installation instructions, appliances designed for direct chimney connection shall only be connected to a lined chimney, using a metal twin walled chimney system conforming to BS 715, a metallic flexible chimney liner conforming to BS 715, a lined masonry chimney, or a factory made insulated chimney conforming to BS 4543.",
+    "source": "S12-12"
+  },
+  {
+    "question": "For a direct chimney connection appliance, what is required at the chimney termination regardless of the diameter of the chimney?",
+    "answers": [
+      "A spigot restrictor shall be fitted",
+      "A debris catchment void shall be provided",
+      "A closure plate shall be fitted",
+      "A chimney terminal shall be fitted"
+    ],
+    "correct": 3,
+    "explanation": "In all cases, a chimney terminal shall be fitted for a direct chimney connection appliance, irrespective of the diameter of the chimney.",
+    "source": "S12-13"
+  },
+  {
+    "question": "For a direct chimney connection appliance using a flexible metal flue liner with a register plate, by how much should the liner protrude through the plate as a minimum?",
+    "answers": [
+      "150mm",
+      "50mm",
+      "100mm",
+      "25mm"
+    ],
+    "correct": 0,
+    "explanation": "Where a flexible metal flue liner is used in conjunction with a register plate, the liner should protrude through the plate by a minimum of 150mm.",
+    "source": "S12-13"
+  },
+  {
+    "question": "For a direct connection appliance, is a void below the spigot required?",
+    "answers": [
+      "Yes, but only if the chimney is unlined",
+      "Yes, but only for appliances rated above 7kW",
+      "No, there is no requirement for a void below the spigot for this type of appliance",
+      "Yes, a minimum 250mm void is always required"
+    ],
+    "correct": 2,
+    "explanation": "For direct connection appliances, there is no requirement for a void below the spigot.",
+    "source": "S12-13"
+  },
+  {
+    "question": "What must all fanned draught chimney systems be required to do under the Gas Safety (I & U) Regulations?",
+    "answers": [
+      "Sound an audible alarm only, without shutting down the appliance",
+      "Shut down the appliance in the event of a failure of the draught",
+      "Vent flue gases directly into the room as a fail-safe measure",
+      "Automatically increase fan speed to compensate for draught loss"
+    ],
+    "correct": 1,
+    "explanation": "All fanned draught chimney systems are required by the Gas Safety (I & U) Regulations to shut down the appliance in the event of a failure of the draught.",
+    "source": "S12-13"
+  },
+  {
+    "question": "Before installing an appliance with a proprietary fanned draught chimney system, what must be checked?",
+    "answers": [
+      "Only the appliance manufacturer's instructions",
+      "Both the appliance and chimney system manufacturer's instructions, to confirm they are an acceptable combination",
+      "Only the local building control regulations",
+      "Only that the chimney is lined with clay"
+    ],
+    "correct": 1,
+    "explanation": "Before an appliance is installed for use with a proprietary fanned draught chimney system, both the appliance and chimney system manufacturer's instructions should be checked to confirm that they are an acceptable combination.",
+    "source": "S12-13"
+  },
+  {
+    "question": "According to the canopy requirements diagram for decorative gas fires, what is the maximum angle permitted from the canopy?",
+    "answers": [
+      "60 degrees",
+      "30 degrees",
+      "45 degrees",
+      "90 degrees"
+    ],
+    "correct": 2,
+    "explanation": "The canopy requirements diagram for decorative gas fires shows a maximum angle of 45 degrees, both for front view and side view configurations.",
+    "source": "S12-14"
+  },
+  {
+    "question": "What is required at a fireplace opening before fixing an open flued gas fire, in addition to manufacturer's installation instructions?",
+    "answers": [
+      "A combustion test must be carried out using a flue gas analyser before any other checks",
+      "Correct operation of the chimney shall be verified by carrying out a test in accordance with BS 5440: Part 1",
+      "A letter box opening must always be fitted for the catchment area",
+      "The chimney must be relined regardless of its condition"
+    ],
+    "correct": 1,
+    "explanation": "Before fixing an open flued fire, correct operation of the chimney shall be verified by carrying out a test in accordance with BS 5440: Part 1.",
+    "source": "S12-16"
+  },
+  {
+    "question": "Where a flue spigot extension is used (where permitted), what are the maximum and minimum dimensional requirements described in the guide?",
+    "answers": [
+      "It must not extend more than 150mm from the back of the appliance, extend through the closure plate at least 15mm, with a minimum 50mm clearance to the rear of the fireplace recess",
+      "It must extend exactly 100mm from the back of the appliance with no minimum clearance specified",
+      "It must not extend through the closure plate at all",
+      "It must extend at least 200mm from the back of the appliance with no maximum specified"
+    ],
+    "correct": 0,
+    "explanation": "Where used, a flue spigot extension must not extend more than 150mm from the back of the appliance and extend through the closure plate at least 15mm, secured with self-tapping screws, with a minimum clearance of at least 50mm between the end of the spigot or extension and the rear of the fireplace recess.",
+    "source": "S12-16"
+  },
+  {
+    "question": "What types of surfaces allow closure plate tape to be used alone for sealing, according to the guide?",
+    "answers": [
+      "Any surface, provided the fireplace opening is less than 600mm wide",
+      "Rough or flaking surfaces such as house brick and stone",
+      "Bare plaster surfaces only",
+      "Smooth surfaces such as marble, glazed tiles and painted plasterboard"
+    ],
+    "correct": 3,
+    "explanation": "For smooth surfaces such as marble, glazed tiles, painted plasterboard, closure plate tape may be used alone; for rough or flaking surfaces such as house brick, plasterboard, plaster or stone, additional methods such as screwing the plate to the wall or using a metallic frame are necessary.",
+    "source": "S12-16"
+  },
+  {
+    "question": "What competence requirement applies to installation work on these gas fire appliances?",
+    "answers": [
+      "It can be carried out by any competent DIY enthusiast with appropriate tools",
+      "It must be carried out by 'members of a class of persons' (Gas Safe registered) holding a current certificate of competence in this activity",
+      "It requires sign-off from a structural engineer only",
+      "It must be carried out by the appliance manufacturer directly"
+    ],
+    "correct": 1,
+    "explanation": "Installation work on these appliances must be carried out by 'members of a class of persons' (Gas Safe registered) and hold a current certificate of competence in this activity.",
+    "source": "S12-16"
+  },
+  {
+    "question": "What standard should an independent electrical carbon monoxide alarm conform to, when considered for installation alongside a flueless fire or stove?",
+    "answers": [
+      "BS EN 50291, in accordance with BS 50292",
+      "BS 7967-2",
+      "BS 715",
+      "BS 5440 Part 1"
+    ],
+    "correct": 0,
+    "explanation": "When installing a flueless fire or stove, consideration should be given to installing an independent electrical carbon monoxide alarm conforming to BS EN 50291 in accordance with BS 50292.",
+    "source": "S12-16"
+  },
+  {
+    "question": "How should users be informed about the role of a carbon monoxide alarm fitted alongside a flueless appliance?",
+    "answers": [
+      "It should be described as eliminating the need for ventilation requirements",
+      "It should be made clear that such alarms are only a 'back-up precaution' and not a substitute for proper installation and maintenance of appliances and ventilation",
+      "It should be presented as a complete substitute for regular servicing",
+      "It does not need to be explained to the user at all"
+    ],
+    "correct": 1,
+    "explanation": "It should be made aware to the user that carbon monoxide alarms are to be regarded only as a 'back-up precaution' and not a substitute for proper installation and maintenance of appliances and ventilation.",
+    "source": "S12-16"
+  },
+  {
+    "question": "What protection should a gas fire installed in a floor level fireplace be fitted with?",
+    "answers": [
+      "An integral guard or a tactile separator to protect the user from the risk of burns or ignition of their clothing",
+      "A motion sensor that shuts the fire down when approached",
+      "A childproof lock requiring a key to operate",
+      "A glass screen rated to withstand 1000°C"
+    ],
+    "correct": 0,
+    "explanation": "A gas fire installed in a floor level fireplace should be fitted with an integral guard or a tactile separator to protect the user from the risk of burns or ignition of their clothing from the heat of the flames and incandescent parts of the appliance.",
+    "source": "S12-17"
+  },
+  {
+    "question": "What is the minimum thickness required for a hearth, and how far above floor level must the top surface of its edge be?",
+    "answers": [
+      "Minimum thickness of 6mm, with no minimum height above floor level specified",
+      "Minimum thickness of 25mm, with the top surface of the edge at least 100mm above floor level",
+      "Minimum thickness of 12mm, with the top surface of the edge at least 50mm above floor level",
+      "Minimum thickness of 50mm, with the top surface flush with floor level"
+    ],
+    "correct": 2,
+    "explanation": "The hearth shall have a minimum thickness of 12mm, and the top surface of the edge of the hearth must be at least 50mm above floor level; a fender or up-stand at the edge will satisfy this requirement.",
+    "source": "S12-17"
+  },
+  {
+    "question": "How far must a hearth project forward from the back plane of the gas fire, and beyond each edge of the naked flame or incandescent radiant source?",
+    "answers": [
+      "At least 200mm forward from the back plane, with no requirement beyond the edges",
+      "At least 450mm forward from the back plane, and at least 300mm beyond each edge",
+      "At least 300mm forward from the back plane, and at least 150mm beyond each edge of the flame/radiant source",
+      "At least 150mm forward from the back plane, and at least 75mm beyond each edge"
+    ],
+    "correct": 2,
+    "explanation": "The hearth shall project at least 300mm forward from the back plane of the gas fire, and at least 150mm beyond each edge of the naked flame or incandescent radiant source; these are the minimum dimensions required as a precaution against heat.",
+    "source": "S12-17"
+  },
+  {
+    "question": "Where a fire is wall mounted and complies with BS 5258: Part 5 (no hearth required), what minimum height above the carpet or floor covering must any flame or incandescent material be?",
+    "answers": [
+      "At least 225mm above the carpet/floor covering, or 300mm above floor level",
+      "At least 100mm above the carpet/floor covering only",
+      "At least 450mm above the carpet/floor covering only",
+      "There is no minimum height requirement for wall mounted fires"
+    ],
+    "correct": 0,
+    "explanation": "If the fire is to be wall mounted without a hearth (complying with BS 5258: Part 5), it shall be installed such that any flame or incandescent materials are at least 225mm above the carpet or floor covering or 300mm above the floor level.",
+    "source": "S12-17"
+  },
+  {
+    "question": "Where the floor beneath a fire installed without a hearth is likely to be covered, how high above the floor should any flame or incandescent material be, to allow for floor coverings?",
+    "answers": [
+      "At least 100mm above the floor",
+      "At least 300mm above the floor",
+      "At least 225mm above the floor",
+      "At least 150mm above the floor"
+    ],
+    "correct": 1,
+    "explanation": "Where the floor is of a type likely to be covered, any flame or incandescent materials should be at least 300mm above the floor in order to make allowance for floor coverings beneath the appliance.",
+    "source": "S12-17"
+  },
+  {
+    "question": "What is the minimum distance from floor level to the top of the burner or any incandescent material on a wall mounted fire?",
+    "answers": [
+      "225mm",
+      "300mm",
+      "100mm",
+      "150mm"
+    ],
+    "correct": 0,
+    "explanation": "For wall mounted fires, the minimum distance from the floor level to the top of the burner or to any incandescent material shall be 225mm; preferably no flame or incandescent material should be less than 300mm above the floor to allow for floor coverings.",
+    "source": "S12-17"
+  },
+  {
+    "question": "What must not be fitted inside a fireplace opening when fitting an appliance into it?",
+    "answers": [
+      "A closure plate",
+      "Combustible material",
+      "Heat-resistant tape",
+      "Mineral wool insulation"
+    ],
+    "correct": 1,
+    "explanation": "When fitting an appliance to a fireplace opening, combustible material shall not be fitted inside this opening; the appliance instructions detail suitable mounting surfaces.",
+    "source": "S12-17"
+  },
+  {
+    "question": "In a raised builder's opening, what minimum vertical distance above any carpet or floor covering allows the appliance to be installed without a hearth beneath it (where the manufacturer permits)?",
+    "answers": [
+      "At least 225mm",
+      "At least 300mm",
+      "At least 100mm",
+      "At least 150mm"
+    ],
+    "correct": 0,
+    "explanation": "Where the appliance is installed in a raised builder's opening, a hearth beneath it can be omitted if (among other conditions) the appliance is installed at least 225mm vertically above any carpet or floor covering.",
+    "source": "S12-17"
+  },
+  {
+    "question": "Which materials are considered suitable for an infill panel where a closure plate cannot fill a fireplace opening completely?",
+    "answers": [
+      "Plywood or block board",
+      "Chipboard or strand board",
+      "Calcium silicate, vermiculite, or glass reinforced plaster",
+      "Hardboard or medium density fibreboard (MDF)"
+    ],
+    "correct": 2,
+    "explanation": "An infill panel should be made from a suitable fire resisting material such as calcium silicate, vermiculite, or glass reinforced plaster; fibre board (hardboard, MDF), chipboard, strand board, plywood or block board are not considered suitable.",
+    "source": "S12-18"
+  },
+  {
+    "question": "What material is a closure plate typically made from, and how is it sealed to the fireplace or chimney opening?",
+    "answers": [
+      "An aluminium sheet, sealed with heat-proof tape which may be adhesive on one or both sides",
+      "A timber board, sealed with silicone mastic",
+      "A glass panel, sealed with epoxy resin",
+      "A steel plate, welded directly to the fireplace surround"
+    ],
+    "correct": 0,
+    "explanation": "A 'closure plate' is an aluminium sheet, which is sealed to the fireplace or chimney opening with heat-proof tape, which could be adhesive on one or both sides and may have to withstand temperatures up to 100°C.",
+    "source": "S12-19"
+  },
+  {
+    "question": "What ventilation rate does the closure plate's relief air openings typically provide for a typical fire?",
+    "answers": [
+      "Between 100m³/h and 150m³/h, approximately five air changes per hour",
+      "Between 10m³/h and 20m³/h, approximately half an air change per hour",
+      "Between 56m³/h and 70m³/h, approximately two air changes per hour",
+      "Between 30m³/h and 40m³/h, approximately one air change per hour"
+    ],
+    "correct": 2,
+    "explanation": "The closure plate incorporates relief air openings to give a ventilation rate for a typical fire of between 56m³/h and 70m³/h, which is approximately two air changes per hour.",
+    "source": "S12-19"
+  },
+  {
+    "question": "What can happen if too much air is allowed to pass under an incorrectly sealed closure plate when there is a strong flue pull?",
+    "answers": [
+      "It may starve the burner of combustion air, causing the flames to distort and reach downwards",
+      "It will cause the pilot light to extinguish immediately",
+      "It will have no effect, as closure plates are not airtight by design",
+      "It will increase the appliance's heat output significantly"
+    ],
+    "correct": 0,
+    "explanation": "If too much air is allowed to pass under the closure plate it may starve the burner of combustion air when there is a strong flue pull, causing the flames to distort and reach downwards.",
+    "source": "S12-19"
+  },
+  {
+    "question": "What is the typical flue draught created by a 250mm x 250mm brick chimney of 8.5m height in an average two-storey house?",
+    "answers": [
+      "About 0.1mbar",
+      "About 0.5mbar",
+      "About 0.01mbar",
+      "About 1.0mbar"
+    ],
+    "correct": 0,
+    "explanation": "A 250mm x 250mm brick chimney in an average two-storey house has a height of 8.5m and creates a flue pull of about 0.1mbar with a typical fire.",
+    "source": "S12-20"
+  },
+  {
+    "question": "What flue draught do fires usually need to clear their products of combustion?",
+    "answers": [
+      "Between 0.025 and 0.03mbar",
+      "Between 0.1 and 0.2mbar",
+      "Between 0.5 and 1.0mbar",
+      "Between 0.005 and 0.01mbar"
+    ],
+    "correct": 0,
+    "explanation": "Fires will usually clear their products of combustion with a flue draught of between 0.025 and 0.03mbar.",
+    "source": "S12-20"
+  },
+  {
+    "question": "Above what chimney height do manufacturers usually recommend fitting a spigot restrictor, to offset the effect of increased draught?",
+    "answers": [
+      "More than 8m high",
+      "More than 6m high",
+      "More than 2m high",
+      "More than 4m high"
+    ],
+    "correct": 3,
+    "explanation": "To offset the effect of a tall chimney, manufacturers usually recommend fitting a 'spigot restrictor' where a chimney is more than 4m high.",
+    "source": "S12-20"
+  },
+  {
+    "question": "On a normal radiant convector fire, what is the term used for products of combustion escaping to the room through the canopy opening rather than the heat exchanger?",
+    "answers": [
+      "Vitiation",
+      "Pulling",
+      "Ghosting",
+      "Spillage"
+    ],
+    "correct": 3,
+    "explanation": "The products of combustion have a choice of two ways out of the fire: via the canopy (open and unrestricted) or through the heat exchanger to the flue spigot. If there is insufficient pull from the chimney, the products take the route of least resistance and escape to the room through the canopy opening — this is called 'spillage'.",
+    "source": "S12-19"
+  },
+  {
+    "question": "Before fitting a fire into a chimney, what should be checked regarding any ridge terminal that is fitted?",
+    "answers": [
+      "Only that it is the correct colour to match the roof tiles",
+      "The integrity of the adapter and its fixing bolts, where ever possible",
+      "It does not need to be checked if the chimney is otherwise sound",
+      "Only that it was installed within the last 5 years"
+    ],
+    "correct": 1,
+    "explanation": "Before fitting the fire, the chimney must be examined, including checking, where a ridge terminal is fitted, the integrity of the adapter and its fixing bolts where ever possible.",
+    "source": "S12-21"
+  },
+  {
+    "question": "When testing a chimney before fitting a fire, what should be checked first using a smoke match before progressing to a smoke pellet?",
+    "answers": [
+      "Whether the chimney has been previously used for solid fuel",
+      "Whether the chimney requires a cooler plate",
+      "An initial assessment of the chimney with a smoke match",
+      "Whether the chimney is free from any catchment space"
+    ],
+    "correct": 2,
+    "explanation": "After initial assessment with a smoke match, proceed to a smoke pellet, applying it to the spigot opening to check for adverse conditions throughout the chimney.",
+    "source": "S12-21"
+  },
+  {
+    "question": "If a smoke pellet test shows no flow into the spigot opening, what should be done before concluding the chimney is blocked?",
+    "answers": [
+      "Immediately abandon the installation and condemn the chimney",
+      "Introduce some heat into the chimney by means of a blow torch",
+      "Increase the size of the catchment space and re-test",
+      "Fit a spigot restrictor and proceed with installation regardless"
+    ],
+    "correct": 1,
+    "explanation": "If no flow is indicated during the smoke pellet test, introduce some heat into the chimney by means of a blow torch; if there is still no flow, the chimney may be blocked and the fire should not be fitted.",
+    "source": "S12-21"
+  },
+  {
+    "question": "What should be done after fitting a fire, in addition to the chimney testing carried out beforehand?",
+    "answers": [
+      "Carry out a check for spillage as per the manufacturer's instructions",
+      "Replace the closure plate with a new one regardless of condition",
+      "Carry out a full re-test of the gas meter for accuracy",
+      "Wait 24 hours before lighting the appliance for the first time"
+    ],
+    "correct": 0,
+    "explanation": "After fitting the fire, carry out a check for spillage as per the manufacturer's instructions (see Section 4 - Chimneys).",
+    "source": "S12-21"
+  },
+  {
+    "question": "Why might a cooler plate need to be fitted to the rear of a closure plate when installing a fire into a pre-cast chimney?",
+    "answers": [
+      "To increase the chimney draught for a poorly performing fire",
+      "To improve the aesthetic appearance of the fireplace surround",
+      "Temperatures greater than 60°C may occur on the surface of the wall due to the narrow flueways",
+      "To provide additional structural support for the closure plate"
+    ],
+    "correct": 2,
+    "explanation": "When installing a fire into a pre-cast chimney, a cooler plate may have to be fitted to the rear of the closure plate, because temperatures greater than 60°C may occur on the surface of the wall due to the narrow flueways.",
+    "source": "S12-22"
+  },
+  {
+    "question": "What is a Gas Heating Stove, as described in the guide?",
+    "answers": [
+      "A wall mounted appliance designed to replace a traditional radiator",
+      "A floor level appliance that must always be flueless",
+      "An appliance that can only be connected via a chimney box",
+      "A free standing appliance designed to simulate a solid fuel burning stove"
+    ],
+    "correct": 3,
+    "explanation": "A Gas Heating Stove is a free standing appliance designed to simulate a solid fuel burning stove; depending on make and model, it can be connected to a chimney using a closure plate or have a direct connection to its own chimney.",
+    "source": "S12-23"
+  },
+  {
+    "question": "Per the Gas Safety (Installation and Use) Regulations, how must a flued domestic gas appliance be connected to the gas supply system?",
+    "answers": [
+      "By any flexible hose rated for domestic use",
+      "Only by a permanently fixed rigid pipe",
+      "By a bayonet fitting for ease of disconnection",
+      "By a push-fit plastic connector"
+    ],
+    "correct": 1,
+    "explanation": "The Gas Safety (Installation and Use) Regulations state: 'No person shall connect a flued domestic gas appliance to the gas system except by a permanently fixed rigid pipe.'",
+    "source": "S12-24"
+  },
+  {
+    "question": "Which British Standard covers the installation of low pressure gas pipework up to 28mm (R1) in domestic premises for 2nd family gases?",
+    "answers": [
+      "BS 6891",
+      "BS 5440",
+      "BS 5871",
+      "BS 715"
+    ],
+    "correct": 0,
+    "explanation": "The gas supply to the appliance should be in accordance with BS 6891, the British Standard Specification for installation of low pressure gas pipework of up to 28mm (R1) in domestic premises for 2nd family gases.",
+    "source": "S12-24"
+  },
+  {
+    "question": "What materials should the final pipe connections to a gas fire appliance be made from?",
+    "answers": [
+      "Aluminium sheet only",
+      "PVC or other plastic materials",
+      "Malleable iron, mild steel, copper or stainless steel",
+      "Lead or lead alloy"
+    ],
+    "correct": 2,
+    "explanation": "The pipe connections to the appliance shall be of malleable iron, mild steel, copper or stainless steel; other fittings should be of these materials or of brass.",
+    "source": "S12-24"
+  },
+  {
+    "question": "Where should appliances be fitted with a removable key for the gas isolation cock, for additional safety?",
+    "answers": [
+      "Only where the appliance is flueless",
+      "On every domestic gas fire installation without exception",
+      "Only where the appliance is wall mounted",
+      "Where appliances are fixed in nurseries, old people's homes, etc."
+    ],
+    "correct": 3,
+    "explanation": "If additional safety is desired, for example where appliances are fixed in nurseries, old people's homes etc., the isolation device should be fitted with a removable key.",
+    "source": "S12-24"
+  },
+  {
+    "question": "Where a gas supply pipe passes through a wall as part of a concealed connection, what protection is required?",
+    "answers": [
+      "It must be sleeved, and any part buried in the structure or running within a chimney recess must be suitably protected against corrosion, e.g. coated or wrapped with PVC tape",
+      "It must be encased entirely in concrete",
+      "No additional protection is required beyond standard pipe jointing",
+      "It must be left exposed to allow visual inspection at all times"
+    ],
+    "correct": 0,
+    "explanation": "Where the final connection is concealed, any part of the gas supply pipe passing through a wall must be sleeved, and any part buried in the structure or running within a chimney recess must be suitably protected against corrosion, e.g. coated or wrapped with PVC tape.",
+    "source": "S12-25"
+  },
+  {
+    "question": "As part of preliminary checks when servicing a gas fire, what should be checked regarding the chimney terminal?",
+    "answers": [
+      "Only the manufacturer's part number for the terminal",
+      "That the chimney terminal is of a suitable type, the termination location is acceptable, and a guard is fitted where necessary",
+      "Only that the terminal was fitted within the last 12 months",
+      "Only that the terminal is the same colour as the roof"
+    ],
+    "correct": 1,
+    "explanation": "Preliminary checks include checking that the chimney terminal is of a suitable type, the termination location is acceptable, and a guard fitted where necessary.",
+    "source": "S12-25"
+  },
+  {
+    "question": "As part of service checks, what should be checked regarding the operation of the vitiation device where applicable?",
+    "answers": [
+      "It should be replaced as standard practice at every service",
+      "Refer to the manufacturer's instructions for the method of checking",
+      "It should be permanently disabled to prevent nuisance shutdowns",
+      "It does not require checking during a routine service"
+    ],
+    "correct": 1,
+    "explanation": "Service checks include checking the operation of the vitiation device, where applicable, referring to the manufacturer's instructions for the method.",
+    "source": "S12-25"
+  },
+  {
+    "question": "Before beginning the servicing procedure on a gas fire, what must be ensured first?",
+    "answers": [
+      "That a replacement appliance is available on site",
+      "That the gas and electricity supplies are isolated",
+      "That the customer has signed a disclaimer",
+      "That the chimney has been swept within the last month"
+    ],
+    "correct": 1,
+    "explanation": "The servicing procedure begins by ensuring that the gas and electricity supplies are isolated, before removing the fire and closure plate.",
+    "source": "S12-26"
+  },
+  {
+    "question": "What checks should be carried out using smoke matches and a smoke pellet during the servicing procedure?",
+    "answers": [
+      "An electrical bonding continuity check",
+      "A flue flow and continuity check",
+      "A tightness test of the gas supply",
+      "A combustion analysis check"
+    ],
+    "correct": 1,
+    "explanation": "As part of the servicing procedure, a flue flow and continuity check should be carried out using smoke matches and a smoke pellet.",
+    "source": "S12-26"
+  },
+  {
+    "question": "Which of the following is included in the final checks after servicing a gas fire?",
+    "answers": [
+      "Re-checking any flame supervision device operation and checking burner operating pressure",
+      "Replacing the chimney terminal regardless of condition",
+      "Disconnecting the appliance permanently for inspection",
+      "Issuing a new gas safety certificate to the supplier"
+    ],
+    "correct": 0,
+    "explanation": "Final checks include re-checking any flame supervision device operation, checking burner operating pressure, confirming a satisfactory flame picture, and testing open flued appliances for spillage.",
+    "source": "S12-26"
+  },
+  {
+    "question": "When investigating wall or appliance staining that may indicate spillage, what should always be carried out?",
+    "answers": [
+      "Only a visual inspection of the staining",
+      "Only a combustion analysis using a flue gas analyser",
+      "A flue flow and continuity test and a spillage test",
+      "Only a check of the appliance's gas rate"
+    ],
+    "correct": 2,
+    "explanation": "Staining due to spillage may mask another type of staining, so when investigating wall or appliance staining you should always carry out a flue flow and continuity test and a spillage test.",
+    "source": "S12-26"
+  },
+  {
+    "question": "Which British Standard covers spillage testing for a flued gas fire appliance where no manufacturer's instructions exist?",
+    "answers": [
+      "BS 715",
+      "BS 5440: Part 1",
+      "BS 6891",
+      "BS 7967-2"
+    ],
+    "correct": 1,
+    "explanation": "A flued appliance shall be checked for spillage in accordance with the appliance manufacturer's instructions; where no such instructions exist, the appliance shall be checked for spillage in accordance with BS 5440: Part 1.",
+    "source": "S12-26"
+  },
+  {
+    "question": "Which standard specifies the appropriate method for a combustion test on flueless heaters and stoves, where there is no specific manufacturer's instruction?",
+    "answers": [
+      "BS 7967-2",
+      "BS 715",
+      "BS 5440: Part 1",
+      "BS 6891"
+    ],
+    "correct": 0,
+    "explanation": "It is recommended that a combustion test is carried out when commissioning flueless heaters and stoves, in accordance with the appliance manufacturer's instructions or, in the absence of a specific instruction, in accordance with the appropriate method specified in BS 7967-2.",
+    "source": "S12-27"
+  },
+  {
+    "question": "What should be done if spillage is detected during commissioning of a flued appliance?",
+    "answers": [
+      "The closure plate should simply be re-sealed and the test repeated",
+      "The appliance can remain in use provided the customer is informed",
+      "The appliance should be removed and the appliance, chimney and any ventilation examined, with any faults rectified",
+      "A spigot restrictor should be fitted as the default remedy"
+    ],
+    "correct": 2,
+    "explanation": "Where spillage is detected, the appliance should be removed and the appliance, the chimney and any ventilation examined, and any faults rectified.",
+    "source": "S12-27"
+  },
+  {
+    "question": "What test shall be carried out during maintenance or safety checks of a flueless fire or stove?",
+    "answers": [
+      "A flue flow and continuity test only",
+      "A spillage test only",
+      "A combustion test, in accordance with the appliance manufacturer's instructions or BS 7967-2 if no specific instruction exists",
+      "A tightness test only"
+    ],
+    "correct": 2,
+    "explanation": "A combustion test shall be carried out during maintenance or safety checks of a flueless fire or stove, in accordance with the appliance manufacturer's instructions or, in the absence of a specific instruction, in accordance with the appropriate method specified in BS 7967-2.",
+    "source": "S12-27"
+  },
+  {
+    "question": "What must the installer provide to the user following installation of a gas fire, regarding maintenance requirements?",
+    "answers": [
+      "Only the manufacturer's warranty card",
+      "Only a recommendation to contact the installer if problems arise",
+      "A demonstration of correct and safe appliance operation, and maintenance requirements given in writing",
+      "Only a verbal explanation, with no written documentation needed"
+    ],
+    "correct": 2,
+    "explanation": "Following installation, the user should be provided with a demonstration of correct and safe appliance operation, and requirements about maintenance are to be given in writing (manufacturer's instructions).",
+    "source": "S12-27"
+  },
+  {
+    "question": "If the flueing installation used for a decorative fuel effect gas appliance would not be suitable for a solid fuel appliance, what must the installer advise the user?",
+    "answers": [
+      "That a HETAS engineer must inspect the installation every 5 years",
+      "That the chimney must be swept annually regardless of fuel type",
+      "That the flue can be safely used for either fuel type interchangeably",
+      "That under no circumstances should a solid fuel fired appliance be used in place of the decorative fuel effect gas appliance"
+    ],
+    "correct": 3,
+    "explanation": "Where any part of the flueing installation used would not be suitable for use with a solid fuel fired appliance, the installer should advise the user that under no circumstances should a solid fuel fired appliance be used in place of the decorative fuel effect gas appliance.",
+    "source": "S12-27"
+  },
+  {
+    "question": "What is the term used to describe flames emerging from the top of a radiant, which may indicate insufficient primary/secondary air?",
+    "answers": [
+      "Lifting",
+      "Vitiation",
+      "Ghosting",
+      "Spillage"
+    ],
+    "correct": 2,
+    "explanation": "'Ghosting' is a term used to describe flames emerging from the top of a radiant. Some fires ghost all the time, but if ghosting develops over a period of use it may indicate that the gas is not getting sufficient primary/secondary air to burn correctly.",
+    "source": "S12-27"
+  },
+  {
+    "question": "What might cause an uneven radiant appearance (glow) on a duplex burner, according to the guide?",
+    "answers": [
+      "The pilot flame being too large",
+      "The chimney being too tall, requiring a spigot restrictor",
+      "One injector partially blocked, or one section of the burner restricted",
+      "The closure plate being oversized"
+    ],
+    "correct": 2,
+    "explanation": "Uneven radiant appearance (glow) may be a fault in the burner or radiant; on a duplex burner, one injector may be partially blocked or one section of the burner may be restricted. Changing the radiants over can help pinpoint the cause.",
+    "source": "S12-28"
+  },
+  {
+    "question": "What may help if a room is not warm enough due to cool room air not circulating properly up through the fire?",
+    "answers": [
+      "Increasing the gas rate beyond the manufacturer's specification",
+      "Disabling the flame supervision device",
+      "Putting the fire on a plinth to improve the circulation of cool air, or fitting a spigot restrictor if convection air is lacking",
+      "Removing the closure plate entirely"
+    ],
+    "correct": 2,
+    "explanation": "If a room is not warm enough due to a lack of convection air, the fire may need a spigot restrictor; if caused by the closure plate not being properly sealed, or the fire fitted behind a high curb, it may be necessary to put the fire on a plinth to improve circulation of cool air.",
+    "source": "S12-28"
+  },
+  {
+    "question": "What are the most common faults associated with piezo electric ignition systems?",
+    "answers": [
+      "Faults associated with the spark gap and current tracking to earth from the high tension lead",
+      "Faults associated with the toroidal fan",
+      "Faults associated with the catalyst converter",
+      "Faults associated with the convection fan overheat switch"
+    ],
+    "correct": 0,
+    "explanation": "The most common faults on piezo electric ignition are associated with the spark gap and with the current tracking to earth from the high tension lead.",
+    "source": "S12-28"
+  },
+  {
+    "question": "Where should the pilot flame generally play on a thermocouple to produce the maximum electromagnetic force?",
+    "answers": [
+      "On the cold junction only",
+      "On the compensating leads",
+      "On the tip, or the top 12mm of the thermocouple",
+      "On the middle section of the thermocouple body"
+    ],
+    "correct": 2,
+    "explanation": "The pilot flame must be correctly positioned; generally it should play on the tip, or the top 12mm of the thermocouple, to produce the maximum electromagnetic force.",
+    "source": "S12-28"
+  },
+  {
+    "question": "What care should be taken when tightening the union nut on a thermocouple connection?",
+    "answers": [
+      "The union nut requires no specific tightening torque and can be left loose",
+      "Avoid over-tightening, as it can distort the insulating washer and may cause a short circuit; about a quarter turn beyond hand tight is normally sufficient",
+      "The union nut should be replaced with a new one at every service regardless of condition",
+      "The union nut should always be tightened with maximum force using a spanner"
+    ],
+    "correct": 1,
+    "explanation": "Over-tightening the thermocouple union nut can distort the insulating washer and may cause a short circuit; about a quarter of a turn beyond hand tight is normally sufficient.",
+    "source": "S12-28"
+  },
+  {
+    "question": "What temperature limit should a thermocouple tip be kept below, to ensure a reasonable life, despite needing to be heated to a high temperature?",
+    "answers": [
+      "Blue heat",
+      "Red heat",
+      "660°C",
+      "100°C"
+    ],
+    "correct": 1,
+    "explanation": "The thermocouple tip should be clean and undamaged, and although it must be heated to a high temperature it should be kept below red heat if it is to have a reasonable life.",
+    "source": "S12-28"
+  },
+  {
+    "question": "What must be done if the electromagnet (armature and magnet housed in a sealed unit) fails on a thermoelectric flame protection device?",
+    "answers": [
+      "It should be cleaned with a soft brush and re-used",
+      "It can be repaired by replacing the armature only",
+      "The sealed unit must be exchanged",
+      "It should be bypassed and the appliance used without flame protection"
+    ],
+    "correct": 2,
+    "explanation": "The armature and magnet are housed in a sealed unit which must be exchanged if a failure occurs.",
+    "source": "S12-28"
+  },
+  {
+    "question": "What material is the 'glass' panel typically made from on a balanced flued radiant convector fire with visible radiants/logs?",
+    "answers": [
+      "Borosilicate glass",
+      "Standard toughened glass",
+      "Polycarbonate plastic",
+      "A transparent ceramic material"
+    ],
+    "correct": 3,
+    "explanation": "Some balanced flued fires have radiants or logs/coals visible through a 'glass' panel made from a transparent ceramic material; the panel has to be removed to exchange the radiants or carry out servicing.",
+    "source": "S12-29"
+  },
+  {
+    "question": "When refitting the glass panel on a balanced flued fire after servicing, what must be ensured?",
+    "answers": [
+      "It should be refitted loosely to allow for thermal expansion",
+      "It should be replaced with a new panel at every service",
+      "It should be refitted strictly in accordance with manufacturers' instructions so there are no leaks and combustion is not disturbed",
+      "It does not require any specific sealing as it is decorative only"
+    ],
+    "correct": 2,
+    "explanation": "The transparent ceramic panel should be refitted strictly in accordance with manufacturers' instructions so that there are no leaks and combustion is not disturbed.",
+    "source": "S12-29"
+  },
+  {
+    "question": "What is the approximate resistance created by the heat exchanger and chimney ducting in a fan assisted appliance, compared with a natural draught heater?",
+    "answers": [
+      "Up to around 2.0mbar",
+      "Up to around 0.6mbar",
+      "Up to around 0.1mbar",
+      "Up to around 0.01mbar"
+    ],
+    "correct": 1,
+    "explanation": "With a fan assisted combustion circuit, the intake of fresh air and discharge of products is forced, so the resistance of the heat exchanger and chimney ducting may be high, i.e. up to around 0.6mbar.",
+    "source": "S12-31"
+  },
+  {
+    "question": "What chimney diameter range is typically possible for a fan assisted heater, compared with a natural draught heater requiring 125-175mm diameter?",
+    "answers": [
+      "About 65-75mm diameter",
+      "About 175-200mm diameter",
+      "About 30-40mm diameter",
+      "About 100-125mm diameter"
+    ],
+    "correct": 0,
+    "explanation": "Fan assistance allows the use of smaller chimneys of about 65-75mm diameter, compared with the 125-175mm diameter needed for a natural draught heater.",
+    "source": "S12-31"
+  },
+  {
+    "question": "In the two-fan fanned flued heater design described, what is the role of the second (convection) fan?",
+    "answers": [
+      "It assists the chimney in expelling products of combustion",
+      "It is used for forced convection of warm air, located near the base of the heater",
+      "It draws fresh combustion air from around the terminal",
+      "It cools the toroidal fan housing"
+    ],
+    "correct": 1,
+    "explanation": "As well as a combustion fan to assist the chimney, some heaters also use a second fan for forced convection; the convection fan is near the base of the heater and forces warm air out at the top.",
+    "source": "S12-31"
+  },
+  {
+    "question": "Which standard must all fanned draught chimney systems be fitted in accordance with?",
+    "answers": [
+      "BS 5258",
+      "BS 6891",
+      "BS 715",
+      "BS 5440 Part 1"
+    ],
+    "correct": 3,
+    "explanation": "All fanned draught chimney systems must be fitted in accordance with BS 5440 Part 1 and with regard to manufacturer's instructions.",
+    "source": "S12-31"
+  },
+  {
+    "question": "What component allows a condensing heater to entrain combustion air from the room and be fitted to a small diameter chimney pipe?",
+    "answers": [
+      "A compensated governor",
+      "A standard axial combustion fan",
+      "A vitiation sensing device",
+      "A toroidal fan fitted in the chimney"
+    ],
+    "correct": 3,
+    "explanation": "A condensing heater relies on the toroidal fan, fitted in the chimney, to entrain combustion air from the room; this action allows the appliance to be fitted to a chimney pipe of approximately 28mm diameter.",
+    "source": "S12-31"
+  },
+  {
+    "question": "What material is the small chimney used with a condensing heater typically made from?",
+    "answers": [
+      "CPVC (chlorinated polyvinyl chloride)",
+      "Galvanised steel",
+      "Cast iron",
+      "Twin wall stainless steel"
+    ],
+    "correct": 0,
+    "explanation": "Once combustion takes place, the products pass through the heat exchanger and out of the small CPVC (chlorinated polyvinyl chloride) chimney.",
+    "source": "S12-31"
+  },
+  {
+    "question": "What is the maximum chimney length typically possible on a condensing heater, depending on make, model and number of elbows used?",
+    "answers": [
+      "Up to 1.5m long",
+      "Up to 6m long",
+      "Up to 3m long",
+      "Up to 12m long"
+    ],
+    "correct": 1,
+    "explanation": "Depending upon the make and model, the chimney of a condensing heater can be up to 6m long, depending on the number of elbows used.",
+    "source": "S12-32"
+  },
+  {
+    "question": "If a condensing heater's chimney is run horizontally, what feature must it have to assist discharge of condensate?",
+    "answers": [
+      "No fall is required as condensate is removed by the fan",
+      "An upward rise, to prevent condensate pooling at the appliance",
+      "A drain valve at the highest point only",
+      "A small fall, to assist with the discharge of the condensate to outside"
+    ],
+    "correct": 3,
+    "explanation": "The chimney of a condensing heater can be run 'horizontally' but must have a small fall to assist with the discharge of the condensate to outside.",
+    "source": "S12-32"
+  },
+  {
+    "question": "What must condensing heaters be fitted with, in order to satisfy the requirements of the Gas Safety (Installation and Use) Regulations?",
+    "answers": [
+      "Controls that will shut down the appliance in the event of fanned chimney draught failure",
+      "A manual damper that must be closed before servicing",
+      "A secondary pilot light as a backup ignition source",
+      "A debris catchment void below the spigot"
+    ],
+    "correct": 0,
+    "explanation": "In order to satisfy the requirements of the Gas Safety (Installation and Use) Regulations, condensing heaters of this type must be fitted with controls that will shut down the appliance in the event of fanned chimney draught failure.",
+    "source": "S12-32"
+  },
+  {
+    "question": "Which British Standard does a metal twin wall chimney system used for a direct chimney connection appliance need to conform to (per the General section)?",
+    "answers": [
+      "BS 715",
+      "BS EN 1856-1",
+      "BS 4543",
+      "BS 5440-1"
+    ],
+    "correct": 1,
+    "explanation": "Unless otherwise specified, appliances designed for direct chimney connection shall be installed using a metal twin wall chimney system conforming to BS EN 1856-1, among other listed options.",
+    "source": "S12-33"
+  },
+  {
+    "question": "Which British Standard does a metallic flexible flue liner used for a direct chimney connection appliance need to conform to (per the General section)?",
+    "answers": [
+      "BS EN 1856-2",
+      "BS 5871-2",
+      "BS 6891",
+      "BS 715"
+    ],
+    "correct": 0,
+    "explanation": "Unless otherwise specified, appliances designed for direct chimney connection shall be installed using a metallic flexible flue liner conforming to BS EN 1856-2, among other listed options.",
+    "source": "S12-33"
+  },
+  {
+    "question": "Under what condition shall a chimney kit only be used, regarding the condition of the chimney it serves?",
+    "answers": [
+      "A chimney kit can be used on any chimney regardless of condition",
+      "Only where the condition of the chimney is such that it would not otherwise require lining",
+      "Only where the chimney has already failed a flue flow test",
+      "Only where the chimney exceeds 12m in length"
+    ],
+    "correct": 1,
+    "explanation": "A chimney kit shall only be used where the condition of the chimney is such that it would not otherwise require lining.",
+    "source": "S12-33"
+  },
+  {
+    "question": "What two conditions must a chimney meet before a chimney kit can be fitted, according to the guide?",
+    "answers": [
+      "It is less than 3m in length, and it has a masonry construction",
+      "It has been re-lined within the last 12 months, and it has a minimum diameter of 175mm",
+      "It has a debris catchment space, and it has a closure plate fitted",
+      "It has passed a flue flow test to ensure it is sound and without leaks (to BS 5440-1), and it has been swept if previously used for solid fuel"
+    ],
+    "correct": 3,
+    "explanation": "A chimney kit shall only be fitted to an appliance where the chimney serving the appliance has passed a flue flow test to ensure it is sound and without leaks (to BS 5440-1), and has been swept if previously used for solid fuel.",
+    "source": "S12-33"
+  },
+  {
+    "question": "Above what internal length (or external length) is a chimney kit not suitable, due to condensation problems?",
+    "answers": [
+      "6m internal or 4m external to the building",
+      "12m internal or 10m external to the building",
+      "20m internal or 15m external to the building",
+      "3m internal or 2m external to the building"
+    ],
+    "correct": 1,
+    "explanation": "A chimney kit shall not be fitted to a chimney that is likely to have problems with condensation, i.e. a length in excess of 12m internal or 10m external to the building (see BS 5440-1, table 4).",
+    "source": "S12-33"
+  },
+  {
+    "question": "Is the use of a chimney kit considered an alternative to lining a chimney which would otherwise need lining due to its size, poor condition or length?",
+    "answers": [
+      "No, a chimney kit shall not be regarded as an alternative to lining a chimney which would otherwise need to be lined",
+      "Only on chimneys shorter than 6m internal length",
+      "Only where the chimney serves a fanned draught appliance",
+      "Yes, a chimney kit can always replace the need for lining"
+    ],
+    "correct": 0,
+    "explanation": "The use of a chimney kit shall not be regarded as an alternative to lining a chimney which would otherwise need to be lined due to its size, poor condition, length etc., as required by the relevant standard and BS 5440-1.",
+    "source": "S12-33"
+  },
+  {
+    "question": "What type of device do chimney kits for cassette-type direct connection fires normally include, to allow fitting to an unlined chimney?",
+    "answers": [
+      "A secondary closure plate fitted at roof level",
+      "A second toroidal fan to assist draught",
+      "A debris deflector device that fits to the flue spigot of the fire",
+      "A spigot restrictor of double the standard size"
+    ],
+    "correct": 2,
+    "explanation": "Some direct connection fire types (e.g. cassette fires) are available with an optional chimney kit or device that enables the fire to be fitted to an unlined chimney; such kits normally include a debris deflector device that fits directly or indirectly to the flue spigot of the fire.",
+    "source": "S12-33"
+  },
+  {
+    "question": "Where a chimney kit is used with a direct chimney connection, what minimum dimension relationship must exist between the chimney and the debris deflector?",
+    "answers": [
+      "The chimney must be at least 100mm greater in diameter than the debris deflector",
+      "The chimney must be exactly twice the cross-sectional dimension of the debris deflector",
+      "There is no specified dimensional relationship between the chimney and the debris deflector",
+      "The minimum dimension of the chimney shall be a minimum of 50mm greater than the maximum cross-sectional dimension of the debris deflector in a horizontal plane"
+    ],
+    "correct": 3,
+    "explanation": "Where a chimney kit is used with a direct chimney connection, the minimum dimension of the chimney or masonry chimney shall be a minimum of 50mm greater than the maximum cross-sectional dimensions of the debris deflector in a horizontal plane.",
+    "source": "S12-34"
+  },
+  {
+    "question": "What label must be supplied with a chimney kit fitted to a fire with a top outlet spigot and debris deflector, installed to an unlined chimney?",
+    "answers": [
+      "A label stating the appliance must not be used for more than 4 hours continuously",
+      "A warning label stating the appliance is installed to an unlined chimney and referring to manufacturer's instructions for examination of the debris void and chimney condition",
+      "A label confirming the appliance has passed a combustion test",
+      "A label stating the chimney must be swept annually by a HETAS engineer"
+    ],
+    "correct": 1,
+    "explanation": "Where the appliance has a top outlet chimney spigot, the flue spigot is fitted with a debris deflector device, and it is fitted to an unlined chimney, a label should be supplied to be fitted to the fire in a conspicuous position, warning that the appliance is installed to an unlined chimney and referring the installer to the manufacturer's instructions or to remove the whole firebox for examination.",
+    "source": "S12-35"
+  },
+  {
+    "question": "What is the minimum room volume required for installation of a flueless gas fire?",
+    "answers": [
+      "Shall exceed 20m³",
+      "Shall exceed 60m³",
+      "Shall exceed 40m³",
+      "Shall exceed 10m³"
+    ],
+    "correct": 2,
+    "explanation": "Minimum room volume for a flueless gas fire installation shall exceed 40m³.",
+    "source": "S12-35"
+  },
+  {
+    "question": "What are the minimum ventilation requirements for a flueless gas fire installation, regarding free area and openable provision?",
+    "answers": [
+      "No specific ventilation requirement, provided the room exceeds 40m³",
+      "100cm² and an openable window or louvre required",
+      "50cm² with no openable provision required",
+      "200cm² and a powered extract fan required"
+    ],
+    "correct": 1,
+    "explanation": "Minimum ventilation requirements for a flueless gas fire are 100cm² free area, and an openable window or louvre is required.",
+    "source": "S12-35"
+  },
+  {
+    "question": "How far from any air vent for combustion (or other ventilator such as one serving a redundant chimney) should a flueless appliance be sited, unless the manufacturer specifies otherwise?",
+    "answers": [
+      "At least 1m",
+      "At least 3m",
+      "At least 0.5m",
+      "At least 2m"
+    ],
+    "correct": 0,
+    "explanation": "The appliance shall be sited at least 1m from any air vent for combustion and any other ventilator, e.g. one serving a redundant chimney, unless the appliance manufacturer specifies otherwise.",
+    "source": "S12-35"
+  },
+  {
+    "question": "Why should a flueless appliance only be used for secondary heating, according to the guide?",
+    "answers": [
+      "Due to condensation which may occur with rapid warming and cooling of rooms",
+      "Because flueless appliances cannot achieve sufficient heat output for primary heating",
+      "Because flueless appliances are not permitted to run for more than 2 hours continuously",
+      "Because flueless appliances require constant supervision while in use"
+    ],
+    "correct": 0,
+    "explanation": "A flueless appliance should only be used for secondary heating due to condensation which may occur with rapid warming and cooling of rooms.",
+    "source": "S12-35"
+  },
+  {
+    "question": "What factor will govern the choice of flueless heater, since it limits the heat input that can be used?",
+    "answers": [
+      "The type of floor covering present",
+      "The age of the property",
+      "The orientation of the room relative to north",
+      "Room volume (space)"
+    ],
+    "correct": 3,
+    "explanation": "The heat input of a flueless heater will be limited by room volume (space), and this might govern the choice of heater.",
+    "source": "S12-35"
+  },
+  {
+    "question": "Where a flueless gas fire is to be fixed in front of a redundant solid fuel back boiler left in-situ, what condition must the back boiler be left in?",
+    "answers": [
+      "Filled with sand to permanently prevent any pressure build-up",
+      "A condition where pressure cannot build up and the unit thereby become unsafe, with the chimney sealed",
+      "Fully pressure tested and certified safe for continued use",
+      "Connected to the heating system but isolated at the boiler only"
+    ],
+    "correct": 1,
+    "explanation": "Where a flueless gas fire is to be fixed in front of a redundant solid fuel back boiler left in-situ, the back boiler shall be left in a condition where pressure cannot build up and the unit thereby become unsafe; the chimney shall also be sealed to prevent any adverse effect on the operation of the flueless gas fire.",
+    "source": "S12-35"
+  },
+  {
+    "question": "What is the preferred option when dealing with a redundant solid fuel back boiler unit (BBU) before installing a flueless gas fire?",
+    "answers": [
+      "Filling the heat exchanger with sand to prevent pressure build-up",
+      "Leaving the BBU connected but isolating the flow and return at the boiler only",
+      "Decommissioning and complete removal of the BBU and fire where practicable",
+      "Drilling the heat exchanger to relieve any pressure that may build up"
+    ],
+    "correct": 2,
+    "explanation": "Decommissioning and complete removal of the BBU and fire where practicable is the preferred option when dealing with a redundant solid fuel back boiler before installing a flueless gas fire.",
+    "source": "S12-35"
+  },
+  {
+    "question": "If a solid fuel back boiler unit cannot be removed and the customer wants it left in place, what must be done to it?",
+    "answers": [
+      "It shall be drained of all water and the flow and return pipes disconnected from the heating/hot water primary circuits and left open to vent to atmosphere",
+      "It shall be left fully connected but with the boiler controls switched off",
+      "It shall be connected to a pressure relief valve discharging to a tundish",
+      "It shall be filled with inhibitor and sealed permanently"
+    ],
+    "correct": 0,
+    "explanation": "Where the BBU and fire cannot be removed, or the customer requires them left in place, the solid fuel back boiler unit shall be drained of all water and the flow and return pipes disconnected from the heating/hot water primary circuits and left open to vent to the atmosphere.",
+    "source": "S12-35"
+  },
+  {
+    "question": "What danger can arise if a customer uses a decommissioned solid fuel appliance without a HETAS approved engineer carrying out an inspection?",
+    "answers": [
+      "It could cause a gas leak from the adjacent flueless fire",
+      "It could trigger the flueless fire's vitiation device unnecessarily",
+      "It could cause the chimney liner to corrode prematurely",
+      "It could give rise to a steam explosion"
+    ],
+    "correct": 3,
+    "explanation": "The customer shall be informed that to use the solid fuel appliance(s) without arranging for a HETAS approved engineer to carry out an inspection could be extremely dangerous, and further use without consulting a HETAS registered operative could give rise to a steam explosion.",
+    "source": "S12-36"
+  },
+  {
+    "question": "What labelling and reporting requirement applies once a solid fuel back boiler and fire have been decommissioned?",
+    "answers": [
+      "A label is only required on the fire, not the back boiler unit",
+      "Only a verbal warning needs to be given to the customer, with no written record required",
+      "No labelling is required if the customer has been verbally informed",
+      "A solid fuel decommissioning label shall be attached to both the back boiler unit and the fire, and the operative's job report shall be endorsed to confirm this procedure has been followed"
+    ],
+    "correct": 3,
+    "explanation": "A solid fuel decommissioning label shall be attached to both the back boiler unit and the fire, and the operative's job report shall be endorsed to confirm this procedure has been followed; solid fuel back boilers and fires shall be decommissioned as a complete unit.",
+    "source": "S12-36"
+  },
+  {
+    "question": "Is filling a redundant back boiler's heat exchanger with sand, or drilling it, a permitted method of preventing pressure build-up?",
+    "answers": [
+      "No, this practice is no longer permitted under any circumstances",
+      "Yes, provided it is carried out by a HETAS registered engineer",
+      "Yes, provided the chimney is also sealed at the same time",
+      "Yes, but only on back boilers manufactured before 1980"
+    ],
+    "correct": 0,
+    "explanation": "The practice of filling the heat exchanger with sand or drilling the heat exchanger to prevent pressure build-up is no longer permitted under any circumstances; in some instances this practice has led to explosion of the BBU or transmission of carbon monoxide into other rooms, resulting in death.",
+    "source": "S12-36"
+  },
+  {
+    "question": "During servicing of a flueless gas fire, what should be inspected and cleaned with a soft brush as necessary?",
+    "answers": [
+      "The catalyst",
+      "The flame rectification electrode",
+      "The vitiation device sensing probe",
+      "The toroidal fan blades"
+    ],
+    "correct": 0,
+    "explanation": "As part of servicing a flueless gas fire, the catalyst should be inspected and cleaned as necessary with a soft brush.",
+    "source": "S12-36"
+  },
+  {
+    "question": "After running a flueless gas fire for how long should the performance of the catalyst be checked using a chimney gas analyser?",
+    "answers": [
+      "A minimum of 5 minutes",
+      "A minimum of 30 minutes",
+      "A minimum of 1 minute",
+      "A minimum of 15 minutes"
+    ],
+    "correct": 3,
+    "explanation": "The performance of the catalyst should be checked using a chimney gas analyser after the appliance has been running for a minimum of 15 minutes.",
+    "source": "S12-36"
+  },
+  {
+    "question": "Where should the gas probe be positioned when checking catalyst performance on a flueless gas fire?",
+    "answers": [
+      "At the appliance's gas inlet connection",
+      "50mm inside the outlet louver immediately above the catalyst",
+      "Directly inside the burner ports before ignition",
+      "At the air vent serving the room"
+    ],
+    "correct": 1,
+    "explanation": "Position the gas probe 50mm inside the outlet louver immediately above the catalyst when checking catalyst performance.",
+    "source": "S12-36"
+  },
+  {
+    "question": "What is the maximum carbon monoxide concentration permitted in the combustion products emitted by the catalyst converter of a flueless gas fire?",
+    "answers": [
+      "50ppm (CO/CO2 ratio of 0.004 or less)",
+      "15ppm (CO/CO2 ratio of 0.001 or less)",
+      "5ppm (CO/CO2 ratio of 0.0005 or less)",
+      "200ppm (CO/CO2 ratio of 0.02 or less)"
+    ],
+    "correct": 1,
+    "explanation": "The carbon monoxide concentration in the combustion products emitted by the catalyst converter shall not exceed 15ppm (CO/CO2 ratio of 0.001 or less; see Section 9 Combustion), though manufacturer's instructions should be checked for any different acceptable readings.",
+    "source": "S12-36"
+  },
+  {
+    "question": "How should the angled sample probe be positioned when sampling combustion products above the outlet grill of a flueless fire?",
+    "answers": [
+      "Fixed at a 90 degree angle directly into the catalyst surface",
+      "Adjusted until the highest steady value of CO2 or lowest steady value of O2 is obtained",
+      "Held stationary at the centre of the outlet grill regardless of readings",
+      "Positioned at the appliance's gas inlet rather than the outlet"
+    ],
+    "correct": 1,
+    "explanation": "The angled sample probe should be positioned in the products stream directly above the outlet grill, with its position adjusted until the highest steady value of CO2 or lowest steady value of O2 is obtained.",
+    "source": "S12-37"
+  },
+  {
+    "question": "How many sampling holes should be spread evenly along the sampling section of the combustion test probe, and what diameter should they be?",
+    "answers": [
+      "Five holes, 1.8mm diameter",
+      "Ten holes, 1.0mm diameter",
+      "Five holes, 3.0mm diameter",
+      "Three holes, 2.5mm diameter"
+    ],
+    "correct": 0,
+    "explanation": "Five 1.8mm diameter sampling holes should be spread evenly along the sampling section of the probe.",
+    "source": "S12-37"
+  }
+]

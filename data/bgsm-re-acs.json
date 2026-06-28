@@ -1,0 +1,2470 @@
+[
+  {
+    "question": "What is the definition of 'perceptible movement' on a water (U-)gauge and on an electronic gauge?",
+    "answers": [
+      "0.1mb and 0.2mb",
+      "0.2mb and 0.3mb",
+      "0.15mb and 0.25mb",
+      "0.25mb on a water gauge and 0.2mb (max) on an electronic gauge"
+    ],
+    "correct": 3,
+    "explanation": "A movement of 0.25mbar or less on a water gauge is not considered perceptible. For electronic gauges reading to one decimal place, no perceptible movement is considered a maximum of 0.2mbar.",
+    "source": "S2-6/7"
+  },
+  {
+    "question": "What is the maximum installation volume (IV) that can be worked on as per IGE/UP/1B?",
+    "answers": [
+      "0.02m³",
+      "0.2m³",
+      "0.025m³",
+      "0.035m³"
+    ],
+    "correct": 3,
+    "explanation": "IGE/UP/1B applies to installations with a maximum installation volume (IV) supplying an individual dwelling or non-domestic premises of 0.035m³.",
+    "source": "S2-5"
+  },
+  {
+    "question": "What is the installation volume (IVm) of an E6 gas meter?",
+    "answers": [
+      "0.025m³",
+      "0.0024m³",
+      "0.0036m³",
+      "0.008m³"
+    ],
+    "correct": 1,
+    "explanation": "Table 3 (Installation volume of meters) gives the IVm of an E6 meter as 0.0024m³.",
+    "source": "S2-21"
+  },
+  {
+    "question": "When calculating the installation volume total (IVt), what allowance is usually made for the volume of valves and fittings (IVf) where this cannot be calculated directly?",
+    "answers": [
+      "0.5m³ for each elbow/tee",
+      "50% of IVt",
+      "10% of IVm",
+      "10% of IVp"
+    ],
+    "correct": 3,
+    "explanation": "Where IVf cannot be calculated directly, an additional 10% of the pipe volume (IVp) is added to account for valves and fittings.",
+    "source": "S2-23"
+  },
+  {
+    "question": "What is the scope of work within IGE/UP/1B?",
+    "answers": [
+      "E6 meter, MOP up to 75mb, ≥22mm pipework, IV ≤0.035m³",
+      "U16 meter, MOP up to 10bar, ≥28mm pipework, IV ≤0.35m³",
+      "G4/U6 meter, MOP up to 750mb, ≥22mm pipework, IV ≤0.035m³",
+      "U16 meter, MOP up to 2bar, ≤35mm pipework, IV ≤0.035m³"
+    ],
+    "correct": 3,
+    "explanation": "IGE/UP/1B applies where the MOP at the outlet of the ECV does not exceed 2 bar, the nominal bore does not exceed 35mm, the maximum badged capacity through the primary meter does not exceed 16m³/h, and the maximum IV does not exceed 0.035m³.",
+    "source": "S2-5"
+  },
+  {
+    "question": "Installation pipework or a meter size outside the scope of IGE/UP/1B shall be tested in accordance with which standard(s)?",
+    "answers": [
+      "IGE/UP/1 or IGE/UP/1A",
+      "IGEM/G/6",
+      "TB059",
+      "BS 5440 pt 2"
+    ],
+    "correct": 0,
+    "explanation": "Installations outside the scope of IGE/UP/1B (i.e. larger pipework or meter sizes) must be tested in accordance with IGE/UP/1 or IGE/UP/1A as required.",
+    "source": "S2-6"
+  },
+  {
+    "question": "What action must be taken if an Electronic Token Meter (ETM) tamper device has activated during a tightness test?",
+    "answers": [
+      "Advise the line manager and continue",
+      "No action is required",
+      "Make the installation safe and suspend the tightness test until the tamper reset has been completed by the Emergency Service Provider",
+      "Tightness test the installation with air"
+    ],
+    "correct": 2,
+    "explanation": "If the tamper device has activated (no gas through the meter), the installation must be made safe and the tightness test suspended until the tamper reset has been completed by the Emergency Service Provider (ESP), after which work can resume.",
+    "source": "S2-8"
+  },
+  {
+    "question": "An ECV letting-by could invalidate tightness test results. What must be done if the ECV is found to be letting by?",
+    "answers": [
+      "Continue with the tightness test and purge, leaving appliances turned off, and advise CDM",
+      "Advise the Revenue Protection unit and make safe",
+      "Suspend tests, contact the ESP, and make safe until the ECV is repaired or replaced",
+      "Contact the DNO and shroud the meter"
+    ],
+    "correct": 2,
+    "explanation": "If let-by is confirmed on an ECV, the National Gas Emergency Service Call Centre shall be notified and the installation made safe, suspending the test until a repair has been made.",
+    "source": "S2-10"
+  },
+  {
+    "question": "What is the permissible movement (let-by test) when testing from an ECV or AECV with no meter to be tested?",
+    "answers": [
+      "4mb",
+      "1mb",
+      "8mb",
+      "No perceptible movement (effectively 0mb / max 0.25mb)"
+    ],
+    "correct": 3,
+    "explanation": "For let-by tests the test criteria is 'no perceptible movement' — a movement of 0.25mbar or less on a water gauge is not considered perceptible.",
+    "source": "S2-6"
+  },
+  {
+    "question": "At approximately what pressure does lock-up occur?",
+    "answers": [
+      "23mbar, with a maximum of 30mbar",
+      "18-19mb",
+      "21±2mb",
+      "24mb, max 27mb"
+    ],
+    "correct": 0,
+    "explanation": "For modern governors, lock-up generally occurs at around 23mbar, with the regulator locking up at a pressure not exceeding 30mbar with no flow through the installation.",
+    "source": "S2-8"
+  },
+  {
+    "question": "Under what conditions does lock-up occur?",
+    "answers": [
+      "When the outlet pressure exceeds the tension of the spring, forcing the valve onto its seating",
+      "When the inlet pressure exceeds the set pressure of the spring",
+      "When the regulator over-pressurises due to mechanical failure",
+      "When the spring senses an under-pressure condition"
+    ],
+    "correct": 0,
+    "explanation": "Under no-flow conditions, inlet pressure can creep past the valve until the outlet pressure exceeds the force applied by the spring, forcing the valve against its seating — this is lock-up.",
+    "source": "S2-8"
+  },
+  {
+    "question": "What is the purge volume of a meter installation comprising a U6 metric meter with 22mm outlet pipework (IV not exceeding 0.02m³)?",
+    "answers": [
+      "0.010m³",
+      "0.001m³",
+      "0.100m³",
+      "0.025m³"
+    ],
+    "correct": 0,
+    "explanation": "For an E6, G4 or U6 meter with pipework up to 28mm, the purge volume (PV) is a fixed 0.01m³ (0.35ft³), provided IV does not exceed 0.02m³.",
+    "source": "S2-19"
+  },
+  {
+    "question": "How is the meter regulator working pressure checked?",
+    "answers": [
+      "At the meter test point, with gas flowing and 3 burners on a hotplate at full rate, the pressure should read 21±2mbar",
+      "At the appliance test point, with gas flowing and the grill burner only, the pressure should read 20±2mbar",
+      "At the meter test point, with no gas flowing and the oven burner, the pressure should read 23-30mbar",
+      "At the meter test point, with gas flowing and 2 burners on a hotplate, the pressure should read 20-21mbar"
+    ],
+    "correct": 0,
+    "explanation": "To check installation working pressure, put the highest-rated appliance into operation (for a gas cooker this means 3 burners on full rate) and observe the gauge — the correct working pressure at the meter outlet is 21mbar, with a tolerance of ±2mbar permissible when checking existing installations.",
+    "source": "S3-6/7"
+  },
+  {
+    "question": "Who is authorised to adjust a meter regulator?",
+    "answers": [
+      "A MOCOPA-trained apprentice",
+      "A meter operative holding CCN1 ACS",
+      "An Ofgem Approved Meter Installer (OAMI) or the Gas Emergency Service",
+      "A meter operative with 5 years' experience"
+    ],
+    "correct": 2,
+    "explanation": "Only an Ofgem Approved Meter Installer (OAMI) or an authorised person from the Gas Emergency Service may break the regulator seal and adjust the operating pressure. The pressure adjustment is the responsibility of the gas transporter, not the general operative.",
+    "source": "S3-7/S17-21"
+  },
+  {
+    "question": "How is a meter regulator adjusted?",
+    "answers": [
+      "Anticlockwise to increase, clockwise to decrease, then reseal",
+      "The regulator cannot be adjusted",
+      "Adjust the loading screw — screwing down increases the setting, unscrewing decreases it — then reseal",
+      "Activate a reset lever to the required pressure"
+    ],
+    "correct": 2,
+    "explanation": "The loading screw is adjusted while observing the manometer — screwing down increases the setting — and the cap is then replaced and resealed in accordance with the Gas Safety Regulations.",
+    "source": "S3-8"
+  },
+  {
+    "question": "Which statement best describes the permissible pressure absorption at the meter installation?",
+    "answers": [
+      "No more than 2mb across the meter; maximum working pressure at low flow rate, minimum at high flow rate",
+      "No more than 2mb across the meter; minimum working pressure at low flow rate, maximum at high flow rate",
+      "No more than 4mb across the meter; maximum working pressure at high flow rate, minimum at low flow rate",
+      "No more than 4mb across the meter; minimum working pressure occurs at the highest flow rate and maximum working pressure at the lowest flow rate"
+    ],
+    "correct": 3,
+    "explanation": "Pressure absorption across the primary meter installation must not exceed 4mbar at a flow rate equivalent to the maximum capacity of the meter. As flow rate increases, pressure absorption (and therefore working pressure) decreases — so the lowest working pressure occurs at the highest flow rate.",
+    "source": "S17-21"
+  },
+  {
+    "question": "How should a medium pressure tightness test be carried out where there is no MIV, testing from the ECV?",
+    "answers": [
+      "ECV off, release pressure, reset the lever to the 2 o'clock position, let-by test at 7-10mbar, allow temperature stabilisation, then tightness test at 18-19mbar",
+      "ECV off, release pressure, reset the lever to the 12 o'clock position, let-by test at 7-10mbar, allow temperature stabilisation, then tightness test at 23-30mbar",
+      "ECV off, release pressure, reset the lever to the 12 o'clock position, let-by test at 10mbar, allow temperature stabilisation, then tightness test at 18-19mbar",
+      "ECV off, release pressure, reset the lever to the 2 o'clock position, let-by test at 10mbar, allow temperature stabilisation, then tightness test at 20-21mbar"
+    ],
+    "correct": 0,
+    "explanation": "Where MOPu exceeds 75mbar and no MIV is fitted, the let-by test is carried out at 7-10mbar, then the pressure is raised to between 18 and 19mbar (avoiding higher pressures to prevent lock-up) for the tightness test, after a 1-minute stabilisation period.",
+    "source": "S2-14/15"
+  },
+  {
+    "question": "What action should be taken on finding a medium pressure installation with a Meter Inlet Valve (MIV) fitted and confirmed as passing the test?",
+    "answers": [
+      "Attempt repair of the MIV",
+      "Pass to the Meter Asset Manager (MAM), who is part of the gas supplier",
+      "Pass to the Emergency Service Provider (ESP)",
+      "Replace the MIV and continue with the installation"
+    ],
+    "correct": 1,
+    "explanation": "Where an MIV is fitted on a medium pressure installation, the MAM (Meter Asset Manager) is responsible and should be informed, particularly in the event of let-by, rather than the operative attempting repair themselves.",
+    "source": "S2-10"
+  },
+  {
+    "question": "For which of the following does installation volume NOT need to be calculated?",
+    "answers": [
+      "U16 meter with 22mm pipework",
+      "U6/G4 meter with 28mm pipework",
+      "E6 meter with 35mm pipework",
+      "U16 meter with pipework between 28mm and 35mm"
+    ],
+    "correct": 1,
+    "explanation": "The guide gives specific examples of installations known to fall within the 0.035m³ IV limit without needing calculation — these include a U6 (or G4) meter with up to 28mm copper pipework. Other combinations, including those involving a U16 meter or larger pipework, require the IV to be calculated.",
+    "source": "S2-6"
+  },
+  {
+    "question": "Calculate the IV total (m³) for the following: U16 meter with 3m of 28mm copper pipework.",
+    "answers": [
+      "0.028223m³",
+      "0.028522m³",
+      "0.026782m³",
+      "0.025352m³"
+    ],
+    "correct": 2,
+    "explanation": "IVt = IVm + IVp + IVf = 0.025 + (3 × 0.00054) + [0.1 × (3 × 0.00054)] = 0.025 + 0.00162 + 0.000162 = 0.026782m³.",
+    "source": "S2-21/22/23"
+  },
+  {
+    "question": "Calculate the IV total (m³) for the following: U6 meter with 5m of 32mm steel pipework.",
+    "answers": [
+      "0.0201m³",
+      "0.01405m³",
+      "0.0185m³",
+      "0.1408m³"
+    ],
+    "correct": 1,
+    "explanation": "IVt = IVm + IVp + IVf = 0.008 + (5 × 0.0011) + [0.1 × (5 × 0.0011)] = 0.008 + 0.0055 + 0.00055 = 0.01405m³.",
+    "source": "S2-21/22/23"
+  },
+  {
+    "question": "What are the purge volumes for the two installations above (U16/3m 28mm copper, and U6/5m 32mm steel)?",
+    "answers": [
+      "0.020m³",
+      "0.010m³ or 3.5 segments",
+      "0.040173m³ and 0.021075m³",
+      "0.026056m³ and 0.04325m³"
+    ],
+    "correct": 2,
+    "explanation": "As both installations exceed an IV of 0.02m³, the purge volume (PV) is calculated as 1.5 × IVt: 0.026782 × 1.5 = 0.040173m³, and 0.01405 × 1.5 = 0.021075m³.",
+    "source": "S2-19/23"
+  },
+  {
+    "question": "What is the installation volume of an installation with a G4 meter and 6m of 22mm copper pipe?",
+    "answers": [
+      "0.002112m³",
+      "0.008352m³",
+      "0.00992m³",
+      "It does not need to be calculated"
+    ],
+    "correct": 3,
+    "explanation": "A G4/U6 meter with pipework up to 28mm falls within the recognised examples where IV does not need to be separately calculated, as it is already known to be within the 0.035m³ scope limit.",
+    "source": "S2-6"
+  },
+  {
+    "question": "What is the IV of an installation with a U16 meter and 15m of 32mm steel pipe?",
+    "answers": [
+      "0.04150m³",
+      "0.04315m³",
+      "0.04815m³",
+      "0.02621m³"
+    ],
+    "correct": 1,
+    "explanation": "IVt = IVm + IVp + IVf = 0.025 + (15 × 0.0011) + [0.1 × (15 × 0.0011)] = 0.025 + 0.0165 + 0.00165 = 0.04315m³.",
+    "source": "S2-21/22/23"
+  },
+  {
+    "question": "During a let-by test, the water within the gauge rises by more than 0.25mb. What procedure should be followed?",
+    "answers": [
+      "Connect a temporary bond across the meter, then disconnect the ECV and spray LDF into the barrel",
+      "Move straight onto the tightness test, as the suspected let-by would have no detrimental effect",
+      "Attach temporary continuity bonds, disconnect the ECV outlet union, and spray LDF into the barrel to prove the let-by",
+      "Stop the test and call the ESP to repair"
+    ],
+    "correct": 2,
+    "explanation": "If let-by is suspected, the valve shall be checked by disconnecting its outlet union and applying LDF to the valve barrel or ball, with appropriate temporary continuity bonds (TCBs) used to maintain electrical safety during disconnection.",
+    "source": "S2-10"
+  },
+  {
+    "question": "After completing the tightness test, there is a possibility the regulator may have locked up. What must be done to ensure the installation is tight?",
+    "answers": [
+      "Carry out an air test on the whole installation",
+      "This cannot happen if the correct test pressure is used",
+      "Re-test the installation at 15mbar",
+      "Apply LDF to the inlet and regulator connections"
+    ],
+    "correct": 3,
+    "explanation": "If lock-up has occurred, any leak upstream of the regulator (which the tightness test gauge cannot detect, as the gauge sits downstream) will not show up on the pressure test. LDF must therefore be applied to the inlet and regulator connections once gas has been restored.",
+    "source": "S2-8/11"
+  },
+  {
+    "question": "What is the maximum permissible pressure drop for an existing system with appliances fitted, a G4 gas meter, and 35mm pipework, where there is no reported smell of gas?",
+    "answers": [
+      "0mbar",
+      "8mbar",
+      "2.5mbar",
+      "4mbar"
+    ],
+    "correct": 2,
+    "explanation": "Table 1 gives the maximum permissible pressure drop during a 2-minute test for a diaphragm meter (G4/U6) ≤ 6m³/hr with pipework > 28mm but ≤ 35mm as 2.5mbar.",
+    "source": "S2-7"
+  },
+  {
+    "question": "Determine the meter required for the following installation: a CH boiler (non-combi) rated 18kW, two room heaters rated 6.5kW each, and an instantaneous water heater rated 24kW.",
+    "answers": [
+      "4.15m³ — a U6 meter",
+      "6.51m³ — a U16 meter",
+      "6.15m³ — a U16 meter",
+      "4.51m³ — a U6 meter"
+    ],
+    "correct": 0,
+    "explanation": "Using diversity factors (CH boiler 1.0, room heater 0.6, instantaneous water heater 0.8): (18×1.0) + (2×6.5×0.6) + (24×0.8) = 18 + 7.8 + 19.2 = 45kW. Converting to MJ/h (×3.6) = 162 MJ/h, divided by the calorific value (39 MJ/m³) gives approximately 4.15m³/h, so a U6 meter (max 6m³/h) is selected.",
+    "source": "S17-8/9"
+  },
+  {
+    "question": "Calculate the purge volume of an installation with an IV total of 0.0312m³.",
+    "answers": [
+      "0.0100m³",
+      "0.0208m³",
+      "0.0468m³",
+      "0.0312m³"
+    ],
+    "correct": 2,
+    "explanation": "As the IV exceeds 0.02m³ (and falls within the G10/U16 meter category for IV up to 0.035m³), the purge volume is calculated as 1.5 × IV: 0.0312 × 1.5 = 0.0468m³.",
+    "source": "S2-19"
+  },
+  {
+    "question": "When are two pliable connectors permitted to be fitted on a meter installation?",
+    "answers": [
+      "Recessed meter box, meter bracket fitted, pressure absorption greater than 4mb",
+      "Semi-con meter box, meter bracket not fitted, pressure absorption less than 2mb",
+      "Semi-concealed meter box, meter restrained by the box or a bracket, pressure absorption not exceeding 4mb",
+      "Recessed meter box, meter bracket not fitted, pressure absorption less than 4mb"
+    ],
+    "correct": 2,
+    "explanation": "On a semi-concealed meter installation where the meter is restrained in position by the meter box or bracket, two pliable connectors can be used, provided a meter box outlet adaptor is fitted and pressure absorption does not exceed 4mbar.",
+    "source": "S17-22"
+  },
+  {
+    "question": "When a primary meter is installed more than 2m from the ECV, or is out of line of sight from the ECV, what is required?",
+    "answers": [
+      "A label must be fitted on or near the meter indicating the location of the ECV",
+      "A notice must be fitted on or near the meter indicating the installation contains live gas",
+      "A list of installed appliances should be fitted by the meter",
+      "A number must be displayed adjacent to the ECV showing the installer's phone number"
+    ],
+    "correct": 0,
+    "explanation": "Where a meter is installed or relocated more than 2 metres from, or out of sight of, the nearest upstream emergency control, a notice must be prominently displayed on or near the meter indicating the position of that control. This is a requirement of Regulation 15(2).",
+    "source": "S11-16"
+  },
+  {
+    "question": "Which category of meter work is described as relocating an existing meter, or repositioning a meter where different or additional fittings are used, or where fittings are removed?",
+    "answers": [
+      "Category C",
+      "Category D",
+      "Category A",
+      "Category B"
+    ],
+    "correct": 0,
+    "explanation": "This work falls under Category C of meter work classifications, distinguishing it from simple exchange (Category A) or like-for-like replacement (Category B).",
+    "source": "S17-26"
+  },
+  {
+    "question": "Which of the following is NOT a requirement for a non-domestic AECV?",
+    "answers": [
+      "It does not exceed 50mm nominal bore",
+      "It must be capable of slow closure and incorporate position indication",
+      "A non-lubricated plug is turned through 90° between fully open and fully closed positions",
+      "The plug and its valve body may both be tapered, or both be parallel"
+    ],
+    "correct": 1,
+    "explanation": "Valves should be capable of rapid closure (not slow closure) and incorporate position indication. AECVs must be readily accessible and capable of fast operation, not slow closure.",
+    "source": "S17-16"
+  },
+  {
+    "question": "Which of the following is NOT a consideration to reduce the likelihood of pipework corrosion?",
+    "answers": [
+      "Soldered connections must be cleaned of flux before connection to pliable CSST",
+      "LDF containing more than 30ppm halogens shall not be used on stainless steel",
+      "LDF containing ammonia shall not be used on copper or brass components",
+      "Only non-proprietary LDF shall be used"
+    ],
+    "correct": 3,
+    "explanation": "Only proprietary (purpose-manufactured) leak detection fluids shall be used — the opposite of 'non-proprietary'. Washing-up liquid or similar detergent-based products must not be used as LDF due to their corrosive content.",
+    "source": "S6-26/27"
+  },
+  {
+    "question": "Where the protective equipotential bonding connection is made inside a built-in meter box, where should the cable leave the box?",
+    "answers": [
+      "By breaking a corner of the meter box door",
+      "By drilling through the meter box",
+      "Through a purpose-provided rear entry sleeve (spigot) or via the bottom exit",
+      "By piercing the top corner of the meter box"
+    ],
+    "correct": 2,
+    "explanation": "The cable shall leave the box either through a purpose-provided rear entry sleeve (spigot) or via the bottom exit, and must not exit by drilling or piercing the box.",
+    "source": "S17-23"
+  },
+  {
+    "question": "When removing (including temporarily) or exchanging a gas meter, what must be replaced on each occasion?",
+    "answers": [
+      "The protective equipotential bonding (PEB)",
+      "The meter bracket",
+      "The emergency notice sticker",
+      "Meter union washers"
+    ],
+    "correct": 3,
+    "explanation": "New meter washers shall be fitted whenever a joint incorporating threads conforming to BS 746 is uncoupled — this applies on each occasion a meter is removed or exchanged.",
+    "source": "S17-14"
+  },
+  {
+    "question": "Any part of an installation upstream of either a MIV (where a meter is fitted) or a final stage regulator (where no meter is fitted), and downstream of an ECV where the MOP is greater than 75mbar, must be tested in accordance with which standard?",
+    "answers": [
+      "IGE/UP/2",
+      "IGE/UP/1B",
+      "IGE/UP/1",
+      "IGE/UP/2B"
+    ],
+    "correct": 2,
+    "explanation": "Pipework and fittings outside the scope of IGE/UP/1B — including medium pressure sections upstream of an MIV — must be pre-assembled and strength tested by the manufacturer, or tested in accordance with IGE/UP/1.",
+    "source": "S2-6"
+  },
+  {
+    "question": "Regulation 12 of the Gas Safety (Installation & Use) Regulations states that no person shall install a meter except in a readily accessible position for what purpose?",
+    "answers": [
+      "Maintenance and testing",
+      "Purging and installation",
+      "Installation and testing",
+      "Inspection and maintenance"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 12(4) states that no person shall install a meter except in a readily accessible position for inspection and maintenance.",
+    "source": "S11-15"
+  },
+  {
+    "question": "Regulation 13 states that no person shall knowingly store what type of materials in any meter box or compound?",
+    "answers": [
+      "Flammable materials",
+      "Hazardous materials",
+      "Readily combustible materials",
+      "COSHH materials"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 13(2) states no person shall knowingly store readily combustible materials in any meter box or meter compound.",
+    "source": "S11-15"
+  },
+  {
+    "question": "Regulation 15 states that no person shall supply gas through a primary meter unless a suitably worded notice in permanent form is prominently displayed indicating what?",
+    "answers": [
+      "The procedure to be followed in the event of CO poisoning",
+      "The procedure to be followed in the event of fire",
+      "The procedure to be followed in the event of explosion",
+      "The procedure to be followed in the event of an escape of gas"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 15(1) requires a notice indicating the procedure to be followed in the event of an escape of gas.",
+    "source": "S11-16"
+  },
+  {
+    "question": "Regulation 16 states that no person shall install a prepayment meter as a primary meter through which gas passes to what?",
+    "answers": [
+      "A secondary meter",
+      "Another primary meter",
+      "An appliance",
+      "Service pipework"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 16(1) prohibits installing a prepayment meter as a primary meter through which gas passes to a secondary meter.",
+    "source": "S11-16"
+  },
+  {
+    "question": "Regulation 17 states that any person supplying gas through a primary meter to a secondary meter shall ensure that a line diagram is displayed showing the configuration of what?",
+    "answers": [
+      "Fire escape routes",
+      "Pipework routes, materials, and diameters",
+      "Appliances, pipework, and valves",
+      "Meters, installation pipework, and emergency controls"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 17(1) requires a line diagram showing the configuration of all meters, installation pipework, and emergency controls connected to the primary meter.",
+    "source": "S11-17"
+  },
+  {
+    "question": "Regulation 33 requires that, where a person installs a gas appliance while gas is being supplied, they shall immediately test and examine the connection and installation. Which of the following is NOT one of the four matters Regulation 33 requires to be ascertained?",
+    "answers": [
+      "That all gas safety controls are in proper working order",
+      "That the appliance has been installed with due regard to the manufacturer's instructions",
+      "That the meter working pressure is confirmed as correct",
+      "That the appliance has been installed in accordance with the Regulations"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 33(1) requires the operative to ascertain: that the appliance is installed per the Regulations, that operating pressure is as the manufacturer recommends, that it has been installed per the manufacturer's instructions, and that all gas safety controls are in proper working order. Confirming the meter's working pressure specifically is not one of these four requirements.",
+    "source": "S11-22"
+  },
+  {
+    "question": "A chimney classified as C21 is best described as:",
+    "answers": [
+      "Flueless, natural draught",
+      "Room sealed, non-balanced flue/inlet air ducted system, with the fan downstream of the heat exchanger",
+      "Open flue, natural draught with a draught diverter",
+      "Room sealed, natural draught, suitable for SE-ducts and U-ducts"
+    ],
+    "correct": 3,
+    "explanation": "The BS 5440 Part 1 classification table shows Type C2 covers inlet and outlet ducts connecting to a common system for multi-appliance connections (SE-duct or U-duct). C21 specifically denotes the natural draught variant.",
+    "source": "S4-9"
+  },
+  {
+    "question": "An appliance with a B12 chimney system is described as:",
+    "answers": [
+      "Open flue, fanned draught, without a draught diverter (closed flue)",
+      "Room sealed, fanned draught, with the fan downstream of the heat exchanger",
+      "Open flue, with a draught diverter and the fan downstream of the heat exchanger",
+      "Open flue, fanned draught, with a draught diverter (alternative configuration)"
+    ],
+    "correct": 2,
+    "explanation": "The BS 5440 Part 1 classification table shows B1 covers open-flued appliances with a draught diverter; B12 specifically denotes the fan-downstream-of-heat-exchanger variant.",
+    "source": "S4-9"
+  },
+  {
+    "question": "What is NOT a requirement when connecting a gas appliance to a brick chimney?",
+    "answers": [
+      "The chimney must be swept unless the last appliance connected was gas",
+      "The flue should serve only one appliance",
+      "The chimney must be checked for defects",
+      "Any flue damper must be removed or permanently fixed in the closed position"
+    ],
+    "correct": 3,
+    "explanation": "Any flue damper or restrictor must be removed whenever possible, or alternatively permanently fixed in the fully OPEN position — not the closed position. Fixing a damper closed would prevent the safe evacuation of combustion products.",
+    "source": "S4-37"
+  },
+  {
+    "question": "What is the cross-sectional area of precast flue blocks manufactured to BS 1289:1986?",
+    "answers": [
+      "16,500mm²",
+      "12,000mm²",
+      "10,000mm²",
+      "13,000mm²"
+    ],
+    "correct": 0,
+    "explanation": "New pre-cast chimneys constructed to BS 1289:1986 have a minimum cross-sectional area of 16,500mm² (90mm x 184mm), compared with 13,000mm² for the earlier 1289:1975 standard.",
+    "source": "S4-42"
+  },
+  {
+    "question": "What is the minimum diameter of twin-wall flue pipe connecting to a precast chimney block system, where it runs to a terminal above the roof or at the ridge?",
+    "answers": [
+      "50mm",
+      "125mm",
+      "150mm",
+      "100mm"
+    ],
+    "correct": 1,
+    "explanation": "When a gas chimney block system is connected to a terminal above the roof or at the ridge using a chimney pipe system, the chimney should be a minimum of 125mm, twin-walled, to BS 715 or factory insulated.",
+    "source": "S4-43"
+  },
+  {
+    "question": "A terminal is not required on a chimney that has an outlet larger than:",
+    "answers": [
+      "100mm",
+      "170mm",
+      "150mm",
+      "125mm"
+    ],
+    "correct": 1,
+    "explanation": "Any chimney system with a dimension across the axis of the outlet less than 170mm must be fitted with a terminal. Where the chimney exceeds 170mm, it is generally unnecessary for a terminal to be fitted.",
+    "source": "S4-24"
+  },
+  {
+    "question": "If there is evidence of birds nesting, a flue terminal shall have a bird guard, or a terminal, with a minor dimension of no more than:",
+    "answers": [
+      "10mm",
+      "15mm",
+      "20mm",
+      "5mm"
+    ],
+    "correct": 2,
+    "explanation": "Any opening in the bird guard accessible to birds should have a minor dimension of not more than 20mm.",
+    "source": "S4-12"
+  },
+  {
+    "question": "To protect against problems with downdraught on steeply pitched roofs, it is recommended that the flue route leads to where?",
+    "answers": [
+      "The highest point of the roof",
+      "As far away from the ridge as possible",
+      "Close to the eaves",
+      "Near the gable end of the roof"
+    ],
+    "correct": 0,
+    "explanation": "To provide protection against down draught problems on steeply pitched roofs, it is recommended that the chimney route leads to a termination at the highest point of the roof (e.g. near the ridge) rather than on the slope.",
+    "source": "S4-21"
+  },
+  {
+    "question": "What is the minimum upstand required to weatherproof a chimney passing through a tiled or slated roof?",
+    "answers": [
+      "300mm",
+      "150mm",
+      "600mm",
+      "250mm"
+    ],
+    "correct": 1,
+    "explanation": "Where a chimney pipe passes through a tiled or slated roof, the joint shall be weatherproofed using a purpose-made slate with a minimum upstand of 150mm.",
+    "source": "S4-26"
+  },
+  {
+    "question": "Why should terminals of open flues and passive stack outlets be located on the same face of a building, with the chimney at the same height or higher than the passive stack outlet?",
+    "answers": [
+      "To avoid setting up a pressure gradient across the two systems",
+      "To ensure flue reversal occurs",
+      "To improve adventitious ventilation",
+      "To increase the likelihood of vitiation"
+    ],
+    "correct": 0,
+    "explanation": "Where a house has both passive stack ventilation and an open-flued appliance, the terminals must be sited to avoid setting up a pressure gradient across the two systems, which could otherwise lead to chimney reversal of the appliance.",
+    "source": "S4-12"
+  },
+  {
+    "question": "Passive stack ventilation systems may cause what problem with an open chimney, natural draught appliance?",
+    "answers": [
+      "Reversal of the appliance's chimney",
+      "Excessive ventilation",
+      "Noisy burner operation",
+      "Pilot outage"
+    ],
+    "correct": 0,
+    "explanation": "A pressure gradient set up between a passive stack ventilation system and an open-flued appliance's chimney can lead to chimney reversal of the appliance.",
+    "source": "S4-12"
+  },
+  {
+    "question": "Safety controls on fan-assisted open flue systems should shut down the gas supply if flue flow is insufficient for what period?",
+    "answers": [
+      "10 seconds",
+      "60 seconds",
+      "30 seconds",
+      "6 seconds"
+    ],
+    "correct": 3,
+    "explanation": "Regulation 27(4) requires a fanned draught open-flued system to incorporate a safety control that cuts off the gas supply if flow in the secondary flue is insufficient to clear combustion products for a period of six seconds.",
+    "source": "S4-27"
+  },
+  {
+    "question": "SE-duct systems take their combustion air from where?",
+    "answers": [
+      "Intumescent vents",
+      "The loft space",
+      "Low level, at the base of the duct",
+      "High level"
+    ],
+    "correct": 2,
+    "explanation": "SE-Ducts take combustion air into a vertical duct horizontally at low level, at the base of the duct.",
+    "source": "S4-69"
+  },
+  {
+    "question": "What does the suffix 'P' on a Communal Flue System (CFS) indicate?",
+    "answers": [
+      "Fitment of a non-return valve (NRV) within the appliance duct",
+      "The fan is positioned downstream of the heat exchanger",
+      "A fan-assisted CFS",
+      "A naturally vented CFS"
+    ],
+    "correct": 0,
+    "explanation": "The suffix P designates the fitment of a non-return valve (NRV) on the combustion products duct of the appliance — important when connecting to a fan-assisted CFS.",
+    "source": "S4-72"
+  },
+  {
+    "question": "A condensate waste trap within the base of a Communal Flue System (CFS) indicates what?",
+    "answers": [
+      "The fan is positioned downstream of the heat exchanger",
+      "A negative pressure, naturally vented CFS",
+      "Fitment of a non-return valve within the appliance duct",
+      "A positive pressure, fan-assisted CFS"
+    ],
+    "correct": 3,
+    "explanation": "A condensate collection unit located at the base of a CFS is associated with positive pressure, fan-assisted systems, which are designed and constructed to accommodate condensate accumulation in the chimney system.",
+    "source": "S4-71"
+  },
+  {
+    "question": "Can the condensate collector within a CFS be used for appliance condensate disposal?",
+    "answers": [
+      "False",
+      "True"
+    ],
+    "correct": 0,
+    "explanation": "Although CFSs are designed to accommodate condensate that accumulates within the chimney system itself, they must NOT be used as the discharge route for condensate removal from each individual appliance — this must still be disposed of in the normal manner.",
+    "source": "S4-71"
+  },
+  {
+    "question": "Who is responsible for the maintenance of a Communal Flue System (CFS)?",
+    "answers": [
+      "An approved gas operative with 5 years' experience and the required ACS certifications",
+      "The approved meter installer",
+      "The apartment owner",
+      "The property owner"
+    ],
+    "correct": 3,
+    "explanation": "The property owner shall ensure that the shared flue system, including any flue ducts, air inlets and roof terminals, is inspected and/or tested at intervals not exceeding 12 months.",
+    "source": "S4-71"
+  },
+  {
+    "question": "Which of the following is NOT an acceptable consideration when removing an existing appliance from a Communal Flue System (CFS)?",
+    "answers": [
+      "Use masking tape to seal any resulting holes",
+      "Seal airtight by an appropriate permanent method",
+      "Maintain the fire integrity of the building",
+      "Monitor CO and CO2 levels while the shared flue is open"
+    ],
+    "correct": 0,
+    "explanation": "Any existing hole cut for an appliance that is being or has been removed must be sealed air-tight by an appropriate PERMANENT method that maintains the fire integrity of the building — masking tape is not a permanent or fire-rated solution.",
+    "source": "S4-71"
+  },
+  {
+    "question": "Signs of distress on a material enclosing a concealed chimney/flue system, with no evidence of subsequent corrective remedial work, will be classified as:",
+    "answers": [
+      "Safety Advice Notice (SAN)",
+      "At Risk",
+      "Immediately Dangerous",
+      "Not as per manufacturer's instructions"
+    ],
+    "correct": 2,
+    "explanation": "Table 1 of the Gas Industry Unsafe Situations Procedure (Situation 6.2) specifically states that signs of distress to material enclosing a concealed chimney/flue system, with no evidence of subsequent corrective remedial work, shall also be classified as Immediately Dangerous (ID).",
+    "source": "S7-27 (Situation 6.2)"
+  },
+  {
+    "question": "What are the multiplication factors for a balanced compartment appliance fitted with the air inlet duct to low level and ducted to high level respectively?",
+    "answers": [
+      "Multiply by 2 and 2.5",
+      "Multiply by 1.5 and 1.5",
+      "Multiply by 1 and 2",
+      "Multiply by 1.5 and 2.5"
+    ],
+    "correct": 3,
+    "explanation": "Balanced compartment air inlet duct sizing: where ducted to a low-level vent inside the compartment, multiply combustion air requirements by 1.5; where ducted to high level only, multiply by 2.5.",
+    "source": "S4-62"
+  },
+  {
+    "question": "A balanced compartment is best described as:",
+    "answers": [
+      "May be vented either to the room or to outside",
+      "Constructed entirely of fire-resistant material",
+      "Always vented at high and low level directly to outside air on the wall",
+      "Designed to achieve the advantages of a balanced chimney appliance"
+    ],
+    "correct": 3,
+    "explanation": "A balanced compartment is a method of installing an open-flued appliance in a sealed compartment, designing the chimney and ventilation of the compartment so that some of the advantages of balanced flueing are achieved.",
+    "source": "S4-62"
+  },
+  {
+    "question": "At what maximum appliance heat input can condensate be disposed of other than to a drain?",
+    "answers": [
+      "5kW",
+      "4kW",
+      "2kW",
+      "3kW"
+    ],
+    "correct": 1,
+    "explanation": "Where the appliance input does not exceed 4kW it may be acceptable to discharge the condensate other than to a drain.",
+    "source": "S18-11 (referenced general condensate guidance)"
+  },
+  {
+    "question": "A room-sealed boiler rated at 20kW (natural draught) has a terminal directly below a window. What minimum clearance is required?",
+    "answers": [
+      "1350mm",
+      "1200mm",
+      "1000mm",
+      "1500mm"
+    ],
+    "correct": 3,
+    "explanation": "Table 1 (minimum dimensions of room-sealed chimney outlet positions) gives the clearance for natural draught terminals directly below an opening, for inputs above 14kW up to 32kW, as 1500mm.",
+    "source": "S4-52"
+  },
+  {
+    "question": "What is the minimum distance for a room-sealed, fan-draught boiler terminal when parallel to a boundary?",
+    "answers": [
+      "400mm",
+      "500mm",
+      "600mm",
+      "300mm"
+    ],
+    "correct": 3,
+    "explanation": "The minimum distance for a room-sealed fan-assisted chimney terminal parallel to a boundary is 300mm.",
+    "source": "S4-54"
+  },
+  {
+    "question": "What clearance is required for a terminal adjacent to a window or opening on a pitched roof, irrespective of pitch?",
+    "answers": [
+      "500mm above or adjacent; 1500mm below",
+      "600mm above or adjacent; 2000mm below",
+      "2000mm above or adjacent; 600mm below",
+      "1500mm above or adjacent; 500mm below"
+    ],
+    "correct": 1,
+    "explanation": "For terminals adjacent to a window or opening on pitched roofs, irrespective of pitch, dimension A (above/adjacent) = 600mm and dimension B (below) = 2000mm.",
+    "source": "S4-19"
+  },
+  {
+    "question": "A flue within an enclosure with no inspection hatches, where the enclosure shows signs of distress, will be classified as:",
+    "answers": [
+      "At Risk",
+      "Safety Advice Notice",
+      "Not as per manufacturer's instructions",
+      "Immediately Dangerous"
+    ],
+    "correct": 3,
+    "explanation": "Per Table 1 (Situation 6.2), signs of distress to material enclosing a concealed chimney/flue system, with no evidence of corrective remedial work, are classified as Immediately Dangerous (ID) — distinct from Situation 6.5, where the absence of inspection hatches alone (with no signs of distress) is classified At Risk (AR).",
+    "source": "S7-27 (Situation 6.2)"
+  },
+  {
+    "question": "An open-flue chimney terminating above a flat roof close to a parapet requires what minimum height above the parapet?",
+    "answers": [
+      "300mm, if within 1200mm",
+      "250mm, if within 1000mm",
+      "600mm, if within 1500mm",
+      "1000mm, if within 1800mm"
+    ],
+    "correct": 2,
+    "explanation": "For a flat roof with a parapet, the chimney outlet must be not less than 600mm above the parapet where it is within 1500mm of it (see Fig 9, 10 & 11).",
+    "source": "S4-16"
+  },
+  {
+    "question": "Black marks surrounding a flueless water heater would indicate what?",
+    "answers": [
+      "Scorching",
+      "Vitiation",
+      "Signs of spillage",
+      "Incomplete combustion"
+    ],
+    "correct": 3,
+    "explanation": "Black marks/sooting around an appliance are a visible sign of incomplete combustion, where insufficient air or other factors prevent the fuel from burning completely.",
+    "source": "S9-13/14 (general combustion principles)"
+  },
+  {
+    "question": "Black marks surrounding the down draught diverter on a recently serviced, open-flue natural draught boiler would indicate what, and what reporting obligation may follow?",
+    "answers": [
+      "Scorching",
+      "Incomplete combustion",
+      "Signs of spillage, which may be RIDDOR reportable",
+      "Vitiation"
+    ],
+    "correct": 2,
+    "explanation": "Staining around a draught diverter indicates spillage of combustion products. As the boiler was 'recently serviced', poor workmanship causing this fault may meet the RIDDOR 11(2) reporting criteria if it is dangerous to the extent of being likely to cause death, unconsciousness, or hospitalisation.",
+    "source": "S7-14/S4-11"
+  },
+  {
+    "question": "Black marks on combustible material fitted too close to an open burner would indicate what?",
+    "answers": [
+      "Scorching",
+      "Signs of spillage, possibly RIDDOR reportable",
+      "Incomplete combustion",
+      "Vitiation"
+    ],
+    "correct": 0,
+    "explanation": "Heat damage and discolouration on combustible material located too close to a burner is a sign of scorching from direct heat exposure, rather than combustion product spillage or incomplete combustion at the burner itself.",
+    "source": "S2-18 (visual risk assessment — signs of distress)"
+  },
+  {
+    "question": "How must exposed ridges (corrugations) of Tracpipe (CSST) be protected after completing the jointing?",
+    "answers": [
+      "With self-bonding silicone tape",
+      "By wrapping in PTFE",
+      "By coating with a layer of LSX",
+      "With a suitable bituminous paint"
+    ],
+    "correct": 0,
+    "explanation": "Any exposed stainless steel Tracpipe shall be re-wrapped with self-bonding silicone tape to reduce the possibility of later corrosive attack.",
+    "source": "S6-17"
+  },
+  {
+    "question": "The annular space between a pipe and its sleeve shall be sealed at one end to the pipe with what?",
+    "answers": [
+      "Fire cement",
+      "Plaster",
+      "Polyfilla",
+      "A flexible fire-resistant compound"
+    ],
+    "correct": 3,
+    "explanation": "The annular space between the pipe and the sleeve shall be sealed at one end to the pipe with a flexible fire-resistant compound, allowing any gas escape to vent safely outside.",
+    "source": "S6-27"
+  },
+  {
+    "question": "How do you compensate for differential movement in a timber-framed property when installing gas pipework through the outer wall?",
+    "answers": [
+      "Use semi-rigid pipework enclosed within a sleeve",
+      "Use polyethylene pipework and a sleeve",
+      "Run the pipework within the cavity of the property",
+      "Use steel pipework and fittings"
+    ],
+    "correct": 0,
+    "explanation": "Where pipework changes to semi-rigid pipe (e.g. TracPipe) as it passes through external brick and internal timber walls, it should be enclosed within a semi-rigid sleeve to accommodate the shrinkage and movement of the timber frame.",
+    "source": "S6-22/23"
+  },
+  {
+    "question": "How much cover is required when installing gas pipework within a concrete screed?",
+    "answers": [
+      "75mm",
+      "25mm",
+      "10mm",
+      "50mm"
+    ],
+    "correct": 1,
+    "explanation": "Installation pipework buried in ground floor concrete screeds shall have a minimum of 25mm cover.",
+    "source": "S6-21"
+  },
+  {
+    "question": "Can notches be made in timber engineered and metal web joists?",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "explanation": "The flanges of timber engineered joists and metal web joists shall NOT be notched; pipes must instead pass through the web of the joists.",
+    "source": "S6-20"
+  },
+  {
+    "question": "Which of the following is INCORRECT regarding notching joists?",
+    "answers": [
+      "Notches shall not be made in joists of less than 100mm depth",
+      "Notch depth shall not exceed 0.125 of the joist depth (approximately 1/8)",
+      "The notch shall be located not further than 0.5 length (1/2) of the span from an end support",
+      "Notches shall not extend across the joint between floorboards"
+    ],
+    "correct": 2,
+    "explanation": "The notch shall be located not further than 0.25 of the span (1/4) — not 0.5 (1/2) — and no nearer than 0.07 of the span from an end support.",
+    "source": "S6-20"
+  },
+  {
+    "question": "How must gas pipework be contained within dry-lined walls?",
+    "answers": [
+      "Protected by wrapping in electrical tape",
+      "Encased by building material, run within purpose-designed channels as far as is reasonably practicable",
+      "Pipework is not permitted within dry-lined walls",
+      "Sleeved within a semi-rigid sleeve"
+    ],
+    "correct": 1,
+    "explanation": "Installation pipes within dry-lined walls should be suitably encased by building material, run within purpose-designed channels as far as is reasonably practicable.",
+    "source": "S6-22"
+  },
+  {
+    "question": "When can gas pipework be routed within a cavity wall?",
+    "answers": [
+      "When installing a condensing boiler",
+      "When pipework is suitably protected",
+      "As the final connection to an inset fanned-flue gas fire",
+      "When using galvanised stainless steel"
+    ],
+    "correct": 2,
+    "explanation": "Installation pipework shall not be placed within the cavity of a cavity wall, except as permitted by Gas Safety Regulation 19 for the final connection of fan-flue inset gas fires, where the pipe is contained in a gas-tight sleeve sealed at the point it enters the fire.",
+    "source": "S6-22"
+  },
+  {
+    "question": "When must a duct containing gas pipework be ventilated?",
+    "answers": [
+      "When its cross-sectional area exceeds 0.1m² and its volume exceeds 0.01m³",
+      "When its cross-sectional area exceeds 0.02m² and its volume exceeds 0.2m³",
+      "When its cross-sectional area exceeds 0.01m² and its volume exceeds 0.1m³",
+      "When its cross-sectional area exceeds 0.05m² and its volume exceeds 0.5m³"
+    ],
+    "correct": 2,
+    "explanation": "A duct is normally considered ventilated by adventitious means below a cross-sectional area of 0.01m² and volume of 0.1m³ — above these thresholds, purpose-provided ventilation is required.",
+    "source": "S6-27"
+  },
+  {
+    "question": "How must a duct containing gas pipework be ventilated?",
+    "answers": [
+      "High level only",
+      "Low level only",
+      "Ducting never requires ventilation",
+      "At both high and low level"
+    ],
+    "correct": 3,
+    "explanation": "Ducts must be ventilated so that any minor gas escape within the duct does not cause the contained atmosphere to become unsafe — ventilation openings should be installed at the top and bottom of a vertical duct, and at each end of a horizontal duct.",
+    "source": "S6-27/S19-9 (general duct ventilation principle)"
+  },
+  {
+    "question": "What ventilation would a duct require if it had a cross-sectional area of 0.03m² and a volume of 0.3m³?",
+    "answers": [
+      "1/150th of 0.03m²",
+      "Not required",
+      "0.03m²",
+      "0.05m² (the fixed minimum for this CSA band)"
+    ],
+    "correct": 3,
+    "explanation": "Table 2 (Sizing of duct vents) gives a fixed minimum free area of 0.05m² for ducts with a cross-sectional area between 0.05m² and 7.5m². As the duct CSA here (0.03m²) falls in the lower band (0.01 to 0.05m²), the minimum free area equals the cross-sectional area of the duct — i.e. 0.03m².",
+    "source": "S6-27"
+  },
+  {
+    "question": "What type of pipework would be unsuitable for installation in a protected area (e.g. an unventilated shaft, duct, or void without removable covers)?",
+    "answers": [
+      "Polyethylene plastic pipework manufactured to BS EN 1555",
+      "Steel pipe with screwed joints",
+      "Steel pipe with welded joints",
+      "A continuous length of copper (with no joints)"
+    ],
+    "correct": 0,
+    "explanation": "PE installation pipework and fittings shall only be used for exterior installation pipework — it is not suitable for use within buildings, ducts, or protected areas.",
+    "source": "S6-12"
+  },
+  {
+    "question": "Where a meter is not secured to a bracket, rigid pipework shall be fitted within what initial distance from the meter outlet?",
+    "answers": [
+      "1000mm",
+      "500mm",
+      "300mm",
+      "600mm"
+    ],
+    "correct": 3,
+    "explanation": "The first 600mm of installation pipework connected to the meter outlet shall be in securely fixed rigid pipe, unless the meter is securely restrained by a meter bracket.",
+    "source": "S6-18"
+  },
+  {
+    "question": "When is PE service pipework permitted to be used above ground?",
+    "answers": [
+      "For entry into a building, where it must be protected from sunlight and damage",
+      "Within timber construction walls, within purpose-designed channels or ducts",
+      "As the final connection to a BBQ or patio heater",
+      "When a condensing boiler is to be fitted"
+    ],
+    "correct": 0,
+    "explanation": "PE pipe and fittings shall only be used above ground to extend underground PE installation pipe above ground level for entry into a building — the length above ground should rise vertically and be protected against daylight and mechanical damage.",
+    "source": "S6-12"
+  },
+  {
+    "question": "What is the minimum cover required when PE pipe is installed under a private driveway with light vehicular traffic?",
+    "answers": [
+      "375mm",
+      "600mm",
+      "450mm",
+      "1100mm"
+    ],
+    "correct": 2,
+    "explanation": "Buried pipework in private driveways with light vehicular traffic requires at least 450mm of cover.",
+    "source": "S6-34/35"
+  },
+  {
+    "question": "At what depth is marker tape laid when domestic PE gas pipework is buried underground?",
+    "answers": [
+      "75mm",
+      "250mm",
+      "Between 100mm and 300mm above the pipe",
+      "Between 500mm and 750mm"
+    ],
+    "correct": 2,
+    "explanation": "Marker tape shall be laid in the backfill material between 100mm and 300mm above the pipe to minimise the risk of future mechanical damage.",
+    "source": "S6-35"
+  },
+  {
+    "question": "Which of the following is NOT correct regarding the main protective equipotential bonding conductor?",
+    "answers": [
+      "It should be located as far as practicable from the meter or point of entry of the installation pipe",
+      "It should have green and yellow insulation conforming to BS 6004",
+      "For internal meters it should be within 600mm of the meter outlet",
+      "It should have a cross-sectional area of at least 10mm²"
+    ],
+    "correct": 0,
+    "explanation": "Main equipotential bonding shall be fitted on the outlet side of the primary meter, AS CLOSE AS PRACTICABLE to the meter before any branch — not as far as practicable. For internal meters this means within 600mm of the meter outlet.",
+    "source": "S6-36"
+  },
+  {
+    "question": "What work would NOT require the use of temporary continuity bonds?",
+    "answers": [
+      "Tightness testing an installation to re-establish the gas supply",
+      "Removal of a meter",
+      "Connection or disconnection of any metal pipework",
+      "Breaking into gas pipework"
+    ],
+    "correct": 0,
+    "explanation": "Temporary continuity bonds are required wherever a gas fitting is connected or disconnected, or pipework is broken into, to maintain electrical continuity and prevent sparking. A tightness test alone does not involve breaking the pipework, so no bond is required for that activity itself.",
+    "source": "S6-37/S17-23"
+  },
+  {
+    "question": "What are the maximum horizontal and vertical support distances for 22mm copper pipework (domestic)?",
+    "answers": [
+      "Horizontal 2.5m, vertical 3m",
+      "Horizontal 1m, vertical 1.5m",
+      "Horizontal 1.5m, vertical 2m",
+      "Horizontal 2m, vertical 2.5m"
+    ],
+    "correct": 3,
+    "explanation": "Table 1 (Maximum interval between pipe supports) gives copper and corrugated stainless steel pipework of 22mm and above a maximum horizontal support interval of 2.0m and vertical interval of 2.5m.",
+    "source": "S6-25"
+  },
+  {
+    "question": "What are the required clearances when gas pipework is close to electrical services?",
+    "answers": [
+      "150mm from electrical switchgear; 25mm from electricity supply and distribution cables",
+      "250mm from electrical switchgear; 100mm from electricity supply and distribution cables",
+      "25mm from electrical switchgear; 150mm from electricity supply and distribution cables",
+      "100mm from electrical switchgear; 30mm from electricity supply and distribution cables"
+    ],
+    "correct": 0,
+    "explanation": "Installation pipework should be installed at least 150mm away from electricity meters/switchgear and associated control boxes, and at least 25mm away from electrical supply and distribution cables and other metal piped services.",
+    "source": "S6-36"
+  },
+  {
+    "question": "Gas pipework has been correctly sized: 22mm from the meter, 22mm to the boiler, and 15mm to a cooker (22/22/15). What is the maximum working pressure drop permitted across the installation, indicating it has been correctly sized?",
+    "answers": [
+      "1mb",
+      "0mb — no pressure drop is permitted",
+      "8mb",
+      "4mb"
+    ],
+    "correct": 0,
+    "explanation": "The design pressure loss between the outlet of the primary meter installation and any appliance inlet shall not exceed 1mbar at the design installation flow rate — this is the benchmark for confirming correct pipe sizing.",
+    "source": "S6-5/6"
+  },
+  {
+    "question": "What is the purpose of the Gas Industry Unsafe Situations Procedure (GIUSP)?",
+    "answers": [
+      "To assist an approved meter installer when tightness testing a domestic installation",
+      "To assist competent gas operatives to meet their legal duties",
+      "To assist customers who encounter dangerous gas fittings",
+      "To assist the emergency service provider when tracing a gas escape"
+    ],
+    "correct": 1,
+    "explanation": "The Unsafe Situations Procedure has been drawn up by the gas industry to assist competent gas operatives to meet their legal duties and correctly classify unsafe gas installations in accordance with GSIUR.",
+    "source": "S7-6"
+  },
+  {
+    "question": "When is the information in the GIUSP relevant?",
+    "answers": [
+      "For existing gas installations and appliances installed in both domestic and non-domestic premises",
+      "For uncommissioned gas equipment installed in domestic premises only",
+      "For commissioned gas equipment installed in landlord-owned domestic and non-domestic premises only",
+      "For commissioned gas equipment installed in non-domestic premises only"
+    ],
+    "correct": 0,
+    "explanation": "The information in the GIUSP is relevant to all existing gas installations and appliances for all family gases, installed in both domestic and non-domestic properties, excluding industrial process equipment.",
+    "source": "S7-6/7"
+  },
+  {
+    "question": "What statement best describes the advice given to a customer when an installation has not been fitted to the current standard or as per the manufacturer's instructions, but is otherwise operating safely?",
+    "answers": [
+      "The installation should be classified as Not to Current Standards (NCS) with paperwork and labelling completed, and the customer advised accordingly",
+      "Advice is only given when an AR or ID situation is classified",
+      "Engineers can still inform the gas user/responsible person via job reports or 'best advice', using judgement on the advice to give",
+      "A Safety Advice Notice (SAN) should be issued and the installation made safe"
+    ],
+    "correct": 2,
+    "explanation": "Where an installation operates safely but is not to current standards, the guide describes this as a Not to Current Standards (NCS) situation: the responsible person is advised and this is recorded, but there is nothing preventing the operative from trying to improve safety or recommending an upgrade.",
+    "source": "S7-35/S9-12 (general NCS guidance)"
+  },
+  {
+    "question": "Which of the following is NOT a requirement when an Immediately Dangerous (ID) situation is discovered?",
+    "answers": [
+      "Explain that it must be disconnected from the gas supply until the situation has been rectified, and that further use would contravene the law",
+      "Attach a 'Danger Do Not Use' label to the appliance/installation in a prominent position",
+      "Explain to the responsible person that the appliance/installation is, in your opinion, Immediately Dangerous (ID) and must not be used",
+      "Explain that the appliance/installation should be turned off at an appropriate isolation valve"
+    ],
+    "correct": 3,
+    "explanation": "For an ID situation, the required action is to DISCONNECT the appliance/installation from the gas supply with permission, or turn it off and contact the Gas Emergency Service if disconnection is refused — not merely turning it off at an isolation valve, which does not meet the requirement of full disconnection.",
+    "source": "S7-11"
+  },
+  {
+    "question": "Which of the following is true of an installation that is At Risk (AR), where turning off the ECV would not remove the risk?",
+    "answers": [
+      "No requirement to turn off the ECV or attach a label, but advice and paperwork are still required",
+      "No action is required, as the risk cannot be removed",
+      "Turn off the ECV, advise the customer, and leave paperwork and a label as AR",
+      "Cap and seal the meter outlet"
+    ],
+    "correct": 0,
+    "explanation": "Certain AR situations (shown in bold italic in Table 1) are ones where turning off the installation will not remove or reduce the risk. In these cases, a 'Danger Do Not Use' label is NOT attached, but the gas user/responsible person must still be advised and the situation referred to a responsible person/organisation, with paperwork completed.",
+    "source": "S7-19 (Table 1 category guidance)"
+  },
+  {
+    "question": "How should a metered supply with no pressure regulator be classified?",
+    "answers": [
+      "Not as per current regulations",
+      "Immediately Dangerous",
+      "At Risk",
+      "Safety Advice Notice (SAN)"
+    ],
+    "correct": 1,
+    "explanation": "Table 1 (Situation 2.1) classifies a pressure regulator not installed at the primary meter, or one not suitable for the supply, as Immediately Dangerous (ID).",
+    "source": "S7-19 (Situation 2.1)"
+  },
+  {
+    "question": "How should gas pipework with an open end, connected to a gas supply, be classified?",
+    "answers": [
+      "Safety Advice Notice (SAN)",
+      "At Risk",
+      "Immediately Dangerous",
+      "Not as per current regulations"
+    ],
+    "correct": 2,
+    "explanation": "Table 1 (Situation 3.1) classifies pipework with an open end connected to a gas supply as Immediately Dangerous (ID) — all open ends must be sealed with an appropriate gas fitting.",
+    "source": "S7-21 (Situation 3.1)"
+  },
+  {
+    "question": "How should medium pressure pipework entering the property from within the meter box be classified?",
+    "answers": [
+      "Not as per current regulations",
+      "At Risk",
+      "Safety Advice Notice (SAN)",
+      "Immediately Dangerous"
+    ],
+    "correct": 1,
+    "explanation": "Table 1 (Situation 2.10) classifies installation pipework or PEB cable entering a property from within a meter box via the rear exit spigot route, where the supply is medium pressure fed, as At Risk (AR).",
+    "source": "S7-20 (Situation 2.10)"
+  },
+  {
+    "question": "If an engineer identifies an Immediately Dangerous natural gas appliance and the responsible person refuses to permit it to be turned off and disconnected, what must the engineer do?",
+    "answers": [
+      "Forcibly perform these actions",
+      "Advise the responsible person that they use the appliance at their own risk",
+      "Inform the local police force",
+      "Inform the Emergency Service Provider (ESP)"
+    ],
+    "correct": 3,
+    "explanation": "If the responsible person refuses to allow disconnection of an ID appliance, the engineer should turn off the appliance if possible and make immediate contact with the Gas Emergency Service Call Centre (ESP), explaining the action taken and obtaining a job reference number.",
+    "source": "S7-11"
+  },
+  {
+    "question": "Which of the following situations is RIDDOR reportable?",
+    "answers": [
+      "A room-sealed appliance installed in a bathroom compartment",
+      "A room-sealed boiler installed in a garage",
+      "No compartment vents present",
+      "A plastic push-fit cap installed on a gas supply"
+    ],
+    "correct": 3,
+    "explanation": "Pipework and/or fittings of inappropriate material for the purpose (e.g. plastic fittings, classified ID under Situation 3.2) pose a very high risk of a serious incident and would meet the RIDDOR 11(2) criteria where it results from poor workmanship or design and is dangerous to the extent of being likely to cause death, unconsciousness, or hospitalisation.",
+    "source": "S7-14/21 (Situation 3.2)"
+  },
+  {
+    "question": "What actions must an engineer take when identifying an Immediately Dangerous appliance?",
+    "answers": [
+      "Apply a warning label and cap off the supply",
+      "Complete a warning notice",
+      "Inform the person responsible for the property",
+      "All of the above: apply a warning label, complete a warning notice, inform the responsible person, and cap off the supply (or disconnect)"
+    ],
+    "correct": 3,
+    "explanation": "For an ID situation, the engineer must explain the danger to the responsible person, attach a 'Do Not Use' label, complete a Warning Notice, and either disconnect/seal the supply with permission or turn off the appliance and contact the Gas Emergency Service if permission is refused.",
+    "source": "S7-11"
+  },
+  {
+    "question": "What actions must an engineer take when identifying an At Risk appliance?",
+    "answers": [
+      "All of the above: apply a warning label, complete a warning notice, inform the responsible person, and turn off the supply",
+      "Inform the person responsible for the property",
+      "Complete a warning notice",
+      "Apply a warning label and turn off the supply"
+    ],
+    "correct": 0,
+    "explanation": "For an AR situation, the engineer must explain the situation to the responsible person, attach a 'Do Not Use' label, complete a Warning Notice, and (with permission) turn off the appliance/installation.",
+    "source": "S7-12"
+  },
+  {
+    "question": "What are the reporting timescales for RIDDOR 11(1) and 11(2) situations respectively?",
+    "answers": [
+      "10 hours and 14 days",
+      "2 hours and 14 days",
+      "2 hours and 10 days",
+      "10 hours and 10 days"
+    ],
+    "correct": 1,
+    "explanation": "RIDDOR 11(1) situations (death, unconsciousness, hospitalisation) must be notified to the HSE without delay (within 2 hours), with an online report within 14 days. RIDDOR 11(2) situations (dangerous gas fittings) require an online report within 14 days of discovery.",
+    "source": "S7-15"
+  },
+  {
+    "question": "Battery and mains-powered carbon monoxide detectors are now manufactured to which standard?",
+    "answers": [
+      "BS 5440-1",
+      "BS 5440-2",
+      "BS EN 50291",
+      "BS 7860"
+    ],
+    "correct": 2,
+    "explanation": "Electrical CO alarms must be manufactured to BS EN 50291 (which has replaced the older BS 7860) and display a BSI kite mark.",
+    "source": "S9-43"
+  },
+  {
+    "question": "Carbon monoxide detectors should not be installed where temperatures vary beyond certain limits. What are those limits?",
+    "answers": [
+      "Below -10°F or above 40°F",
+      "Below -4.4°C or above 100°C",
+      "Below 4.4°F or above 37.8°F",
+      "Below -10°C or above 40°C"
+    ],
+    "correct": 3,
+    "explanation": "Locations to be avoided when installing a CO detector include areas where the temperature could drop below -10°C or rise above 40°C.",
+    "source": "S9-44"
+  },
+  {
+    "question": "Which of the following is INCORRECT regarding CO indicator cards?",
+    "answers": [
+      "It is recommended they are fitted on the wall at eye level",
+      "Aerosol sprays and solvents can activate them",
+      "They remain active for 6 months",
+      "They shall not be considered for use in sleeping accommodation"
+    ],
+    "correct": 2,
+    "explanation": "Once opened and exposed to atmosphere, CO indicator cards remain active for up to 3 months — not 6 months. They are not suitable for sleeping accommodation due to the absence of an audible alarm, and other products such as aerosol sprays and solvents can cause them to change colour.",
+    "source": "S9-42"
+  },
+  {
+    "question": "According to BS EN 50291, within what time must a CO alarm sound at the following concentrations: 50ppm, 100ppm, and 300ppm?",
+    "answers": [
+      "50ppm within 30 minutes; 100ppm within 90-120 minutes; 300ppm within 10 minutes",
+      "50ppm within 3 minutes; 100ppm within 60-90 minutes; 300ppm within 10-40 minutes",
+      "50ppm within 100 minutes; 100ppm within 90 minutes; 300ppm within 5 minutes",
+      "50ppm within 60-90 minutes; 100ppm within 10-40 minutes; 300ppm within 3 minutes"
+    ],
+    "correct": 3,
+    "explanation": "BS EN 50291 requires a CO alarm to sound within 60-90 minutes at 50ppm, within 10-40 minutes at 100ppm, and within 3 minutes at 300ppm.",
+    "source": "S9-45"
+  },
+  {
+    "question": "What should occupants be advised to do in the event of a CO alarm activating?",
+    "answers": [
+      "Turn off the ECV and contact the gas supplier to arrange a Smart meter installation",
+      "Contact a Gas Safe registered engineer to have appliances serviced as soon as possible",
+      "Turn on appliances, close doors and windows, and arrange for the installation to be tightness tested",
+      "Turn off appliances, ventilate the room, and ensure appliances are checked for safety before further use"
+    ],
+    "correct": 3,
+    "explanation": "Where a CO indicator/detector alarm has activated, occupants must be advised to turn off the appliances, ventilate the rooms, and ensure the appliances are checked for safety by a competent person before further use.",
+    "source": "S9-45/46"
+  },
+  {
+    "question": "The installation of which gas appliance does NOT require the fitment of a CO alarm after installation in Scotland and Northern Ireland?",
+    "answers": [
+      "A room-sealed multipoint water heater",
+      "A sole cooking appliance",
+      "An open flue warm air unit",
+      "A condensing appliance"
+    ],
+    "correct": 1,
+    "explanation": "Both the Scotland and Northern Ireland CO detector requirements specifically exclude sole cooking appliances from the requirement to fit a CO detector when replacing a fixed combustion appliance.",
+    "source": "S9-44"
+  },
+  {
+    "question": "At what CO2 and CO level does vitiation take place, triggering an atmospheric sensing device?",
+    "answers": [
+      "CO2 1.5-2%, CO 200ppm",
+      "CO2 1.5-2.5%, CO 250ppm",
+      "CO2 2-2.5%, CO 200ppm",
+      "CO2 1.5-2%, CO 150ppm"
+    ],
+    "correct": 0,
+    "explanation": "When the concentration of CO2 in combustion air reaches 1.5-2% (equating to a 2% drop in O2 and a corresponding increase to around 200ppm CO), the quality of combustion begins to deteriorate and the atmospheric sensing device will shut off the gas supply to the burner.",
+    "source": "S9-50"
+  },
+  {
+    "question": "Which of the following statements is INCORRECT with regard to a flue in a void?",
+    "answers": [
+      "Full information is available from Gas Safe bulletin TB 008",
+      "Hatches required must measure at least 300mm x 300mm",
+      "Hatches must be no more than 1.8m from any joint",
+      "An enclosure showing signs of distress is classified as Immediately Dangerous"
+    ],
+    "correct": 2,
+    "explanation": "No chimney joint within the void should be more than 1.5m — not 1.8m — distant from the edge of the nearest inspection hatch.",
+    "source": "S4-81/83"
+  },
+  {
+    "question": "What size of openings are suitable for gas appliance ventilation grilles?",
+    "answers": [
+      "5-15mm",
+      "10-20mm",
+      "5-10mm",
+      "6-16mm"
+    ],
+    "correct": 2,
+    "explanation": "Ventilation grilles designed for gas installations should have openings that prevent the entry of a 10mm diameter ball but allow entry of a 5mm ball — i.e. openings in the 5-10mm range.",
+    "source": "S5-39/47"
+  },
+  {
+    "question": "Calculate the free area of an internal slotted vent with holes measuring 9mm x 50mm, with 40 holes.",
+    "answers": [
+      "1.80m²",
+      "180cm²",
+      "180mm²",
+      "18cm²"
+    ],
+    "correct": 1,
+    "explanation": "9mm × 50mm × 40 holes = 18,000mm² = 180cm².",
+    "source": "S5-46/48"
+  },
+  {
+    "question": "Calculate the free area of a louvred vent with measurements of 12mm edge-to-edge, 9mm between louvres (the perpendicular dimension), 80mm width, and 30 holes.",
+    "answers": [
+      "288mm²",
+      "216cm²",
+      "216mm²",
+      "288cm²"
+    ],
+    "correct": 1,
+    "explanation": "The correct method measures the perpendicular dimension between louvres (9mm), not the edge-to-edge dimension (12mm). 9mm × 80mm × 30 holes = 21,600mm² = 216cm².",
+    "source": "S5-40"
+  },
+  {
+    "question": "Calculate the free area of a plastic louvred vent with measurements of 8mm between louvres, 50mm width, and 36 holes.",
+    "answers": [
+      "1440mm²",
+      "1.44m²",
+      "144cm²",
+      "144mm²"
+    ],
+    "correct": 2,
+    "explanation": "8mm × 50mm × 36 holes = 14,400mm² = 144cm².",
+    "source": "S5-46/48"
+  },
+  {
+    "question": "Calculate the free area of a terracotta air brick with measurements of 9mm x 9mm, with 36 holes.",
+    "answers": [
+      "29,160mm²",
+      "2.916cm²",
+      "2916mm²",
+      "291.6cm²"
+    ],
+    "correct": 2,
+    "explanation": "9mm × 9mm × 36 holes = 2916mm² (equivalent to 29.16cm²).",
+    "source": "S5-39/46"
+  },
+  {
+    "question": "What must be done with an intumescent air vent that has been activated by a fire?",
+    "answers": [
+      "Replace the vent before the gas appliance is used again",
+      "Cool the vent to allow the gaps to reopen",
+      "Replace the vent at the next appliance service",
+      "Remove it to a closable screen"
+    ],
+    "correct": 0,
+    "explanation": "Where an intumescent air vent has been triggered by high temperature (such as fire), it is essential that it is replaced before any gas appliance is operated.",
+    "source": "S5-45"
+  },
+  {
+    "question": "Which factor would NOT affect the adventitious ventilation of a room rated at 35cm² free area for a 7kW (net) appliance?",
+    "answers": [
+      "Double glazing",
+      "Draught proofing",
+      "The position of an internal partition vent",
+      "Cavity wall insulation"
+    ],
+    "correct": 2,
+    "explanation": "Adventitious ventilation comes from air entering through cracks around doors, windows, and the structure generally — draught proofing, cavity insulation and double glazing all reduce this. An internal partition vent is a purpose-provided opening, not a factor affecting adventitious (incidental) ventilation.",
+    "source": "S5-6"
+  },
+  {
+    "question": "Calculate the vent requirement for an open-flued boiler, fitted in a room, rated at 27.75kW (gross).",
+    "answers": [
+      "125cm²",
+      "103.75cm²",
+      "138.75cm²",
+      "90cm²"
+    ],
+    "correct": 3,
+    "explanation": "Converting gross to net: 27.75 ÷ 1.11 = 25kW net. Room vent formula for open flue: (net - 7) × 5 = (25-7) × 5 = 90cm².",
+    "source": "S5-6/7"
+  },
+  {
+    "question": "Calculate the vent requirement for an open-flued boiler fitted in a utility room measuring 2.5m x 3m x 2m, range-rated between 12-19kW (net).",
+    "answers": [
+      "25cm²",
+      "60cm²",
+      "50cm² and an openable window",
+      "Openable window only"
+    ],
+    "correct": 1,
+    "explanation": "Using the maximum of the range-rated input (19kW): (19-7) × 5 = 60cm². Range-rated appliances must be sized on their maximum input.",
+    "source": "S5-7/36"
+  },
+  {
+    "question": "Calculate the vent requirement for two internal partition vents, where the outside air vent is correctly sized at 80cm².",
+    "answers": [
+      "40cm²",
+      "120cm²",
+      "80cm²",
+      "160cm²"
+    ],
+    "correct": 1,
+    "explanation": "With the outside vent plus two internal vents, three vents are in series. Where three or more air vents are installed in series, the intermediate (internal) vents must be increased by at least 50%: 80 × 1.5 = 120cm².",
+    "source": "S5-34"
+  },
+  {
+    "question": "Calculate the vent requirement for the scenario above if there were only ONE internal vent.",
+    "answers": [
+      "120cm²",
+      "160cm²",
+      "40cm²",
+      "80cm²"
+    ],
+    "correct": 3,
+    "explanation": "With only two vents in series (outside vent + one internal vent), the 50% increase rule for 'three or more vents in series' does not apply, so the internal vent matches the outside vent at 80cm².",
+    "source": "S5-34"
+  },
+  {
+    "question": "Calculate the vent requirement for an open-flued boiler fitted in a compartment ventilated direct to outside, rated at 21kW (net).",
+    "answers": [
+      "High 210cm² / Low 420cm²",
+      "High 140cm² / Low 280cm²",
+      "High 70cm² / Low 140cm²",
+      "High 105cm² / Low 210cm²"
+    ],
+    "correct": 3,
+    "explanation": "Table 4 (compartment air vents, open flue, air direct from outside): High level = 5cm²/kW, Low level = 10cm²/kW. 21 × 5 = 105cm² high; 21 × 10 = 210cm² low.",
+    "source": "S5-35/36"
+  },
+  {
+    "question": "Calculate the vent requirement for an open-flued boiler fitted in a compartment ventilated direct to outside, rated at 16kW (net).",
+    "answers": [
+      "High 45cm² / Low 90cm²",
+      "High 160cm² / Low 360cm²",
+      "High 90cm² / Low 180cm²",
+      "High 80cm² / Low 160cm²"
+    ],
+    "correct": 3,
+    "explanation": "Table 4 (open flue, direct from outside): High = 5cm²/kW, Low = 10cm²/kW. 16 × 5 = 80cm² high; 16 × 10 = 160cm² low.",
+    "source": "S5-35/36"
+  },
+  {
+    "question": "Calculate the vent requirement for an open-flued boiler fitted in a compartment ventilated through the room, rated at 14kW (net).",
+    "answers": [
+      "High 50cm² / Low 100cm² / combustion vent not required",
+      "High 35cm² / Low 70cm² / 90cm² combustion",
+      "High 140cm² / Low 280cm² / 35cm² combustion air to the room",
+      "High 70cm² / Low 140cm² / 100cm² combustion"
+    ],
+    "correct": 2,
+    "explanation": "Table 4 (open flue, air from room): High = 10cm²/kW, Low = 20cm²/kW. 14 × 10 = 140cm² high; 14 × 20 = 280cm² low. The room itself also needs a combustion air allowance: (14-7) × 5 = 35cm².",
+    "source": "S5-35/36"
+  },
+  {
+    "question": "Calculate the vent requirement for an open-flued boiler fitted in a compartment ventilated through the room, range-rated between 13-19kW (net).",
+    "answers": [
+      "High 60cm² / Low 120cm² / 60cm² combustion",
+      "High 120cm² / Low 240cm² / 70cm² combustion",
+      "High 130cm² / Low 130cm² / 60cm² combustion",
+      "High 190cm² / Low 380cm² / 60cm² combustion"
+    ],
+    "correct": 3,
+    "explanation": "Using the maximum of the range (19kW), Table 4 (open flue, air from room): High = 19×10 = 190cm²; Low = 19×20 = 380cm². Room combustion air: (19-7) ×5 = 60cm².",
+    "source": "S5-35/36"
+  },
+  {
+    "question": "Calculate the vent requirement for a room-sealed boiler fitted in a compartment ventilated direct to outside, rated at 20kW (gross).",
+    "answers": [
+      "High 100cm² / Low 100cm²",
+      "High 100cm² / Low 200cm²",
+      "High 90cm² / Low 180cm²",
+      "High 90cm² / Low 90cm²"
+    ],
+    "correct": 3,
+    "explanation": "Converting gross to net: 20 ÷ 1.11 ≈ 18kW net. Table 4 (room sealed, direct to outside): High = 5cm²/kW, Low = 5cm²/kW. 18 × 5 ≈ 90cm² for both high and low.",
+    "source": "S5-6/35/36"
+  },
+  {
+    "question": "Calculate the vent requirement for a room-sealed boiler fitted in a compartment ventilated direct through the room, rated at 15.5kW (net).",
+    "answers": [
+      "High 69.8cm² / Low 69.8cm²",
+      "High 139.6cm² / Low 139.6cm²",
+      "High 77.5cm² / Low 77.5cm²",
+      "High 155cm² / Low 155cm²"
+    ],
+    "correct": 3,
+    "explanation": "Table 4 (room sealed, air from room): High = 10cm²/kW, Low = 10cm²/kW. 15.5 × 10 = 155cm² for both high and low.",
+    "source": "S5-35/36"
+  },
+  {
+    "question": "What is the minimum distance of a flueless space heater to its ventilator?",
+    "answers": [
+      "100mm",
+      "600mm",
+      "300mm",
+      "1000mm"
+    ],
+    "correct": 3,
+    "explanation": "A flueless space heater must be sited at least 1000mm from any air vent for combustion and any other ventilator.",
+    "source": "S5-34"
+  },
+  {
+    "question": "Which of the following is NOT a reason for ensuring the correct minimum clearance of a flueless space heater to the ventilator?",
+    "answers": [
+      "It can cause flue reversal",
+      "It can cause incomplete combustion",
+      "It can cause draught disturbance",
+      "It can lead to poor combustion and CO"
+    ],
+    "correct": 0,
+    "explanation": "Air vents sited too close to a flueless appliance can cause draught disturbance leading to poor combustion, sooting, and CO formation. As a flueless appliance has no flue, 'flue reversal' is not applicable to this scenario.",
+    "source": "S5-34"
+  },
+  {
+    "question": "What is the ventilation requirement for any cooking appliance fitted in a room of 8m³ volume?",
+    "answers": [
+      "Nil permanent, openable window only",
+      "Installation not permitted",
+      "100cm² and an openable window",
+      "50cm² and an openable window"
+    ],
+    "correct": 3,
+    "explanation": "Table 1 (domestic oven, hotplate, grill, or combination): for a room volume of 5-10m³, the vent requirement is 50cm² plus an openable window. 8m³ falls within this band.",
+    "source": "S5-8"
+  },
+  {
+    "question": "What is the ventilation requirement for a 10.5kW (net) flueless water heater fitted in a room of 9m³ volume?",
+    "answers": [
+      "Nil permanent, openable window only",
+      "100cm² and an openable window",
+      "Installation not permitted",
+      "50cm² and an openable window"
+    ],
+    "correct": 1,
+    "explanation": "Table 1 (instantaneous water heater up to 11kW): for room volume 5-10m³, the requirement is 100cm² plus an openable window. 9m³ falls within this band.",
+    "source": "S5-8"
+  },
+  {
+    "question": "What is the ventilation requirement for a 13kW (gross) flueless water heater fitted in a room of 20m³ volume?",
+    "answers": [
+      "Installation not permitted",
+      "50cm² and an openable window",
+      "100cm² and an openable window",
+      "Nil permanent, openable window only"
+    ],
+    "correct": 3,
+    "explanation": "13kW gross converts to approximately 11.7kW net, which exceeds the 11kW limit in Table 1 for instantaneous water heaters in this band... however, the room volume of 20m³ falls at the top of the '>10 to 20' band, where the requirement is Nil permanent ventilation, with only an openable window required.",
+    "source": "S5-8"
+  },
+  {
+    "question": "What is the ventilation requirement for a flueless space heater with a heat input of 2.5kW (net), in a room measuring 2.5m x 4m x 6m?",
+    "answers": [
+      "50cm² and an openable window",
+      "100cm² and an openable window",
+      "155cm² and an openable window",
+      "Installation not permitted"
+    ],
+    "correct": 1,
+    "explanation": "Room volume = 2.5×4×6 = 60m³. Maximum permissible input at 45W/m³ = 2.7kW. The 2.5kW appliance is below the 2.7kW threshold, so the fixed vent of 100cm² (plus openable window) applies, per Table 1 (space heater in a room).",
+    "source": "S5-8"
+  },
+  {
+    "question": "What is the ventilation requirement for a flueless space heater with a heat input of 1.8kW (net), in a room measuring 2.5m x 3m x 4.5m?",
+    "answers": [
+      "100cm² and an openable window",
+      "50cm² and an openable window",
+      "155cm² and an openable window",
+      "Installation not permitted"
+    ],
+    "correct": 3,
+    "explanation": "Room volume = 2.5×3×4.5 = 33.75m³. Maximum permissible input at 45W/m³ = 1.519kW. As the appliance (1.8kW) exceeds this maximum permissible heat input for the room volume, the installation is not permitted.",
+    "source": "S5-8"
+  },
+  {
+    "question": "What is the ventilation requirement for a flueless space heater with a heat input of 3.2kW (net), in a room measuring 2.5m x 6m x 7m?",
+    "answers": [
+      "127.5cm² and an openable window",
+      "50cm² and an openable window",
+      "100cm² and an openable window",
+      "155cm² and an openable window"
+    ],
+    "correct": 0,
+    "explanation": "Room volume = 2.5×6×7 = 105m³, well above the maximum permissible input for that volume, so the installation is permitted. Per Table 1 (space heater in a room), vent = 100cm² plus 55cm² for every kW by which the input exceeds 2.7kW: 100 + 55×(3.2-2.7) = 127.5cm².",
+    "source": "S5-8"
+  },
+  {
+    "question": "Calculate the ventilation requirement for the following scenario: an open-flue CH boiler rated 25kW (net), a flueless water heater rated 10kW (net), and a cooker rated 13kW (net), in a room of volume 12m³ with an openable window.",
+    "answers": [
+      "140cm²",
+      "90cm²",
+      "125cm²",
+      "175cm²"
+    ],
+    "correct": 1,
+    "explanation": "Multi-appliance rule: the vent is the largest of (a) open-flued space heater requirement: (25-7)×5 = 90cm²; (b) flueless water heater requirement (Table 1, 10-20m³ band) = 50cm²; (c) cooker requirement (>10m³ band) = Nil. The largest value is 90cm².",
+    "source": "S5-9"
+  },
+  {
+    "question": "Calculate the ventilation requirement for the following scenario: an open-flue CH boiler rated 18kW (net), a flueless space heater rated 800W (net), and a cooker rated 10kW (net), in a room of volume 18m³ with an openable window.",
+    "answers": [
+      "90cm²",
+      "125cm²",
+      "155cm²",
+      "100cm²"
+    ],
+    "correct": 3,
+    "explanation": "Multi-appliance rule: the vent is the largest of (a) open-flued boiler requirement: (18-7)×5 = 55cm²; (b) flueless space heater (0.8kW, below the 2.7kW threshold) = 100cm² fixed; (c) cooker (>10m³) = Nil. The largest value is 100cm².",
+    "source": "S5-9"
+  },
+  {
+    "question": "What is the ventilation requirement for an open-flue Decorative Fuel Effect (DFE) fire fitted in a room, with a heat input of 12kW (net)?",
+    "answers": [
+      "60cm²",
+      "100cm² or as per the manufacturer's instructions",
+      "No permanent ventilation required, openable window only",
+      "25cm²"
+    ],
+    "correct": 1,
+    "explanation": "Table 2 (DFE ventilation, 7-20kW, room): the requirement is normally 100cm² minimum, or per the manufacturer's instructions.",
+    "source": "S5-32"
+  },
+  {
+    "question": "What is the ventilation requirement for two open-flue DFE fires fitted in the same room, each with a heat input of 6kW (net)?",
+    "answers": [
+      "270cm²",
+      "235cm²",
+      "200cm²",
+      "100cm²"
+    ],
+    "correct": 1,
+    "explanation": "Table 2 (two DFEs up to 20kW, in a room): the requirement is 200cm² (100cm² per fire) plus 35cm² adventitious air allowance = 235cm².",
+    "source": "S5-32"
+  },
+  {
+    "question": "What considerations apply to an open-flue oil boiler fitted in a property, with regard to ventilation?",
+    "answers": [
+      "Requires an openable window direct to outside air only",
+      "It should be treated as a similarly rated gas appliance",
+      "45W/m³ maximum heat input and 100cm²",
+      "235cm², as adventitious air can only be subtracted once"
+    ],
+    "correct": 1,
+    "explanation": "Any liquid or solid fuel burning appliance installed in the same room or space as a gas installation must be treated as a gas-fired appliance of similar type and rating when assessing ventilation requirements.",
+    "source": "S19-6 (general principle applied to oil-fired appliances)"
+  },
+  {
+    "question": "Flueless appliances in internal kitchens shall be provided with ventilation in accordance with which document?",
+    "answers": [
+      "BS 5440 pt 2",
+      "Approved Document F, or Technical Standard Part K",
+      "Appliance service schedules",
+      "IGE/UP/1"
+    ],
+    "correct": 1,
+    "explanation": "Flueless appliances in internal kitchens shall be ventilated in accordance with Approved Document F to the Building Regulations in England & Wales (or the Building Regulations in Scotland/Technical Standard Part K), and Gas Safe Register Technical Bulletin 005.",
+    "source": "S5-9"
+  },
+  {
+    "question": "When converting a gross heat input figure to a net heat input figure, what must you do?",
+    "answers": [
+      "Divide by 1.11",
+      "Multiply by 1.11",
+      "Multiply by 1.08",
+      "Divide by 1.09"
+    ],
+    "correct": 0,
+    "explanation": "If the input is given in gross (as with some older appliances), dividing the gross heat input by 1.11 converts it to net input.",
+    "source": "S5-7"
+  },
+  {
+    "question": "What is the equivalent net kW figure represented by the standard adventitious ventilation allowance?",
+    "answers": [
+      "7kW",
+      "28kW",
+      "1.11kW",
+      "14kW"
+    ],
+    "correct": 0,
+    "explanation": "A fixed allowance for adventitious openings of 35cm² is equivalent to 7kW net heat input, and can be made for open-flued appliances.",
+    "source": "S5-6"
+  },
+  {
+    "question": "When calculating compartment ventilation, no allowance should be made for which of the following?",
+    "answers": [
+      "Adventitious ventilation",
+      "All of the above",
+      "Low level ventilation",
+      "High level ventilation"
+    ],
+    "correct": 0,
+    "explanation": "It should be remembered that the adventitious allowance does NOT apply to compartment ventilation — high and low level ventilation, however, are both required and calculated.",
+    "source": "S5-35"
+  },
+  {
+    "question": "What is the smallest size of opening allowed in a vent used for supplying combustion air?",
+    "answers": [
+      "6mm",
+      "10mm",
+      "9mm",
+      "5mm"
+    ],
+    "correct": 3,
+    "explanation": "Ventilation grilles for gas installations should allow entry of a 5mm diameter ball, setting the minimum acceptable opening size.",
+    "source": "S5-39/47"
+  },
+  {
+    "question": "Vents supplying combustion air to a gas-fired appliance, passing through a cavity wall, must be installed how?",
+    "answers": [
+      "At least 50% larger than the actual requirement",
+      "Painted yellow ochre to identify it as a gas vent",
+      "At least 100mm² cross-sectional area",
+      "Sleeved/ducted throughout the width of the wall"
+    ],
+    "correct": 3,
+    "explanation": "Air vents across cavity walls shall include a continuous duct across the cavity, and the duct shall not affect the water resistance of the cavity.",
+    "source": "S5-34"
+  },
+  {
+    "question": "If a gas cooker requires ventilation, how must it be provided?",
+    "answers": [
+      "Sized in accordance with BS 5440-1",
+      "Provided indirectly to reduce draughts",
+      "Sized in accordance with the manufacturer's instructions, or BS 5440-2",
+      "Provided at high and low levels within the same room as the cooker"
+    ],
+    "correct": 2,
+    "explanation": "Cooker ventilation requirements are derived from Table 1/Table 2 of the guide, which itself reflects the recommendations of BS 5440-2; the appliance manufacturer's instructions should also be consulted.",
+    "source": "S5-8/10 (Table 1 / BS 5440-2 framework)"
+  },
+  {
+    "question": "When determining the ventilation requirement for an open-flued gas appliance within a room, the formula is derived from which calculation?",
+    "answers": [
+      "Heat input (net) minus 7, multiplied by 5 (cm²/kW)",
+      "Heat input (net) minus 7, multiplied by 4.5 (cm²/kW)",
+      "Heat input (gross) minus 7, multiplied by 4.5 (cm²/kW)",
+      "Heat input (gross) minus 7, multiplied by 5 (cm²/kW)"
+    ],
+    "correct": 0,
+    "explanation": "The room air vent requirement for an open-flued appliance above 7kW net heat input is 5cm² per kW of net heat input over 7kW — i.e. (net kW - 7) × 5.",
+    "source": "S5-7"
+  },
+  {
+    "question": "Calculate the ventilation requirement for an open-flued gas boiler of 22.2kW (gross), within a room venting direct to the outside.",
+    "answers": [
+      "100cm²",
+      "111cm²",
+      "65cm²",
+      "68.47cm²"
+    ],
+    "correct": 2,
+    "explanation": "Converting gross to net: 22.2 ÷ 1.11 = 20kW net. Vent = (20-7) × 5 = 65cm².",
+    "source": "S5-6/7"
+  },
+  {
+    "question": "Wherever there are three or more internal vents in series, the free area of each intermediate vent shall be increased by what?",
+    "answers": [
+      "50%",
+      "10%",
+      "100cm²",
+      "50cm²"
+    ],
+    "correct": 0,
+    "explanation": "Where three or more air vents are installed in series, the area of the intermediate vents should be increased by at least 50% above that required for a single vent direct to outside.",
+    "source": "S5-34"
+  },
+  {
+    "question": "Calculate the ventilation requirements for a 22kW (net) open-flued boiler where the compartment is vented into a room.",
+    "answers": [
+      "High 150cm² / Low 300cm² / Room 100cm²",
+      "High 220cm² / Low 220cm² / Room 110cm²",
+      "High 110cm² / Low 220cm² / Room — no vent required",
+      "High 220cm² / Low 440cm² / Room 75cm²"
+    ],
+    "correct": 3,
+    "explanation": "Table 4 (open flue, air from room): High = 10cm²/kW — 22×10=220cm²; Low = 20cm²/kW — 22×20=440cm². The room itself also needs combustion air: (22-7)×5 = 75cm².",
+    "source": "S5-7/35/36"
+  },
+  {
+    "question": "Which of the following is INCORRECT regarding non-domestic chimneys?",
+    "answers": [
+      "Terminal openings should be between 6-16mm",
+      "There is no need to consider the constituents of fuel regarding the flue material",
+      "A flue axis greater than 170mm may not need a terminal",
+      "Type A is flueless, Type B is open flued, Type C is room sealed"
+    ],
+    "correct": 1,
+    "explanation": "Where an appliance can burn more than one fuel, the materials selected for the chimney construction MUST take account of the constituents of all the fuels — the opposite of the statement given.",
+    "source": "S18-7/8"
+  },
+  {
+    "question": "On a suspended warm air heater and its chimney installation, what is the maximum length of a short section of flexible chimney pipe that may be installed?",
+    "answers": [
+      "1m",
+      "1.8m",
+      "3m",
+      "1.5m"
+    ],
+    "correct": 0,
+    "explanation": "It is acceptable to install a short length of flexible chimney pipe, up to a maximum of 1m in length, between a suspended warm air heater and its chimney installation.",
+    "source": "S18-11"
+  },
+  {
+    "question": "Prior approval from the Local Authority must be obtained if the height and termination of flues/chimneys serving appliances exceed what total gross heat input?",
+    "answers": [
+      "33kW",
+      "70kW",
+      "1MW",
+      "333kW"
+    ],
+    "correct": 3,
+    "explanation": "Where the total gross heat input of the installation exceeds 333kW, the termination location must comply with the Clean Air Act memorandum on chimney heights, and may require Local Authority approval.",
+    "source": "S18-12"
+  },
+  {
+    "question": "What is the minimum height of any non-domestic chimney before applying correction factors?",
+    "answers": [
+      "5m",
+      "1m",
+      "10m",
+      "3m"
+    ],
+    "correct": 3,
+    "explanation": "The uncorrected chimney height (H) = G, except where G is less than 3, in which case H = 3m — this is the minimum height of any chimney before correction factors are applied.",
+    "source": "S18-12"
+  },
+  {
+    "question": "What would be the distance 'Xnd' (natural draught flue terminal height) if the appliance was rated 170kW (net)?",
+    "answers": [
+      "566mm",
+      "752mm",
+      "258mm",
+      "452mm"
+    ],
+    "correct": 1,
+    "explanation": "Distance 'X' (natural draught) = 1.5225 × net heat input (kW) + 493.43 = (1.5225 × 170) + 493.43 = 752.26mm.",
+    "source": "S18-14"
+  },
+  {
+    "question": "What would be the distance 'Xfd' (fanned draught flue terminal height) if the appliance was rated 210kW (net)?",
+    "answers": [
+      "813mm",
+      "673mm",
+      "559mm",
+      "319mm"
+    ],
+    "correct": 1,
+    "explanation": "Distance 'X' (fanned draught) = 2.6644 × net heat input (kW) + 113.49 = (2.6644 × 210) + 113.49 = 673.01mm.",
+    "source": "S18-14"
+  },
+  {
+    "question": "Calculate the minimum clearance to an opening if an open-flue, fan-draught appliance is rated at 180kW (net).",
+    "answers": [
+      "2547mm",
+      "2209mm",
+      "1578mm",
+      "1395mm"
+    ],
+    "correct": 0,
+    "explanation": "Distance 'V' (fanned draught and open-flued appliances) = 9.5156 × net heat input (kW) + 833.91 = (9.5156 × 180) + 833.91 = 2546.72mm.",
+    "source": "S18-17"
+  },
+  {
+    "question": "Calculate the minimum clearance to an opening if a natural-draught, room-sealed appliance is rated at 230kW (net).",
+    "answers": [
+      "3022mm",
+      "2305mm",
+      "1757mm",
+      "1967mm"
+    ],
+    "correct": 1,
+    "explanation": "Distance 'W' (balanced/room-sealed natural draught appliances) = 1.9031 × net heat input (kW) + 1866.8 = (1.9031 × 230) + 1866.8 = 2304.51mm.",
+    "source": "S18-17"
+  },
+  {
+    "question": "Calculate the minimum clearance to an opening if a room-sealed, fan-assisted appliance is rated at 150kW (net).",
+    "answers": [
+      "2261mm",
+      "2152mm",
+      "1888mm",
+      "1179mm"
+    ],
+    "correct": 3,
+    "explanation": "Distance 'Y' (room-sealed, fanned draught appliances) = 7.232 × net heat input (kW) + 93.708 = (7.232 × 150) + 93.708 = 1178.51mm.",
+    "source": "S18-17"
+  },
+  {
+    "question": "Which of the following is NOT a requirement of a manual damper when fitted to a non-domestic chimney?",
+    "answers": [
+      "It must be lockable",
+      "It must not block more than 50% of its cross-sectional area when locked",
+      "It must only be installed in the secondary chimney of a common or fan-diluted flue",
+      "It must have a position indicator"
+    ],
+    "correct": 1,
+    "explanation": "Manual flue dampers must be lockable and must not block more than 75% — not 50% — of the cross-sectional area of the chimney. They must only be fitted in the secondary chimney of common and fan-dilution chimney systems, and must have a position indicator.",
+    "source": "S18-19/21"
+  },
+  {
+    "question": "What appliances should be fitted nearest the main chimney in a common chimney system?",
+    "answers": [
+      "Open-flue appliances, or those that operate for the shortest period",
+      "Standard efficiency appliances, or those that operate for the longest period",
+      "Condensing appliances, or those that operate for the longest period",
+      "Commercial catering appliances Type B, or non-domestic laundry appliances"
+    ],
+    "correct": 2,
+    "explanation": "Where condensing and non-condensing appliances are installed in the same common chimney, the condensing appliance should be located nearest the main chimney; it is also advisable that an appliance operating for a longer period than the rest be placed nearest the main chimney.",
+    "source": "S18-21"
+  },
+  {
+    "question": "As per GSIUR 1998 and industry standards, what is required when an open-flue appliance is fan-assisted?",
+    "answers": [
+      "A thermoelectric flame supervision device",
+      "A spillage sensing switch",
+      "An airflow proving device",
+      "A thermal backflow device"
+    ],
+    "correct": 2,
+    "explanation": "The Gas Safety (Installation & Use) Regulations 1998 and industry standards indicate that an airflow proving device must be incorporated in any fan-assisted chimney system, shutting down the appliance in the event of fan failure or chimney blockage.",
+    "source": "S18-25"
+  },
+  {
+    "question": "What is the preferred method for supplying air for the products of combustion in a fan dilution system?",
+    "answers": [
+      "Naturally ventilated directly from outside",
+      "Mechanically ventilated from low level only",
+      "Ducted directly from outside",
+      "Naturally vented from the room"
+    ],
+    "correct": 2,
+    "explanation": "Fan dilution chimneys are designed to draw fresh air directly from outside, mixing it with the products of combustion. Taking air from inside the plant room is only permitted in exceptional circumstances where the preferred outside-air method has practical implications.",
+    "source": "S18-25"
+  },
+  {
+    "question": "Fan dilution products of combustion (POCs) should not exceed what levels?",
+    "answers": [
+      "CO2 10% , CO 0.005%, NOx 0.0005%",
+      "CO2 50ppm, CO 10,000ppm, NOx 5ppm",
+      "CO2 10,000ppm (1%), CO 50ppm (0.005%), NOx 5ppm (0.0005%)",
+      "CO 0.0005%, CO2 1%, NOx 0.5%"
+    ],
+    "correct": 2,
+    "explanation": "The products of combustion in a fan dilution system must not exceed: CO2 – 1% (10,000ppm); CO – 0.005% (50ppm); NOx – 0.0005% (5ppm).",
+    "source": "S18-25"
+  },
+  {
+    "question": "To ensure effective ventilation, how should ventilators be positioned?",
+    "answers": [
+      "As close together as possible",
+      "From within the heated space",
+      "As high and low as possible",
+      "No more than 300mm from the ceiling or floor"
+    ],
+    "correct": 2,
+    "explanation": "Grilles or ventilators must be located as high and low as reasonably practicable to ensure effective ventilation within the space in which a gas-fired appliance is installed.",
+    "source": "S19-6"
+  },
+  {
+    "question": "Where a safety interlock is not installed, or where installed it fails to shut down the appliances in the event of fan failure, how would the installation be classified?",
+    "answers": [
+      "Safety Advice Notice",
+      "Immediately Dangerous",
+      "At Risk",
+      "Not as per the current regulations"
+    ],
+    "correct": 2,
+    "explanation": "All mechanical ventilation must have an automatic control causing safety shut down or lockout of the appliances in the event of fan failure. Where this safety interlock is absent or fails to operate, the installation is deemed At Risk.",
+    "source": "S19-7"
+  },
+  {
+    "question": "For ducted ventilation, if the length of a horizontal duct exceeds 3m, how should successive lengths be sized?",
+    "answers": [
+      "Decreased by 50% for each successive 5m length",
+      "Increased by 75% for each successive 10m length",
+      "Increased by 25% for each successive 5m length",
+      "Increased by 50% for each successive 3m length"
+    ],
+    "correct": 3,
+    "explanation": "Where the length of a horizontal duct exceeds 3m, the cross-sectional area must be increased by 50% for each successive 3m length, or part thereof.",
+    "source": "S19-9"
+  },
+  {
+    "question": "Which of the following is NOT a consideration for non-domestic ventilation grilles?",
+    "answers": [
+      "Ventilation must be provided by closable openings",
+      "It must communicate directly with outside air",
+      "Flyscreens with an aperture of less than 5mm must not be incorporated as part of the grille",
+      "A vermin/bird mesh with an aperture of approximately 10mm is normally incorporated as part of the grille construction"
+    ],
+    "correct": 0,
+    "explanation": "Ventilation grilles must NOT be constructed in such a way that they can be closed or obstructed — hit-and-miss vents are not permitted.",
+    "source": "S19-10"
+  },
+  {
+    "question": "What type of appliances can utilise high-level supply and discharge ventilation only?",
+    "answers": [
+      "Fan-assisted open flue appliances fitted with an approved fan-proving device",
+      "Balanced compartment, mono-draught boilers",
+      "Vertex flue appliances with a heat input greater than 70kW (net)",
+      "Fan dilution appliances fitted within a boiler enclosure"
+    ],
+    "correct": 1,
+    "explanation": "Purpose-designed high-level supply and discharge ventilation (balanced compartment, mono-draught) is a method applicable only to boilers.",
+    "source": "S19-13"
+  },
+  {
+    "question": "What type of ducted ventilation system is NOT suitable in a plant room, and why?",
+    "answers": [
+      "Purpose-designed high-level supply and discharge — due to the possibility of positive pressure, which could assist flue performance",
+      "Natural draught low level and fan-assisted high level extract — due to the possibility of negative pressure, which may cause flue reversal",
+      "Low level fan and high-level natural extract — due to the possibility of incomplete combustion exceeding stated action levels",
+      "Natural high draught and natural low draught — due to the possibility of flame disturbance"
+    ],
+    "correct": 1,
+    "explanation": "Natural draught low level supply with fan-assisted high level extraction is not allowed, due to the possibility of negative pressure within the plant room, which may cause flue/chimney reversal.",
+    "source": "S19-15"
+  },
+  {
+    "question": "How would you calculate the natural draught vent requirements for open-flued, non-domestic boilers fitted in plant rooms (ventilated direct to outside)?",
+    "answers": [
+      "High level 5cm² per maximum kW (net), low level 5cm² per maximum kW (net)",
+      "High level 5cm² per maximum kW (net), low level 10cm² per maximum kW (net)",
+      "High level 2cm² per maximum kW (net), low level 4cm² per maximum kW (net)",
+      "High level 10cm² per maximum kW (net), low level 10cm² per maximum kW (net)"
+    ],
+    "correct": 2,
+    "explanation": "Natural ventilation of open-flued appliances within plant rooms (direct to outside): Low level (inlet) = 4cm² per kW maximum rated input; High Level (outlet) = 2cm² per kW maximum rated input.",
+    "source": "S19-18"
+  },
+  {
+    "question": "Calculate the required high- and low-level ventilation for an open-flue non-domestic appliance fitted in a plant room, ventilated direct to outside, with a heat input rated 150-180kW (net).",
+    "answers": [
+      "360cm² high / 720cm² low",
+      "900cm² high / 900cm² low",
+      "1800cm² high / 1800cm² low",
+      "900cm² high / 1800cm² low"
+    ],
+    "correct": 0,
+    "explanation": "Using the maximum of the range (180kW): High = 180 × 2cm² = 360cm²; Low = 180 × 4cm² = 720cm².",
+    "source": "S19-18"
+  },
+  {
+    "question": "Calculate the natural ventilation for an open-flue, non-domestic appliance fitted in an enclosure, ventilated direct to outside, with a heat input rated 175-200kW (net).",
+    "answers": [
+      "2000cm² high / 2000cm² low",
+      "400cm² high / 800cm² low",
+      "1000cm² high / 1000cm² low",
+      "1000cm² high / 2000cm² low"
+    ],
+    "correct": 3,
+    "explanation": "For an open-flued appliance (Type B) in an enclosure, direct to outside: High = 5cm²/kW, Low = 10cm²/kW. Using the max (200kW): High = 1000cm², Low = 2000cm².",
+    "source": "S19-19"
+  },
+  {
+    "question": "Calculate the natural ventilation for a room-sealed, non-domestic appliance fitted in an enclosure, ventilated direct to outside, with a heat input rated 130-160kW (net).",
+    "answers": [
+      "800cm² high / 1600cm² low",
+      "320cm² high / 640cm² low",
+      "1600cm² high / 1600cm² low",
+      "800cm² high / 800cm² low"
+    ],
+    "correct": 3,
+    "explanation": "For a room-sealed appliance (Type C) in an enclosure, direct to outside: High = 5cm²/kW, Low = 5cm²/kW. Using the max (160kW): High = 800cm², Low = 800cm².",
+    "source": "S19-19"
+  },
+  {
+    "question": "Calculate the natural ventilation for a room-sealed, non-domestic appliance fitted in an enclosure, ventilated direct to an internal space, with a heat input rated 270kW (net).",
+    "answers": [
+      "1350cm² high / 1350cm² low",
+      "540cm² high / 1080cm² low",
+      "1350cm² high / 2700cm² low",
+      "2700cm² high / 2700cm² low"
+    ],
+    "correct": 3,
+    "explanation": "For a room-sealed appliance ventilated into an internal space (rather than direct to outside): Low = 10cm²/kW, High = 10cm²/kW. 270 × 10 = 2700cm² for both high and low.",
+    "source": "S19-19"
+  },
+  {
+    "question": "If other appliances (total heat input 320kW net) are fitted within a heated space which has an air change rate greater than 0.5 per hour and a volume greater than 1500m³, what are the ventilation requirements?",
+    "answers": [
+      "640cm² high and low level",
+      "No additional ventilation is necessary",
+      "640cm² low level only",
+      "1600cm² low level only"
+    ],
+    "correct": 1,
+    "explanation": "The natural/mechanical ventilation clauses for 'other appliances in a heated space' only apply where the air change rate is LESS than 0.5 per hour and the room volume exceeds 1500m³. Where the design air change rate is 0.5 per hour or greater (as in this scenario), additional ventilation may not be necessary.",
+    "source": "S19-20"
+  },
+  {
+    "question": "When calculating mechanically assisted extract and inlet ventilation, what design of appliance is fitted to a Type B1 flue?",
+    "answers": [
+      "Open-flued with a draught diverter (normally natural draught)",
+      "Open-flued without a draught diverter (normally natural draught)",
+      "Open-flued with a draught diverter (normally fan assisted)",
+      "Open-flued without a draught diverter (normally fan assisted)"
+    ],
+    "correct": 0,
+    "explanation": "Type B1 – Open flued with draught diverter, normally natural draught burners, covering heat inputs from 70kW to 1.8MW.",
+    "source": "S19-21"
+  },
+  {
+    "question": "For commercial laundry ventilation, how far away from an exhaust outlet should make-up air be located?",
+    "answers": [
+      "Within 300mm but as close as possible",
+      "At least 300mm but preferably 2m",
+      "At least 500mm but within 1.5m",
+      "No further than 1000mm, to avoid flame disturbance"
+    ],
+    "correct": 1,
+    "explanation": "Any make-up air inlet must be positioned at least 300mm but preferably 2m away from any exhaust outlet, to ensure no recirculation of contaminated exhaust air.",
+    "source": "S19-22"
+  },
+  {
+    "question": "What is the effective free air requirement for a tumble dryer with a dry load capacity of 23kg (50lb)?",
+    "answers": [
+      "Air flow 22.7-32.6m³/min, make-up air 2250cm²",
+      "Air flow 9.9-19.8m³/min, make-up air 1000cm²",
+      "Air flow 4.17-16.7m³/min, make-up air 1000cm²",
+      "Air flow 19.8-22.7m³/min, make-up air 1500cm²"
+    ],
+    "correct": 3,
+    "explanation": "The effective free air ventilation table for tumble dryers gives 23kg (50lb) capacity a requirement of 19.8-22.7m³/minute air flow and 1500cm² make-up air.",
+    "source": "S19-23"
+  },
+  {
+    "question": "What is the effective free air requirement for a rotary ironer with a bed length of 1.8m?",
+    "answers": [
+      "Air flow 5-20m³/min, make-up air 1500cm²",
+      "Air flow 9.9-19.8m³/min, make-up air 1000cm²",
+      "Air flow 19.8-22.7m³/min, make-up air 1500cm²",
+      "Air flow 4.17-16.7m³/min, make-up air 1000cm²"
+    ],
+    "correct": 3,
+    "explanation": "A bed length of 1.8m falls in the 0.8-2.1m band, giving a requirement of 4.17-16.7m³/minute air flow and 1000cm² make-up air.",
+    "source": "S19-23"
+  },
+  {
+    "question": "Which of the following statements is INCORRECT with regard to pressed joint fittings?",
+    "answers": [
+      "They can be used on copper and stainless steel up to MOP 5bar and 108mm nominal bore",
+      "The installer shall instruct the gas consumer to ensure fittings are not painted with oil or solvent-based paints unless otherwise specified in the manufacturer's instructions",
+      "Fittings must meet approved fire test requirements (procedure A of BS EN 1775) and standards such as DVGW VP614 for high temperature tests",
+      "The yellow colour of the labels or bodies of press end connections should not remain visible after installation"
+    ],
+    "correct": 3,
+    "explanation": "The yellow colour of the labels or bodies of press end connections SHOULD remain visible after installation, for future identification — the opposite of the statement given.",
+    "source": "S20-17"
+  },
+  {
+    "question": "What is the minimum cover for non-domestic pipework (up to 63mm and MOP not exceeding 75mbar) when buried under a paved footpath?",
+    "answers": [
+      "375mm",
+      "450mm",
+      "600mm",
+      "1100mm"
+    ],
+    "correct": 0,
+    "explanation": "Table 7 (Minimum amount of cover over pipework) gives 375mm minimum cover under a paved footpath for pipework up to 63mm with MOP not exceeding 75mbar.",
+    "source": "S20-23"
+  },
+  {
+    "question": "Where should yellow marker tape be laid above the crown of buried non-domestic pipework?",
+    "answers": [
+      "Between 250mm and 400mm",
+      "At exactly 600mm",
+      "At exactly 500mm",
+      "At exactly 100mm"
+    ],
+    "correct": 0,
+    "explanation": "Yellow gas marker tape should be laid along the full length of the pipe run between 250mm and 400mm above the crown of the buried pipe.",
+    "source": "S20-23"
+  },
+  {
+    "question": "Which of the following is correct regarding pipework installed within a commercial kitchen?",
+    "answers": [
+      "All of the above: a means of disconnection downstream of any isolation valve; pipe supported with an off-stand of at least 25mm from the wall; pipe sleeves protruding at least 25mm where water/chemical cleaning is used",
+      "Pipe sleeves must protrude at least 25mm from the finished surface where water or chemical cleaning is used",
+      "Pipe must be supported with an off-stand of at least 25mm away from the wall",
+      "A means of disconnection should always be installed downstream of any isolation valve to promote ease of removal"
+    ],
+    "correct": 0,
+    "explanation": "All three measures are required in commercial kitchens: a disconnection point downstream of the isolation valve, a 25mm off-stand from the wall, and sleeves protruding at least 25mm where water or chemical cleaning agents are used — to protect against corrosion and assist cleaning.",
+    "source": "S20-30"
+  },
+  {
+    "question": "What are the maximum support distances for 28mm copper non-domestic pipework?",
+    "answers": [
+      "Horizontal 1.8m, vertical 1.8m",
+      "Horizontal 2m, vertical 2.5m",
+      "Horizontal 2.5m, vertical 3m",
+      "Horizontal 1m, vertical 1.5m"
+    ],
+    "correct": 0,
+    "explanation": "Tables 8a and 8b (non-domestic pipe support spacing) give 28mm (25mm nominal) copper and CSST pipework a maximum horizontal support spacing of 1.8m and a maximum vertical support spacing of 1.8m.",
+    "source": "S20-28/29"
+  },
+  {
+    "question": "What does BS 6172:2004 cover?",
+    "answers": [
+      "Domestic cooking-type or leisure appliances installed as part of a catering suite within commercial or industrial catering establishments",
+      "New and second-hand cooking appliances supplied by NG and LPG, as part of a catering suite",
+      "Domestic cooking appliances installed within domestic, commercial, industrial, B&B, and education establishments which are stand-alone",
+      "Flexible hoses, end fittings, and sockets for gas-burning appliances"
+    ],
+    "correct": 2,
+    "explanation": "BS 6172:2004 covers domestic cooking appliances installed within domestic, commercial, industrial, B&B and education establishments which are stand-alone — distinct from BS 6173, which covers cooking appliances installed as part of a catering suite.",
+    "source": "S21-6"
+  },
+  {
+    "question": "What is the minimum distance from the top of a cooking surface to the bottom edge of any filter?",
+    "answers": [
+      "300mm minimum, 1100mm maximum",
+      "250mm minimum, 1000mm maximum",
+      "450mm minimum, 1350mm maximum",
+      "500mm minimum, 1250mm maximum"
+    ],
+    "correct": 2,
+    "explanation": "To reduce the risk of excessive temperatures or fire, the top of the cooking surface must be a minimum of 450mm from the bottom edge of any filter, with a maximum specified dimension of 1350mm.",
+    "source": "S21-8/S20-30"
+  },
+  {
+    "question": "Which of the following is NOT a type of commercial catering canopy?",
+    "answers": [
+      "Condensation canopy",
+      "Overhead wall-mounted",
+      "Linear extract",
+      "Low-level wall canopy"
+    ],
+    "correct": 2,
+    "explanation": "Canopies are segregated into 7 categories: overhead wall-mounted, overhead island-mounted, low-level wall, passover/counter, eyebrow, condensation canopies, and modular cassette/plenum ceilings. 'Linear extract' is instead one of the 5 recognised METHODS for calculating extract rate, not a type of canopy.",
+    "source": "S21-9 to S21-13/S21-17"
+  },
+  {
+    "question": "Which of the following is NOT a recognised commercial catering extract calculation method?",
+    "answers": [
+      "Appliance Power Output",
+      "Air Change Rates",
+      "Thermal Convection",
+      "Face Velocity"
+    ],
+    "correct": 0,
+    "explanation": "The recognised methods include Thermal Convection, Face Velocity, Appliance Power INPUT (not 'output'), Air Change Rates, and Linear Extract. 'Appliance Power Output' is not one of the named methods — the correct method uses the appliance's power INPUT.",
+    "source": "S21-16/17"
+  },
+  {
+    "question": "What are the commercial catering extract discharge requirements?",
+    "answers": [
+      "Discharge point at least 1m above any openable window; efflux velocity 12-15m/s",
+      "Discharge point 2m above any openable window; efflux velocity 10-13m/s",
+      "Discharge point 2m below any openable window; efflux velocity 8-11m/s",
+      "Discharge point 1m below any openable window; efflux velocity 13-20m/s"
+    ],
+    "correct": 0,
+    "explanation": "The discharge point must be at least 1m above any openable window, designed to achieve an efflux velocity of at least 12-15m/s, or as directed by the Local Authority.",
+    "source": "S21-17"
+  },
+  {
+    "question": "What are the commercial catering make-up air requirements?",
+    "answers": [
+      "Combustion ventilation is only 1-5% of total ventilation needs; air velocity should not exceed 0.45 m/s",
+      "Combustion ventilation is only 3-7% of total ventilation needs; air velocity should not exceed 0.15 m/s",
+      "Combustion ventilation is only 4-8% of total ventilation needs; air velocity should not exceed 0.5 m/s",
+      "Combustion ventilation is only 2-6% of total ventilation needs; where drawn across serving hatches or counters, air velocity should not exceed 0.25 m/s"
+    ],
+    "correct": 3,
+    "explanation": "Combustion ventilation is only 2-6% of the total ventilation needs for any kitchen. Where make-up air is drawn across serving hatches or counters, it is recommended the air velocity does not exceed 0.25m/s, to avoid discomfort or cooling of food.",
+    "source": "S21-18"
+  },
+  {
+    "question": "What appliance flue type must be interlocked to the gas supply, and if not would constitute an At Risk classification?",
+    "answers": [
+      "Type C",
+      "Type B",
+      "Type D",
+      "Type A"
+    ],
+    "correct": 1,
+    "explanation": "Where a Type B (open-flued) appliance is installed below a canopy with mechanical extract, the extract must be interlocked to the gas supply; if it is not, the installation is deemed At Risk.",
+    "source": "S21-19"
+  },
+  {
+    "question": "The manufacturers of which appliance type allow it to be installed below an extract hood without the use of a flue?",
+    "answers": [
+      "Type D",
+      "Type B",
+      "Type A",
+      "Type C"
+    ],
+    "correct": 1,
+    "explanation": "Some Type B (open-flue) appliances, such as ovens and fryers, are designed by their manufacturers to be installed below an extract hood without the use of a flue, with the extract system acting as the chimney.",
+    "source": "S21-19"
+  },
+  {
+    "question": "Which of the following is NOT a consideration for a flueless Type A appliance that requires a risk assessment, as there is no interlock to the gas supply?",
+    "answers": [
+      "The existing system must operate correctly and must be maintained",
+      "Adequate provision for make-up air must exist",
+      "Suitable systems of work and written procedures should be in place",
+      "A suitably worded sign must be provided in a prominent location to warn staff that the extract system must be OFF when any cooking is performed"
+    ],
+    "correct": 3,
+    "explanation": "The required sign must warn catering staff that the extract must be ON — not off — when any cooking is being performed, so that fumes are continuously removed during operation.",
+    "source": "S21-19"
+  },
+  {
+    "question": "When commercial catering canopy installations are being tested, how must appliances be operated?",
+    "answers": [
+      "Tests shall be performed with all appliance burners operating under maximum cooking load conditions",
+      "Tests shall be performed with all appliance burners operating under medium cooking load conditions",
+      "Tests shall be performed with all appliance burners operating under minimum cooking load conditions",
+      "Tests shall be performed with no appliance burners operating, under maximum cooking load conditions"
+    ],
+    "correct": 0,
+    "explanation": "An appropriate canopy function test should be carried out with all the appliances located under the canopy in operation at full load, to simulate a 'worst case' scenario.",
+    "source": "S21-19"
+  },
+  {
+    "question": "What is the typical ratio of dilution air to products of combustion in a commercial laundry exhaust system?",
+    "answers": [
+      "For every 1m³ of products of combustion produced, we require a further 40m³ of air to dilute these products",
+      "For every 25m³ of products of combustion produced, we require a further 5m³ of air to dilute these products",
+      "For every 2m³ of products of combustion produced, we require a further 50m³ of air to dilute these products",
+      "For every 40m³ of products of combustion produced, we require a further 1m³ of air to dilute these products"
+    ],
+    "correct": 0,
+    "explanation": "A typical ratio of dilution air to products of combustion is in excess of 40:1 — for every 1m³ of products of combustion produced, a further 40m³ of air is required to dilute these products.",
+    "source": "S22-5"
+  },
+  {
+    "question": "Which of the following is NOT a requirement for an exhaust appliance's flexible connection?",
+    "answers": [
+      "It must be installed such that the hose becomes kinked or deformed when the machine is in place",
+      "It must be of a material constructed to withstand the operating temperatures",
+      "It must be as short as possible and have no changes in direction other than formed pre-fabricated bends",
+      "It must not exceed 2m in length"
+    ],
+    "correct": 0,
+    "explanation": "The flexible connection must be installed such that the hose does NOT become kinked or deformed when the machine is in place — the opposite of the statement given.",
+    "source": "S22-5"
+  },
+  {
+    "question": "Which of the following is correct regarding commercial laundry exhaust ductwork?",
+    "answers": [
+      "All joints must be sealed using metallic duct sealing tape or low-temperature silicone sealant",
+      "Filters or grilles must be installed which impair the flow of air within the duct",
+      "Where self-tapping screws or pop-rivets are used, they must have maximum intrusion into the duct",
+      "It must have inspection hatches to assist in cleaning and maintenance"
+    ],
+    "correct": 3,
+    "explanation": "Exhaust ductwork must have access hatches to assist in cleaning and maintenance of the exhaust system. Filters/grilles that impair airflow must NOT be installed; fixings must have MINIMAL (not maximum) intrusion; and joints require HIGH-temperature (not low-temperature) silicone sealant.",
+    "source": "S22-6"
+  },
+  {
+    "question": "How far from ground level must the ductwork termination point be installed?",
+    "answers": [
+      "300mm, or 2 times the diameter, whichever is the greater",
+      "250mm, or 2 times the circumference",
+      "600mm, or 5 times the radius",
+      "100mm, or 3 times the diameter"
+    ],
+    "correct": 0,
+    "explanation": "The termination point must be at least 300mm from ground level, or 2 × the duct diameter, whichever is the greater.",
+    "source": "S22-10"
+  },
+  {
+    "question": "Which of the following is correct regarding the testing of commercial laundry exhaust systems?",
+    "answers": [
+      "Pressure is measured within 600mm of the appliance; the resultant pressure should be a maximum of 2.25mbar",
+      "Pressure is measured within 500mm of the appliance; the resultant pressure should be a maximum of 0.25mbar",
+      "Pressure is measured within 500mm of the appliance; the resultant pressure should be a maximum of 1.25mbar",
+      "Pressure is measured within 600mm of the appliance; the resultant pressure should be a maximum of 1.25mbar"
+    ],
+    "correct": 2,
+    "explanation": "A pressure measurement is taken within a distance of 500mm of the appliance during an exhaust air flow test; the resultant pressure should be a maximum of 1.25mbar.",
+    "source": "S22-11"
+  }
+]

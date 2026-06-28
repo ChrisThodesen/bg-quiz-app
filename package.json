@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "firebase": "^12.15.0"
+  },
+  "name": "bg-quiz-app",
+  "version": "1.0.0",
+  "description": "A interactive quiz for smart metering apprentices",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Thodesen",
+  "license": "ISC"
+}

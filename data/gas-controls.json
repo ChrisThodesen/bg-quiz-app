@@ -1,0 +1,830 @@
+[
+  {
+    "question": "According to the Gas Safety Technical Guide, what must NEVER be done to a safety control device?",
+    "answers": [
+      "It must be re-set by the customer before use",
+      "It must not be adapted, by-passed or removed",
+      "It must be tested using a U gauge only",
+      "It must be replaced annually regardless of condition"
+    ],
+    "correct": 1,
+    "explanation": "Any safety control device must not be adapted, by-passed or removed, as this would be extremely dangerous and would contravene the Gas Safety (Installation & Use) Regulations 1998.",
+    "source": "S10-5"
+  },
+  {
+    "question": "Which pieces of appliance information are required to successfully order a replacement control part?",
+    "answers": [
+      "Make, Model, Gas Council Number and Serial Number",
+      "Boiler colour, age and warranty provider",
+      "Customer name, address and energy tariff",
+      "Installation date and last service engineer's name"
+    ],
+    "correct": 0,
+    "explanation": "The appliance Make, Model, Gas Council Number and Serial Number are required to successfully order a replacement part. After such work, the control must be gas tight and fully tested.",
+    "source": "S10-5"
+  },
+  {
+    "question": "Gas controls and safety devices used in domestic appliances are generally used for which of the following purposes?",
+    "answers": [
+      "Increasing the calorific value of the gas supplied",
+      "Monitoring the customer's gas consumption for billing",
+      "Controlling on-off operation, governing pressure, providing safe cut-off, and protecting against flame failure",
+      "Reducing the appliance's electricity consumption only"
+    ],
+    "correct": 2,
+    "explanation": "Gas controls are generally used to control on-off operation for time and temperature, govern gas pressure, provide safe cut-off in the event of hazards due to pressure failure or fire, and give protection from the results of flame failure while providing safe ignition.",
+    "source": "S10-5"
+  },
+  {
+    "question": "What is the basic difference between a gas tap and a gas valve as described in the guide?",
+    "answers": [
+      "A tap is only fitted to meter regulators",
+      "A valve always incorporates a thermocouple",
+      "A tap may have a form of burner control allowing less gas through as it is turned down, whereas a valve is generally designed only to turn a supply on or off",
+      "A valve can only be used on LPG installations"
+    ],
+    "correct": 2,
+    "explanation": "The most basic form of gas control is the tap, some of which have a form of burner control allowing less gas through as they are turned down, whereas a valve will generally be designed to turn a supply on or off.",
+    "source": "S10-6"
+  },
+  {
+    "question": "What should be avoided when repairing a gas tap?",
+    "answers": [
+      "Using a graphite based grease",
+      "Blocking or enlarging any drillings on the tap plug",
+      "Referring to the manufacturer's recommendations",
+      "Confirming the work is gas tight"
+    ],
+    "correct": 1,
+    "explanation": "During repair of a tap, care should be taken not to block or enlarge any drillings on tap plugs. Often the manufacturer will recommend a graphite based grease for maintenance, and all work must be confirmed gas tight upon completion.",
+    "source": "S10-6"
+  },
+  {
+    "question": "How does a solenoid valve operate to turn a gas supply on?",
+    "answers": [
+      "An alternating current passes through a coil of wire, lifting the armature and valve to allow gas to pass to the burner",
+      "A weighted diaphragm is manually depressed to open the valve",
+      "A vapour-filled phial expands to lift the valve off its seating",
+      "A bimetallic strip bends when heated to open the valve"
+    ],
+    "correct": 0,
+    "explanation": "Solenoid valves use the principle of electromagnetism. When an alternating current passes through a coil of wire, the armature and valve lift and allow gas to pass to the burner. When the power is turned off, the valve falls back to its seating, often assisted by a spring, and the gas supply stops.",
+    "source": "S10-6"
+  },
+  {
+    "question": "In a solenoid valve, what typically assists the valve in falling back onto its seating when power is removed?",
+    "answers": [
+      "A vacuum pump",
+      "A secondary solenoid",
+      "A thermocouple",
+      "A spring"
+    ],
+    "correct": 3,
+    "explanation": "When the power is turned off by a remote electrical switch, the valve falls back to its seating, often assisted by a spring, and the gas supply stops.",
+    "source": "S10-6"
+  },
+  {
+    "question": "How does a zero governor differ from a standard low pressure regulator?",
+    "answers": [
+      "It only operates when the combustion fan is switched off",
+      "It has no diaphragm and relies solely on a weighted lever",
+      "The diaphragm and valve assembly are supported by a low tension spring which creates no downward pressure, so the valve is held closed when no gas is flowing",
+      "It uses two diaphragms of different sizes to amplify outlet pressure"
+    ],
+    "correct": 2,
+    "explanation": "The zero governor is similar to a low pressure regulator except that the weight of the diaphragm and valve assembly are supported by a low tension spring which creates no downward pressure. The valve is held closed when no gas is flowing.",
+    "source": "S10-6"
+  },
+  {
+    "question": "What is the main purpose of using a zero governor on a modern condensing central heating appliance?",
+    "answers": [
+      "To eliminate the need for a flame protection device",
+      "To allow the gas rate to be freely adjusted by the customer",
+      "To increase the appliance's standing pilot consumption",
+      "To proportion the gas rate to the combustion fan speed in order to improve appliance efficiency"
+    ],
+    "correct": 3,
+    "explanation": "Zero governors are utilised on modern condensing central heating appliances to proportion the gas rate to the combustion fan speed in order to improve the efficiency of the appliance — the faster the fan speed, the higher the gas rate, and the lower the fan speed, the lower the gas rate.",
+    "source": "S10-6"
+  },
+  {
+    "question": "Why are gas valves incorporating zero governors generally non-adjustable?",
+    "answers": [
+      "They are sealed for life by the manufacturer for warranty purposes only",
+      "They do not contain a spring that could be adjusted",
+      "Adjustment would void the appliance's electrical certification",
+      "Incorrect adjustment could cause incomplete combustion by adversely affecting the gas and combustion air mix ratio"
+    ],
+    "correct": 3,
+    "explanation": "Gas valves incorporating zero governors are generally non-adjustable; incorrect adjustment could cause incomplete combustion as the ratio between the gas and combustion air mix would be adversely affected.",
+    "source": "S10-6"
+  },
+  {
+    "question": "On an appliance fitted with a zero governor, where can burner pressure normally be measured?",
+    "answers": [
+      "Directly at the gas valve test point at all times",
+      "Only at the meter regulator outlet",
+      "At the appliance isolation valve",
+      "It cannot normally be measured at the gas valve, as it is altered by fan suction and modulated according to demand"
+    ],
+    "correct": 3,
+    "explanation": "The burner pressure cannot normally be measured at the gas valve as it is altered by suction of the fan and modulated according to demand; manufacturers' commissioning instructions usually require confirmation of inlet gas pressure and gas rate, with combustion checked using a flue gas analyser.",
+    "source": "S10-6"
+  },
+  {
+    "question": "What is the purpose of a safety cut-off device fitted to a cooker lid?",
+    "answers": [
+      "To prevent unlit gas reaching the oven burner only",
+      "To detect a flame failure on the grill burner",
+      "To regulate the inlet gas pressure to the hotplate burners",
+      "To ensure that gas cannot pass to the burner if the hotplate lid is closed"
+    ],
+    "correct": 3,
+    "explanation": "Safety cut-off devices, normally found on cooker lids, are used to ensure that gas cannot pass to the burner if the hotplate lid is closed.",
+    "source": "S10-7"
+  },
+  {
+    "question": "How does the 'popit valve' type of cooker safety cut-off device normally operate?",
+    "answers": [
+      "It relies on a vapour-filled phial to sense the lid position",
+      "It vents excess gas to atmosphere whenever the lid is closed",
+      "A spring loaded valve is held off its seating to allow gas through, and closing the cooker lid uses a mechanical lever to push the valve onto its seating to cut the gas off",
+      "It uses an electromagnet energised by a thermocouple to hold the valve open"
+    ],
+    "correct": 2,
+    "explanation": "The popit valve is a spring loaded valve held off its seating to allow gas through to the hotplate taps. If the cooker lid is closed, a mechanical lever pushes the valve onto its seating and cuts the gas off. Some models work in reverse, and some require manual reset.",
+    "source": "S10-7"
+  },
+  {
+    "question": "Which manufacturer developed the 'Switch Back System' cooker lid safety device described in the guide?",
+    "answers": [
+      "New World",
+      "Worcester Bosch",
+      "Vaillant",
+      "British Gas"
+    ],
+    "correct": 0,
+    "explanation": "The Switch Back System was developed by New World; this mechanical device uses levers and cams located over the tap spindles to turn the gas taps off when the lid is closed.",
+    "source": "S10-7"
+  },
+  {
+    "question": "How must the low pressure cut-off type of cooker lid safety device be reset after the lid has closed the gas off?",
+    "answers": [
+      "It cannot be reset and the cooker must be replaced",
+      "The gas taps must be closed before it automatically resets via a small internal weep by-pass",
+      "It resets automatically as soon as the lid is reopened, regardless of tap position",
+      "The customer must press a manual reset plunger on the appliance fascia"
+    ],
+    "correct": 1,
+    "explanation": "The low pressure cut-off device on a cooker operates on the same principle as larger low pressure cut-off devices, with a mechanical lever forcing the valve onto its seating when the lid is closed. The gas taps must be closed before it is automatically reset via a small internal weep by-pass.",
+    "source": "S10-7"
+  },
+  {
+    "question": "What is the purpose of a low pressure cut-off device?",
+    "answers": [
+      "To proportion gas rate to combustion fan speed",
+      "To increase outlet pressure when demand is high",
+      "To shut the gas off in the event of a loss, or pressure drop, in the gas supply",
+      "To convert AC current to DC current for flame sensing"
+    ],
+    "correct": 2,
+    "explanation": "The purpose of a low pressure cut-off device is to shut the gas off in the event of a loss, or pressure drop, in the gas supply. They require manual reset, ensuring safety.",
+    "source": "S10-8"
+  },
+  {
+    "question": "How is a low pressure cut-off device reset, and what condition must exist on its outlet beforehand?",
+    "answers": [
+      "Both inlet and outlet must be fully isolated and bled before reset",
+      "The outlet supply must be on and the inlet supply isolated before resetting",
+      "It resets automatically once the inlet pressure exceeds 75mbar",
+      "The supply on its outlet must be off, with gas present on its inlet, before pressing the spring loaded reset button"
+    ],
+    "correct": 3,
+    "explanation": "To reset a low pressure cut-off device, the supply on its outlet must be off and there must be gas on its inlet. Pressing the spring loaded button allows gas to pass to the underside of the diaphragm, lifting the valve off its seating so the appliance can then be lit.",
+    "source": "S10-8"
+  },
+  {
+    "question": "What common mistake does the guide warn against when identifying a low pressure cut-off device?",
+    "answers": [
+      "Mistaking it for a solenoid valve",
+      "Mistaking it for a governor",
+      "Mistaking it for a thermocouple",
+      "Mistaking it for a flame rectification device"
+    ],
+    "correct": 1,
+    "explanation": "The guide notes: 'Beware, it is common to mistake this control for a governor.'",
+    "source": "S10-8"
+  },
+  {
+    "question": "What is the general function of a governor (regulator) in a gas supply?",
+    "answers": [
+      "It is a device used to increase the pressure of gas in a supply",
+      "It is a device used to ignite the pilot burner",
+      "It is a device used to reduce the pressure of gas in a supply",
+      "It is a device used to detect the presence of a flame"
+    ],
+    "correct": 2,
+    "explanation": "The governor (or regulator) is a device used to reduce the pressure of gas in a supply.",
+    "source": "S10-9"
+  },
+  {
+    "question": "What are the two basic types of governor used to control gas pressure in the domestic field?",
+    "answers": [
+      "The Simple governor and the Compensated Constant Pressure Governor",
+      "The Vapour governor and the Electronic governor",
+      "The Diaphragm governor and the Bimetallic governor",
+      "The Zero governor and the Low Pressure governor"
+    ],
+    "correct": 0,
+    "explanation": "There are two basic types of governor used to control gas pressure in the domestic field: the 'Simple' and the 'Compensated Constant Pressure Governor'.",
+    "source": "S10-9"
+  },
+  {
+    "question": "How does a simple governor respond when gas pressure drops as more gas taps are turned on?",
+    "answers": [
+      "The diaphragm rises, closing the valve to reduce gas flow",
+      "The valve locks in its current position until manually adjusted",
+      "The diaphragm drops, opening the valve to allow more gas to pass and maintain the pressure",
+      "The spring tension automatically increases to compensate"
+    ],
+    "correct": 2,
+    "explanation": "In a simple governor, if the gas pressure drops (as more taps are turned on) the diaphragm drops, opening the valve to allow more gas to pass and thus maintain the pressure. If pressure rises, the diaphragm forces the valve closer to its seating, reducing flow.",
+    "source": "S10-9"
+  },
+  {
+    "question": "In which circumstance is the simple governor mainly used?",
+    "answers": [
+      "Only on LPG bulk storage installations",
+      "Only where no diaphragm can be fitted",
+      "Where the inlet pressure is significantly higher than the outlet pressure, such as at the meter regulator",
+      "Where the inlet pressure is not much greater than the outlet pressure"
+    ],
+    "correct": 3,
+    "explanation": "The simple governor is mainly used where the inlet pressure is not much greater than the outlet pressure. They are still common on many heating appliances such as boilers and warm air units.",
+    "source": "S10-9"
+  },
+  {
+    "question": "Why might a simple governor jam where inlet pressure is much higher than outlet pressure, such as at a meter regulator?",
+    "answers": [
+      "The diaphragm becomes magnetised by the high pressure",
+      "The valve seating expands due to the temperature differential",
+      "The high pressure under the valve creates an additional upwards force",
+      "The spring loses tension under high inlet pressure"
+    ],
+    "correct": 2,
+    "explanation": "Where the inlet pressure is much higher than the outlet pressure, such as at the meter regulator, the simple governor can jam due to the high pressure under the valve, which creates an additional upwards force.",
+    "source": "S10-9"
+  },
+  {
+    "question": "How does a compensated governor counteract the additional upward force caused by high inlet pressure?",
+    "answers": [
+      "It replaces the diaphragm with a solid metal disc",
+      "It uses a heavier weight loaded directly on top of the valve",
+      "It vents excess inlet pressure directly to atmosphere",
+      "It uses an additional diaphragm, the same size as the valve, to counteract any force exerted on the area of the valve"
+    ],
+    "correct": 3,
+    "explanation": "The Compensated governor uses an additional diaphragm, which is the same size as the valve, to counteract any force exerted on the area of the valve.",
+    "source": "S10-9"
+  },
+  {
+    "question": "Where should a low pressure meter regulator be sited in relation to the primary meter?",
+    "answers": [
+      "Directly inside the meter housing",
+      "As near as practical to the outlet of the ECV, with interconnecting pipework to the meter as short as practical",
+      "At least 1 metre from the meter to allow for maintenance access",
+      "At the point of entry to the property, regardless of distance from the meter"
+    ],
+    "correct": 1,
+    "explanation": "All primary meter installations shall incorporate a meter regulator in close proximity to the meter. The meter regulator shall be sited as near as practical to the outlet of the ECV, and the interconnecting pipework between the meter regulator and the primary meter shall be as short as practical.",
+    "source": "S10-10"
+  },
+  {
+    "question": "What is the maximum inlet supply pressure that a low pressure meter regulator can typically accept?",
+    "answers": [
+      "21mbar",
+      "75mbar",
+      "100mbar",
+      "37mbar"
+    ],
+    "correct": 1,
+    "explanation": "Low pressure meter regulators can have an inlet supply pressure of up to 75mbar and regulate the outlet pressure by means of a valve connected to diaphragms subjected to the outlet pressure.",
+    "source": "S10-10"
+  },
+  {
+    "question": "Who is responsible for the meter regulator, and who may carry out work on it?",
+    "answers": [
+      "It is the responsibility of the property owner, and any Gas Safe registered engineer may work on it",
+      "It is the responsibility of the appliance manufacturer only",
+      "It is the responsibility of the landlord's letting agent",
+      "It is the responsibility of the Gas supplier, and all work must be completed by their authorised installers, Transco or an OFGEM approved meter installer (OAMI)"
+    ],
+    "correct": 3,
+    "explanation": "Meter Regulators are the responsibility of the Gas supplier. All work must be completed by their authorised installers, Transco, or an OFGEM approved meter installer (OAMI).",
+    "source": "S10-10"
+  },
+  {
+    "question": "What is the purpose of a flame protection device?",
+    "answers": [
+      "To detect carbon monoxide levels in the flue gases",
+      "To reduce the inlet pressure of gas supplied to the burner",
+      "To proportion gas rate to combustion fan speed",
+      "To prevent unlit gas entering the combustion chamber by detecting a flame and shutting the gas supply down if it is not present or has been extinguished"
+    ],
+    "correct": 3,
+    "explanation": "The purpose of a flame protection device (also called a flame failure or flame supervision device) is to prevent unlit gas entering the combustion chamber. It detects the presence of a flame and shuts the gas supply down if the flame is not present or has been extinguished.",
+    "source": "S10-10"
+  },
+  {
+    "question": "Which three types of flame protection device are listed in the guide?",
+    "answers": [
+      "Flame rectification, Atmosphere sensing, and Multifunctional",
+      "Thermoelectric, Zero governor, and Compensated governor",
+      "Vapour pressure, Thermoelectric, and Flame rectification",
+      "Vapour pressure, Bimetallic, and Solenoid"
+    ],
+    "correct": 2,
+    "explanation": "There are a number of types of flame protection device, including: Vapour pressure, Thermoelectric, and Flame rectification.",
+    "source": "S10-10"
+  },
+  {
+    "question": "How does a vapour pressure flame protection device, commonly used on cookers, typically operate when not lit?",
+    "answers": [
+      "It uses a thermocouple to energise an electromagnet",
+      "It relies on flame rectification to confirm ignition",
+      "It typically does not have a closed position and instead has a low fire rate or by-pass used to light the burner on a low flame",
+      "It fully closes the gas supply with no by-pass when not lit"
+    ],
+    "correct": 2,
+    "explanation": "The vapour pressure device is commonly used on cookers and typically does not have a closed position; instead it has a low fire rate, or by-pass, used to light a burner on low flame.",
+    "source": "S10-10"
+  },
+  {
+    "question": "In a vapour pressure flame protection device, what happens as the flame heats the sensing probe?",
+    "answers": [
+      "An electric current is generated and energises a magnet",
+      "The vapour within the probe expands, moving the bellows and opening a gas valve to main gas",
+      "The probe melts a wax seal, releasing the main gas valve",
+      "A bimetallic strip bends to lift the valve off its seating"
+    ],
+    "correct": 1,
+    "explanation": "In a vapour pressure device, the low flame heats the probe containing a volatile vapour; as the flame heats up the probe, the vapour expands to move the bellows, opening a gas valve to main gas.",
+    "source": "S10-10"
+  },
+  {
+    "question": "What happens to a vapour pressure flame protection device if the flame is extinguished?",
+    "answers": [
+      "The vapour pressure reduces and the valve closes the main gas supply, aided by a spring, reverting to the low fire position",
+      "Direct current stops flowing and the control box closes the valve",
+      "The valve remains fully open until manually reset",
+      "An electromagnet immediately de-energises and locks the appliance out"
+    ],
+    "correct": 0,
+    "explanation": "If the flame is extinguished, the vapour pressure reduces, the valve then closes the main gas supply to the burner, aided by the spring, and the valve reverts to the low fire position.",
+    "source": "S10-10"
+  },
+  {
+    "question": "Which type of flame protection device is described as by far the most common used in domestic appliances?",
+    "answers": [
+      "Atmosphere sensing device",
+      "Flame rectification device",
+      "Thermoelectric device",
+      "Vapour pressure device"
+    ],
+    "correct": 2,
+    "explanation": "Thermoelectric devices are the most common type of flame protection device used in domestic appliances; the flame is used to generate a small electric current by means of a thermocouple.",
+    "source": "S10-11"
+  },
+  {
+    "question": "How is the main gas valve allowed to open in a thermoelectric flame protection system?",
+    "answers": [
+      "Only when the pilot has been lit for at least ten minutes",
+      "Only after a delay timer of 60 seconds has elapsed",
+      "Only if there is a flame heating the thermocouple, which energises an electromagnet to hold the valve open",
+      "Automatically whenever the control knob is in the 'on' position"
+    ],
+    "correct": 2,
+    "explanation": "The main gas valve can only be opened if there is a flame heating the thermocouple. When the control knob is pushed in, the pilot is lit and the thermocouple produces an electric current which energises the electromagnet, allowing the main gas to flow when the spindle is withdrawn.",
+    "source": "S10-11"
+  },
+  {
+    "question": "What happens in a thermoelectric flame protection device if the pilot flame is extinguished?",
+    "answers": [
+      "Direct current is rectified and sent to the control box",
+      "The electromagnet de-energises and shuts off the gas supply",
+      "The bimetallic strip cools and opens the gas valve fully",
+      "The vapour pressure within the bellows reduces, closing the valve"
+    ],
+    "correct": 1,
+    "explanation": "The main gas valve can only be opened if there is a flame heating the thermocouple. If this flame is extinguished the electromagnet de-energises and shuts off the gas supply.",
+    "source": "S10-11"
+  },
+  {
+    "question": "On what principle does a flame rectification flame protection device work?",
+    "answers": [
+      "A flame heats a thermocouple to generate a small DC current directly",
+      "A flame heats a vapour-filled probe to expand a set of bellows",
+      "A flame interrupts a light beam between two sensors",
+      "A flame will conduct and rectify a small electric current, converting AC from the control box into DC which confirms the presence of a flame"
+    ],
+    "correct": 3,
+    "explanation": "Flame rectification devices work on the principle that a flame will conduct and rectify a small electric current. When the flame is in contact with the probe, the AC current from the electronic control box is conducted through the flame and rectified to DC, which returns to the control box via an earth return to confirm the presence of a flame.",
+    "source": "S10-12"
+  },
+  {
+    "question": "What happens in a flame rectification system if the flame fails?",
+    "answers": [
+      "A mechanical lever physically forces the valve onto its seating",
+      "The direct current stops and the control box immediately closes the main gas valve",
+      "Vapour pressure within the probe drops, closing the valve",
+      "The thermocouple cools and an electromagnet de-energises"
+    ],
+    "correct": 1,
+    "explanation": "In a flame rectification device, the electronic control box opens the main gas valve to the burner only when direct current is present. If the flame fails, the direct current stops and the control box immediately closes the main gas valve.",
+    "source": "S10-12"
+  },
+  {
+    "question": "According to Table 1 of the guide, what is the maximum shut-down time for a central heating boiler with a maximum input up to 70kW net?",
+    "answers": [
+      "45 seconds",
+      "60 seconds",
+      "180 seconds",
+      "90 seconds"
+    ],
+    "correct": 1,
+    "explanation": "Table 1 of the guide lists a maximum shut-down time of 60 seconds for a central heating boiler with a maximum input up to 70kW net.",
+    "source": "S10-13"
+  },
+  {
+    "question": "According to Table 1, what is the maximum shut-down time for a cooker hotplate or griddle?",
+    "answers": [
+      "180 seconds",
+      "60 seconds",
+      "120 seconds",
+      "90 seconds"
+    ],
+    "correct": 3,
+    "explanation": "Table 1 of the guide lists a maximum shut-down time of 90 seconds for a cooker hotplate, griddle, etc.",
+    "source": "S10-13"
+  },
+  {
+    "question": "According to Table 1, why are space heaters allowed a longer maximum shut-down time of 180 seconds?",
+    "answers": [
+      "This is due to cooling time",
+      "This is due to their larger pilot flame size",
+      "This is because they are tested at a different pressure",
+      "This is because they use vapour pressure devices exclusively"
+    ],
+    "correct": 0,
+    "explanation": "Table 1 lists a maximum shut-down time of 180 seconds for space heaters, noting this is due to cooling time.",
+    "source": "S10-13"
+  },
+  {
+    "question": "According to Table 1, what is the maximum shut-down time for storage water heaters manufactured after February 2000 with an input greater than 70kW net?",
+    "answers": [
+      "90 seconds",
+      "45 seconds",
+      "60 seconds",
+      "30 seconds"
+    ],
+    "correct": 1,
+    "explanation": "Table 1 lists a maximum shut-down time of 45 seconds for storage water heaters manufactured after February 2000 with an input greater than 70kW net.",
+    "source": "S10-13"
+  },
+  {
+    "question": "According to Table 1, what is the maximum shut-down time for combi and multi-point water heaters?",
+    "answers": [
+      "60 seconds",
+      "90 seconds",
+      "120 seconds",
+      "45 seconds"
+    ],
+    "correct": 0,
+    "explanation": "Table 1 lists a maximum shut-down time of 60 seconds for combi and multi-point water heaters.",
+    "source": "S10-13"
+  },
+  {
+    "question": "When testing an appliance with a thermoelectric safety control, what should be done if the manufacturer does not specify a shut-down time?",
+    "answers": [
+      "Use 2 minutes as a universal default",
+      "Use 180 seconds to be cautious",
+      "Use 60 seconds, in line with Table 1",
+      "The test cannot be carried out without manufacturer data"
+    ],
+    "correct": 2,
+    "explanation": "For appliances with thermoelectric safety controls, isolate the gas supply at the appliance isolation valve and check the time taken for the valve to close complies with manufacturer's instructions, or 60 seconds (per Table 1) if the maker does not specify a time.",
+    "source": "S10-14"
+  },
+  {
+    "question": "For appliances with bimetal or vapour operated safety devices, for how long should the gas supply be isolated during testing?",
+    "answers": [
+      "60 seconds",
+      "30 seconds",
+      "90 seconds",
+      "120 seconds"
+    ],
+    "correct": 0,
+    "explanation": "With the main burner operating, isolate the gas supply for 60 seconds at the appliance isolation valve for appliances with bimetal or vapour operated safety devices, then reinstate the supply and check for normal ignition sequence.",
+    "source": "S10-14"
+  },
+  {
+    "question": "When testing an appliance with a flame rectification safety device, what is the maximum time within which the appliance must go directly to lockout without attempting to re-light?",
+    "answers": [
+      "150 seconds",
+      "30 seconds",
+      "90 seconds",
+      "60 seconds"
+    ],
+    "correct": 3,
+    "explanation": "For flame rectification safety devices, one acceptable outcome is that the appliance goes directly to lockout within a maximum time of 60 seconds and does not attempt to re-light when the gas supply is reinstated.",
+    "source": "S10-14"
+  },
+  {
+    "question": "Before reinstating the gas supply after testing a flame rectification safety device, what delay is recommended and why?",
+    "answers": [
+      "No delay is required as the test is instantaneous",
+      "A delay of 10 minutes is recommended to allow CO levels to clear",
+      "A delay of 5 minutes is recommended to allow the appliance to fully cool",
+      "A delay of 2 minutes is recommended to ensure dispersal of any residual gas/air mixture"
+    ],
+    "correct": 3,
+    "explanation": "Note 1 in the test procedure states that before the gas supply is reinstated, it is recommended that a delay of 2 minutes is allowed to ensure dispersal of any residual gas/air mixture.",
+    "source": "S10-14"
+  },
+  {
+    "question": "What is the test procedure for thermoelectric flame protection devices, using a U gauge at the burner pressure test point, commonly known as?",
+    "answers": [
+      "The blip test",
+      "The drop test",
+      "The let-by test",
+      "The soundness test"
+    ],
+    "correct": 0,
+    "explanation": "The test procedure for thermoelectric flame protection devices, which involves connecting a U gauge to the burner test point and observing for perceptible movement, is known as the blip test.",
+    "source": "S10-14"
+  },
+  {
+    "question": "During the blip test, what result on the U gauge confirms that a thermoelectric flame protection device has operated and sealed correctly?",
+    "answers": [
+      "The U gauge reading must drop to zero immediately",
+      "The U gauge reading must rise steadily for 60 seconds",
+      "The U gauge must oscillate rapidly before settling",
+      "There must be no perceptible movement of the U gauge"
+    ],
+    "correct": 3,
+    "explanation": "During the blip test, there must be no perceptible movement of the U gauge to confirm that the device has operated and sealed.",
+    "source": "S10-14"
+  },
+  {
+    "question": "What is another name given to an atmosphere sensing device in the guide?",
+    "answers": [
+      "A combustion fan modulator",
+      "An Oxygen Depletion System or a vitiation device",
+      "A flame rectification interrupter",
+      "A zero governor assembly"
+    ],
+    "correct": 1,
+    "explanation": "An atmosphere sensing device will shut the gas supply down if there is a lack of oxygen affecting the supply of combustion air to the burner. It is also referred to as an Oxygen Depletion System or a vitiation device.",
+    "source": "S10-15"
+  },
+  {
+    "question": "At approximately what oxygen level is the flame on an atmosphere sensing device factory set to lift off?",
+    "answers": [
+      "Approximately 18%",
+      "Approximately 15%",
+      "Approximately 10%",
+      "Approximately 21%"
+    ],
+    "correct": 0,
+    "explanation": "The flame used to operate an atmosphere sensing device is positioned and factory set to lift off when the oxygen level has decreased to approximately 18% of the atmosphere.",
+    "source": "S10-15"
+  },
+  {
+    "question": "In a vitiation device, by what mechanism is flame lift used to shut the gas off?",
+    "answers": [
+      "Through an overheat device and a thermocouple interrupter",
+      "Through direct mechanical closure of a popit valve",
+      "Through breaking an electrical rectification circuit",
+      "Through cooling of a vapour-filled phial"
+    ],
+    "correct": 0,
+    "explanation": "Any flame lift will operate the flame protection device to shut the gas off in one of three ways; in a vitiation device this is achieved through an overheat device and a thermocouple interrupter.",
+    "source": "S10-15"
+  },
+  {
+    "question": "Before what level of carbon monoxide production should the intervention level of an atmosphere sensing device occur?",
+    "answers": [
+      "Before 50 ppm of carbon monoxide has been produced",
+      "Before 200 ppm of carbon monoxide has been produced",
+      "Before 1000 ppm of carbon monoxide has been produced",
+      "Before any carbon monoxide is detectable"
+    ],
+    "correct": 1,
+    "explanation": "The intervention level of an atmosphere sensing device should occur before 200 ppm of carbon monoxide has been produced, equivalent to a level of 1.5% - 2% CO2.",
+    "source": "S10-15"
+  },
+  {
+    "question": "Why are components of an atmosphere sensing device not available as individual spares?",
+    "answers": [
+      "They must be replaced only as part of a full appliance exchange",
+      "They are manufactured from a material that cannot be replicated by third parties",
+      "Incorrect substitution of any of these parts could impair its accuracy",
+      "They are integral to the appliance's electrical certification"
+    ],
+    "correct": 2,
+    "explanation": "An atmosphere sensing device is positioned and adjusted to give the correct intervention level for a particular appliance. Components are not available as individual spares because incorrect substitution could impair its accuracy.",
+    "source": "S10-15"
+  },
+  {
+    "question": "How can thermostats normally be checked for correct operation?",
+    "answers": [
+      "Using a multimeter to measure resistance across the contacts",
+      "Using a thermometer to check calibration along with a visual check",
+      "Using a manometer connected to the test point",
+      "Using a flue gas analyser to measure output temperature"
+    ],
+    "correct": 1,
+    "explanation": "All thermostats can normally be checked using a thermometer to check calibration, along with a visual check to ensure correct operation.",
+    "source": "S10-16"
+  },
+  {
+    "question": "On what principle does a liquid expansion thermostat work?",
+    "answers": [
+      "A bimetallic strip bends to directly open and close the gas valve",
+      "A liquid-filled phial connected to bellows moves a lever which moves a spring loaded gas valve, varying the distance of the valve from its seating",
+      "An electric current generated by a thermocouple energises a magnet",
+      "A vacuum diaphragm contracts as temperature rises"
+    ],
+    "correct": 1,
+    "explanation": "A liquid expansion thermostat has a phial filled with liquid positioned in the area to be heated, connected to a bellows. The bellows move a lever which in turn moves the spring loaded gas valve up or down, the lever being pivoted on an adjusting screw.",
+    "source": "S10-16"
+  },
+  {
+    "question": "What happens when the bellows of a liquid expansion thermostat expand due to heat?",
+    "answers": [
+      "The valve begins to close and gas passes through a by-pass to keep the burner alight at a low rate",
+      "The valve fully closes, extinguishing the burner completely",
+      "The valve opens fully, increasing gas flow to the burner",
+      "The pilot flame is automatically relit"
+    ],
+    "correct": 0,
+    "explanation": "When the bellows of a liquid expansion thermostat expand due to heat, the valve begins to close, and gas passes through a by-pass to keep the burner alight at low rate. If the phial cools, the valve re-opens to maintain a constant temperature.",
+    "source": "S10-16"
+  },
+  {
+    "question": "What dangerous situation can a blocked thermostat by-pass create on a gas cooker oven?",
+    "answers": [
+      "The oven burner will go out when the set temperature is reached, and when the oven cools the thermostat re-opens allowing unlit gas to pass through the burner",
+      "The pilot light will be extinguished permanently",
+      "The burner will remain permanently at full rate regardless of temperature",
+      "The thermostat will overheat and melt the gas valve seating"
+    ],
+    "correct": 0,
+    "explanation": "A blocked thermostat by-pass can create a dangerous situation: the blocked by-pass will cause the oven burner to go out when the oven reaches the set temperature, and when the oven cools the thermostat re-opens, allowing unlit gas to pass through the oven burner.",
+    "source": "S10-16"
+  },
+  {
+    "question": "During the test sequence for an oven thermostat and vapour pressure FSD, what should the thermostat be set to first, and why?",
+    "answers": [
+      "Set to the lowest number to test the by-pass rate in isolation",
+      "Set to 'simmer' to confirm low flame ignition first",
+      "Set to off, to confirm the FSD fails safe with no gas present",
+      "Set to the highest number to ensure the main valve is fully open, allowing full gas rate to pass through to the vapour pressure FSD"
+    ],
+    "correct": 3,
+    "explanation": "In the test/sequence of operation, the thermostat should be set to the highest number to ensure the main valve is fully open, allowing full gas rate to pass through the thermostat to the vapour pressure FSD.",
+    "source": "S10-17"
+  },
+  {
+    "question": "When testing an oven FSD, what indicates that the FSD may be faulty?",
+    "answers": [
+      "If the oven fails to light at all within 60 seconds",
+      "If the oven lights on full rate (high flame) rather than the by-pass rate (low flame)",
+      "If the thermostat knob cannot be turned past the midpoint",
+      "If the burner flame appears yellow rather than blue"
+    ],
+    "correct": 1,
+    "explanation": "After turning the oven off for 60 seconds and setting the thermostat to the highest number, the oven should ignite at the FSD by-pass rate, low flame; if the oven lights on full rate (high flame), the FSD may be faulty.",
+    "source": "S10-17"
+  },
+  {
+    "question": "When testing an oven thermostat by turning it down to a low temperature after ten minutes of operation, what indicates the thermostat by-pass may be blocked?",
+    "answers": [
+      "If the burner extinguishes instead of reducing to the by-pass rate (low flame)",
+      "If the oven door fails to seal correctly",
+      "If the burner increases to full rate instead of reducing",
+      "If the flame colour changes from blue to orange"
+    ],
+    "correct": 0,
+    "explanation": "After turning the thermostat down to a low temperature (not 's' for simmer), the oven thermostat should reduce the burner gas down to the thermostat by-pass rate, low flame; if the burner extinguishes, the thermostat by-pass may be blocked.",
+    "source": "S10-17"
+  },
+  {
+    "question": "What is a multifunctional control, as described in the guide?",
+    "answers": [
+      "A control used exclusively on gas fires",
+      "A device fitted to boilers and warm air units that incorporates all the controls required by a particular appliance on a single chassis",
+      "A standalone replacement for the meter regulator",
+      "A device that only provides flame rectification protection"
+    ],
+    "correct": 1,
+    "explanation": "A multifunctional control is normally fitted to boilers and warm air units. It incorporates all the controls required by a particular appliance, consisting of a chassis fitted in the gas supply to which individual control units are attached.",
+    "source": "S10-18"
+  },
+  {
+    "question": "What advantage does the chassis design of a multifunctional control offer during servicing?",
+    "answers": [
+      "The chassis can remain in the gas supply while the various control units are removed for servicing or renewal",
+      "It eliminates the need for any tightness testing after servicing",
+      "It removes the need for a flame protection device altogether",
+      "It allows the appliance to remain lit during all servicing work"
+    ],
+    "correct": 0,
+    "explanation": "The chassis of a multifunctional control can remain in the gas supply whilst the various individual units are removed for servicing or renewal.",
+    "source": "S10-18"
+  },
+  {
+    "question": "Which of the following may be included within a multifunctional control, according to the guide?",
+    "answers": [
+      "Thermocouple and atmosphere sensing device only",
+      "Flue gas analyser and combustion fan only",
+      "Main control tap, constant pressure governor, flame protection device, solenoid valve and ignition switch",
+      "Meter regulator and ECV only"
+    ],
+    "correct": 2,
+    "explanation": "The multifunctional control may include a main control tap, constant pressure governor, flame protection device, solenoid valve, and ignition switch.",
+    "source": "S10-18"
+  },
+  {
+    "question": "In a multifunctional control, what safety feature prevents the knob from being turned off and immediately back on again?",
+    "answers": [
+      "The solenoid disables the knob until the pilot is relit manually",
+      "A mechanical pin must be removed by an engineer",
+      "A latch prevents the knob from being turned off and then on again until the thermocouple has cooled",
+      "A timer locks the knob for exactly 5 minutes after each use"
+    ],
+    "correct": 2,
+    "explanation": "For safety, a latch prevents the knob from being turned off and then on again until the thermocouple has cooled.",
+    "source": "S10-18"
+  },
+  {
+    "question": "In the gas fire FSD testing procedure, after the specified wait time has elapsed with the gas off at the meter ECV, at what pressure and for how long should the tightness test be carried out?",
+    "answers": [
+      "20mbar for two minutes",
+      "10mbar for one minute",
+      "37mbar for two minutes",
+      "21mbar for five minutes"
+    ],
+    "correct": 0,
+    "explanation": "Once the time period has elapsed, a tightness test should be carried out at a pressure of 20mbar for two minutes; this is not a full tightness test in accordance with IGE/UP/1B, but a test to verify FSD integrity only.",
+    "source": "S10-19"
+  },
+  {
+    "question": "Before testing a gas fire FSD by turning off the supply at the meter ECV, what should be carried out first and noted?",
+    "answers": [
+      "A full tightness test at the meter in accordance with the Tightness Test section, noting any pressure drop with appliances connected",
+      "A combustion analysis using a flue gas analyser",
+      "A flue flow test using smoke matches",
+      "A full electrical bonding check on the gas installation pipework"
+    ],
+    "correct": 0,
+    "explanation": "The gas fire FSD testing procedure begins with carrying out a full tightness test at the meter in accordance with the Tightness Test section of the guide, noting any pressure drop with the appliances connected.",
+    "source": "S10-19"
+  },
+  {
+    "question": "During gas fire FSD testing, what should be done with the gas fire immediately before turning off the gas supply at the meter ECV?",
+    "answers": [
+      "Turn the gas fire off completely and allow it to cool",
+      "Set the gas fire to its lowest pilot-only setting",
+      "Disconnect the gas fire from the supply entirely",
+      "Light the gas fire and turn it to the highest setting"
+    ],
+    "correct": 3,
+    "explanation": "As part of the gas fire FSD test procedure, the gas fire should be lit and turned to the highest setting before the gas supply is turned off at the meter ECV.",
+    "source": "S10-19"
+  },
+  {
+    "question": "When testing a gas fire FSD, what should be considered if a pressure drop is found that differs from the previous tightness test results?",
+    "answers": [
+      "It should be investigated, with consideration given to temperature stabilisation",
+      "It can be disregarded if less than 5mbar",
+      "It should be reported only if it occurs twice",
+      "It should be automatically attributed to the FSD itself"
+    ],
+    "correct": 0,
+    "explanation": "Any drop in pressure must be compared to the previous tightness test results and investigated if different; consideration should be given to temperature stabilisation.",
+    "source": "S10-19"
+  },
+  {
+    "question": "What type of FSD is noted in the guide as potentially requiring a longer shut-off time during gas fire FSD testing?",
+    "answers": [
+      "A zero governor based FSD",
+      "An atmosphere sensing FSD on cookers",
+      "A bimetallic type FSD on older appliances",
+      "A flame rectification FSD on modern appliances"
+    ],
+    "correct": 2,
+    "explanation": "The guide notes that where older appliances incorporate a bimetallic type FSD, longer shut-off times can be expected, and the manufacturer's instructions should always be referred to.",
+    "source": "S10-19"
+  }
+]

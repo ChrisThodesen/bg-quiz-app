@@ -1,0 +1,626 @@
+[
+  {
+    "question": "According to the guide, a chimney is defined as:",
+    "answers": [
+      "A structure consisting of a wall or walls enclosing a flue or flues",
+      "Any masonry structure associated only with solid fuel appliances",
+      "The passageway that conveys combustion air to a room-sealed appliance",
+      "The terminal fitted to the end of a secondary flue"
+    ],
+    "correct": 0,
+    "explanation": "A chimney is defined as a structure consisting of a wall or walls enclosing a flue or flues. This includes chimneys of all materials such as metal, masonry and plastic, and may be open flued or a room-sealed configuration.",
+    "source": "S4-5"
+  },
+  {
+    "question": "BS 5440 Part 1 covers flueing and ventilation for gas appliances of rated input not exceeding:",
+    "answers": [
+      "40 kW net",
+      "60 kW gross",
+      "70 kW net",
+      "100 kW net"
+    ],
+    "correct": 2,
+    "explanation": "The type of chimney system depends on BS 5440 Part 1, which covers flueing and ventilation for gas appliances of rated input not exceeding 70 kW net (1st, 2nd and 3rd family gases).",
+    "source": "S4-5"
+  },
+  {
+    "question": "A connecting flue pipe is the component used to connect:",
+    "answers": [
+      "An appliance outlet and the chimney",
+      "Two sections of secondary flue together",
+      "The flue liner to the terminal",
+      "The air supply duct to the room"
+    ],
+    "correct": 0,
+    "explanation": "A connecting flue pipe is the component used for connecting an appliance outlet and the chimney.",
+    "source": "S4-5"
+  },
+  {
+    "question": "A flue liner is best defined as:",
+    "answers": [
+      "The wall of a chimney whose surface is in contact with the products of combustion",
+      "The duct that supplies combustion air to a room-sealed appliance",
+      "The flared opening at the base of a draught diverter",
+      "The outer casing of a twin-walled chimney pipe"
+    ],
+    "correct": 0,
+    "explanation": "A flue liner is the wall of a chimney consisting of components whose surface is in contact with the products of combustion, including a rigid or flexible liner inserted into a chimney.",
+    "source": "S4-5"
+  },
+  {
+    "question": "Under Regulation 32, a manually operated damper found on an existing flue serving a domestic gas appliance must be:",
+    "answers": [
+      "Permanently fixed in the open position",
+      "Interlocked with the gas supply to the burner",
+      "Left as found provided it still operates",
+      "Set to close when the burner lights"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 32 prohibits installing a manually operated damper to serve a domestic gas appliance, and a domestic appliance must not be installed to a flue with a manually operated damper unless the damper is permanently fixed in the open position.",
+    "source": "S4-6"
+  },
+  {
+    "question": "An automatic damper installed to serve a gas appliance must be interlocked with the gas supply so that:",
+    "answers": [
+      "Burner operation is prevented if the damper fails when not in the open position",
+      "The damper closes automatically when the burner lights",
+      "The appliance only operates when the damper is closed",
+      "The gas rate increases when the damper opens"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 32 requires an automatic damper to be interlocked with the gas supply so that burner operation is prevented in the event of failure of the damper when it is not in the open position.",
+    "source": "S4-6"
+  },
+  {
+    "question": "Which of the following is a factor that determines the need for a chimney?",
+    "answers": [
+      "Appliance heat input",
+      "The customer's gas tariff",
+      "The colour of the appliance casing",
+      "The age of the gas meter"
+    ],
+    "correct": 0,
+    "explanation": "The factors that determine the need for a chimney are appliance heat input, appliance type, duration or use of the appliance, and the size of the room in which the appliance is installed.",
+    "source": "S4-6"
+  },
+  {
+    "question": "Materials used for chimney construction should be adequately supported, mechanically robust, durable, resistant to corrosion and:",
+    "answers": [
+      "Non-combustible",
+      "Electrically conductive",
+      "Transparent",
+      "Magnetic"
+    ],
+    "correct": 0,
+    "explanation": "All materials used for chimney construction should be adequately supported, mechanically robust, resistant to internal or external corrosion, non-combustible and durable under the conditions in which they are used.",
+    "source": "S4-7"
+  },
+  {
+    "question": "Why are copper and mild steel unsuitable for condensate flueing or disposal?",
+    "answers": [
+      "The condensate products are mildly acidic",
+      "They are combustible materials",
+      "They cannot be adequately supported",
+      "They cannot be formed into a flue shape"
+    ],
+    "correct": 0,
+    "explanation": "Materials such as copper or mild steel are not suitable for condensate flueing or disposal as the products are mildly acidic.",
+    "source": "S4-7"
+  },
+  {
+    "question": "Natural draught in a chimney is caused by:",
+    "answers": [
+      "The difference between the densities of the hot flue gases and the colder outside air",
+      "An extract fan operating in the secondary flue",
+      "The pressure of the gas at the meter regulator",
+      "The injector forcing gas through the burner"
+    ],
+    "correct": 0,
+    "explanation": "Natural draught is the flue draught or 'pull' set up like a convection current, caused by the difference between the densities of the hot gases in the flue and the colder air outside.",
+    "source": "S4-8"
+  },
+  {
+    "question": "The flue draught of a natural draught chimney will increase if:",
+    "answers": [
+      "The chimney height is increased",
+      "The chimney is cooled",
+      "Horizontal runs are added",
+      "Deposits build up in the chimney"
+    ],
+    "correct": 0,
+    "explanation": "The flue draught will increase if the chimney height is increased or the flue gas temperature is increased. It decreases if the chimney is cooled or there is excessive resistance such as horizontal runs, 90° bends or deposits.",
+    "source": "S4-8"
+  },
+  {
+    "question": "Unless the manufacturer's instructions permit otherwise, a new chimney system for a gas fire shall have a minimum circular cross-sectional area of:",
+    "answers": [
+      "9,000 mm²",
+      "12,000 mm²",
+      "16,500 mm²",
+      "20,000 mm²"
+    ],
+    "correct": 1,
+    "explanation": "New chimney systems or chimney installations for gas fires shall have a minimum circular cross-sectional area of 12,000 mm² unless the manufacturer's instructions specifically permit otherwise.",
+    "source": "S4-10"
+  },
+  {
+    "question": "For a new chimney constructed with pre-cast gas chimney blocks, the minimum cross-sectional area shall not be less than:",
+    "answers": [
+      "12,000 mm² with no dimension less than 63 mm",
+      "16,500 mm² with no dimension less than 90 mm",
+      "13,000 mm² with no dimension less than 90 mm",
+      "9,000 mm² with no dimension less than 100 mm"
+    ],
+    "correct": 1,
+    "explanation": "For new chimneys constructed with gas chimney blocks (pre-cast), the minimum cross-sectional area shall not be less than 16,500 mm² with no dimension less than 90 mm, as specified in BS 1289.",
+    "source": "S4-10"
+  },
+  {
+    "question": "An open flued system is made up of four component parts: the primary flue, the down draught diverter, the terminal and the:",
+    "answers": [
+      "Secondary flue",
+      "Air supply duct",
+      "Flue damper",
+      "Flow proving device"
+    ],
+    "correct": 0,
+    "explanation": "The four component parts of an open flued system are the primary flue, the down draught diverter, the secondary flue and the terminal.",
+    "source": "S4-10"
+  },
+  {
+    "question": "The primary flue forms part of the appliance and:",
+    "answers": [
+      "Creates the initial flue draught to exhaust the products of combustion",
+      "Disperses the products into the atmosphere",
+      "Dilutes the flue products with room air",
+      "Channels products to the terminal"
+    ],
+    "correct": 0,
+    "explanation": "The primary flue forms part of the actual appliance and creates the initial flue draught required to exhaust all the products of combustion from the appliance.",
+    "source": "S4-11"
+  },
+  {
+    "question": "Which of the following is one of the three functions of a down draught diverter?",
+    "answers": [
+      "It breaks the pull of the secondary flue",
+      "It increases the gas rate to the burner",
+      "It measures the flue gas temperature",
+      "It seals the flue when the appliance is off"
+    ],
+    "correct": 0,
+    "explanation": "The draught diverter does three things: it diverts down-draught to prevent interference with combustion, allows flue products to be diluted to minimise condensation, and breaks the pull of the secondary flue.",
+    "source": "S4-11"
+  },
+  {
+    "question": "Horizontal runs of chimney:",
+    "answers": [
+      "Make no contribution to the flue draught but add to the resistance",
+      "Increase the flue draught significantly",
+      "Are preferred to vertical runs",
+      "Have no effect on the flow rate"
+    ],
+    "correct": 0,
+    "explanation": "Horizontal runs of chimney make no contribution to the flue draught, but they add to the resistance and tend to reduce the flow rate. The chimney should be as near vertical as possible.",
+    "source": "S4-12"
+  },
+  {
+    "question": "Bends and changes of direction in the secondary flue should be kept to a maximum of:",
+    "answers": [
+      "30°",
+      "60°",
+      "45°",
+      "90°"
+    ],
+    "correct": 2,
+    "explanation": "Bends and other fittings add resistance and should be kept to a maximum of 45°, with the chimney as near vertical as possible.",
+    "source": "S4-12"
+  },
+  {
+    "question": "Unless the manufacturer's instructions state otherwise, the minimum distance from the down draught diverter to the first bend in the secondary flue should not be less than:",
+    "answers": [
+      "300 mm",
+      "450 mm",
+      "600 mm",
+      "1000 mm"
+    ],
+    "correct": 2,
+    "explanation": "The secondary flue immediately above the draught diverter must be vertical, and the minimum distance from the down draught diverter to the first bend should not be less than 600 mm, unless the manufacturer's instructions state otherwise.",
+    "source": "S4-12"
+  },
+  {
+    "question": "A chimney terminal need not be of any particular design but should comply with the requirements of BS 5440, BS 1289 and:",
+    "answers": [
+      "BS 715",
+      "BS EN 50291",
+      "BS 5482",
+      "BS 6644"
+    ],
+    "correct": 0,
+    "explanation": "A terminal should comply with the requirements of BS 5440, BS 1289 and BS 715. It assists exhaustion of products, minimises down draught and prevents entry of rain, snow, birds and small animals.",
+    "source": "S4-12"
+  },
+  {
+    "question": "Any opening in a bird guard accessible to birds should have a minor dimension of not more than:",
+    "answers": [
+      "10 mm",
+      "16 mm",
+      "20 mm",
+      "25 mm"
+    ],
+    "correct": 2,
+    "explanation": "Any opening in the bird guard accessible to birds should have a minor dimension of not more than 20 mm. Bird guards should be of corrosion and weather resistant material and securely fixed.",
+    "source": "S4-12"
+  },
+  {
+    "question": "Where a house contains both passive stack ventilation and an open flued appliance, the chimney termination should be:",
+    "answers": [
+      "At the same height or higher than the passive stack outlet, on the same face of the building",
+      "On the opposite face of the building to the passive stack outlet",
+      "At least 600 mm lower than the passive stack outlet",
+      "Combined with the passive stack outlet into one terminal"
+    ],
+    "correct": 0,
+    "explanation": "To avoid the terminals being in separate pressure zones, they should be located on the same face of the building and the chimney termination should be at the same height or higher than the passive stack outlet, preventing a pressure gradient that could cause chimney reversal.",
+    "source": "S4-12"
+  },
+  {
+    "question": "On a pitched roof, no part of the chimney outlet shall be less than 1.5 m measured horizontally to the roof surface, or:",
+    "answers": [
+      "300 mm above the ridge",
+      "600 mm above the ridge",
+      "1000 mm above the ridge",
+      "1500 mm above the ridge"
+    ],
+    "correct": 1,
+    "explanation": "On a pitched roof, no part of the chimney outlet shall be less than 1.5 m measured horizontally to the roof surface, or 600 mm above the ridge.",
+    "source": "S4-14"
+  },
+  {
+    "question": "Ridge terminals which are open on all four sides shall be sited so that they are not less than:",
+    "answers": [
+      "150 mm apart",
+      "250 mm apart",
+      "300 mm apart",
+      "600 mm apart"
+    ],
+    "correct": 2,
+    "explanation": "Ridge terminals which are open on all four sides shall be sited so that they are not less than 300 mm apart.",
+    "source": "S4-14"
+  },
+  {
+    "question": "Any chimney system with a dimension across the axis of the outlet which is less than 170 mm must be fitted with:",
+    "answers": [
+      "A terminal",
+      "A draught diverter",
+      "A flow proving device",
+      "A secondary liner only"
+    ],
+    "correct": 0,
+    "explanation": "Any chimney system with a dimension across the axis of the outlet which is less than 170 mm must be fitted with a terminal. Where a gas fire connects to an unlined brick chimney greater than 170 mm it is generally unnecessary to fit a terminal.",
+    "source": "S4-24"
+  },
+  {
+    "question": "For chimney systems with unapproved terminals, the dimensions of any opening shall not be less than 6 mm and not more than:",
+    "answers": [
+      "10 mm",
+      "16 mm",
+      "20 mm",
+      "25 mm"
+    ],
+    "correct": 1,
+    "explanation": "Chimney systems with unapproved terminals must have combustion product outlets at least equivalent to twice the chimney area, and the dimensions of any opening shall not be less than 6 mm and not more than 16 mm.",
+    "source": "S4-24"
+  },
+  {
+    "question": "For a single walled chimney pipe complying with BS 715, the clearance necessary from combustible materials is:",
+    "answers": [
+      "15 mm",
+      "25 mm",
+      "50 mm",
+      "75 mm"
+    ],
+    "correct": 1,
+    "explanation": "For a single walled chimney pipe complying with BS 715, a distance of 25 mm clearance from combustible materials is necessary.",
+    "source": "S4-25"
+  },
+  {
+    "question": "Chimney pipes must be supported at intervals of not more than (or as per the manufacturer's instructions):",
+    "answers": [
+      "1.2 m",
+      "1.5 m",
+      "1.8 m",
+      "3.0 m"
+    ],
+    "correct": 2,
+    "explanation": "Chimney pipes must be supported at intervals of not more than 1.8 m, or as per the manufacturer's instructions, with the support preferably below a joint.",
+    "source": "S4-25"
+  },
+  {
+    "question": "Twin walled chimneys with only an air gap for insulation shall not be used externally for lengths in excess of:",
+    "answers": [
+      "1 m",
+      "2 m",
+      "3 m",
+      "6 m"
+    ],
+    "correct": 2,
+    "explanation": "Twin walled chimneys with only an air gap for insulation shall not be used externally for lengths in excess of 3 m. External chimney runs over 3 m must be factory insulated.",
+    "source": "S4-25"
+  },
+  {
+    "question": "A minimum length of vertical chimney pipe should be provided above the draught diverter on the appliance. That minimum is:",
+    "answers": [
+      "300 mm",
+      "450 mm",
+      "600 mm",
+      "1000 mm"
+    ],
+    "correct": 2,
+    "explanation": "The chimney should rise vertically as far as possible before any change of direction, with a minimum of 600 mm vertical pipe provided above the draught diverter on the appliance.",
+    "source": "S4-26"
+  },
+  {
+    "question": "Where a chimney passes through a tiled or slated roof, the joint shall be weatherproofed using a purpose-made slate with a minimum upstand of:",
+    "answers": [
+      "75 mm",
+      "100 mm",
+      "150 mm",
+      "250 mm"
+    ],
+    "correct": 2,
+    "explanation": "Where a chimney pipe or chimney passes through a tiled or slated roof, the joint shall be weatherproofed using a purpose-made slate with a minimum upstand of 150 mm.",
+    "source": "S4-26"
+  },
+  {
+    "question": "Regulation 27(4) requires a fanned draught open flued system to cut off the gas supply to the burner if the flow in the secondary flue is insufficient to clear the products of combustion for a period of:",
+    "answers": [
+      "Three seconds",
+      "Six seconds",
+      "Ten seconds",
+      "Thirty seconds"
+    ],
+    "correct": 1,
+    "explanation": "Regulation 27(4) requires a fanned draught open flued system to incorporate a safety control that cuts off the gas supply to the burner if the flow in the secondary flue is insufficient to clear the products of combustion for a period of six seconds.",
+    "source": "S4-27"
+  },
+  {
+    "question": "When the safety control on a fanned draught open flued system shuts off the gas supply to the main burner, re-establishing the supply requires:",
+    "answers": [
+      "A manual operation (manual reset)",
+      "An automatic reset after 30 seconds",
+      "Replacement of the flow sensor",
+      "The fan to run continuously for 10 minutes"
+    ],
+    "correct": 0,
+    "explanation": "When the safety control monitoring the flow of products through the secondary flue shuts off the supply of gas to the main burner, a manual operation must be made to re-establish the supply.",
+    "source": "S4-27"
+  },
+  {
+    "question": "Checking the safe operation of a non-room-sealed chimney comprises three distinct checks: the preliminary check, the appliance/chimney combination (spillage) check and the:",
+    "answers": [
+      "Flue flow and continuity check",
+      "Tightness test",
+      "Gas rate check",
+      "Standing pressure check"
+    ],
+    "correct": 0,
+    "explanation": "Checking the safe operation of non-room-sealed chimneys comprises three distinct groups of checks: the preliminary check, the flue flow and continuity check, and the appliance and chimney combination check (spillage test).",
+    "source": "S4-30"
+  },
+  {
+    "question": "During the flue flow check, the smoke pellet used must be able to produce:",
+    "answers": [
+      "1 m³ of smoke within 30 seconds",
+      "5 m³ of smoke within 30 seconds",
+      "5 m³ of smoke within 60 seconds",
+      "10 m³ of smoke within 30 seconds"
+    ],
+    "correct": 1,
+    "explanation": "If a smoke match clears, the test continues with a smoke pellet, which must be able to produce 5 m³ of smoke within 30 seconds. The box should be marked to indicate compliance with BS 5440 Part 1.",
+    "source": "S4-31"
+  },
+  {
+    "question": "If the smoke does not clear during the flue flow check, the chimney should be heated using a blowtorch or by lighting the appliance for a minimum of:",
+    "answers": [
+      "5 minutes",
+      "10 minutes",
+      "15 minutes",
+      "30 minutes"
+    ],
+    "correct": 1,
+    "explanation": "If the smoke does not clear, the chimney should be heated using a blowtorch or by lighting the appliance for a minimum of 10 minutes, then the heat source is turned off and the test repeated.",
+    "source": "S4-31"
+  },
+  {
+    "question": "The flue flow (smoke) test is satisfactory if:",
+    "answers": [
+      "All the smoke clears at the appliance position with none visible from any part of the chimney except the correct terminal",
+      "Smoke is visible discharging from at least two terminals",
+      "Significant smoke returns at the appliance position",
+      "Smoke seeps steadily from the chimney joints"
+    ],
+    "correct": 0,
+    "explanation": "The test is satisfactory if all the smoke clears at the appliance position, with no smoke visible from any part of the chimney apart from the correct terminal. Significant return at the appliance, seepage, or discharge from more than one terminal means the test has failed.",
+    "source": "S4-31"
+  },
+  {
+    "question": "In spillage test Method 2, the smoke-producing device is applied to the edge of the draught diverter or gas fire canopy within how long of lighting the appliance?",
+    "answers": [
+      "2 minutes",
+      "5 minutes",
+      "10 minutes",
+      "15 minutes"
+    ],
+    "correct": 1,
+    "explanation": "In Method 2, with the appliance in operation a flow visualisation check is carried out by applying a smoke-producing device to the edge of the draught diverter or gas fire canopy within 5 minutes of lighting.",
+    "source": "S4-32"
+  },
+  {
+    "question": "If spillage occurs during the spillage test, the appliance should be left operating for a further period and re-checked. That period is:",
+    "answers": [
+      "5 minutes",
+      "10 minutes",
+      "15 minutes",
+      "20 minutes"
+    ],
+    "correct": 1,
+    "explanation": "If spillage occurs, the appliance should be left operating for a further 10 minutes and re-checked. If spillage still occurs the appliance must be switched off, disconnected and the fault rectified.",
+    "source": "S4-32"
+  },
+  {
+    "question": "If opening a window clears spillage, the guide suggests that, for most situations, sufficient additional ventilation free area would be approximately:",
+    "answers": [
+      "25 cm²",
+      "50 cm²",
+      "75 cm²",
+      "100 cm²"
+    ],
+    "correct": 1,
+    "explanation": "If the appliance clears its products with a window slightly open, additional ventilation should be provided; as a general guide an extra 50 cm² of free area will be sufficient for most situations.",
+    "source": "S4-33"
+  },
+  {
+    "question": "An appliance that has failed the spillage test:",
+    "answers": [
+      "Must be disconnected from the gas supply, the responsible person informed, and a warning label affixed",
+      "May be left connected provided a window is left open",
+      "Can continue in use until the next service visit",
+      "Only needs the draught diverter cleaned before reuse"
+    ],
+    "correct": 0,
+    "explanation": "The appliance shall not be left connected to the gas supply unless it has passed the spillage test. The gas supply must be disconnected, the user/owner or responsible person informed, and a label affixed to warn that it must not be used until the fault is remedied.",
+    "source": "S4-33"
+  },
+  {
+    "question": "Chimneys built since 1965 (1971 in Scotland) should have been:",
+    "answers": [
+      "Suitably lined at the time of construction",
+      "Constructed entirely of metal",
+      "Fitted with an automatic damper",
+      "Built without any terminal"
+    ],
+    "correct": 0,
+    "explanation": "Chimneys built since 1965 (1971 in Scotland) should have been suitably lined at the time of construction, e.g. with a salt-glazed 175 mm diameter pipe or concrete chimney liner. A chimney built before then may not be lined and should be carefully examined before reuse.",
+    "source": "S4-34"
+  },
+  {
+    "question": "When a brick chimney is lined using a flexible liner, the guide requires that:",
+    "answers": [
+      "A terminal must be fitted",
+      "The terminal must be removed",
+      "An automatic damper must be added",
+      "The liner must be left open at the top"
+    ],
+    "correct": 0,
+    "explanation": "In all cases, when the chimney is lined using a flexible liner, a terminal must be fitted.",
+    "source": "S4-34"
+  },
+  {
+    "question": "A gas fire installation requires the chimney to be lined where the chimney length on an external wall exceeds:",
+    "answers": [
+      "6 m",
+      "9 m",
+      "10 m",
+      "12 m"
+    ],
+    "correct": 2,
+    "explanation": "The appliance/chimney combinations table requires a gas fire chimney to be lined where the length exceeds 10 m on an external wall (or 12 m on an internal wall).",
+    "source": "S4-35"
+  },
+  {
+    "question": "A gas fire with a back boiler unit requires the chimney to be lined for:",
+    "answers": [
+      "Any length, in all installations",
+      "Lengths over 12 m only",
+      "External wall installations only",
+      "Lengths over 6 m only"
+    ],
+    "correct": 0,
+    "explanation": "The table specifies that a gas fire with a back boiler unit requires the chimney to be lined for any length, in all installations.",
+    "source": "S4-35"
+  },
+  {
+    "question": "A flexible flue liner must not extend more than how far outside the structure?",
+    "answers": [
+      "100 mm",
+      "150 mm",
+      "250 mm",
+      "300 mm"
+    ],
+    "correct": 1,
+    "explanation": "Flue liners are only designed to be used within chimneys. A liner must not extend more than 150 mm outside the structure, allowing sufficient length to connect into a rigid chimney pipe where necessary.",
+    "source": "S4-40"
+  },
+  {
+    "question": "A flexible liner shall be installed in:",
+    "answers": [
+      "A single length, sealed and supported at the top and bottom",
+      "Two equal lengths joined at the mid point",
+      "Multiple short sections jointed within the loft space",
+      "Whatever number of sections is convenient on site"
+    ],
+    "correct": 0,
+    "explanation": "A flexible liner shall be installed in a single length, sealed at the top with a sealing plate and at the bottom, and supported at both the top and bottom. It must not be installed within an attic space as the connection to a ridge tile.",
+    "source": "S4-40"
+  },
+  {
+    "question": "Existing flexible liners that have previously been used for oil or solid fuel appliances must be:",
+    "answers": [
+      "Replaced or relined, regardless of age",
+      "Re-used if they are under 10 years old",
+      "Cleaned thoroughly and then re-used",
+      "Extended with a proprietary connector and re-used"
+    ],
+    "correct": 0,
+    "explanation": "Existing liners that have been used for oil or solid fuel appliances must be replaced, or relined, regardless of age.",
+    "source": "S4-42"
+  },
+  {
+    "question": "Poured concrete liners are:",
+    "answers": [
+      "Not acceptable as a method of lining a new masonry chimney",
+      "The preferred method for all new chimneys",
+      "Suitable only for metal chimney systems",
+      "Required for every gas fire installation"
+    ],
+    "correct": 0,
+    "explanation": "In the case of new masonry chimneys, poured concrete liners are not acceptable as a method of lining; the chimney should be constructed in accordance with the relevant Building Regulations.",
+    "source": "S4-42"
+  },
+  {
+    "question": "Carbon monoxide alarms fitted in association with a chimney system should be manufactured to:",
+    "answers": [
+      "BS EN 50291",
+      "BS 715",
+      "BS 5440 Part 1",
+      "BS 1289"
+    ],
+    "correct": 0,
+    "explanation": "Any CO alarm fitted should be manufactured to BS EN 50291 and display a mark to show it complies with relevant standards.",
+    "source": "S4-87"
+  },
+  {
+    "question": "CO alarms need to be within the manufacturer's recommended life-span, which is typically between:",
+    "answers": [
+      "1 and 2 years",
+      "3 and 5 years",
+      "5 and 7 years",
+      "10 and 15 years"
+    ],
+    "correct": 2,
+    "explanation": "CO alarms need to be within the manufacturer's recommended life-span, which is typically between 5 and 7 years.",
+    "source": "S4-87"
+  },
+  {
+    "question": "Where a CO alarm is ceiling mounted in the room containing the appliance, it should be at least 300 mm from any wall and at a horizontal distance from the gas appliance of between:",
+    "answers": [
+      "0.5 m and 1 m",
+      "1 m and 3 m",
+      "3 m and 5 m",
+      "300 mm and 1 m"
+    ],
+    "correct": 1,
+    "explanation": "Where ceiling mounted within the room containing the appliance, a CO alarm should be at least 300 mm from any wall and at a horizontal distance of between 1 m and 3 m from the gas appliance.",
+    "source": "S4-88"
+  }
+]

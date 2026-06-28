@@ -1,0 +1,1142 @@
+[
+  {
+    "question": "What is the maximum net heat input for a domestic floor-standing boiler?",
+    "answers": [
+      "16kW",
+      "45kW",
+      "100kW",
+      "70kW"
+    ],
+    "correct": 3,
+    "explanation": "Domestic floor-standing boilers have a maximum net heat input of 70kW.",
+    "source": "S14-5"
+  },
+  {
+    "question": "A traditional floor-standing boiler's heat exchanger is typically constructed from which material?",
+    "answers": [
+      "Stainless steel",
+      "Copper",
+      "Aluminium alloy",
+      "Cast iron"
+    ],
+    "correct": 3,
+    "explanation": "A typical traditional floor-standing boiler consists of a rectangular, cast iron heat exchanger with studded sides.",
+    "source": "S14-5"
+  },
+  {
+    "question": "What term is used to describe wall-mounted boilers that contain as little as one litre of water in the heat exchanger?",
+    "answers": [
+      "High thermal mass boilers",
+      "Compact storage boilers",
+      "Low water content boilers",
+      "Sealed circulator boilers"
+    ],
+    "correct": 2,
+    "explanation": "Wall-mounted boilers with light compact heat exchangers containing as little as one litre of water are referred to as 'low water content boilers' or 'low thermal capacity boilers'.",
+    "source": "S14-6"
+  },
+  {
+    "question": "Approximately what heat output does a combined fire and back boiler unit usually have?",
+    "answers": [
+      "45kW",
+      "16kW",
+      "70kW",
+      "30kW"
+    ],
+    "correct": 1,
+    "explanation": "The back boiler saves space in the house, but its size is limited and usually has an output of about 16kW.",
+    "source": "S14-6"
+  },
+  {
+    "question": "How many generic types of combination boiler system are described in the Guide?",
+    "answers": [
+      "Three",
+      "Five",
+      "Four",
+      "Two"
+    ],
+    "correct": 0,
+    "explanation": "There are three generic types of combi systems: instantaneous gas-to-water, instantaneous indirect water-to-water, and semi-storage indirect water-to-water.",
+    "source": "S14-6"
+  },
+  {
+    "question": "In an instantaneous indirect water-to-water combination boiler, what temperature range is the domestic hot water typically supplied within?",
+    "answers": [
+      "45-65°C",
+      "10-30°C",
+      "65-80°C",
+      "20-40°C"
+    ],
+    "correct": 0,
+    "explanation": "A separate water-to-water heat exchanger is used to provide instantaneous domestic hot water in the range 45-65°C, depending on the flow rate.",
+    "source": "S14-7"
+  },
+  {
+    "question": "In a semi-storage indirect water-to-water combi, at what temperature does the heat exchanger unit initially store the hot water?",
+    "answers": [
+      "45°C",
+      "65°C",
+      "100°C",
+      "80°C"
+    ],
+    "correct": 1,
+    "explanation": "The heat exchanger unit initially stores hot water at 65°C and then supplies it instantaneously in the range 45-65°C, depending on flow rate.",
+    "source": "S14-7"
+  },
+  {
+    "question": "What is a defining feature of high efficiency condensing boilers compared with standard boilers?",
+    "answers": [
+      "They cannot be room sealed",
+      "They have larger heat exchangers to recover more energy from the flue gases",
+      "They always use a permanent pilot ignition",
+      "They require no condensate drain"
+    ],
+    "correct": 1,
+    "explanation": "High efficiency (condensing) boilers are fitted with larger heat exchangers so as to recover more of the energy from the flue gases, resulting in the formation of condensate.",
+    "source": "S14-7"
+  },
+  {
+    "question": "What materials are typically used for the heat exchanger(s) in a high efficiency condensing boiler?",
+    "answers": [
+      "Cast iron only",
+      "Aluminium alloy or stainless steel",
+      "Mild steel",
+      "Copper only"
+    ],
+    "correct": 1,
+    "explanation": "High efficiency condensing boilers typically have a primary and secondary heat exchanger made from aluminium alloy or stainless steel.",
+    "source": "S14-7"
+  },
+  {
+    "question": "What additional safety requirement applies to boilers used on sealed systems?",
+    "answers": [
+      "They must not be condensing type",
+      "They must use a permanent pilot only",
+      "They must have overheat (high limit) thermostats and be approved by the manufacturer for use on sealed systems",
+      "They must be floor-standing only"
+    ],
+    "correct": 2,
+    "explanation": "Boilers used on sealed systems must have overheat (high limit) thermostats and be approved by the manufacturer for use on sealed systems.",
+    "source": "S14-7"
+  },
+  {
+    "question": "When using a permanent pilot light, approximately how long must the flame be maintained before the gas valve energises the thermoelectric unit's magnet to hold the pilot supply?",
+    "answers": [
+      "About 20 seconds",
+      "About 2 minutes",
+      "About 5 seconds",
+      "About 60 seconds"
+    ],
+    "correct": 0,
+    "explanation": "When the pilot flame has been maintained for a suitable period of time, usually about 20 seconds, the gas valve receives an electrical current that energises the magnet within the thermoelectric unit and holds the pilot supply.",
+    "source": "S14-8"
+  },
+  {
+    "question": "What is a known disadvantage of permanent pilot lights?",
+    "answers": [
+      "The small pilot jet can be subject to blockage by dust, corrosion and condensation",
+      "They require an external electrical supply",
+      "They produce excessive carbon monoxide at all times",
+      "They cannot operate a flame supervision device"
+    ],
+    "correct": 0,
+    "explanation": "In the interests of energy conservation, the pilot jet of a permanent pilot is very small and can be subject to blockage by dust, corrosion and condensation, and may also be easily affected by draughts.",
+    "source": "S14-8"
+  },
+  {
+    "question": "In an automatic ignition control box, what typically detects that the pilot or main flame has been established?",
+    "answers": [
+      "A flame detector, usually using flame rectification",
+      "A pressure relief valve",
+      "A vapour pressure bellows",
+      "A bimetallic strip thermostat"
+    ],
+    "correct": 0,
+    "explanation": "The control box's flame detector, usually using flame rectification, will activate the control to switch on the main gas and switch off the ignition when the pilot flame has established.",
+    "source": "S14-8"
+  },
+  {
+    "question": "Why does the pilot flame on an appliance with electronic automatic ignition not remain lit at all times?",
+    "answers": [
+      "It only operates on LPG installations",
+      "It is permanently lit but invisible to save gas",
+      "It only lights during summer months",
+      "It is extinguished at the end of each heating cycle and relit automatically at each call for heat"
+    ],
+    "correct": 3,
+    "explanation": "Because the thermostat and other controls are fitted in the main electrical supply line before the control box, the pilot flame does not remain lit all the time; it is extinguished at the end of each heating cycle and relit automatically each time there is a call for heat.",
+    "source": "S14-8"
+  },
+  {
+    "question": "Which two types of thermostat are most commonly used with modern boilers?",
+    "answers": [
+      "Bimetallic and mercury switch",
+      "Mechanical timer and digital relay",
+      "Pressure relief and flame rectification",
+      "Liquid expansion and vapour pressure"
+    ],
+    "correct": 3,
+    "explanation": "The thermostat types most commonly used with modern boilers are liquid expansion and vapour pressure.",
+    "source": "S14-9"
+  },
+  {
+    "question": "In a liquid expansion thermostat, what connects the sensing phial to the bellows or diaphragm that operates the valve?",
+    "answers": [
+      "A copper bus bar",
+      "A rubber hose",
+      "A capillary tube",
+      "A solenoid wire"
+    ],
+    "correct": 2,
+    "explanation": "The temperature is sensed by a phial containing the liquid, connected by a capillary tube (a small copper tube with a tiny bore) to a flexible bellows or diaphragm which operates the valve.",
+    "source": "S14-9"
+  },
+  {
+    "question": "How does a vapour pressure thermostat differ from a liquid expansion thermostat?",
+    "answers": [
+      "It has no capillary tube connection",
+      "It only operates main burners, never pilots",
+      "The system is only partially filled with liquid, which vaporises and rapidly increases in volume at its boiling point to expand the bellows",
+      "It uses an electronic sensor instead of any liquid"
+    ],
+    "correct": 2,
+    "explanation": "Vapour pressure thermostats are similar to liquid expansion types, but the system is only partially filled with liquid; when temperature reaches the liquid's boiling point it vaporises with a rapid increase in volume, and the resulting pressure expands the bellows and closes the valve.",
+    "source": "S14-9"
+  },
+  {
+    "question": "What is the purpose of a modulating thermostat on a low thermal capacity boiler?",
+    "answers": [
+      "To control only the domestic hot water cylinder",
+      "To completely shut off gas supply at the meter",
+      "To gradually reduce gas flow to about one-third of full rate rather than simply switching off, helping maintain efficiency and prevent overheating",
+      "To replace the need for a room thermostat entirely"
+    ],
+    "correct": 2,
+    "explanation": "A modulating thermostat's bellows operate a gas valve in the supply to the main burner, modulating the gas flow down to about one-third of the full rate as temperature rises, and back up to fully on as it falls, helping prevent overheating in low thermal capacity boilers.",
+    "source": "S14-9"
+  },
+  {
+    "question": "What is usually fitted alongside a modulating thermostat to protect against it failing to shut off completely?",
+    "answers": [
+      "A pressure relief valve only",
+      "A second pilot burner",
+      "An overheat thermostat",
+      "An atmosphere sensing device"
+    ],
+    "correct": 2,
+    "explanation": "Boilers which have modulating thermostats are usually also fitted with an overheat thermostat, which cuts off the gas supply to the main burner if the modulating thermostat fails to shut off completely.",
+    "source": "S14-10"
+  },
+  {
+    "question": "How does an overheat thermostat typically need to be reset after it has operated?",
+    "answers": [
+      "It can only be reset by replacing the gas valve",
+      "It resets when the electricity supply is isolated",
+      "It usually requires manual resetting",
+      "It resets automatically once the boiler cools"
+    ],
+    "correct": 2,
+    "explanation": "The overheat thermostat usually requires manual resetting, and the most common type operates the interrupter in the thermocouple lead.",
+    "source": "S14-10"
+  },
+  {
+    "question": "What is the purpose of a flame supervision device (FSD) fitted on a boiler?",
+    "answers": [
+      "To control the room thermostat setting",
+      "To regulate the boiler's water pressure",
+      "To provide protection where the pilot or main flame extinguishes",
+      "To measure flue gas temperature"
+    ],
+    "correct": 2,
+    "explanation": "The FSD is fitted in the supply to the main burner and provides protection where the flame, either pilot or main gas, extinguishes.",
+    "source": "S14-10"
+  },
+  {
+    "question": "Open flued appliances such as back boiler units and gas fires are often fitted with what type of device, sometimes known as a 'vitiation or spillage sensing device'?",
+    "answers": [
+      "A condensate trap",
+      "An atmosphere sensing device",
+      "A modulating thermostat",
+      "An air/gas ratio valve"
+    ],
+    "correct": 1,
+    "explanation": "Many open flued appliances, such as back boiler units and gas fires, are now fitted with an atmosphere sensing device, often known as a vitiation or spillage sensing device.",
+    "source": "S14-10"
+  },
+  {
+    "question": "Which set of British Standards/regulations governs the installation and servicing of gas boilers?",
+    "answers": [
+      "Only the manufacturer's warranty terms",
+      "BS 5482 Part 3 exclusively",
+      "The Gas Safety (Installation & Use) Regulations, the Building Regulations, BS 6798 and BS 7671",
+      "Only the Building Regulations"
+    ],
+    "correct": 2,
+    "explanation": "The installation and servicing of gas boilers must be carried out by a competent person in accordance with the Gas Safety (Installation & Use) Regulations, the Building Regulations, BS 6798 and BS 7671.",
+    "source": "S14-10"
+  },
+  {
+    "question": "BS 6798 and the associated Building Regulations apply to gas-fired boilers up to what total rated heat input (based on net calorific value)?",
+    "answers": [
+      "100 kW",
+      "70 kW",
+      "45 kW",
+      "1.8 MW"
+    ],
+    "correct": 1,
+    "explanation": "The British Standards and Building Regulations specify requirements for gas-fired boilers for central heating with a total rated heat input not exceeding 70 kW based on net calorific value.",
+    "source": "S14-10"
+  },
+  {
+    "question": "BS 6644-2011 covers boilers or groups of boilers with aggregate heat inputs in what range?",
+    "answers": [
+      "Between 16kW and 45kW",
+      "Up to 70kW only",
+      "In excess of 70kW and up to 1.8MW",
+      "In excess of 1.8MW only"
+    ],
+    "correct": 2,
+    "explanation": "BS 6644-2011 specifies the installation and maintenance of boilers or groups of boilers with aggregate heat inputs in excess of 70kW and up to 1.8MW.",
+    "source": "S14-11"
+  },
+  {
+    "question": "Where must open flued appliances not be located, according to the location requirements for wet central heating boilers?",
+    "answers": [
+      "A hallway",
+      "A kitchen",
+      "A bathroom or shower room",
+      "A loft space"
+    ],
+    "correct": 2,
+    "explanation": "Open flued appliances shall not be located in a bathroom or shower room.",
+    "source": "S14-10"
+  },
+  {
+    "question": "An open flued appliance fitted in a bedroom after 1 January 1996 must meet which conditions?",
+    "answers": [
+      "Fitted only with a permanent pilot",
+      "Room sealed with a 2m terminal guard",
+      "Below 14kW gross input rating and fitted with an atmosphere sensing device",
+      "Above 16kW gross input rating with no sensing device required"
+    ],
+    "correct": 2,
+    "explanation": "Any open flued appliance fitted in a bedroom after 1 January 1996 must be below 14kW gross input rating and fitted with an atmosphere sensing device.",
+    "source": "S14-10"
+  },
+  {
+    "question": "When siting a boiler, which location is preferably avoided due to the risk of products of combustion re-entering the room?",
+    "answers": [
+      "Adjacent to an internal wall",
+      "Near a hot water cylinder",
+      "Adjacent to doors and openable windows",
+      "Inside a kitchen cupboard"
+    ],
+    "correct": 2,
+    "explanation": "Siting adjacent to doors and openable windows should preferably be avoided owing to the effects of products of combustion re-entering the room.",
+    "source": "S14-11"
+  },
+  {
+    "question": "For an under-stairs boiler installation in a three-or-more storey property, what is required of the compartment's internal surfaces?",
+    "answers": [
+      "Painted with fire-retardant paint only",
+      "Non-combustible, or lined with material giving at least 30 minutes' fire resistance, with air vents direct to outside air",
+      "Lined with hardboard for insulation",
+      "No specific fire resistance is required if vents face indoors"
+    ],
+    "correct": 1,
+    "explanation": "In a three or more storey building, the compartment internal surfaces shall be non-combustible, or lined with a non-combustible material having a fire resistance of not less than 30 minutes, AND the air vents must be direct to outside air.",
+    "source": "S14-11"
+  },
+  {
+    "question": "Which of the following is an example of an unsuitable material for lining an under-stairs boiler compartment in a three storey property?",
+    "answers": [
+      "Fireproof boarding with close fitting joints",
+      "Hardboard",
+      "Non-combustible board",
+      "Plaster skimmed plasterboard"
+    ],
+    "correct": 1,
+    "explanation": "Examples of unsuitable materials are hardboard and unprotected wood; suitable materials include plaster skimmed plasterboard and fireproof boarding with close fitting joints.",
+    "source": "S14-11"
+  },
+  {
+    "question": "When a boiler is installed in a loft/roof space, which of the following is a requirement under BS 6798?",
+    "answers": [
+      "Removal of all lighting from the roof space",
+      "Installation must always use an open flue",
+      "A minimum ceiling height of 3 metres",
+      "A permanent means of access, such as a fixed retractable loft ladder"
+    ],
+    "correct": 3,
+    "explanation": "Loft/roof space installations require permanent means of access (e.g. a fixed retractable loft ladder), fixed lighting, flooring for access and servicing, a guard around the access opening, and means to isolate services without entering the roof space.",
+    "source": "S14-11"
+  },
+  {
+    "question": "What is the current position regarding installing open flued appliances in private garages?",
+    "answers": [
+      "It is only permitted for room sealed appliances",
+      "It is now permissible, but the appliance manufacturer's instructions should be consulted",
+      "It remains prohibited under all circumstances",
+      "It is only permitted for appliances under 7kW"
+    ],
+    "correct": 1,
+    "explanation": "The Gas Safety Regulation prohibiting the installation of open flued appliances in private garages has been revoked; it is now permissible, but the appliance manufacturer's instructions should be consulted.",
+    "source": "S14-12"
+  },
+  {
+    "question": "In the absence of specific manufacturer instructions, what is the usual minimum clearance gap required between a boiler case and combustible materials?",
+    "answers": [
+      "25mm",
+      "10mm",
+      "75mm",
+      "150mm"
+    ],
+    "correct": 2,
+    "explanation": "Boilers usually require a 75mm minimum gap between the appliance case and combustible materials, though some modern appliances require less.",
+    "source": "S14-12"
+  },
+  {
+    "question": "What clearance is required between a single wall chimney pipe and combustible material as it passes through it?",
+    "answers": [
+      "50mm",
+      "No clearance required",
+      "25mm",
+      "75mm"
+    ],
+    "correct": 2,
+    "explanation": "When a single wall chimney pipe passes through any combustible material, a clearance of 25mm is required between the chimney pipe and the combustible material.",
+    "source": "S14-12"
+  },
+  {
+    "question": "What clearance is required for a twin wall chimney pipe passing through combustible material?",
+    "answers": [
+      "100mm",
+      "25mm",
+      "75mm",
+      "No clearance is required, as it incorporates a satisfactory air break"
+    ],
+    "correct": 3,
+    "explanation": "No clearance is required for twin wall chimney pipe as this incorporates a satisfactory air break.",
+    "source": "S14-12"
+  },
+  {
+    "question": "What is the standard nominal diameter for a condensate drainage pipe connected to the boiler's condensate drain outlet?",
+    "answers": [
+      "32mm OD",
+      "10mm OD",
+      "15mm OD",
+      "22mm OD (or as recommended by the manufacturer)"
+    ],
+    "correct": 3,
+    "explanation": "The condensate drainage pipe connected to the condensate drain outlet on the boiler shall have a nominal diameter of 22mm OD, or as recommended by the appliance manufacturer.",
+    "source": "S14-13"
+  },
+  {
+    "question": "Where must any trap in the condensate drainage pipe be fitted?",
+    "answers": [
+      "Within the dwelling",
+      "At the boundary of the property",
+      "On the roof",
+      "Outside the dwelling only"
+    ],
+    "correct": 0,
+    "explanation": "Any trap in the condensate drainage pipe shall be fitted within the dwelling.",
+    "source": "S14-13"
+  },
+  {
+    "question": "What is the maximum recommended length of condensate drainage pipe run externally to a dwelling, unless it is insulated?",
+    "answers": [
+      "1 metre",
+      "32 metres",
+      "3 metres",
+      "10 metres"
+    ],
+    "correct": 2,
+    "explanation": "The length of condensate drainage pipe external to the dwelling shall be kept as short as possible and not more than 3 metres, unless it is insulated, to reduce the risk of freezing.",
+    "source": "S14-13"
+  },
+  {
+    "question": "If a boiler does not include a siphon as part of the condensate trap, what minimum nominal diameter should any external condensate drainage pipe be increased to?",
+    "answers": [
+      "32mm",
+      "22mm",
+      "15mm",
+      "40mm"
+    ],
+    "correct": 0,
+    "explanation": "If a boiler does not include a siphon then any external condensate drainage pipe shall be increased to a minimum of 32mm nominal diameter to reduce the risk of freezing.",
+    "source": "S14-13"
+  },
+  {
+    "question": "When should a condensate removal pump be used instead of gravity drainage?",
+    "answers": [
+      "Only when the boiler is room sealed",
+      "Whenever the boiler is wall mounted",
+      "When the condensate cannot be removed by gravity to achieve the required drainage arrangements",
+      "Only on combination boilers"
+    ],
+    "correct": 2,
+    "explanation": "A condensate removal pump shall be used when the condensate cannot be removed by gravity to achieve the condensate drainage arrangements; the boiler manufacturer should be consulted for suitable options.",
+    "source": "S14-13"
+  },
+  {
+    "question": "When a boiler is installed in an unheated location such as a garage, how should the condensate pipework downstream of the trap or siphon be treated?",
+    "answers": [
+      "It should be removed entirely",
+      "It can be treated as fully internal",
+      "It should be considered as external",
+      "It requires no insulation"
+    ],
+    "correct": 2,
+    "explanation": "When a boiler is to be installed in an unheated location, e.g. garage, all condensate drainage pipes downstream from the trap or siphon should be considered as external.",
+    "source": "S14-13"
+  },
+  {
+    "question": "Which British Standard covers installation of ventilation for gas appliances of rated input not exceeding 70kW net?",
+    "answers": [
+      "BS 6798",
+      "BS 6891",
+      "BS 5440 Part 2",
+      "BS 7671"
+    ],
+    "correct": 2,
+    "explanation": "Ventilation requirements for wet central heating are based on BS 5440 Part 2: Specification for installation of ventilation for gas appliances of rated input not exceeding 70kW net.",
+    "source": "S14-13"
+  },
+  {
+    "question": "Under Regulation 26(1) of the Gas Safety (Installation and Use) Regulations, a gas appliance cannot be installed unless what condition is met?",
+    "answers": [
+      "It can be used without constituting a danger to any person, including adequate air for combustion and ventilation",
+      "It has been fitted with a back boiler unit",
+      "It is connected to a sealed system",
+      "It has a permanent pilot light fitted"
+    ],
+    "correct": 0,
+    "explanation": "Regulation 26(1) states that a gas appliance cannot be installed unless it can be used without constituting a danger to any person, which includes the adequate provision of air for combustion and ventilation.",
+    "source": "S14-14"
+  },
+  {
+    "question": "Under Regulation 26(9)(b), what must be examined during a service visit after carrying out work?",
+    "answers": [
+      "The customer's energy tariff",
+      "The supply of combustion air, with any defects notified to the responsible person",
+      "Only the gas meter reading",
+      "The boiler's warranty status"
+    ],
+    "correct": 1,
+    "explanation": "After carrying out any work, Regulation 26(9)(b) states that during a service visit the supply of combustion air shall be examined and any defects notified to the responsible person.",
+    "source": "S14-14"
+  },
+  {
+    "question": "Under Regulation 34(1)(c), what action is required if an appliance is known or suspected to be inadequately ventilated?",
+    "answers": [
+      "The appliance must be converted to LPG",
+      "The appliance may continue to be used with a warning label",
+      "The appliance shall not be used, or allowed to be used",
+      "The appliance must be downrated to half its heat input"
+    ],
+    "correct": 2,
+    "explanation": "Regulation 34(1)(c) states that an appliance shall not be used, or allowed to be used, if it is known, or suspected, that the appliance is not adequately ventilated.",
+    "source": "S14-14"
+  },
+  {
+    "question": "During the preliminary examination of a wet central heating appliance, what should be checked regarding the electrical supply?",
+    "answers": [
+      "That only the correct sized fuse is fitted to the appliance plug or fused connection unit",
+      "That the electrical supply has been disconnected permanently",
+      "That the appliance has no electrical supply",
+      "That the appliance is connected to a three-phase supply"
+    ],
+    "correct": 0,
+    "explanation": "As part of the preliminary examination, the engineer must carry out preliminary electrical checks and ensure only the correct sized fuse is fitted to the appliance plug or fused connection unit.",
+    "source": "S14-15"
+  },
+  {
+    "question": "How can an air pressure switch be tested as part of an appliance and controls check?",
+    "answers": [
+      "By removing the thermostat",
+      "By pinching one of the air tubes to check for change over",
+      "By measuring the room temperature",
+      "By disconnecting the gas supply completely"
+    ],
+    "correct": 1,
+    "explanation": "Air pressure switches can be tested by pinching one of the air tubes to check for change over.",
+    "source": "S14-15"
+  },
+  {
+    "question": "For an open flued appliance check, what aspects of the flue/chimney should be examined?",
+    "answers": [
+      "Only the terminal guard height",
+      "Only the external paint finish of the flue",
+      "Flue flow, continuity, chimney route, termination, size, sealed joints, and liners sealed at the base",
+      "Only whether the flue is room sealed"
+    ],
+    "correct": 2,
+    "explanation": "Open flued appliance checks include flue flow, continuity, chimney route (including roof space and ridge terminal connection where possible), termination, size, sealed joints, and liners sealed at the base.",
+    "source": "S14-15"
+  },
+  {
+    "question": "For a room sealed condensing boiler's chimney, what specific check should be made regarding the angle of the chimney drop?",
+    "answers": [
+      "It must run perfectly level",
+      "It must include a 90-degree bend",
+      "It must run slightly downhill to ensure condensate does not re-enter the appliance",
+      "It must run uphill towards the terminal"
+    ],
+    "correct": 2,
+    "explanation": "Check condensing boilers for angle of chimney drop; this must run slightly downhill to ensure condensate does not re-enter the appliance.",
+    "source": "S14-15"
+  },
+  {
+    "question": "On a room sealed appliance, when must a terminal guard be fitted?",
+    "answers": [
+      "If the terminal is below 2m",
+      "Only when the terminal faces a public footpath",
+      "Only on appliances over 30kW",
+      "If the terminal is above 2m"
+    ],
+    "correct": 0,
+    "explanation": "As part of room sealed appliance checks, a terminal guard must be fitted if the terminal is below 2m.",
+    "source": "S14-15"
+  },
+  {
+    "question": "Before checking for water leaks across the heating installation, what must first be done?",
+    "answers": [
+      "Drain the entire system fully",
+      "Remove the boiler from the wall",
+      "Switch the boiler to maximum rate",
+      "Ensure that the gas and electricity supplies are isolated"
+    ],
+    "correct": 3,
+    "explanation": "When checking the installation for signs of water leaks and associated damage, the gas and electricity supplies should first be isolated.",
+    "source": "S14-16"
+  },
+  {
+    "question": "During a full strip down service, what special tool is mentioned as useful for cleaning tightly finned heat exchangers?",
+    "answers": [
+      "A special Velcro® brush",
+      "A high-pressure water jet",
+      "A wire wool pad",
+      "A blow torch"
+    ],
+    "correct": 0,
+    "explanation": "Particular attention should be given to tightly finned heat exchangers; special Velcro® brushes are available to ensure that all verdigris and debris is removed.",
+    "source": "S14-16"
+  },
+  {
+    "question": "During final tests after a full strip down service, what test must be carried out alongside the fire if servicing a back boiler unit?",
+    "answers": [
+      "An insulation resistance test",
+      "A spillage test, with the fire also put into operation, carried out per manufacturer's instructions",
+      "A pressure test on the hot water cylinder only",
+      "A combustion test on the pilot only"
+    ],
+    "correct": 1,
+    "explanation": "As part of the final tests, with back boiler units make sure that the fire is also put into operation and the spillage test is carried out in accordance with manufacturer's instructions.",
+    "source": "S14-16"
+  },
+  {
+    "question": "If unsafe situations are identified at the end of servicing, what must the engineer do?",
+    "answers": [
+      "Make a verbal note for the next visit only",
+      "Bring all unsafe situations to the customer's attention, e.g. label the appliance and issue a warning notice",
+      "Leave a card with the office number only",
+      "Repair the fault without informing the customer"
+    ],
+    "correct": 1,
+    "explanation": "As part of the final tests, the engineer must bring all unsafe situations to the customer's attention, e.g. label the appliance and issue a warning notice.",
+    "source": "S14-16"
+  },
+  {
+    "question": "Which of the following is listed as a typical chimney defect for wet central heating appliances?",
+    "answers": [
+      "A boost fan fitted to an open chimney that is not connected to isolate gas to the burner on failure",
+      "A chimney with adequate clearance from combustibles",
+      "A correctly sealed room sealed case",
+      "A flue terminal positioned exactly per manufacturer's instructions"
+    ],
+    "correct": 0,
+    "explanation": "Listed chimney defects include an open chimney where a boost fan has been fitted and not connected to isolate gas to the burner in the event of failure.",
+    "source": "S14-17"
+  },
+  {
+    "question": "Which of the following is listed as a typical ventilation defect for wet central heating appliances?",
+    "answers": [
+      "Unobstructed air vents",
+      "Correctly sized compartment ventilation",
+      "Cross-ventilation",
+      "A clear chimney route"
+    ],
+    "correct": 2,
+    "explanation": "Ventilation defects listed include no ventilation for the appliance, no compartment ventilation, inadequate ventilation, and cross-ventilation.",
+    "source": "S14-17"
+  },
+  {
+    "question": "What appliance defect could occur if an LPG appliance is incorrectly connected to a natural gas supply?",
+    "answers": [
+      "It only affects the condensate drain",
+      "The appliance is incorrect for the fuel type, which is listed as a typical appliance defect",
+      "This only matters for appliances over 70kW",
+      "This is not considered a defect if the appliance still lights"
+    ],
+    "correct": 1,
+    "explanation": "An incorrect appliance for the fuel, e.g. an LPG appliance connected to natural gas, is listed as a typical appliance defect.",
+    "source": "S14-17"
+  },
+  {
+    "question": "What appliance fire risk defect is specifically described in the fault finding section?",
+    "answers": [
+      "An appliance fitted with a CO alarm",
+      "An appliance with a working overheat thermostat",
+      "An appliance with a sealed air/gas ratio valve",
+      "An appliance fitted on carpet or too close to combustible material with evidence of scorching"
+    ],
+    "correct": 3,
+    "explanation": "An appliance being a fire risk, e.g. fitted on carpet or too close to combustible material with evidence of scorching, is listed as a typical appliance defect.",
+    "source": "S14-17"
+  },
+  {
+    "question": "What gas supply defect involving installation pressure drop is specifically flagged in the fault finding section?",
+    "answers": [
+      "A supply pipe routed through a void",
+      "A supply pipe painted a non-standard colour",
+      "A supply fitted with an isolation valve",
+      "An undersized supply outside the tolerance of 1mbar pressure drop between the meter outlet and the appliance"
+    ],
+    "correct": 3,
+    "explanation": "A listed gas supply defect is an undersized pipe that is outside the tolerance of 1mbar pressure drop between the meter outlet and the appliance.",
+    "source": "S14-18"
+  },
+  {
+    "question": "Before commissioning, what must be done to the gas fittings forming part of the installation?",
+    "answers": [
+      "They must be left untested if the system has been pre-tested at the factory",
+      "They only need testing if installing a combi boiler",
+      "They must be tested for soundness only, with no purging required",
+      "They must be tested for soundness and purged in accordance with BS 6891 (2nd family gases) or BS 5482 Parts 1 and 2 (3rd family gases)"
+    ],
+    "correct": 3,
+    "explanation": "All gas fittings forming part of the installation shall be tested for soundness and purged, in accordance with BS 6891 for 2nd family gases or BS 5482 Parts 1 and 2 for 3rd family gases, as appropriate.",
+    "source": "S14-18"
+  },
+  {
+    "question": "Where no manufacturer's spillage test instructions exist for a commissioned appliance, which standard should be followed?",
+    "answers": [
+      "BS 6798",
+      "BS 7671",
+      "BS 6891",
+      "BS 5440 Part 1"
+    ],
+    "correct": 3,
+    "explanation": "Where no manufacturer's instructions exist for spillage testing, the appliance shall be checked for spillage in accordance with BS 5440 Part 1.",
+    "source": "S14-18"
+  },
+  {
+    "question": "What must be provided to the user following installation of any wet central heating appliance?",
+    "answers": [
+      "A telephone number for emergencies only",
+      "A verbal explanation only, with no written documentation",
+      "A demonstration of correct and safe operation, with maintenance requirements given in writing",
+      "Nothing, as this is the responsibility of the manufacturer alone"
+    ],
+    "correct": 2,
+    "explanation": "Following installation, the user should be provided with a demonstration of correct and safe appliance operation, and maintenance requirements must be given in writing via the manufacturer's instructions.",
+    "source": "S14-18"
+  },
+  {
+    "question": "Why has there been increased use of air/gas ratio valves in modern condensing boilers?",
+    "answers": [
+      "To eliminate the need for a flue entirely",
+      "To permit operation without a thermostat",
+      "To allow boilers to operate without any flame supervision device",
+      "To minimise the amount of excess air passing through the boiler and maximise performance across the operating range"
+    ],
+    "correct": 3,
+    "explanation": "To maximise performance over the full boiler operating range it is necessary to minimise the amount of excess air that passes through the boiler, leading to greater use of gas valves that control the ratio of gas to air.",
+    "source": "S14-19"
+  },
+  {
+    "question": "Which type of high efficiency boiler band is typically, but not exclusively, associated with air/gas ratio valves?",
+    "answers": [
+      "There is no associated SEDBUK band",
+      "SEDBUK Band 'A'",
+      "SEDBUK Band 'C'",
+      "SEDBUK Band 'E'"
+    ],
+    "correct": 1,
+    "explanation": "Typically, SEDBUK (Seasonal Efficiency of Domestic Boilers in the UK) Band 'A' boilers will have air/gas ratio valves fitted, but it must not be assumed that a non-Band-A boiler will not have one.",
+    "source": "S14-19"
+  },
+  {
+    "question": "Under what circumstances is it acceptable to adjust an air/gas ratio valve?",
+    "answers": [
+      "Whenever the CO2 reading looks slightly high",
+      "At any time, provided the boiler is over five years old",
+      "Only on combination boilers",
+      "Only when the manufacturer's instructions clearly indicate adjustment is allowed and provide the procedure, and the technician has the necessary calibrated equipment and competence"
+    ],
+    "correct": 3,
+    "explanation": "It is imperative not to adjust air/gas ratio valves unless the manufacturer's instructions clearly indicate they can be adjusted and provide the procedure, the necessary calibrated equipment is available, and the technician is competent to use it and interpret results.",
+    "source": "S14-19"
+  },
+  {
+    "question": "What risk arises if an air/gas ratio valve is adjusted without following the specific manufacturer's instructions?",
+    "answers": [
+      "The pilot light will fail to ignite",
+      "The boiler combustion may be adversely affected, with the possibility of high levels of carbon monoxide being generated",
+      "The condensate trap will freeze",
+      "The boiler will automatically shut down permanently"
+    ],
+    "correct": 1,
+    "explanation": "If adjustments are made to an air/gas ratio valve without following the specific manufacturer's instructions, it may result in the boiler combustion being adversely affected, with the possibility of high levels of carbon monoxide (CO) being generated.",
+    "source": "S14-19"
+  },
+  {
+    "question": "In a '1:1' air/gas ratio valve, what does this ratio refer to?",
+    "answers": [
+      "The ratio of CO2 to CO produced",
+      "The ratio of pilot gas to main burner gas",
+      "The ratio of natural gas to LPG that can be used",
+      "If the fan gives 5mbar of air pressure, the gas valve will deliver 5mbar of gas pressure"
+    ],
+    "correct": 3,
+    "explanation": "Nearly all air/gas ratio valves used today are termed '1:1 valves', meaning that if the fan gives 5mbar of air pressure then the gas valve will deliver 5mbar of gas pressure.",
+    "source": "S14-19"
+  },
+  {
+    "question": "In the positive pressure air/gas ratio system, where are the gas valve and pressure tappings located relative to the fan?",
+    "answers": [
+      "Inside the fan housing itself",
+      "Upstream of the fan, under negative pressure",
+      "There is no fixed relationship to the fan",
+      "Downstream of the fan, under positive pressure"
+    ],
+    "correct": 3,
+    "explanation": "In the positive system, the gas valve and pressure tappings are downstream of the fan and are therefore under positive pressure, with gas injected into or just after the venturi to aid mixing.",
+    "source": "S14-20"
+  },
+  {
+    "question": "If the air pressure tube connecting the valve to the venturi becomes disconnected on either the positive or negative system, what is the result?",
+    "answers": [
+      "The boiler will run more efficiently",
+      "The CO2 reading will read artificially high",
+      "No effect occurs, as it is a redundant tube",
+      "The air/gas ratio will be incorrect"
+    ],
+    "correct": 3,
+    "explanation": "An air pressure tube may be used to connect the valve to the venturi; if this tube becomes disconnected then, with either system, the air/gas ratio will be incorrect.",
+    "source": "S14-21"
+  },
+  {
+    "question": "What two adjustments can potentially be made to an air/gas ratio valve?",
+    "answers": [
+      "Air/gas ratio and offset",
+      "Thermostat range and overheat cut-out",
+      "Fan speed and flue diameter",
+      "Pilot size and burner pressure"
+    ],
+    "correct": 0,
+    "explanation": "There are two possible adjustments that can be made to air/gas ratio valves: air/gas ratio and offset.",
+    "source": "S14-21"
+  },
+  {
+    "question": "Before any air/gas ratio valve adjustment is made, what two checks should first be carried out?",
+    "answers": [
+      "That the chimney joints comply with manufacturer's instructions and are sound, and that the gas pressure at the valve inlet test point is within the specified range",
+      "That the boiler has been descaled and the radiators bled",
+      "That the condensate pipe has been insulated",
+      "That the room thermostat has been recalibrated"
+    ],
+    "correct": 0,
+    "explanation": "Before any adjustment to the valve setting is made, a check should ensure the joints of the chimney system comply with manufacturer's instructions and are sound, and that the gas pressure at the valve inlet pressure test point is within the appliance manufacturer's specified range.",
+    "source": "S14-21"
+  },
+  {
+    "question": "If either the air/gas ratio or the offset setting on a valve is changed, what must then happen?",
+    "answers": [
+      "Both settings must be checked as being correct",
+      "Only the changed setting needs rechecking",
+      "The boiler must be replaced",
+      "The flue must be resized"
+    ],
+    "correct": 0,
+    "explanation": "It is important that if either the air/gas ratio or the offset setting is changed then both settings must be checked as being correct.",
+    "source": "S14-21"
+  },
+  {
+    "question": "When carrying out the air/gas ratio adjustment, what does altering the throttle setting change in the combustion products?",
+    "answers": [
+      "The pilot flame colour only",
+      "The carbon dioxide (CO2) value",
+      "The boiler water pressure",
+      "The flue gas temperature only"
+    ],
+    "correct": 1,
+    "explanation": "The purpose of the throttle adjustment is to increase or reduce the amount of gas for a given airflow; changing this setting alters the carbon dioxide (CO2) value in the combustion products.",
+    "source": "S14-24"
+  },
+  {
+    "question": "What equipment is required to safely and accurately carry out an air/gas ratio adjustment?",
+    "answers": [
+      "A flue gas thermometer only",
+      "An electronic combustion gas analyser (ECGA)",
+      "A multimeter only",
+      "A manometer measuring water pressure only"
+    ],
+    "correct": 1,
+    "explanation": "The adjustment should be carried out carefully with the boiler normally at maximum rate and with the aid of an electronic combustion gas analyser (ECGA); this should not be attempted without one.",
+    "source": "S14-25"
+  },
+  {
+    "question": "When making air/gas ratio throttle adjustments, what increment should the screw be turned at a time?",
+    "answers": [
+      "A full turn at a time",
+      "1/8 turn at a time, allowing the CO2 reading to stabilise",
+      "Quarter turns only, with no waiting time needed",
+      "Half a turn at a time"
+    ],
+    "correct": 1,
+    "explanation": "When making adjustments, turn the throttle screw slowly 1/8 turn at a time, checking the CO2 value after allowing sufficient time for readings to stabilise.",
+    "source": "S14-25"
+  },
+  {
+    "question": "What is the purpose of the offset adjustment on an air/gas ratio valve?",
+    "answers": [
+      "To calibrate the room thermostat",
+      "To set the maximum gas rate only",
+      "To set the flue gas exit temperature",
+      "To set the CO2 value, and therefore gas flow rate, at the minimum of the appliance's modulation range"
+    ],
+    "correct": 3,
+    "explanation": "The purpose of the offset adjustment is to set the CO2 value and therefore gas flow rate at the minimum of the appliance modulation range, to allow for a lower or higher CO2 value than that measured at maximum.",
+    "source": "S14-25"
+  },
+  {
+    "question": "What is meant by 'zero offset' on an air/gas ratio valve?",
+    "answers": [
+      "When the flue terminal has no obstruction",
+      "When the gas pressure is set equal to the air pressure",
+      "When the boiler is running at minimum rate only",
+      "When the CO2 reading is exactly zero"
+    ],
+    "correct": 1,
+    "explanation": "By correctly sizing orifice diameters and resistances, the air/gas ratio can be kept constant for any air pressure signal; when the gas pressure is set equal to the air pressure there is said to be 'zero offset'.",
+    "source": "S14-25"
+  },
+  {
+    "question": "What is the typical range for a 'negative offset' relative to air pressure on most appliances?",
+    "answers": [
+      "Between 0 and -2.0mbar relative to the air",
+      "Exactly -1.0mbar relative to the air",
+      "Between 0 and -0.20mbar relative to the air",
+      "Between +0.5 and +1.0mbar relative to the air"
+    ],
+    "correct": 2,
+    "explanation": "Most appliances operate with a negative offset whereby the gas outlet pressure is set slightly lower than the air signal pressure, usually between 0 and -0.20mbar relative to the air.",
+    "source": "S14-25"
+  },
+  {
+    "question": "When correctly set with a typical negative offset, what CO2 value range would be expected at maximum rate on natural gas?",
+    "answers": [
+      "About 9 - 9.5%",
+      "About 12 - 13%",
+      "About 2 - 3%",
+      "About 5 - 6%"
+    ],
+    "correct": 0,
+    "explanation": "When set correctly this offset usually ensures that at maximum rate the CO2 value is about 9 - 9.5% (and at minimum rate about 8.5% - 9.5%) for natural gas.",
+    "source": "S14-25"
+  },
+  {
+    "question": "How do typical CO2 values for LPG compare with those for natural gas at the same offset setting?",
+    "answers": [
+      "LPG and natural gas values are always identical",
+      "LPG values are normally 1% higher than natural gas readings",
+      "LPG values are double natural gas readings",
+      "LPG values are normally 1% lower than natural gas readings"
+    ],
+    "correct": 1,
+    "explanation": "The CO2 values for liquefied petroleum gas (LPG) are normally 1% higher than those for natural gas readings.",
+    "source": "S14-25"
+  },
+  {
+    "question": "When turning the offset adjustment screw clockwise, what effect does this have?",
+    "answers": [
+      "It increases the offset (makes it more positive)",
+      "It decreases the offset (makes it more negative)",
+      "It resets the valve to factory default",
+      "It has no effect on offset"
+    ],
+    "correct": 0,
+    "explanation": "Turn the offset adjustment screw slowly 1/8 turn at a time; clockwise to increase (more positive) or anti-clockwise to decrease (more negative).",
+    "source": "S14-26"
+  },
+  {
+    "question": "Since 1st April 2014, what additional measurement has been added to the benchmark commissioning checklists for condensing boilers with air/gas ratio valves?",
+    "answers": [
+      "Room temperature readings only",
+      "Only the boiler's serial number",
+      "Water pressure readings only",
+      "CO levels, as well as the combustion ratio"
+    ],
+    "correct": 3,
+    "explanation": "From 1st April 2014 the benchmark commissioning checklists have been amended to include the requirement to measure and record the CO levels as well as the combustion ratio.",
+    "source": "S14-26"
+  },
+  {
+    "question": "With an air/gas ratio valve, why is the operating (burner) pressure not a good indicator of safe boiler operation under GSIUR Regulation 26(9)?",
+    "answers": [
+      "Operating pressure is irrelevant to gas safety legislation",
+      "It is necessary instead to measure the gas flow rate, supplemented by a combustion check using an ECGA",
+      "GSIUR Regulation 26(9) does not apply to condensing boilers",
+      "Burner pressure cannot physically be measured on these valves"
+    ],
+    "correct": 1,
+    "explanation": "With air/gas ratio valves the operating pressure is not a good indicator that the boiler is operating safely, so it is necessary to measure the gas flow rate, supplemented by a check on combustion properties using an ECGA.",
+    "source": "S14-26"
+  },
+  {
+    "question": "When checking the manufacturer's stated CO and CO2 values during commissioning, at what operating condition must these values be checked?",
+    "answers": [
+      "Only at the minimum rate",
+      "At any random firing rate",
+      "With the boiler operating at its maximum rate (unless minimum-rate values are also separately provided)",
+      "With the boiler switched off"
+    ],
+    "correct": 2,
+    "explanation": "The manufacturer's CO/CO2 values correspond to the boiler's maximum rate, so it is important the boiler is operating at maximum rate when checking against these values (the manufacturer may also separately provide minimum rate values).",
+    "source": "S14-26"
+  },
+  {
+    "question": "What 'Key Action Level' CO reading is given for commissioning a wet central heating boiler with an air/gas ratio control where no manufacturer-specific level exists?",
+    "answers": [
+      "100ppm",
+      "50ppm",
+      "1000ppm",
+      "350ppm"
+    ],
+    "correct": 3,
+    "explanation": "Where manufacturers do not give specific 'Specific Action Levels', the key reading that can be used is a CO level of 350ppm.",
+    "source": "S14-27"
+  },
+  {
+    "question": "What 'Key Action Level' CO/CO2 combustion ratio is given for commissioning where no manufacturer-specific level exists?",
+    "answers": [
+      "0.0040",
+      "0.0004",
+      "0.40",
+      "4.0"
+    ],
+    "correct": 0,
+    "explanation": "Where manufacturers do not give specific action levels, the key combustion ratio (CO/CO2) reading is 0.0040.",
+    "source": "S14-27"
+  },
+  {
+    "question": "According to the commissioning flowchart, what must be checked first using the ECGA after the boiler is set to maximum rate?",
+    "answers": [
+      "Flue integrity, by inserting the analyser probe into the air inlet test point where available",
+      "The room thermostat calibration",
+      "The CO level at minimum rate",
+      "The gas meter index reading"
+    ],
+    "correct": 0,
+    "explanation": "The flowchart process begins with setting the boiler to maximum rate, then carrying out a flue integrity check by inserting the analyser probe into the air inlet test point (where available) before checking CO and combustion ratio.",
+    "source": "S14-28"
+  },
+  {
+    "question": "According to the commissioning flowchart, what is the engineer instructed to do if the flue integrity check at maximum rate suggests combustion products and inlet air are mixing?",
+    "answers": [
+      "Proceed straight to minimum rate testing without further checks",
+      "Adjust the air/gas ratio valve without contacting the manufacturer",
+      "Verify flue integrity, checking that flue components are assembled, fixed, supported, and unobstructed",
+      "Replace the boiler immediately"
+    ],
+    "correct": 2,
+    "explanation": "If readings indicate that combustion products and inlet air are mixing, the flowchart requires verifying flue integrity: checking that flue components are correctly assembled, fixed and supported, and that the flue and terminal are not obstructed.",
+    "source": "S14-29"
+  },
+  {
+    "question": "If CO level or CO/CO2 ratio readings are outside the limits at both maximum and minimum rate, and the manufacturer states the valve must not be adjusted, what must the engineer do?",
+    "answers": [
+      "Turn off the appliance and call the manufacturer's technical helpline for advice; the appliance must not be commissioned until problems are resolved",
+      "Commission the appliance anyway and note the readings",
+      "Replace only the flame supervision device",
+      "Adjust the air/gas ratio valve slightly and re-test"
+    ],
+    "correct": 0,
+    "explanation": "Where CO and/or combustion ratio readings are found outside specified tolerances and basic remedial actions are unsuccessful, the appliance must not be commissioned until the manufacturer is contacted and problems are identified and resolved; if commissioning cannot be completed, the appliance must be disconnected from the gas supply in accordance with GSIUR.",
+    "source": "S14-29"
+  },
+  {
+    "question": "What must be completed and accurately recorded once both CO and combustion ratio readings are within required limits at commissioning?",
+    "answers": [
+      "The Benchmark Checklist, recording the CO and combustion ratio readings",
+      "The appliance's warranty registration only",
+      "Nothing further is required",
+      "Only a verbal confirmation to the customer"
+    ],
+    "correct": 0,
+    "explanation": "If both CO and combustion ratio readings are within the required limits, commissioning can be completed and the results recorded on the Benchmark Checklist.",
+    "source": "S14-29"
+  },
+  {
+    "question": "What consequence can result from failing to record CO level and combustion ratio readings on the commissioning checklist?",
+    "answers": [
+      "The flue terminal must be relocated",
+      "There is no consequence as long as the boiler works",
+      "The boiler will automatically shut down",
+      "It may affect the warranty provision and Gas Safe Register may defect the installation for non-compliance"
+    ],
+    "correct": 3,
+    "explanation": "Failure to record the readings on the commissioning checklist may affect the warranty provision, and Gas Safe Register will defect an installation for non-compliance if CO level and combustion ratio are not correctly recorded, as completion is a requirement of Building Regulations.",
+    "source": "S14-27"
+  },
+  {
+    "question": "Before adjusting an air/gas ratio valve during a service, what should first be checked regarding the connecting tube between the gas valve and air duct?",
+    "answers": [
+      "It has been replaced with a wider diameter tube",
+      "It is free from obstruction or clogging, and any 'O' ring seals are sound",
+      "It has been painted to prevent corrosion",
+      "It has been disconnected to allow free air flow"
+    ],
+    "correct": 1,
+    "explanation": "Before carrying out any adjustment, ensure that the connecting tube between the gas valve and air duct is free from obstruction or clogging, and that the tube and any 'O' ring seals are sound, as leakage could dilute CO2 readings and cause incorrect settings.",
+    "source": "S14-30"
+  },
+  {
+    "question": "What is most likely true if an appliance manufacturer's instructions show the CO2 value at minimum rate is higher than at maximum rate?",
+    "answers": [
+      "The valve has failed and must be replaced",
+      "The air/gas ratio valve most likely has a positive offset",
+      "The flue is undersized",
+      "The appliance is unsafe to operate"
+    ],
+    "correct": 1,
+    "explanation": "If the CO2 value at minimum rate is higher than at maximum rate, the air/gas ratio valve most likely has a positive offset; this is likely to be the exception, as the majority of appliances use a negative offset.",
+    "source": "S14-30"
+  },
+  {
+    "question": "If a replacement air/gas ratio valve's accompanying instructions do not clearly state whether it is pre-set or requires adjustment, what must be done?",
+    "answers": [
+      "The valve should be fitted and left entirely unadjusted regardless",
+      "The original valve should be refitted instead",
+      "The valve should be adjusted to a generic default setting",
+      "The appliance manufacturer must be consulted prior to fitting the valve"
+    ],
+    "correct": 3,
+    "explanation": "If the instructions do not clearly identify whether the replacement valve is suitable for the appliance and whether it is pre-set or requires adjustment, the appliance manufacturer must be consulted prior to fitting the valve.",
+    "source": "S14-30"
+  },
+  {
+    "question": "If a CO2 or CO/CO2 ratio reading on a replaced valve is outside tolerance and the manufacturer states the valve must not be adjusted, how should the appliance be classified pending remedial work?",
+    "answers": [
+      "At Risk (AR), in accordance with the current Gas Industry Unsafe Situations Procedure (GIUSP)",
+      "Not to Current Standards (NCS) only",
+      "No classification is required if the boiler still lights",
+      "Immediately Dangerous (ID), with gas supply disconnected on site"
+    ],
+    "correct": 0,
+    "explanation": "Where the CO/CO2 reading is outside tolerance and the manufacturer states the valve must not be adjusted, the manufacturer should be consulted and the appliance should be classified as At Risk (AR) under GIUSP until remedial work can be carried out by a competent person.",
+    "source": "S14-30"
+  }
+]

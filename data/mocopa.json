@@ -1,0 +1,939 @@
+[
+  {
+    "question": "What is Max ELI Reading on a TNCS Earthing system?",
+    "answers": [
+      "0.8Ω",
+      "0.35Ω",
+      "21Ω",
+      "0.1Ω"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "With 25mm meter tails what size is the Protective Earth Bonding cable from the MET bar to the gas pipe?",
+    "answers": [
+      "10mm",
+      "16mm",
+      "8mm",
+      "4mm"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is Max ELI Reading on a TNS Earthing system?",
+    "answers": [
+      "0.8Ω",
+      "0.35Ω",
+      "0.1Ω",
+      "21Ω"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is another name for TN-C-S?",
+    "answers": [
+      "PME",
+      "CVS",
+      "TT-CS",
+      "PTSD"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "TT Earthing system can be identified how?",
+    "answers": [
+      "Earth is clamped to incoming cable",
+      "Approved Spike in the ground and overhead supply cables",
+      "Attached to water pipe",
+      "Earth cable will enter cut out"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Ohms is a measurement of what?",
+    "answers": [
+      "Resistance",
+      "Voltage",
+      "Power",
+      "Water Pressure"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following documents is non-statutory?",
+    "answers": [
+      "Health and Safety at work Act",
+      "The Electricity at Work Regulations 1989",
+      "GS38 Document",
+      "Building Regs"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What has a similar function of an Miniature Circuit Breaker (MCB)?",
+    "answers": [
+      "RCD",
+      "Switch",
+      "Meter",
+      "Fuse"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What voltage would you get between 2 live conductors on a 3 phase supply?",
+    "answers": [
+      "120V",
+      "240V",
+      "400V",
+      "230V"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What voltage would you get between a live and neutral on a 3 phase supply?",
+    "answers": [
+      "120V",
+      "240V",
+      "400V",
+      "230V"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Dangerous electric work can cause?",
+    "answers": [
+      "Electric Shock, burns & fire",
+      "Electric Shock & fire",
+      "Electric Shock, fire, burns & explosion",
+      "Electric Shock"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "An Earthing Clamp must state what?",
+    "answers": [
+      "Danger electrical connection do not remove",
+      "Warning electrical connection do not remove",
+      "Safety earthing do not remove",
+      "Safety electrical connection do not remove"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "The lethal level of electric shock is?",
+    "answers": [
+      "50A-75A",
+      "240A",
+      "100mA",
+      "50–80mA"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Electric at work Regulations are a statutory document",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "25mm meter tails can generally have what size fuse?",
+    "answers": [
+      "60Amp",
+      "80Amp",
+      "100Amp",
+      "3Amp"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "IP2X gives what protection?",
+    "answers": [
+      "Protection against 1mm tools",
+      "No protection",
+      "Protection against contact by a standard finger",
+      "Protection against drops of liquid"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the maximum ELI reading on a TT earthing system?",
+    "answers": [
+      "0.8Ω",
+      "0.35Ω",
+      "1000Ω",
+      "21Ω"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is Ze?",
+    "answers": [
+      "External Earth Loop Impedance",
+      "Overload",
+      "PME",
+      "DNO Earth Supply"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "An RCD will operate when?",
+    "answers": [
+      "Line to neutral currents are out of balance",
+      "Reverse Polarity",
+      "Low Voltage",
+      "Line and Neutral fault"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Check with Cyclim Lamps- L-N light, L-E light, N-E no light. Indicates?",
+    "answers": [
+      "Polarity reversed",
+      "No Neutral",
+      "Correct polarity",
+      "No Earth"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The removed Fuse is put in our pocket for what reason?",
+    "answers": [
+      "To stop it getting damaged",
+      "To stop supply being re-established without our knowledge",
+      "So we do not lose it",
+      "To keep the area tidy"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Check with Cyclim Lamps- L-N light, L-E no light, N-E light. Indicates?",
+    "answers": [
+      "Correct polarity",
+      "Reverse Polarity",
+      "No Earth",
+      "Broken Neutral"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are the new phase cable colours for a 3 phase electrical supply in the UK?",
+    "answers": [
+      "Red, Yellow and Blue",
+      "Red, Black and Green/Yellow",
+      "Brown, Blue and Green/Yellow",
+      "Brown, Black and Grey"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "80 amp fuse can have what minimum size cables?",
+    "answers": [
+      "16mm",
+      "25mm",
+      "10mm",
+      "8mm"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the purpose of earthing?",
+    "answers": [
+      "To increase voltage",
+      "To provide a safe path to ground for fault current",
+      "To store electricity",
+      "To reduce current flow"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the typical maximum Ze value for a TN-C-S system?",
+    "answers": [
+      "0.35Ω",
+      "0.8Ω",
+      "1.5Ω",
+      "21Ω"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What PPE must always be worn when working on electrical equipment?",
+    "answers": [
+      "Safety boots and gloves",
+      "Hi-vis only",
+      "Hard hat only",
+      "No PPE required"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Before removing a main fuse you must?",
+    "answers": [
+      "Inform the customer",
+      "Isolate supply and confirm dead",
+      "Turn off lights",
+      "Check meter reading"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does PME stand for?",
+    "answers": [
+      "Protective Multiple Earthing",
+      "Primary Main Earth",
+      "Power Main Electric",
+      "Protective Mechanical Earth"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the purpose of bonding conductors?",
+    "answers": [
+      "To reduce voltage",
+      "To connect exposed metal parts to earth",
+      "To increase resistance",
+      "To carry live current"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which earthing system requires an RCD for fault protection?",
+    "answers": [
+      "TN-C-S",
+      "TNS",
+      "TT",
+      "None"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What should you do if you identify a dangerous installation?",
+    "answers": [
+      "Ignore it",
+      "Report and make safe where possible",
+      "Disconnect everything permanently",
+      "Leave immediately"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What colour is the earth conductor?",
+    "answers": [
+      "Blue",
+      "Brown",
+      "Green/Yellow",
+      "Black"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does IP rating refer to?",
+    "answers": [
+      "Insulation power",
+      "Ingress protection",
+      "Internal prevention",
+      "Input potential"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "A Competent Person is...",
+    "answers": [
+      "Someone who is trained and has the appropriate skills",
+      "Your CDM",
+      "A person with the correct tools",
+      "Ben"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which of the following is a safe isolation method?",
+    "answers": [
+      "Switch off and assume dead",
+      "Use a neon screwdriver",
+      "Use a proving unit with a two-pole tester",
+      "Turn off lights"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the purpose of a fuse in a cut-out?",
+    "answers": [
+      "To measure current",
+      "To prevent overload and fault damage",
+      "To increase voltage",
+      "To store energy"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What must be checked before re-energising a supply?",
+    "answers": [
+      "Customer present",
+      "All connections are secure and safe",
+      "Meter reading taken",
+      "Fuse rating marked"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is considered a safe touch voltage?",
+    "answers": [
+      "230V",
+      "120V",
+      "50V",
+      "400V"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does PEB stand for?",
+    "answers": [
+      "Protective Equipotential Bonding",
+      "Primary Earth Bonding",
+      "Protective Electrical Bonding",
+      "Primary Equipotential Bonding"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the purpose of Protective Equipotential Bonding (PEB)?",
+    "answers": [
+      "To increase the voltage across metal parts",
+      "To ensure all exposed metallic parts reach the same potential during a fault",
+      "To provide a return path for normal current",
+      "To isolate the supply from the installation"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following must be connected as part of main protective bonding?",
+    "answers": [
+      "Light switches and sockets",
+      "Incoming gas and water service pipes",
+      "Consumer unit busbars",
+      "RCD output circuits"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Supplementary bonding is most commonly required in which location?",
+    "answers": [
+      "Consumer unit cupboard",
+      "Garage",
+      "Bathroom",
+      "Kitchen only"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What document covers the safe selection and use of electrical test equipment?",
+    "answers": [
+      "BS 7671",
+      "HSE Guidance Note GS38",
+      "Electricity at Work Regulations 1989",
+      "Health and Safety at Work Act 1974"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a statutory document?",
+    "answers": [
+      "HSE Guidance Note GS38",
+      "BS 7671",
+      "Electricity at Work Regulations 1989",
+      "IET Guidance Note 3"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does RCD stand for?",
+    "answers": [
+      "Residual Current Device",
+      "Reverse Current Detector",
+      "Residual Circuit Disconnector",
+      "Rated Current Device"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "How does an RCD provide protection?",
+    "answers": [
+      "By limiting the maximum current in a circuit",
+      "By detecting an imbalance between line and neutral current and disconnecting the supply",
+      "By increasing resistance when a fault occurs",
+      "By storing excess current during a fault"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the standard RCD trip current for personal (shock) protection?",
+    "answers": [
+      "100mA",
+      "500mA",
+      "30mA",
+      "10mA"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "An RCD does NOT protect against which of the following?",
+    "answers": [
+      "Current flowing through a person to earth",
+      "Residual earth leakage",
+      "Overload and short circuit between line and neutral",
+      "Earth fault current"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is an RCBO?",
+    "answers": [
+      "A type of earthing system",
+      "A combined RCD and MCB in a single unit",
+      "A residual current bonding operator",
+      "A high-sensitivity RCD for TT systems"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a non-statutory document?",
+    "answers": [
+      "Health and Safety at Work Act 1974",
+      "Building Regulations",
+      "Electricity at Work Regulations 1989",
+      "BS 7671 (IET Wiring Regulations)"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which document provides guidance on electrical test equipment?",
+    "answers": [
+      "BS7671: IET Wiring Regulations",
+      "HSE Guidance Note GS38",
+      "EAWR",
+      "Building Regs"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the function of a main switch?",
+    "answers": [
+      "Measure voltage",
+      "Provide isolation for entire installation",
+      "Increase current",
+      "Act as an RCD"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When is a cut-out considered unsafe?",
+    "answers": [
+      "When sealed",
+      "When damaged or exposed live parts present",
+      "When painted",
+      "When labelled"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is required when working near live conductors?",
+    "answers": [
+      "No precautions",
+      "Risk assessment and control measures",
+      "Only PPE",
+      "Just gloves"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Why is polarity important?",
+    "answers": [
+      "It affects voltage",
+      "It ensures devices operate safely and correctly",
+      "It reduces current",
+      "It increases resistance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the minimum safe distance from live parts without protection?",
+    "answers": [
+      "Contact distance",
+      "A safe determined distance based on risk assessment",
+      "10mm",
+      "1 metre always"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Cyclim lamps are Officially known as?",
+    "answers": [
+      "Contact voltage detectors",
+      "Multimeter",
+      "2 pole voltage indicators",
+      "RCD"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "The function of a fuse is to protect circuits",
+    "answers": [
+      "True",
+      "False"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "A Red Link is?",
+    "answers": [
+      "A solid link in a cut out used when main fuse is remote from property",
+      "A fuse used on three phase supply only",
+      "Fuse",
+      "Isolation Switch"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "We check polarity at the incoming side of the cut out with what tool?",
+    "answers": [
+      "Non contact voltage detector",
+      "Contact voltage detector",
+      "Multimeter",
+      "ELI tester"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "2 pole voltage indicators (Cyclim Lamps) must contain?",
+    "answers": [
+      "Fused Probes",
+      "Double insulated leads",
+      "Finger Guards",
+      "All of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Check with Cyclim Lamps- L-N no light, L-E light, N-E no light. Indicates?",
+    "answers": [
+      "Reverse Polarity",
+      "Correct Polarity",
+      "No/Faulty Neutral",
+      "No Earth"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "An External contactor should be fitted when",
+    "answers": [
+      "When replacing a 2 rate meter",
+      "When replacing a 2 rate meter on a TT system, fully protected by a 100mA RCD with an external timeswitch",
+      "On every job",
+      "When fittting a SMETS 2 Smart Meter"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "kWh for 1000W for 3 days?",
+    "answers": [
+      "3000kWh",
+      "72kWh",
+      "24kWh",
+      "72000kWh"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does PPE stand for?",
+    "answers": [
+      "Protect People and Environment",
+      "Personal Protective Equipment",
+      "Plastic Protective Equipment",
+      "Personal Papers and Envelopes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How is Energy consumption Expressed?",
+    "answers": [
+      "Ohms (Ω)",
+      "kWh",
+      "Amps",
+      "Calories"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When would a TT earthing system be needed?",
+    "answers": [
+      "Overhead lines with no earthing provisions included",
+      "When the system already has the earth connected with the neutral",
+      "When the customer wants new socket fascia's",
+      "When the DNO run out of cable"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is another name for a TN-C-S system?",
+    "answers": [
+      "High Voltage system (HVS)",
+      "Protective Multiple Earthing (PME)",
+      "Connected Directly (CD)",
+      "Linked onto Line (LOL)"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is an earth bond to a gas pipe called?",
+    "answers": [
+      "Protective Equipotential Bond",
+      "Main Earthing Conductor",
+      "Supplementary Bonding Conductor",
+      "Anti Explosive Earthing"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "How does an RCD work?",
+    "answers": [
+      "Disconnects if it picks up an overload",
+      "Reconnects automatically if the fault goes away",
+      "Disconnect if it picks up an imbalance of current between Live and Neutral",
+      "Gives it 10 seconds before operating"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does an MCB protect against?",
+    "answers": [
+      "Overloads only",
+      "Short circuits and Overloads only",
+      "Short circuits only",
+      "Fault currents and Overloads only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does electrical isolation mean?",
+    "answers": [
+      "The Electricity is feeling lonely",
+      "Disconnecting Electrical equipment from all sources of Electrical Energy",
+      "Working on Electrics on your own",
+      "Disconnecting all wires and Earthing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What do we do when the fuse box is in an area away from the meter installation?",
+    "answers": [
+      "Tell the customer not to touch it",
+      "Do the work live",
+      "Ask for another engineer to guard the fuse box",
+      "Use a lock off kit and padlock with a warning sign"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Where is the earth connected on a TN-S system?",
+    "answers": [
+      "An earth spike",
+      "Incoming cable sheath",
+      "Any water or gas pipes",
+      "In the top of the cutout"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does IDNO stand for?",
+    "answers": [
+      "Independent Distribution Network Operators",
+      "Identified Distribution Network Operators",
+      "Independent Direct Neutral Operation",
+      "Identified Disconnection of New Occupants"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What minimum size should a main earth bond be?",
+    "answers": [
+      "25mm",
+      "6mm",
+      "16mm",
+      "10mm"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is NOT a part of your two pole voltage indicators?",
+    "answers": [
+      "Finger Guards",
+      "Fused Probes",
+      "Insulated Flex ONLY",
+      "4mm Exposed Probe"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Before turning off a customers supply what must we do?",
+    "answers": [
+      "Call the DNO",
+      "Confirm an RCD has been installed",
+      "Confirm with the customer that it is safe and okay to isolate",
+      "Test the ELI"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Before exchanging a meter we must confirm what?",
+    "answers": [
+      "We have dustsheets",
+      "Correct address and meter serial number",
+      "The occupant is staying with the energy supplier",
+      "We are not parked on a double yellow line"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does a fuse protect?",
+    "answers": [
+      "Against electric shock",
+      "Against damage to circuit conductors",
+      "Stray voltage",
+      "Electrical appliances"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the first thing to do when at an electric meter exchange?",
+    "answers": [
+      "Visually inspect the meter and work area for damage and tampering",
+      "Ask the customer to switch off appliances",
+      "Turn off the fuse box",
+      "Pull the fuse"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What do we do if we find a tamper?",
+    "answers": [
+      "Call the DNO",
+      "Carry on with the job, keep the old meter and send it back to be inspected",
+      "Call the police",
+      "Stop, leave the job and inform your CDM, and contact RPU"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What do you do if you find exposed copper at the meter?",
+    "answers": [
+      "Cover it in Electrical tape",
+      "Leave it",
+      "Re-terminate the cable so no copper is exposed",
+      "Contact your SAE to find out who is responsible"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Once the fuse is removed how do we protect against contact with the live part of the cutout?",
+    "answers": [
+      "Insert a Shroud",
+      "Wear stage 2 PPE until the meter is exchanged",
+      "Cover with tape",
+      "Call the DNO to shut over power"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Why do we isolate the customers fuse box before removing the fuse?",
+    "answers": [
+      "To not startle the customer",
+      "To prevent any arcing when removing the fuse",
+      "Because the fuse needs to be removed in the dark",
+      "Its the right thing to do"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Why are looped neutrals dangerous?",
+    "answers": [
+      "They are not",
+      "Looping causes the cables to overheat",
+      "If the main neutral is disconnected then the neutrals would become live",
+      "Electricity doesn't like going around loops"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What do we have to do under the health and safety at work act?",
+    "answers": [
+      "Only look after ourselves",
+      "Work independently",
+      "Look after our own safety and the safety of others",
+      "Stay quiet about safety concerns"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which of these is a statutory document?",
+    "answers": [
+      "IEE on-site-guide",
+      "Guidance note 3",
+      "18th Edition wiring regulations 2008",
+      "The Electricity at Work Regulations 1989"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of these is a non-statutory document?",
+    "answers": [
+      "Electricity at Work Regulations 1989",
+      "The Health and Safety at Work Act",
+      "BS7671 Requirements for Electrical Installations 18th Edition",
+      "The Electricity at Work Regulations 1989"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Working on or near a live conductor is covered by what document?",
+    "answers": [
+      "The wiring regulations 17th edition",
+      "On site guide",
+      "The Health and Safety at Work Act 1974",
+      "The Electricity at Work Regulations 1989"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What must we do as employess under The Health and Safety at Work Act?",
+    "answers": [
+      "Change the rules on safety as required",
+      "Concentrate on the job",
+      "Co-operate with employers on safety matters",
+      "Operate independently on safety matters"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "A risk assessment?",
+    "answers": [
+      "Must always be done",
+      "Is only required when working on metal clad cutouts",
+      "Should only be done on high voltage equipment",
+      "Is not essential"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which statement is NOT true?",
+    "answers": [
+      "The customer will lose power if polarity is crossed",
+      "Crossed polarity could cause all the fuses to be on a neutral conductor",
+      "Crossed polarity can cause exposed metalwork to become live",
+      "Polarity is confirmed when line and neutral are in the correct terminals"
+    ],
+    "correct": 0
+  }
+]
+

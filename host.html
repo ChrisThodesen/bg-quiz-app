@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Quiz - Host</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body class="host-body">
+
+  <div class="auto-skip-toggle-wrap">
+    <input class="auto-skip-toggle-input" type="checkbox" id="autoSkipSwitch">
+    <label for="autoSkipSwitch">Toggle auto-skip</label>
+    <span class="auto-skip-toggle-text">Auto-skip</span>
+  </div>
+
+  <div id="setupScreen">
+    <h1>Start a Live Quiz</h1>
+    <div>
+      <label for="quizSelect">Quiz:</label>
+      <select id="quizSelect"></select>
+    </div>
+    <div>
+      <label for="countInput">Number of questions:</label>
+      <input id="countInput" type="number" min="1" max="50" value="10">
+    </div>
+    <div>
+      <label for="durationInput">Seconds per question:</label>
+      <input id="durationInput" type="number" min="5" max="120" value="20">
+    </div>
+    <button id="createRoomBtn" class="btn-primary">Create Room</button>
+  </div>
+
+  <div id="lobbyScreen" class="hidden">
+    <p>Room code -- give this to players:</p>
+    <div id="roomCode">----</div>
+    <h2>Players joined:</h2>
+    <ul id="playerList"></ul>
+    <button id="startBtn" class="btn-primary">Start Quiz</button>
+  </div>
+
+  <div id="gameScreen" class="hidden">
+    <div id="questionCard">
+      <div id="timer"></div>
+      <div id="questionText"></div>
+      <div class="answer-grid" id="answerGrid"></div>
+      <div id="answerCount"></div>
+    </div>
+    <button id="skipBtn" class="btn-primary">Skip to Reveal</button>
+  </div>
+
+  <div id="barChartScreen" class="hidden">
+    <h2 id="barChartQuestionText"></h2>
+    <div class="bar-chart-wrap">
+      <div class="bar-row" id="barRow"></div>
+      <div class="label-row" id="labelRow"></div>
+    </div>
+    <div class="answer-source" id="answerSource"></div>
+    <button id="showLeaderboardBtn" class="btn-primary">Show Leaderboard</button>
+  </div>
+
+  <div id="leaderboardScreen" class="hidden">
+    <h2>Leaderboard</h2>
+    <ul id="leaderboard"></ul>
+    <div class="accolades" id="accolades"></div>
+    <button id="nextBtn" class="btn-primary">Next Question</button>
+  </div>
+
+  <div id="finishedScreen" class="hidden">
+    <h1>Final Results</h1>
+    <ul id="finalLeaderboard"></ul>
+  </div>
+
+  <button id="endBtn" class="btn-danger">End Session</button>
+
+  <script type="module">
+    import { createRoom, deleteRoom } from "./room.js";
+    import { db, ref, onValue, update } from "./firebase-config.js";
+    import { LiveSession, loadQuizQuestions } from "./session.js";
+
+    let currentCode = null;
+    let session = null;
+    let quizRegistry = [];
+    let countdownInterval = null;
+    let autoSkipEnabled = false;
+    let autoSkipTimeoutId = null;
+
+    const AUTO_SKIP_REVEAL_TO_LEADERBOARD_MS = 5000;
+    const AUTO_SKIP_LEADERBOARD_TO_NEXT_MS = 2000;
+
+    const autoSkipSwitch = document.getElementById("autoSkipSwitch");
+    autoSkipSwitch.addEventListener("change", () => {
+      autoSkipEnabled = autoSkipSwitch.checked;
+      if (autoSkipEnabled) {
+        // Flipped on while already sitting on a screen that has an
+        // auto-skip action -- start that screen's timer immediately
+        // rather than waiting for the next render to pick it up.
+        scheduleAutoSkipForCurrentScreen();
+      } else {
+        cancelAutoSkip();
+      }
+    });
+
+    function cancelAutoSkip() {
+      if (autoSkipTimeoutId) {
+        clearTimeout(autoSkipTimeoutId);
+        autoSkipTimeoutId = null;
+      }
+    }
+
+    /**
+     * Schedules the appropriate auto-advance action for whichever screen
+     * is CURRENTLY visible, if auto-skip is enabled and that screen has
+     * one. Safe to call any time -- screens with no auto-skip action
+     * (setup, lobby, gameScreen, finished) simply do nothing.
+     */
+    function scheduleAutoSkipForCurrentScreen() {
+      cancelAutoSkip();
+      if (!autoSkipEnabled) return;
+
+      if (!document.getElementById("barChartScreen").classList.contains("hidden")) {
+        autoSkipTimeoutId = setTimeout(() => {
+          session.showLeaderboard();
+        }, AUTO_SKIP_REVEAL_TO_LEADERBOARD_MS);
+      } else if (!document.getElementById("leaderboardScreen").classList.contains("hidden")) {
+        autoSkipTimeoutId = setTimeout(() => {
+          show("gameScreen");
+          session.nextQuestion();
+        }, AUTO_SKIP_LEADERBOARD_TO_NEXT_MS);
+      }
+    }
+
+    const TILE_CLASSES = ["tile-red", "tile-yellow", "tile-blue", "tile-green"];
+
+    // Same shapes as player.html, in the same order, so the host screen
+    // and players' phones use a consistent visual language for each
+    // answer position.
+    const TILE_SHAPES = [
+      '<svg class="tile-shape" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,15 90,85 10,85" fill="#fff"/></svg>',
+      '<svg class="tile-shape" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,10 90,50 50,90 10,50" fill="#fff"/></svg>',
+      '<svg class="tile-shape" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="38" fill="#fff"/></svg>',
+      '<svg class="tile-shape" viewBox="0 0 100 100" aria-hidden="true"><rect x="15" y="15" width="70" height="70" fill="#fff"/></svg>'
+    ];
+    const SCREENS = ["setupScreen", "lobbyScreen", "gameScreen", "barChartScreen", "leaderboardScreen", "finishedScreen"];
+
+    function show(id) {
+      SCREENS.forEach(s => {
+        document.getElementById(s).classList.toggle("hidden", s !== id);
+      });
+      // Every screen transition re-evaluates whether the NEW screen
+      // needs an auto-skip timer. This single hook covers both
+      // bar-chart-to-leaderboard and leaderboard-to-next-question,
+      // since show() is called on the way into both screens.
+      scheduleAutoSkipForCurrentScreen();
+    }
+
+    async function loadRegistry() {
+      const res = await fetch("./data/index.json");
+      quizRegistry = await res.json();
+      const select = document.getElementById("quizSelect");
+      select.innerHTML = quizRegistry
+        .filter(q => q.file) // skip generator-based entries for this first build
+        .map(q => `<option value="${q.id}">${q.title}</option>`)
+        .join("");
+    }
+
+    document.getElementById("createRoomBtn").addEventListener("click", async () => {
+      const quizId = document.getElementById("quizSelect").value;
+      const quizEntry = quizRegistry.find(q => q.id === quizId);
+      const count = parseInt(document.getElementById("countInput").value, 10);
+      const duration = parseInt(document.getElementById("durationInput").value, 10);
+
+      currentCode = await createRoom(quizId);
+      const questions = await loadQuizQuestions(quizEntry.file, count);
+      session = new LiveSession(currentCode, questions, duration);
+
+      document.getElementById("roomCode").textContent = currentCode;
+      show("lobbyScreen");
+
+      const playersRef = ref(db, `rooms/${currentCode}/players`);
+      onValue(playersRef, (snapshot) => {
+        const players = snapshot.val() || {};
+        const names = Object.values(players).map(p => p.name);
+        document.getElementById("playerList").innerHTML = names.length
+          ? names.map(n => `<li>${n}</li>`).join("")
+          : "<li>No players yet</li>";
+      });
+    });
+
+    document.getElementById("startBtn").addEventListener("click", () => {
+      show("gameScreen");
+      session.nextQuestion();
+    });
+
+    document.getElementById("skipBtn").addEventListener("click", () => {
+      session.skipToReveal();
+    });
+
+    document.getElementById("showLeaderboardBtn").addEventListener("click", () => {
+      session.showLeaderboard();
+    });
+
+    document.getElementById("nextBtn").addEventListener("click", () => {
+      show("gameScreen");
+      session.nextQuestion();
+    });
+
+    document.getElementById("endBtn").addEventListener("click", async () => {
+      if (session) session.destroy();
+      if (currentCode) await deleteRoom(currentCode);
+      location.reload();
+    });
+
+    function renderQuestion(roomData) {
+      const q = roomData.currentQuestion;
+      document.getElementById("questionText").textContent = q.question;
+
+      const timerEl = document.getElementById("timer");
+      timerEl.classList.remove("timer-warn", "timer-critical");
+
+      const grid = document.getElementById("answerGrid");
+      grid.innerHTML = q.answers.map((answer, i) => `
+        <div class="answer-tile ${TILE_CLASSES[i]}">
+          ${TILE_SHAPES[i]}
+          <span class="answer-tile-text">${answer}</span>
+        </div>
+      `).join("");
+
+      document.getElementById("answerCount").innerHTML =
+        `<span class="count-number">0</span> / <span class="total-number">0</span> answered`;
+
+      startCountdown(roomData.questionStartedAt, roomData.questionDurationSeconds);
+    }
+
+    function renderReveal(roomData) {
+      clearInterval(countdownInterval);
+      const q = roomData.currentQuestion;
+      const tally = roomData.answerTally || [0, 0, 0, 0];
+      const maxCount = Math.max(1, ...tally);
+      const MIN_BAR_PERCENT = 6;
+
+      document.getElementById("barChartQuestionText").textContent = q.question;
+
+      const sourceEl = document.getElementById("answerSource");
+      sourceEl.textContent = q.source ? `📖 Guide ref: ${q.source}` : "";
+
+      const barRow = document.getElementById("barRow");
+      const labelRow = document.getElementById("labelRow");
+
+      barRow.innerHTML = q.answers.map((answer, i) => {
+        const isCorrect = i === q.correct;
+        return `
+          <div class="bar-fill-area">
+            <div class="bar-count">${tally[i]}</div>
+            <div class="bar-fill ${TILE_CLASSES[i]} ${isCorrect ? 'bar-correct' : ''}"
+                 style="height: ${MIN_BAR_PERCENT}%" data-index="${i}"></div>
+          </div>
+        `;
+      }).join("");
+
+      labelRow.innerHTML = q.answers.map((answer, i) => {
+        const isCorrect = i === q.correct;
+        return `<div class="bar-label ${isCorrect ? 'bar-label-correct' : ''}">${answer}</div>`;
+      }).join("");
+
+      show("barChartScreen");
+
+      void barRow.offsetHeight;
+
+      tally.forEach((count, i) => {
+        const heightPercent = Math.max(MIN_BAR_PERCENT, Math.round((count / maxCount) * 100));
+        const bar = barRow.querySelector(`.bar-fill[data-index="${i}"]`);
+        if (bar) bar.style.height = heightPercent + "%";
+      });
+    }
+
+    function renderLeaderboard(roomData) {
+      const top5 = roomData.top5 || [];
+      document.getElementById("leaderboard").innerHTML = top5.map((p, i) => `
+        <li><span>${i + 1}. ${p.name}</span><span>${p.score} pts</span></li>
+      `).join("") || "<li>No players yet</li>";
+
+      const acc = roomData.accolades || {};
+      const cards = [];
+      if (acc.fastest) {
+        cards.push(`<div class="accolade-card"><div class="accolade-label">⚡ Fastest answer</div><div class="accolade-value">${acc.fastest.name} (${acc.fastest.seconds}s)</div></div>`);
+      }
+      if (acc.longestStreak) {
+        cards.push(`<div class="accolade-card"><div class="accolade-label">🔥 Longest streak</div><div class="accolade-value">${acc.longestStreak.name} (${acc.longestStreak.streak})</div></div>`);
+      }
+      if (acc.mostImproved) {
+        cards.push(`<div class="accolade-card"><div class="accolade-label">📈 Most improved</div><div class="accolade-value">${acc.mostImproved.name} (+${acc.mostImproved.places})</div></div>`);
+      }
+      document.getElementById("accolades").innerHTML = cards.join("");
+
+      show("leaderboardScreen");
+    }
+
+    function startCountdown(startedAt, durationSeconds) {
+      clearInterval(countdownInterval);
+
+      const timerEl = document.getElementById("timer");
+
+      countdownInterval = setInterval(() => {
+        const elapsed = (Date.now() - startedAt) / 1000;
+        const remaining = Math.max(0, Math.ceil(durationSeconds - elapsed));
+        const fractionRemaining = durationSeconds > 0 ? remaining / durationSeconds : 0;
+
+        timerEl.textContent = remaining + "s";
+
+        if (fractionRemaining <= 0.2) {
+          timerEl.classList.add("timer-critical");
+          timerEl.classList.remove("timer-warn");
+        } else if (fractionRemaining <= 0.5) {
+          timerEl.classList.add("timer-warn");
+          timerEl.classList.remove("timer-critical");
+        } else {
+          timerEl.classList.remove("timer-warn", "timer-critical");
+        }
+
+        if (remaining <= 0) clearInterval(countdownInterval);
+      }, 250);
+    }
+
+    function renderFinished(roomData) {
+      const players = roomData.players || {};
+      const ranked = Object.values(players).sort((a, b) => b.score - a.score);
+      document.getElementById("finalLeaderboard").innerHTML = ranked.map((p, i) => `
+        <li><span>${i + 1}. ${p.name}</span><span>${p.score} pts</span></li>
+      `).join("");
+      show("finishedScreen");
+    }
+
+    function watchRoom() {
+      const roomRef = ref(db, `rooms/${currentCode}`);
+      let lastStatus = null;
+      let autoRevealTriggered = false;
+      let lastAnsweredCount = -1;
+
+      onValue(roomRef, (snapshot) => {
+        const roomData = snapshot.val();
+        if (!roomData) return;
+
+        if (roomData.status === "question" && roomData.status !== lastStatus) {
+          renderQuestion(roomData);
+          autoRevealTriggered = false;
+          lastAnsweredCount = -1;
+        } else if (roomData.status === "question") {
+          const players = roomData.players || {};
+          const answeredCount = Object.values(players)
+            .filter(p => p.answers && p.answers[roomData.currentQuestionIndex]).length;
+          const totalPlayers = Object.keys(players).length;
+
+          const countEl = document.getElementById("answerCount");
+          const numberEl = countEl.querySelector(".count-number");
+
+          if (numberEl) {
+            numberEl.textContent = answeredCount;
+            const totalEl = countEl.querySelector(".total-number");
+            if (totalEl) totalEl.textContent = totalPlayers;
+
+            if (answeredCount > lastAnsweredCount && lastAnsweredCount !== -1) {
+              numberEl.classList.remove("count-pop");
+              void numberEl.offsetWidth;
+              numberEl.classList.add("count-pop");
+            }
+          }
+          lastAnsweredCount = answeredCount;
+
+          if (!autoRevealTriggered && session.haveAllPlayersAnswered(players)) {
+            autoRevealTriggered = true;
+            session.skipToReveal();
+          }
+        } else if (roomData.status === "reveal" && roomData.status !== lastStatus) {
+          renderReveal(roomData);
+        } else if (roomData.status === "leaderboard" && roomData.status !== lastStatus) {
+          renderLeaderboard(roomData);
+        } else if (roomData.status === "finished" && roomData.status !== lastStatus) {
+          renderFinished(roomData);
+        }
+        lastStatus = roomData.status;
+      });
+    }
+
+    document.getElementById("startBtn").addEventListener("click", watchRoom, { once: true });
+
+    loadRegistry();
+  </script>
+</body>
+</html>
