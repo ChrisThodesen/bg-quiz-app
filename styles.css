@@ -167,6 +167,40 @@ button:active {
   position: relative;
 }
 
+/* ── Persistent room code badge ────────────────────────────────────
+   Visible across every host screen once a room exists, so latecomers
+   or anyone who got disconnected can see the code to join/rejoin
+   without needing to ask the host to look it up. Positioned opposite
+   the auto-skip toggle so neither competes for the same corner. */
+.persistent-room-badge {
+  position: fixed;
+  top: 14px;
+  left: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--colour-answer-btn);
+  border: 2px solid var(--colour-border);
+  border-radius: 999px;
+  padding: 6px 14px;
+  z-index: 10;
+}
+
+.persistent-room-badge-label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--colour-text-muted);
+}
+
+.persistent-room-badge-code {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--bg-cyan);
+}
+
 /* ── Auto-skip toggle ──────────────────────────────────────────────
    Same structural pattern as the main app's light/dark theme toggle:
    a hidden checkbox driving a pill-shaped label, with a sliding circle

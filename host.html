@@ -3,11 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex">
 <title>Live Quiz - Host</title>
 <link rel="stylesheet" href="./styles.css">
 </head>
 <body class="host-body">
+
+  <div class="persistent-room-badge hidden" id="persistentRoomBadge">
+    <span class="persistent-room-badge-label">Room</span>
+    <span class="persistent-room-badge-code" id="persistentRoomCode">----</span>
+  </div>
 
   <div class="auto-skip-toggle-wrap">
     <input class="auto-skip-toggle-input" type="checkbox" id="autoSkipSwitch">
@@ -176,6 +180,11 @@
       session = new LiveSession(currentCode, questions, duration);
 
       document.getElementById("roomCode").textContent = currentCode;
+
+      const badge = document.getElementById("persistentRoomBadge");
+      document.getElementById("persistentRoomCode").textContent = currentCode;
+      badge.classList.remove("hidden");
+
       show("lobbyScreen");
 
       const playersRef = ref(db, `rooms/${currentCode}/players`);

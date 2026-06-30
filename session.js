@@ -227,15 +227,25 @@ export class LiveSession {
    * but they're not removed from the room, so their score/streak is
    * preserved if they reconnect later.
    *
+   * The staleness threshold equals ONE FULL QUESTION DURATION. The
+   * reasoning: a player is only treated as genuinely gone once they've
+   * been silent for at least as long as a full round -- i.e. they've
+   * had an entire question's worth of opportunity to engage and shown
+   * no sign of it. This is a simple, defensible rule that scales
+   * correctly for any duration without needing a separate floor or
+   * fraction to tune: a 20s quiz-show round gives a 20s grace period, a
+   * 2-minute ACS-realistic round gives a full 2 minutes, matching how
+   * long someone might reasonably be heads-down in the reference guide.
+   *
    * Returns false for a room with no actively-present players, so an
    * empty or fully-stale room never "auto-reveals" instantly.
    */
   haveAllPlayersAnswered(players) {
-    const STALE_THRESHOLD_MS = 30000;
+    const staleThresholdMs = this.durationSeconds * 1000;
     const now = Date.now();
 
     const activePlayers = Object.values(players || {}).filter(p =>
-      typeof p.lastSeenAt === "number" && (now - p.lastSeenAt) < STALE_THRESHOLD_MS
+      typeof p.lastSeenAt === "number" && (now - p.lastSeenAt) < staleThresholdMs
     );
 
     if (activePlayers.length === 0) return false;
