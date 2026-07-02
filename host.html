@@ -397,7 +397,25 @@
 
     document.getElementById("startBtn").addEventListener("click", watchRoom, { once: true });
 
-    loadRegistry();
+    async function init() {
+      await loadRegistry();
+    
+      const params = new URLSearchParams(window.location.search);
+      const quizParam = params.get('quiz');
+    
+      if (quizParam) {
+        // Pre-select the quiz in the dropdown
+        const select = document.getElementById('quizSelect');
+        const matchingOption = Array.from(select.options).find(o => o.value === quizParam);
+        if (matchingOption) {
+          select.value = quizParam;
+        }
+        // Auto-trigger room creation so host lands straight in the lobby
+        document.getElementById('createRoomBtn').click();
+      }
+    }
+ 
+    init();
   </script>
 </body>
 </html>

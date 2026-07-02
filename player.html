@@ -86,6 +86,28 @@
       return true;
     }
 
+    (function applyRoomParam() {
+      const params = new URLSearchParams(window.location.search);
+      const roomParam = params.get('room');
+      if (!roomParam) return;
+    
+      const codeInput = document.getElementById('codeInput');
+      codeInput.value = roomParam.toUpperCase().slice(0, 4);
+    
+      // Check if we already know this player's name from a previous session.
+      // If so, attempt a full auto-join — they just need the room pre-filled.
+      // If not, just focus the name field so they can type quickly.
+      const stored = getLocalIdentity();
+      if (stored && stored.name) {
+        document.getElementById('nameInput').value = stored.name;
+        // Trigger join automatically so returning players land straight in
+        document.getElementById('joinBtn').click();
+      } else {
+        document.getElementById('nameInput').focus();
+      }
+    })();
+
+
     document.getElementById("joinBtn").addEventListener("click", async () => {
       const code = document.getElementById("codeInput").value.trim();
       const name = document.getElementById("nameInput").value.trim();
