@@ -5,6 +5,8 @@
 
 import { db, ref, set, update, get, onValue } from "./firebase-config.js";
 
+const MAIN_APP_BASE = "https://christhodesen.github.io/smart-learning-app";
+
 /**
  * Fisher-Yates shuffle (mirrors the same approach used in quiz.js).
  */
@@ -27,6 +29,8 @@ function shuffle(array) {
  * @param {number} questionCount - how many questions this session should use
  */
 export async function loadQuizQuestions(fileUrl, questionCount) {
+  fileUrl = fileUrl.startsWith("http") ? fileUrl : `${MAIN_APP_BASE}/${fileUrl}`;
+
   const response = await fetch(fileUrl);
   if (!response.ok) {
     throw new Error(`Could not load quiz file: ${fileUrl}`);

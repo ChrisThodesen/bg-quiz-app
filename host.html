@@ -83,6 +83,8 @@
     import { db, ref, onValue, update } from "./firebase-config.js";
     import { LiveSession, loadQuizQuestions } from "./session.js";
 
+
+
     let currentCode = null;
     let session = null;
     let quizRegistry = [];
@@ -92,6 +94,7 @@
 
     const AUTO_SKIP_REVEAL_TO_LEADERBOARD_MS = 5000;
     const AUTO_SKIP_LEADERBOARD_TO_NEXT_MS = 2000;
+    const MAIN_APP_BASE = "https://christhodesen.github.io/smart-learning-app";
 
     const autoSkipSwitch = document.getElementById("autoSkipSwitch");
     autoSkipSwitch.addEventListener("change", () => {
@@ -160,7 +163,7 @@
     }
 
     async function loadRegistry() {
-      const res = await fetch("./data/index.json");
+      const res = await fetch(`${MAIN_APP_BASE}/data/index.json`);
       quizRegistry = await res.json();
       const select = document.getElementById("quizSelect");
       select.innerHTML = quizRegistry
